@@ -1134,16 +1134,15 @@ function initFarmingTimeline() {
     var nowMs = Date.now();
     var msScope = (currentTimelineScope === "24h")
         ? (24 * 3600 * 1000)
-        : ((currentTimelineScope === "today") ? (nowMs - new Date().setHours(0, 0, 0, 0)) : Infinity);
+        : ((currentTimelineScope === "today") ? (nowMs - new Date().setHours(0, 0, 0, 0)) : (7 * 86400000));
 
-    timelineMinTimeGlobal = isFinite(msScope) ? (nowMs - msScope) : 0;
+    timelineMinTimeGlobal = isFinite(msScope) ? (nowMs - msScope) : (nowMs - 7 * 86400000);
     timelineMaxTimeGlobal = nowMs;
 
     $("#timeline-summary-tag").html('<i class="fas fa-spinner fa-spin"></i> Loading and computing sessions...');
 
     var activeChannels = streamersList.filter(s => (s.points || 0) > 0 || (nowMs - (s.last_activity || 0)) <= (7 * 86400000));
     var topCandidates = activeChannels.slice(0, 30);
-    var pending = topCandidates.length;
 
     if (topCandidates.length === 0) {
         $("#timeline-summary-tag").text("No active farming records in this profile.");
@@ -1152,13 +1151,31 @@ function initFarmingTimeline() {
     }
 
     sessionsByChannelGlobal = {};
+    var completedCount = 0;
+    var hasFinalized = false;
+
+    function checkDone() {
+        if (hasFinalized) return;
+        completedCount++;
+        if (completedCount >= topCandidates.length) {
+            hasFinalized = true;
+            finalizeTimelineRender(sessionsByChannelGlobal, timelineMinTimeGlobal, timelineMaxTimeGlobal);
+        }
+    }
+
+    // Safety fallback timeout
+    setTimeout(function () {
+        if (!hasFinalized) {
+            hasFinalized = true;
+            finalizeTimelineRender(sessionsByChannelGlobal, timelineMinTimeGlobal, timelineMaxTimeGlobal);
+        }
+    }, 2500);
 
     topCandidates.forEach((s, idx) => {
         var sname = s.name;
         if (cachedAllStreamersSeries[sname]) {
             sessionsByChannelGlobal[sname] = clusterSessionsForChannel(sname, cachedAllStreamersSeries[sname], timelineMinTimeGlobal, timelineMaxTimeGlobal, idx);
-            pending--;
-            if (pending === 0) finalizeTimelineRender(sessionsByChannelGlobal, timelineMinTimeGlobal, timelineMaxTimeGlobal);
+            checkDone();
         } else {
             var url = (currentProfile === "all")
                 ? `data/${sname}.json`
@@ -1167,13 +1184,11 @@ function initFarmingTimeline() {
                 var series = (resp && resp.series) ? resp.series : [];
                 cachedAllStreamersSeries[sname] = series;
                 sessionsByChannelGlobal[sname] = clusterSessionsForChannel(sname, series, timelineMinTimeGlobal, timelineMaxTimeGlobal, idx);
+                checkDone();
             }, function () {
                 sessionsByChannelGlobal[sname] = [];
+                checkDone();
             });
-            setTimeout(() => {
-                pending--;
-                if (pending === 0) finalizeTimelineRender(sessionsByChannelGlobal, timelineMinTimeGlobal, timelineMaxTimeGlobal);
-            }, 500);
         }
     });
 }
@@ -1251,6 +1266,13 @@ function finalizeTimelineRender(sessionsByChannel, minTime, maxTime) {
 
     $("#timeline-summary-tag").html(`<b>${activeChannelCount}</b> active channels • <b>${allSessions.length}</b> farming sessions • ~<b>${totalHours} hrs</b> farmed`);
 
+    if (allSessions.length > 0 && currentTimelineScope === "all") {
+        var earliest = allSessions.reduce((m, s) => Math.min(m, s.startTime), Infinity);
+        if (isFinite(earliest)) {
+            minTime = earliest - (15 * 60 * 1000);
+        }
+    }
+
     renderCurrentTimelineStyle(sessionsByChannel, allSessions, minTime, maxTime);
 }
 
@@ -1277,26 +1299,36 @@ function renderCurrentTimelineStyle(sessionsByChannel, allSessions, minTime, max
 }
 
 function renderEmptyTimeline() {
-    $(".timeline-view-pane.active").html('<div style="padding: 40px; text-align: center; color: var(--text-muted);"><i class="fas fa-bed fa-2x" style="margin-bottom: 8px;"></i><br>No farming events recorded in this timeframe.</div>');
+    var $pane = $(`#timeline-style-${currentTimelineStyle}`);
+    $pane.html('<div class="timeline-empty-msg" style="padding: 40px; text-align: center; color: var(--text-muted);"><i class="fas fa-bed fa-2x" style="margin-bottom: 8px;"></i><br>No farming events recorded in this timeframe.</div>');
 }
 
 // STYLE 1: Swimlane Gantt Matrix
 function renderStyle1SwimlaneGantt(sessionsByChannel, minTime, maxTime) {
+    var $pane = $("#timeline-style-1");
+    if (!$("#gantt-container").length) {
+        $pane.html('<div class="gantt-container" id="gantt-container"></div>');
+    }
     var $box = $("#gantt-container");
     $box.empty();
 
     var totalDuration = Math.max(1, maxTime - minTime);
 
+    var t0 = new Date(minTime).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+    var t25 = new Date(minTime + totalDuration * 0.25).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+    var t50 = new Date(minTime + totalDuration * 0.50).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+    var t75 = new Date(minTime + totalDuration * 0.75).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+    var t100 = new Date(maxTime).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
     var rulerHtml = `
         <div class="gantt-header">
             <span class="gantt-channel-col-head"><i class="fas fa-tv"></i> CHANNEL</span>
             <div class="gantt-ticks-wrap">
-                <span>-24h</span>
-                <span>-18h</span>
-                <span>-12h</span>
-                <span>-6h</span>
-                <span>-3h</span>
-                <span>Now</span>
+                <span>${t0}</span>
+                <span>${t25}</span>
+                <span>${t50}</span>
+                <span>${t75}</span>
+                <span>${t100}</span>
             </div>
         </div>
     `;
@@ -1336,6 +1368,10 @@ function renderStyle1SwimlaneGantt(sessionsByChannel, minTime, maxTime) {
 
 // STYLE 2: 24h Activity Heatmap Grid
 function renderStyle2Heatmap(sessionsByChannel, minTime, maxTime) {
+    var $pane = $("#timeline-style-2");
+    if (!$("#heatmap-container").length) {
+        $pane.html('<div class="heatmap-container" id="heatmap-container"></div>');
+    }
     var $box = $("#heatmap-container");
     $box.empty();
 
@@ -1387,6 +1423,10 @@ function renderStyle2Heatmap(sessionsByChannel, minTime, maxTime) {
 
 // STYLE 3: RangeBar Interactive ApexChart
 function renderStyle3RangeBarChart(sessionsByChannel, allSessions) {
+    var $pane = $("#timeline-style-3");
+    if (!$("#timeline-rangebar-chart").length) {
+        $pane.html('<div id="timeline-rangebar-chart" style="min-height: 380px;"></div>');
+    }
     var $chartDiv = $("#timeline-rangebar-chart");
     $chartDiv.empty();
 
@@ -1449,6 +1489,10 @@ function renderStyle3RangeBarChart(sessionsByChannel, allSessions) {
 
 // STYLE 4: Waterfall Event Stream
 function renderStyle4WaterfallStream(allSessions) {
+    var $pane = $("#timeline-style-4");
+    if (!$("#waterfall-stream-container").length) {
+        $pane.html('<div class="waterfall-stream-container" id="waterfall-stream-container"></div>');
+    }
     var $box = $("#waterfall-stream-container");
     $box.empty();
 
@@ -1473,6 +1517,10 @@ function renderStyle4WaterfallStream(allSessions) {
 
 // STYLE 5: Ultra-Dense Ribbon Strip
 function renderStyle5RibbonStrip(sessionsByChannel, minTime, maxTime) {
+    var $pane = $("#timeline-style-5");
+    if (!$("#ribbon-strip-container").length) {
+        $pane.html('<div class="ribbon-strip-container" id="ribbon-strip-container"></div>');
+    }
     var $box = $("#ribbon-strip-container");
     $box.empty();
 

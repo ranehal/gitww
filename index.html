@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Twitch Miner Analytics • Live Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Twitch Miner Command Center • 24/7 Live Analytics</title>
     <link rel="icon" type="image/png" sizes="32x32"
         href="https://static.twitchcdn.net/assets/favicon-32-e29e246c157142c94346.png">
     <link rel="icon" type="image/png" sizes="16x16"
@@ -14,261 +14,530 @@
     <script src="https://cdn.jsdelivr.net/npm/apexcharts@3.42.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
 
-    <!-- Bulma & FontAwesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.css" rel="stylesheet" />
+    <!-- FontAwesome 5 -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Relative styles for GitHub Pages & Flask -->
+    <!-- Relative Stylesheets (GitHub Pages & Flask compatible) -->
     <link id="theme-dark" href="dark-theme.css" rel="stylesheet" />
-    <link href="style.css" rel="stylesheet" />
+    <link href="style.css?v=2.3" rel="stylesheet" />
 </head>
 
 <body class="dashboard-body">
-    <div class="dashboard-container">
-        <!-- Top Navigation / Status Header -->
-        <header class="top-nav">
-            <div class="nav-left">
-                <span class="nav-logo"><i class="fab fa-twitch"></i></span>
-                <div class="nav-title-group">
-                    <h1 class="nav-title">Twitch Channel Points Miner</h1>
-                    <span class="nav-subtitle">Live Analytics Dashboard</span>
-                </div>
-            </div>
-            <div class="nav-center">
-                <span class="sync-badge" id="sync-status-badge">
-                    <span class="pulse-dot"></span>
-                    <span id="sync-text">Kaggle Sync: Active (Every 30m)</span>
-                </span>
-                <span class="sync-time" id="last-sync-time">Last update: Loading...</span>
-            </div>
-            <div class="nav-right">
-                <button class="btn btn-sm btn-twitch" id="btn-refresh" title="Reload fresh analytics data">
-                    <i class="fas fa-sync-alt" id="refresh-icon"></i> Refresh
-                </button>
-                <button class="btn btn-sm btn-dark" id="btn-toggle-header" title="Toggle project banner">
-                    <i class="fas fa-images"></i> Banner
-                </button>
-            </div>
-        </header>
-
-        <!-- Project Banner (Collapsible) -->
-        <div id="header" class="banner-section" style="display: none;">
-            <div class="columns is-vcentered">
-                <div class="column has-text-centered">
-                    <a href="https://github.com/ranehal/gitww" target="_blank">
-                        <img class="banner-img" src="banner.png" alt="banner">
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <!-- KPI Summary Cards Row -->
-        <section class="kpi-grid">
-            <div class="kpi-card kpi-purple">
-                <div class="kpi-icon"><i class="fas fa-coins"></i></div>
-                <div class="kpi-content">
-                    <span class="kpi-label">TOTAL CHANNEL POINTS</span>
-                    <h2 class="kpi-value" id="kpi-total-points">---</h2>
-                    <span class="kpi-sub" id="kpi-total-points-raw">Across all tracked streamers</span>
-                </div>
-            </div>
-
-            <div class="kpi-card kpi-green">
-                <div class="kpi-icon"><i class="fas fa-chart-line"></i></div>
-                <div class="kpi-content">
-                    <span class="kpi-label">24H POINTS MINED</span>
-                    <h2 class="kpi-value" id="kpi-24h-gain">---</h2>
-                    <span class="kpi-sub" id="kpi-24h-sub">Net points farmed in last 24h</span>
-                </div>
-            </div>
-
-            <div class="kpi-card kpi-blue">
-                <div class="kpi-icon"><i class="fas fa-tv"></i></div>
-                <div class="kpi-content">
-                    <span class="kpi-label">TRACKED STREAMERS</span>
-                    <h2 class="kpi-value" id="kpi-streamers-count">---</h2>
-                    <span class="kpi-sub" id="kpi-active-today">--- active today</span>
-                </div>
-            </div>
-
-            <div class="kpi-card kpi-gold">
-                <div class="kpi-icon"><i class="fas fa-trophy"></i></div>
-                <div class="kpi-content">
-                    <span class="kpi-label">TOP EARNER</span>
-                    <h2 class="kpi-value" id="kpi-top-streamer">---</h2>
-                    <span class="kpi-sub" id="kpi-top-streamer-points">Leading channel balance</span>
-                </div>
-            </div>
-        </section>
-
-        <!-- Selected Streamer Spotlight Banner -->
-        <section class="streamer-spotlight" id="streamer-spotlight">
-            <div class="spotlight-left">
-                <div class="streamer-avatar">
-                    <i class="fab fa-twitch"></i>
-                </div>
-                <div class="spotlight-info">
-                    <div class="spotlight-title-row">
-                        <h3 class="streamer-name" id="spotlight-name">Select Streamer</h3>
-                        <a href="#" target="_blank" class="twitch-link" id="spotlight-link" title="Open channel on Twitch">
-                            <i class="fas fa-external-link-alt"></i> twitch.tv
-                        </a>
-                    </div>
-                    <div class="spotlight-badges">
-                        <span class="badge badge-purple" id="spotlight-points"><i class="fas fa-coins"></i> --- pts</span>
-                        <span class="badge badge-green" id="spotlight-gain-24h"><i class="fas fa-arrow-up"></i> +--- 24h</span>
-                        <span class="badge badge-blue" id="spotlight-gain-total"><i class="fas fa-history"></i> +--- all-time</span>
-                        <span class="badge badge-gray" id="spotlight-last-active"><i class="far fa-clock"></i> ---</span>
+    <div class="dashboard-wrapper">
+        <!-- 1. Top Header Bar -->
+        <header class="app-header">
+            <div class="header-left">
+                <div class="brand-group">
+                    <span class="brand-icon"><i class="fab fa-twitch"></i></span>
+                    <div class="brand-text">
+                        <h1 class="brand-title">TWITCH MINER COMMAND CENTER</h1>
+                        <span class="brand-sub">24/7 Automated Analytics &bull; GitHub Pages</span>
                     </div>
                 </div>
-            </div>
-            <div class="spotlight-right" id="spotlight-breakdown">
-                <div class="breakdown-item" title="Watch points (+10/+20)"><span class="b-icon">👁️</span> <span id="bd-watch">0</span></div>
-                <div class="breakdown-item" title="Bonus claims (+50)"><span class="b-icon">🎁</span> <span id="bd-claim">0</span></div>
-                <div class="breakdown-item" title="Watch streaks (+250/+350/+450)"><span class="b-icon">🔥</span> <span id="bd-streak">0</span></div>
-                <div class="breakdown-item" title="Raid joins (+250)"><span class="b-icon">⚔️</span> <span id="bd-raid">0</span></div>
-                <div class="breakdown-item" title="Prediction wins/losses"><span class="b-icon">🎲</span> <span id="bd-prediction">0</span></div>
-            </div>
-        </section>
 
-        <!-- Controls Toolbar -->
-        <section class="toolbar">
-            <div class="toolbar-left">
-                <!-- Streamer Search -->
-                <div class="search-box">
-                    <i class="fas fa-search search-icon"></i>
-                    <input type="text" id="streamer-search" class="input input-sm" placeholder="Search streamers..." />
-                    <button id="search-clear" class="search-clear" style="display: none;">&times;</button>
-                </div>
+                <!-- PROFILE SWITCHER (Cookies & Accounts) -->
+                <div class="profile-switcher-container" id="profile-switcher-container">
+                    <button class="profile-switcher-btn" id="profile-switcher-btn" title="Switch miner account profile">
+                        <span class="profile-avatar"><i class="fas fa-user-circle"></i></span>
+                        <div class="profile-btn-info">
+                            <span class="profile-label">ACCOUNT PROFILE</span>
+                            <span class="profile-name" id="current-profile-name">Loading...</span>
+                        </div>
+                        <span class="profile-pts-tag" id="current-profile-pts">---</span>
+                        <i class="fas fa-chevron-down caret-icon"></i>
+                    </button>
 
-                <!-- Filter Chips -->
-                <div class="filter-chips">
-                    <button class="chip active" data-filter="all">All</button>
-                    <button class="chip" data-filter="active">Active Today</button>
-                    <button class="chip" data-filter="top10">Top 10</button>
-                </div>
-
-                <!-- Sort Dropdown -->
-                <div class="dropdown" id="sort-dropdown">
-                    <div class="dropdown-trigger">
-                        <button class="button is-small" aria-haspopup="true" aria-controls="dropdown-menu">
-                            <span id="sorting-by">Points descending</span>
-                            <span class="icon is-small"><i class="fas fa-angle-down"></i></span>
-                        </button>
-                    </div>
-                    <div class="dropdown-menu" id="dropdown-menu" role="menu">
-                        <div class="dropdown-content">
-                            <a href="#" class="dropdown-item" onClick="changeSortBy(this); return false;">Points descending</a>
-                            <a href="#" class="dropdown-item" onClick="changeSortBy(this); return false;">Points ascending</a>
-                            <a href="#" class="dropdown-item" onClick="changeSortBy(this); return false;">Today's gain descending</a>
-                            <a href="#" class="dropdown-item" onClick="changeSortBy(this); return false;">Name ascending</a>
-                            <a href="#" class="dropdown-item" onClick="changeSortBy(this); return false;">Name descending</a>
-                            <a href="#" class="dropdown-item" onClick="changeSortBy(this); return false;">Last activity descending</a>
-                            <a href="#" class="dropdown-item" onClick="changeSortBy(this); return false;">Last activity ascending</a>
+                    <!-- Profile Dropdown Menu -->
+                    <div class="profile-dropdown-menu" id="profile-dropdown-menu">
+                        <div class="profile-dropdown-header">
+                            <span><i class="fas fa-cookie-bite"></i> Miner Accounts (<span id="profile-count-badge">0</span>)</span>
+                            <input type="text" id="profile-search-input" class="profile-search" placeholder="Search profiles..." />
+                        </div>
+                        <div class="profile-list-scroll" id="profile-list-scroll">
+                            <div class="profile-item active" data-profile="all">
+                                <div class="p-left">
+                                    <span class="p-icon crown">👑</span>
+                                    <span class="p-name">All Accounts (Combined)</span>
+                                </div>
+                                <span class="p-pts" id="profile-pts-all">---</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="toolbar-right">
-                <!-- Date Presets -->
-                <div class="preset-buttons">
-                    <button class="btn-preset" data-preset="today">Today</button>
-                    <button class="btn-preset" data-preset="24h">24h</button>
-                    <button class="btn-preset" data-preset="7d">7d</button>
-                    <button class="btn-preset" data-preset="30d">30d</button>
-                    <button class="btn-preset active" data-preset="inf">All Time (∞)</button>
+            <div class="header-center">
+                <div class="live-status-pill" id="live-status-pill">
+                    <span class="pulse-indicator"></span>
+                    <span class="status-text" id="sync-status-text">Kaggle Sync: Active (Every 30m)</span>
+                </div>
+                <div class="sync-meta">
+                    <span id="last-sync-time"><i class="far fa-clock"></i> Just now</span>
+                </div>
+            </div>
+
+            <div class="header-right">
+                <!-- Refresh Button & Auto-refresh -->
+                <div class="refresh-controls">
+                    <button class="btn btn-twitch" id="btn-refresh" title="Manually refresh analytics data">
+                        <i class="fas fa-sync-alt" id="refresh-icon"></i> <span>Refresh</span>
+                    </button>
+                    <select id="auto-refresh-select" class="select-sm" title="Auto-refresh interval">
+                        <option value="15000">15s</option>
+                        <option value="30000">30s</option>
+                        <option value="60000">1m</option>
+                        <option value="120000">2m</option>
+                        <option value="300000" selected>5m</option>
+                        <option value="600000">10m</option>
+                        <option value="0">Off</option>
+                    </select>
                 </div>
 
-                <!-- Date Inputs -->
-                <div class="date-pickers">
-                    <input class="input is-small" type="date" id="startDate" title="Start Date">
-                    <span class="date-sep">to</span>
-                    <input class="input is-small" type="date" id="endDate" title="End Date">
+                <!-- View Layout Switcher -->
+                <div class="view-toggles" title="Layout View Modes">
+                    <button class="btn-icon active" id="view-mode-default" title="Default Split View"><i class="fas fa-columns"></i></button>
+                    <button class="btn-icon" id="view-mode-wide" title="Wide Chart View (Full Width)"><i class="fas fa-expand-arrows-alt"></i></button>
+                    <button class="btn-icon" id="view-mode-table" title="Table Focus View"><i class="fas fa-table"></i></button>
                 </div>
 
-                <!-- Toggles -->
-                <div class="toggle-group">
-                    <label class="checkbox-pill" title="Toggle point gain annotations on the graph">
-                        <input type="checkbox" checked="true" id="annotations">
-                        <span>Annotations</span>
-                    </label>
-                    <label class="checkbox-pill" title="Toggle dark mode">
-                        <input type="checkbox" checked="true" id="dark-mode">
-                        <span>Dark Mode</span>
-                    </label>
-                    <label class="checkbox-pill" title="Toggle recent events table">
-                        <input type="checkbox" id="toggle-events">
-                        <span>Events</span>
-                    </label>
-                    <label class="checkbox-pill" title="Toggle miner terminal log">
-                        <input type="checkbox" id="log">
-                        <span>Log</span>
-                    </label>
+                <!-- Theme & Accent Controls -->
+                <div class="theme-controls">
+                    <button class="btn-icon" id="btn-toggle-theme" title="Toggle OLED Pure Black / Dark"><i class="fas fa-moon"></i></button>
+                    <div class="accent-palette">
+                        <span class="accent-dot purple active" data-color="#9146FF" title="Twitch Purple"></span>
+                        <span class="accent-dot green" data-color="#00f59b" title="Neon Emerald"></span>
+                        <span class="accent-dot blue" data-color="#00b5ff" title="Cyber Blue"></span>
+                        <span class="accent-dot gold" data-color="#ffbe3b" title="Sunset Gold"></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- 2. KPI Summary Metrics Ribbon (Edge-to-Edge Grid) -->
+        <section class="kpi-ribbon">
+            <div class="kpi-cell kpi-purple">
+                <div class="kpi-icon-box"><i class="fas fa-coins"></i></div>
+                <div class="kpi-meta">
+                    <span class="kpi-tag">TOTAL CHANNEL POINTS</span>
+                    <h2 class="kpi-main-val" id="kpi-total-points">---</h2>
+                    <span class="kpi-footer-val" id="kpi-total-points-raw">Across all tracked streams</span>
+                </div>
+            </div>
+
+            <div class="kpi-cell kpi-green">
+                <div class="kpi-icon-box"><i class="fas fa-chart-line"></i></div>
+                <div class="kpi-meta">
+                    <span class="kpi-tag">24H POINTS FARMED</span>
+                    <h2 class="kpi-main-val text-green" id="kpi-24h-gain">---</h2>
+                    <span class="kpi-footer-val" id="kpi-24h-sub">Net points farmed in last 24h</span>
+                </div>
+            </div>
+
+            <div class="kpi-cell kpi-blue">
+                <div class="kpi-icon-box"><i class="fas fa-tv"></i></div>
+                <div class="kpi-meta">
+                    <span class="kpi-tag">CHANNELS MINED</span>
+                    <h2 class="kpi-main-val text-blue" id="kpi-streamers-count">---</h2>
+                    <span class="kpi-footer-val" id="kpi-active-today">--- active / farming today</span>
+                </div>
+            </div>
+
+            <div class="kpi-cell kpi-gold">
+                <div class="kpi-icon-box"><i class="fas fa-trophy"></i></div>
+                <div class="kpi-meta">
+                    <span class="kpi-tag">TOP EARNER CHANNEL</span>
+                    <h2 class="kpi-main-val text-gold" id="kpi-top-streamer">---</h2>
+                    <span class="kpi-footer-val" id="kpi-top-streamer-points">Leading channel balance</span>
+                </div>
+            </div>
+
+            <div class="kpi-cell kpi-cyan">
+                <div class="kpi-icon-box"><i class="fas fa-bolt"></i></div>
+                <div class="kpi-meta">
+                    <span class="kpi-tag">AVERAGE FARM RATE</span>
+                    <h2 class="kpi-main-val text-cyan" id="kpi-farm-rate">---</h2>
+                    <span class="kpi-footer-val" id="kpi-farm-rate-sub">Estimated points / hr</span>
                 </div>
             </div>
         </section>
 
-        <!-- Main Chart and Streamers List Layout -->
-        <main class="main-content">
-            <!-- Sidebar: Streamers List -->
-            <aside class="streamers-sidebar">
-                <div class="sidebar-header">
-                    <span>CHANNELS (<span id="streamers-count-badge">0</span>)</span>
+        <!-- 3. Multi-Toolbar (Filters, Sorts, Search, Presets, Controls) -->
+        <section class="command-toolbar">
+            <!-- Toolbar Row 1: Search, Filter Tabs, Point Tiers, Sort Dropdown -->
+            <div class="toolbar-row-top">
+                <div class="tool-group tool-search">
+                    <div class="search-input-wrap">
+                        <i class="fas fa-search search-ico"></i>
+                        <input type="text" id="streamer-search" class="search-input" placeholder="Search across all profiles (press '/' to focus)..." autocomplete="off" />
+                        <button id="search-clear" class="btn-clear" style="display: none;">&times;</button>
+                    </div>
+                    <span class="match-counter" id="match-counter">0 / 0</span>
+
+                    <button class="btn-return-search" id="btn-back-to-search" style="display: none;" title="Return to Search Results with previous query and rankings intact">
+                        <i class="fas fa-arrow-left"></i> Back to Search (<span id="back-search-summary"></span>)
+                    </button>
                 </div>
-                <div class="streamers-list-wrapper">
-                    <ul id="streamers-list" class="streamers-list">
-                        <li class="loading-item">Loading channels...</li>
+
+                <!-- Quick Filter Tabs -->
+                <div class="tool-group filter-tab-group">
+                    <span class="tool-label"><i class="fas fa-filter"></i> FILTERS:</span>
+                    <button class="filter-tab active" data-filter="all">All</button>
+                    <button class="filter-tab" data-filter="active">Active 24h</button>
+                    <button class="filter-tab" data-filter="top5">Top 5</button>
+                    <button class="filter-tab" data-filter="top10">Top 10</button>
+                    <button class="filter-tab" data-filter="top25">Top 25</button>
+                    <button class="filter-tab" data-filter="gained">Gained Today</button>
+                    <button class="filter-tab" data-filter="idle">Idle / Stale</button>
+                </div>
+
+                <!-- Point Tier Chips -->
+                <div class="tool-group tier-chip-group">
+                    <span class="tool-label">TIERS:</span>
+                    <button class="tier-chip active" data-tier="all">All</button>
+                    <button class="tier-chip" data-tier="1m">&gt; 1M</button>
+                    <button class="tier-chip" data-tier="500k">500K - 1M</button>
+                    <button class="tier-chip" data-tier="100k">100K - 500K</button>
+                    <button class="tier-chip" data-tier="sub100k">&lt; 100K</button>
+                </div>
+
+                <!-- Sort Selector & Direction -->
+                <div class="tool-group sort-group">
+                    <span class="tool-label"><i class="fas fa-sort-amount-down"></i> SORT:</span>
+                    <div class="sort-selector-wrap">
+                        <select id="sort-select" class="select-sm">
+                            <option value="points_desc" selected>Points (High → Low)</option>
+                            <option value="points_asc">Points (Low → High)</option>
+                            <option value="gain_desc">24h Gain (High → Low)</option>
+                            <option value="gain_asc">24h Gain (Low → High)</option>
+                            <option value="gain_total_desc">Total Gain (High → Low)</option>
+                            <option value="name_asc">Name (A → Z)</option>
+                            <option value="name_desc">Name (Z → A)</option>
+                            <option value="activity_desc">Last Active (Newest First)</option>
+                            <option value="activity_asc">Last Active (Oldest First)</option>
+                            <option value="events_desc">Event Count (Most Active)</option>
+                            <option value="streaks_desc">Watch Streaks (Most)</option>
+                            <option value="claims_desc">Bonus Claims (Most)</option>
+                        </select>
+                        <button class="btn-icon-sm" id="btn-toggle-sort-dir" title="Reverse sort direction">⇅</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Toolbar Row 2: Timeframe Presets, Chart Options, Channel Nav, Exports -->
+            <div class="toolbar-row-bottom">
+                <!-- Timeframe Presets -->
+                <div class="tool-group preset-group">
+                    <span class="tool-label"><i class="far fa-calendar-alt"></i> TIMEFRAME:</span>
+                    <button class="btn-tf" data-preset="1h">1h</button>
+                    <button class="btn-tf" data-preset="6h">6h</button>
+                    <button class="btn-tf" data-preset="12h">12h</button>
+                    <button class="btn-tf" data-preset="24h">24h</button>
+                    <button class="btn-tf" data-preset="today">Today</button>
+                    <button class="btn-tf" data-preset="3d">3d</button>
+                    <button class="btn-tf" data-preset="7d">7d</button>
+                    <button class="btn-tf" data-preset="14d">14d</button>
+                    <button class="btn-tf" data-preset="30d">30d</button>
+                    <button class="btn-tf" data-preset="90d">90d</button>
+                    <button class="btn-tf active" data-preset="inf">All Time (∞)</button>
+
+                    <div class="custom-date-box">
+                        <input type="date" id="startDate" class="date-in" title="Start date">
+                        <span class="date-to">→</span>
+                        <input type="date" id="endDate" class="date-in" title="End date">
+                        <button id="btn-clear-date" class="btn-icon-xs" title="Reset date range">&times;</button>
+                    </div>
+                </div>
+
+                <!-- Chart Style Controls -->
+                <div class="tool-group chart-ctrl-group">
+                    <span class="tool-label"><i class="fas fa-chart-area"></i> CHART:</span>
+                    <button class="btn-ctrl active" id="btn-chart-type" title="Toggle Area / Line chart">Area</button>
+                    <button class="btn-ctrl" id="btn-chart-curve" title="Toggle Smooth / Straight / Stepline">Smooth</button>
+                    <button class="btn-ctrl active" id="btn-toggle-annotations" title="Toggle point gain badges on graph">Annotations</button>
+                    <button class="btn-ctrl" id="btn-reset-zoom" title="Reset chart zoom">Reset Zoom</button>
+                    <button class="btn-ctrl" id="btn-fullscreen-chart" title="Fullscreen chart mode"><i class="fas fa-expand"></i> Fullscreen</button>
+                </div>
+
+                <!-- Channel Quick Navigation & Twitch Link -->
+                <div class="tool-group nav-quick-group">
+                    <button class="btn-ctrl" id="btn-prev-streamer" title="Previous channel in list"><i class="fas fa-step-backward"></i> Prev</button>
+                    <button class="btn-ctrl" id="btn-next-streamer" title="Next channel in list">Next <i class="fas fa-step-forward"></i></button>
+                    <button class="btn-ctrl" id="btn-random-streamer" title="Jump to random channel"><i class="fas fa-random"></i> Shuffle</button>
+                    <a href="#" target="_blank" class="btn-ctrl btn-twitch-link" id="btn-external-twitch" title="Open channel on Twitch">
+                        <i class="fab fa-twitch"></i> Open on Twitch ↗
+                    </a>
+                </div>
+
+                <!-- Export & Utilities -->
+                <div class="tool-group export-group">
+                    <button class="btn-ctrl" id="btn-export-csv" title="Export channel summary as CSV"><i class="fas fa-file-csv"></i> CSV</button>
+                    <button class="btn-ctrl" id="btn-export-json" title="Download current channel JSON data"><i class="fas fa-file-code"></i> JSON</button>
+                    <button class="btn-ctrl" id="btn-copy-summary" title="Copy markdown summary to clipboard"><i class="fas fa-clipboard"></i> Copy</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Main Stage (Full Viewport Width, Edge-to-Edge) -->
+        <main class="main-stage" id="main-stage">
+            <!-- Left Sidebar: Channels Matrix -->
+            <aside class="channels-sidebar" id="channels-sidebar">
+                <div class="sidebar-top">
+                    <div class="sidebar-headline">
+                        <span><i class="fas fa-list-ol"></i> CHANNELS (<span id="streamers-count-badge">0</span>)</span>
+                        <div class="sidebar-quick-sort">
+                            <span class="sort-tag-active" id="sidebar-sort-tag">Points ↓</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Channels Table Header -->
+                <div class="channels-table-head">
+                    <span class="col-rank">#</span>
+                    <span class="col-name" id="th-name" title="Click to sort by name">CHANNEL</span>
+                    <span class="col-gain" id="th-gain" title="Click to sort by 24h gain">24H</span>
+                    <span class="col-pts" id="th-pts" title="Click to sort by points">POINTS</span>
+                </div>
+
+                <!-- Channels Scrollable List -->
+                <div class="channels-scroll" id="channels-scroll">
+                    <ul id="streamers-list" class="channels-ul">
+                        <li class="loading-state"><i class="fas fa-spinner fa-spin"></i> Loading channels...</li>
                     </ul>
                 </div>
             </aside>
 
-            <!-- Center: Interactive Chart & Panels -->
-            <section class="chart-area">
-                <div class="box chart-box" id="chart-wrapper">
+            <!-- Center Stage: Spotlight, Chart, Activity Drawers -->
+            <section class="workspace-area" id="workspace-area">
+                <!-- Selected Channel Spotlight Banner -->
+                <div class="channel-spotlight-bar" id="channel-spotlight-bar">
+                    <div class="spotlight-left">
+                        <div class="spotlight-avatar" id="spotlight-avatar" title="Twitch Profile Picture">
+                            <img id="spotlight-avatar-img" class="spotlight-avatar-img" src="" alt="avatar" style="display: none;" />
+                            <div id="spotlight-avatar-placeholder" class="spotlight-avatar-placeholder">
+                                <i class="fab fa-twitch"></i>
+                            </div>
+                        </div>
+                        <div class="spotlight-channel-meta">
+                            <div class="channel-headline">
+                                <h2 class="channel-title" id="spotlight-name">Select Channel</h2>
+                                <span class="status-indicator-tag" id="spotlight-live-tag"><span class="dot"></span> ACTIVE</span>
+                                <a href="#" target="_blank" class="channel-url-tag" id="spotlight-url"><i class="fas fa-external-link-alt"></i> twitch.tv</a>
+                            </div>
+                            <div class="channel-badges-row">
+                                <span class="metric-pill pill-purple" id="spotlight-points"><i class="fas fa-coins"></i> --- pts</span>
+                                <span class="metric-pill pill-green" id="spotlight-gain-24h"><i class="fas fa-arrow-up"></i> +--- 24h</span>
+                                <span class="metric-pill pill-blue" id="spotlight-gain-total"><i class="fas fa-history"></i> +--- all-time</span>
+                                <span class="metric-pill pill-gray" id="spotlight-last-active"><i class="far fa-clock"></i> ---</span>
+                                <span class="metric-pill pill-dark" id="spotlight-events-count"><i class="fas fa-receipt"></i> --- events</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category Breakdown Counters (Click to Filter Events & Chart) -->
+                    <div class="spotlight-breakdown-counters" id="spotlight-breakdown-counters">
+                        <div class="b-box clickable" data-etype="watch" title="Click to filter by Watch points (+10 / +20)"><span class="b-ico">👁️ Watch</span> <span class="b-num" id="bd-watch">0</span></div>
+                        <div class="b-box clickable" data-etype="claim" title="Click to filter by Bonus box claims (+50)"><span class="b-ico">🎁 Claims</span> <span class="b-num" id="bd-claim">0</span></div>
+                        <div class="b-box clickable" data-etype="streak" title="Click to filter by Watch streaks (+250 / +350 / +450)"><span class="b-ico">🔥 Streaks</span> <span class="b-num" id="bd-streak">0</span></div>
+                        <div class="b-box clickable" data-etype="raid" title="Click to filter by Raid join bonuses (+250)"><span class="b-ico">⚔️ Raids</span> <span class="b-num" id="bd-raid">0</span></div>
+                        <div class="b-box clickable" data-etype="prediction" title="Click to filter by Prediction events"><span class="b-ico">🎲 Bets</span> <span class="b-num" id="bd-prediction">0</span></div>
+                    </div>
+                </div>
+
+                <!-- Chart Container -->
+                <div class="chart-canvas-card" id="chart-canvas-card">
                     <div id="chart"></div>
                 </div>
 
-                <!-- Recent Events Activity Feed Table (Collapsible) -->
-                <div class="box events-box" id="events-box" style="display: none;">
-                    <div class="panel-header">
-                        <h4><i class="fas fa-bolt"></i> Recent Claims & Points Activity Feed</h4>
-                        <span class="tag is-info is-small" id="events-count-tag">Latest 50 events</span>
+                <!-- Multi-Tab Bottom Drawer (Activity Feed, Overview Matrix, Miner Log) -->
+                <div class="bottom-drawer-card" id="bottom-drawer-card">
+                    <div class="drawer-tabs-header">
+                        <div class="drawer-nav-tabs">
+                            <button class="d-tab active" data-tab="tab-events"><i class="fas fa-bolt"></i> Live Activity Feed</button>
+                            <button class="d-tab" data-tab="tab-matrix"><i class="fas fa-th-list"></i> Channels Matrix Overview</button>
+                            <button class="d-tab" data-tab="tab-timeline"><i class="fas fa-stream"></i> Farming Timeline (5 Styles)</button>
+                            <button class="d-tab" id="tab-btn-search" data-tab="tab-search"><i class="fas fa-search"></i> Streamer Search <span class="tab-badge" id="search-tab-badge">0</span></button>
+                            <button class="d-tab" data-tab="tab-log"><i class="fas fa-terminal"></i> Miner Console Log</button>
+                        </div>
+                        <div class="drawer-actions">
+                            <button class="btn-icon-xs" id="btn-toggle-drawer" title="Collapse / Expand drawer"><i class="fas fa-chevron-down"></i></button>
+                        </div>
                     </div>
-                    <div class="table-wrapper">
-                        <table class="table is-fullwidth is-striped is-hoverable is-narrow events-table">
-                            <thead>
-                                <tr>
-                                    <th>Time</th>
-                                    <th>Channel</th>
-                                    <th>Event / Reason</th>
-                                    <th>Points</th>
-                                    <th>Balance</th>
-                                </tr>
-                            </thead>
-                            <tbody id="events-table-body">
-                                <tr><td colspan="5" class="has-text-centered">No events recorded yet.</td></tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
 
-                <!-- Miner Live Log (Collapsible) -->
-                <div class="box log-box" id="log-box" style="display: none;">
-                    <div class="log-controls">
-                        <span><i class="fas fa-terminal"></i> Miner Console Log</span>
-                        <button id="auto-update-log" class="button is-small is-dark">⏸️ Pause</button>
+                    <!-- Drawer Content Panes -->
+                    <div class="drawer-body" id="drawer-body">
+                        <!-- TAB 1: Live Activity Events Feed -->
+                        <div class="tab-pane active" id="tab-events">
+                            <div class="pane-subbar">
+                                <div class="event-filter-chips">
+                                    <span class="sub-label">EVENT TYPE:</span>
+                                    <button class="e-chip active" data-etype="all">All Events</button>
+                                    <button class="e-chip" data-etype="watch">Watch</button>
+                                    <button class="e-chip" data-etype="claim">Claims</button>
+                                    <button class="e-chip" data-etype="streak">Streaks</button>
+                                    <button class="e-chip" data-etype="raid">Raids</button>
+                                    <button class="e-chip" data-etype="prediction">Predictions</button>
+                                </div>
+                                <span class="feed-count-badge" id="events-count-tag">Showing latest 50 events</span>
+                            </div>
+                            <div class="table-scroll-wrap">
+                                <table class="matrix-table events-table">
+                                    <thead>
+                                        <tr>
+                                            <th>TIMESTAMP (LOCAL)</th>
+                                            <th>CHANNEL</th>
+                                            <th>EVENT TYPE</th>
+                                            <th>GAIN AMOUNT</th>
+                                            <th>RUNNING BALANCE</th>
+                                            <th>EVENT DETAILS</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="events-table-body">
+                                        <tr><td colspan="6" class="empty-cell">No event records available.</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- TAB 2: Channels Matrix Overview -->
+                        <div class="tab-pane" id="tab-matrix">
+                            <div class="table-scroll-wrap">
+                                <table class="matrix-table channels-matrix-table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>CHANNEL NAME</th>
+                                            <th>CURRENT BALANCE</th>
+                                            <th>24H GAIN</th>
+                                            <th>ALL-TIME GAIN</th>
+                                            <th>LAST ACTIVITY</th>
+                                            <th>WATCH</th>
+                                            <th>CLAIMS</th>
+                                            <th>STREAKS</th>
+                                            <th>RAIDS</th>
+                                            <th>ACTION</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="matrix-table-body">
+                                        <tr><td colspan="11" class="empty-cell">Loading channels matrix...</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- TAB 3: Farming Timeline (5 Styles) -->
+                        <div class="tab-pane" id="tab-timeline">
+                            <div class="timeline-toolbar">
+                                <div class="timeline-style-switcher">
+                                    <span class="style-label"><i class="fas fa-palette"></i> TIMELINE STYLE:</span>
+                                    <button class="t-style-btn active" data-style="1"><i class="fas fa-bars-progress"></i> Style 1: Swimlane Gantt</button>
+                                    <button class="t-style-btn" data-style="2"><i class="fas fa-border-all"></i> Style 2: 24h Activity Heatmap</button>
+                                    <button class="t-style-btn" data-style="3"><i class="fas fa-chart-bar"></i> Style 3: RangeBar Chart</button>
+                                    <button class="t-style-btn" data-style="4"><i class="fas fa-water"></i> Style 4: Waterfall Stream</button>
+                                    <button class="t-style-btn" data-style="5"><i class="fas fa-barcode"></i> Style 5: Ultra-Dense Ribbon</button>
+                                </div>
+                                <div class="timeline-meta-controls">
+                                    <span class="timeline-summary-tag" id="timeline-summary-tag"><i class="fas fa-info-circle"></i> Computing farming sessions...</span>
+                                    <div class="timeline-scope-btns">
+                                        <button class="btn-xs-scope active" data-tscope="24h">24h View</button>
+                                        <button class="btn-xs-scope" data-tscope="today">Today</button>
+                                        <button class="btn-xs-scope" data-tscope="all">All-Time</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 5 Style Viewport -->
+                            <div class="timeline-viewport">
+                                <!-- Style 1: Swimlane Gantt Matrix -->
+                                <div class="timeline-view-pane active" id="timeline-style-1">
+                                    <div class="gantt-container" id="gantt-container"></div>
+                                </div>
+                                <!-- Style 2: 24h Activity Heatmap Grid -->
+                                <div class="timeline-view-pane" id="timeline-style-2">
+                                    <div class="heatmap-container" id="heatmap-container"></div>
+                                </div>
+                                <!-- Style 3: Interactive RangeBar ApexChart -->
+                                <div class="timeline-view-pane" id="timeline-style-3">
+                                    <div id="timeline-rangebar-chart" style="min-height: 380px;"></div>
+                                </div>
+                                <!-- Style 4: Waterfall Event Stream -->
+                                <div class="timeline-view-pane" id="timeline-style-4">
+                                    <div class="waterfall-stream-container" id="waterfall-stream-container"></div>
+                                </div>
+                                <!-- Style 5: Ultra-Dense Ribbon Strip -->
+                                <div class="timeline-view-pane" id="timeline-style-5">
+                                    <div class="ribbon-strip-container" id="ribbon-strip-container"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TAB: Cross-Profile Streamer Search Results -->
+                        <div class="tab-pane" id="tab-search">
+                            <div class="search-tab-toolbar">
+                                <div class="search-tab-title-wrap">
+                                    <i class="fas fa-search search-tab-ico"></i>
+                                    <span class="search-tab-title" id="search-query-tag">Search across all 35 profiles</span>
+                                    <span class="search-badge-count" id="search-total-count">0 found</span>
+                                </div>
+                                <div class="search-tab-actions">
+                                    <div class="search-panel-sort">
+                                        <label><i class="fas fa-sort-amount-down"></i> Sort:</label>
+                                        <select id="search-results-sort" class="select-xs">
+                                            <option value="points_desc" selected>Points (High → Low)</option>
+                                            <option value="points_asc">Points (Low → High)</option>
+                                            <option value="gain_desc">24h Gain (High → Low)</option>
+                                            <option value="gain_asc">24h Gain (Low → High)</option>
+                                            <option value="name_asc">Channel (A → Z)</option>
+                                            <option value="name_desc">Channel (Z → A)</option>
+                                            <option value="profile_asc">Profile (A → Z)</option>
+                                            <option value="profile_desc">Profile (Z → A)</option>
+                                            <option value="activity_desc">Last Active (Newest)</option>
+                                            <option value="activity_asc">Last Active (Oldest)</option>
+                                        </select>
+                                        <button class="btn-icon-xs" id="btn-search-sort-dir" title="Reverse search sort"><i class="fas fa-sort"></i></button>
+                                    </div>
+                                    <button class="btn-xs btn-outline" id="btn-clear-search-tab"><i class="fas fa-times"></i> Clear Search</button>
+                                </div>
+                            </div>
+                            <div class="search-profile-filters" id="search-profile-filters">
+                                <!-- Populated with profile chips -->
+                            </div>
+                            <div class="table-scroll-wrap">
+                                <table class="matrix-table search-results-table">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 55px; text-align: center;">RANK</th>
+                                            <th>CHANNEL</th>
+                                            <th>MINER ACCOUNT</th>
+                                            <th style="text-align: right;">CURRENT POINTS</th>
+                                            <th style="text-align: right;">24H GAIN</th>
+                                            <th>LAST ACTIVE</th>
+                                            <th>STATUS</th>
+                                            <th style="text-align: center; width: 220px;">ACTIONS</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="search-results-list">
+                                        <tr><td colspan="8" class="empty-cell">Type a streamer name in the top searchbar to see points across all 35 profiles.</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- TAB 4: Miner Console Log -->
+                        <div class="tab-pane" id="tab-log">
+                            <div class="log-toolbar">
+                                <span class="log-title"><i class="fas fa-terminal"></i> Live Streamer Output Log</span>
+                                <div class="log-btn-group">
+                                    <button id="btn-pause-log" class="btn-xs btn-dark">⏸️ Pause</button>
+                                    <button id="btn-clear-log" class="btn-xs btn-dark">🗑️ Clear</button>
+                                </div>
+                            </div>
+                            <pre id="log-content">Miner terminal log will stream here when running locally via Flask (save=True in logger_settings). On GitHub Pages, historical analytics are permanently synced from Kaggle.&#10;&#13;</pre>
+                        </div>
                     </div>
-                    <pre id="log-content">Live miner output will stream here when enabled in logger_settings (save=True).&#10;&#13;</pre>
                 </div>
             </section>
         </main>
-
-        <!-- Footer -->
-        <footer class="dashboard-footer">
-            <span>Twitch Channel Points Miner • Permanent Analytics on GitHub Pages • Auto-sync every 30 minutes</span>
-        </footer>
     </div>
 
     <!-- Static GitHub Pages Configuration -->
@@ -276,7 +545,7 @@
         var flaskRefresh = 300000;
         var flaskDaysAgo = "inf";
     </script>
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script.js?v=2.3"></script>
 </body>
 
 </html>

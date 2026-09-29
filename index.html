@@ -68,6 +68,13 @@
             </div>
 
             <div class="header-center">
+                <!-- Google Sheet Online Indicator Pill -->
+                <div class="header-live-pill clickable" id="header-live-pill" title="Click to filter channels broadcasting live now">
+                    <span class="live-dot-pulse"></span>
+                    <span class="live-text-main" id="header-live-text">STREAMERS ONLINE</span>
+                    <span class="live-count-badge" id="header-live-badge">0</span>
+                </div>
+
                 <div class="live-status-pill" id="live-status-pill">
                     <span class="pulse-indicator"></span>
                     <span class="status-text" id="sync-status-text">Kaggle Sync: Active (Every 30m)</span>
@@ -183,6 +190,9 @@
                 <div class="tool-group filter-tab-group">
                     <span class="tool-label"><i class="fas fa-filter"></i> FILTERS:</span>
                     <button class="filter-tab active" data-filter="all">All</button>
+                    <button class="filter-tab tab-live-now" data-filter="online" title="Show only streamers broadcasting live right now"><span class="tab-live-beacon"></span> Online Now (<span id="tab-live-count">0</span>)</button>
+                    <button class="filter-tab tab-target-approx" data-filter="near_target" title="Farmed points approximating Column C target (70% - 99%)"><i class="fas fa-bullseye"></i> Near Target (70%+)</button>
+                    <button class="filter-tab tab-target-met" data-filter="target_met" title="Channels with 100%+ target points reached"><i class="fas fa-trophy"></i> Ready to Claim</button>
                     <button class="filter-tab" data-filter="active">Active 24h</button>
                     <button class="filter-tab" data-filter="top5">Top 5</button>
                     <button class="filter-tab" data-filter="top10">Top 10</button>
@@ -208,6 +218,10 @@
                         <select id="sort-select" class="select-sm">
                             <option value="points_desc" selected>Points (High → Low)</option>
                             <option value="points_asc">Points (Low → High)</option>
+                            <option value="proximity_desc">🎯 Target Proximity (Near Target First)</option>
+                            <option value="target_desc">🎯 Target Points (High → Low)</option>
+                            <option value="target_asc">🎯 Target Points (Low → High)</option>
+                            <option value="live_desc">🔴 Live Channels First</option>
                             <option value="gain_desc">24h Gain (High → Low)</option>
                             <option value="gain_asc">24h Gain (Low → High)</option>
                             <option value="gain_total_desc">Total Gain (High → Low)</option>
@@ -284,7 +298,7 @@
             <aside class="channels-sidebar" id="channels-sidebar">
                 <div class="sidebar-top">
                     <div class="sidebar-headline">
-                        <span><i class="fas fa-list-ol"></i> CHANNELS (<span id="streamers-count-badge">0</span>)</span>
+                        <span><i class="fas fa-list-ol"></i> CHANNELS (<span id="streamers-count-badge">0</span>)<span class="sidebar-live-tag" id="sidebar-live-tag" style="display: none;"> • <span class="tab-live-beacon"></span> <span id="sidebar-live-count">0</span> Live</span></span>
                         <div class="sidebar-quick-sort">
                             <span class="sort-tag-active" id="sidebar-sort-tag">Points ↓</span>
                         </div>
@@ -295,6 +309,7 @@
                 <div class="channels-table-head">
                     <span class="col-rank">#</span>
                     <span class="col-name" id="th-name" title="Click to sort by name">CHANNEL</span>
+                    <span class="col-target" id="th-target" title="Google Sheet Target & Progress">TARGET</span>
                     <span class="col-gain" id="th-gain" title="Click to sort by 24h gain">24H</span>
                     <span class="col-pts" id="th-pts" title="Click to sort by points">POINTS</span>
                 </div>
@@ -341,6 +356,57 @@
                         <div class="b-box clickable" data-etype="streak" title="Click to filter by Watch streaks (+250 / +350 / +450)"><span class="b-ico">🔥 Streaks</span> <span class="b-num" id="bd-streak">0</span></div>
                         <div class="b-box clickable" data-etype="raid" title="Click to filter by Raid join bonuses (+250)"><span class="b-ico">⚔️ Raids</span> <span class="b-num" id="bd-raid">0</span></div>
                         <div class="b-box clickable" data-etype="prediction" title="Click to filter by Prediction events"><span class="b-ico">🎲 Bets</span> <span class="b-num" id="bd-prediction">0</span></div>
+                    </div>
+                </div>
+
+                <!-- Dedicated Google Sheet Target & Reward Proximity Card -->
+                <div class="spotlight-target-card" id="spotlight-target-card" style="display: none;">
+                    <div class="target-card-main">
+                        <div class="target-left-group">
+                            <div class="target-badge-header">
+                                <span class="badge-gsheet-tag"><i class="fas fa-file-excel"></i> GOOGLE SHEET TARGET (COL C & E)</span>
+                                <span class="badge-proximity-tag" id="spotlight-proximity-tag">70% PROXIMITY</span>
+                                <span class="badge-live-tag" id="spotlight-sheet-live-tag" style="display: none;"><span class="tab-live-beacon"></span> LIVE NOW</span>
+                            </div>
+                            <h3 class="target-reward-title" id="spotlight-reward-name">Loading target reward...</h3>
+                            <div class="target-desc-text" id="spotlight-reward-desc" style="display: none;"></div>
+                        </div>
+
+                        <div class="target-metrics-grid">
+                            <div class="t-metric-box">
+                                <span class="tm-label">TARGET (COL C)</span>
+                                <span class="tm-val text-gold" id="tm-target-points">---</span>
+                                <span class="tm-sub" id="tm-target-k">--- K target</span>
+                            </div>
+                            <div class="t-metric-box">
+                                <span class="tm-label">CURRENT FARMED</span>
+                                <span class="tm-val text-green" id="tm-current-points">---</span>
+                                <span class="tm-sub" id="tm-farmed-k">--- K balance</span>
+                            </div>
+                            <div class="t-metric-box">
+                                <span class="tm-label">POINTS TO GO</span>
+                                <span class="tm-val text-cyan" id="tm-needed-points">---</span>
+                                <span class="tm-sub" id="tm-eta-text">Calculating ETA...</span>
+                            </div>
+                            <div class="t-metric-box">
+                                <span class="tm-label">SULLYGNOME STATS</span>
+                                <span class="tm-val text-purple" id="tm-stream-hours">---</span>
+                                <span class="tm-sub" id="tm-stream-ratio">--- ratio</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Glowing Animated Gradient Progress Track -->
+                    <div class="target-progress-container">
+                        <div class="tp-track-outer">
+                            <div class="tp-track-fill" id="spotlight-prog-fill" style="width: 0%;">
+                                <span class="tp-shimmer-light"></span>
+                            </div>
+                        </div>
+                        <div class="tp-meta-row">
+                            <span class="tp-meta-left" id="tp-meta-status">Progress towards reward redemption</span>
+                            <span class="tp-meta-pct" id="tp-meta-pct">0%</span>
+                        </div>
                     </div>
                 </div>
 
@@ -407,14 +473,14 @@
                                         <tr>
                                             <th>#</th>
                                             <th>CHANNEL NAME</th>
+                                            <th>LIVE</th>
+                                            <th>TARGET REWARD (COL E)</th>
+                                            <th>TARGET (COL C)</th>
+                                            <th>TARGET PROXIMITY</th>
                                             <th>CURRENT BALANCE</th>
                                             <th>24H GAIN</th>
                                             <th>ALL-TIME GAIN</th>
                                             <th>LAST ACTIVITY</th>
-                                            <th>WATCH</th>
-                                            <th>CLAIMS</th>
-                                            <th>STREAKS</th>
-                                            <th>RAIDS</th>
                                             <th>ACTION</th>
                                         </tr>
                                     </thead>
@@ -506,14 +572,16 @@
                                 <table class="matrix-table search-results-table">
                                     <thead>
                                         <tr>
-                                            <th style="width: 55px; text-align: center;">RANK</th>
+                                            <th style="width: 50px; text-align: center;">RANK</th>
                                             <th>CHANNEL</th>
+                                            <th>LIVE</th>
+                                            <th>TARGET REWARD</th>
+                                            <th>TARGET PROXIMITY</th>
                                             <th>MINER ACCOUNT</th>
                                             <th style="text-align: right;">CURRENT POINTS</th>
                                             <th style="text-align: right;">24H GAIN</th>
                                             <th>LAST ACTIVE</th>
-                                            <th>STATUS</th>
-                                            <th style="text-align: center; width: 220px;">ACTIONS</th>
+                                            <th style="text-align: center; width: 140px;">ACTIONS</th>
                                         </tr>
                                     </thead>
                                     <tbody id="search-results-list">

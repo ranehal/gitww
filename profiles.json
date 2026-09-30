@@ -4,28 +4,8 @@
     "name": "All Accounts (Combined)",
     "streamers_count": 87,
     "total_points": 4677058,
-    "gain_24h": 131400,
+    "gain_24h": 129160,
     "active_today_count": 80,
-    "has_data": true,
-    "is_current": false
-  },
-  {
-    "id": "ganja_broker",
-    "name": "ganja_broker",
-    "streamers_count": 87,
-    "total_points": 3453138,
-    "gain_24h": 26200,
-    "active_today_count": 87,
-    "has_data": true,
-    "is_current": true
-  },
-  {
-    "id": "aethermain7",
-    "name": "aethermain7",
-    "streamers_count": 87,
-    "total_points": 4542158,
-    "gain_24h": 16676,
-    "active_today_count": 77,
     "has_data": true,
     "is_current": false
   },
@@ -35,6 +15,16 @@
     "streamers_count": 87,
     "total_points": 4556528,
     "gain_24h": 8210,
+    "active_today_count": 77,
+    "has_data": true,
+    "is_current": true
+  },
+  {
+    "id": "aethermain7",
+    "name": "aethermain7",
+    "streamers_count": 87,
+    "total_points": 4542158,
+    "gain_24h": 16676,
     "active_today_count": 77,
     "has_data": true,
     "is_current": false
@@ -106,6 +96,16 @@
     "total_points": 4542158,
     "gain_24h": 16676,
     "active_today_count": 77,
+    "has_data": true,
+    "is_current": false
+  },
+  {
+    "id": "ganja_broker",
+    "name": "ganja_broker",
+    "streamers_count": 87,
+    "total_points": 3453138,
+    "gain_24h": 26200,
+    "active_today_count": 87,
     "has_data": true,
     "is_current": false
   },

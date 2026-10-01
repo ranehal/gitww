@@ -37,16 +37,16 @@
   },
   {
     "name": "heatoncs",
-    "points": 247880,
-    "last_activity": 1790875283000,
-    "gain_24h": 470,
-    "gain_total": 90820,
+    "points": 248040,
+    "last_activity": 1790877084000,
+    "gain_24h": 630,
+    "gain_total": 90980,
     "start_points": 157060,
-    "events_count": 14,
+    "events_count": 22,
     "active_today": true,
     "breakdown": {
-      "Watch": 13,
-      "Claim": 1,
+      "Watch": 19,
+      "Claim": 3,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -216,6 +216,24 @@
     }
   },
   {
+    "name": "annyquilladora",
+    "points": 68830,
+    "last_activity": 1790877294000,
+    "gain_24h": 1340,
+    "gain_total": 6490,
+    "start_points": 62340,
+    "events_count": 166,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 119,
+      "Claim": 46,
+      "Streak": 0,
+      "Raid": 1,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "goosebian",
     "points": 68730,
     "last_activity": 1790870158000,
@@ -229,24 +247,6 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "annyquilladora",
-    "points": 68670,
-    "last_activity": 1790875494000,
-    "gain_24h": 1180,
-    "gain_total": 6330,
-    "start_points": 62340,
-    "events_count": 158,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 113,
-      "Claim": 44,
-      "Streak": 0,
-      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }

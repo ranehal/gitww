@@ -1,10 +1,63 @@
 {
   "series": [
     {
+      "x": 1790585149000,
+      "y": 10500,
+      "z": "Watch"
+    },
+    {
       "x": 1790585152000,
       "y": 10280,
       "z": "Watch"
+    },
+    {
+      "x": 1790626291000,
+      "y": 10500,
+      "z": "Watch"
+    },
+    {
+      "x": 1790628662000,
+      "y": 10960,
+      "z": "Watch Streak"
+    },
+    {
+      "x": 1790635011000,
+      "y": 10970,
+      "z": "Watch"
+    },
+    {
+      "x": 1790635012000,
+      "y": 11470,
+      "z": "Claim"
+    },
+    {
+      "x": 1790667453000,
+      "y": 13990,
+      "z": "Watch"
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "borderColor": "#45c1ff",
+      "label": {
+        "style": {
+          "color": "#000",
+          "background": "#45c1ff"
+        },
+        "text": "+450 - WATCH_STREAK"
+      },
+      "x": 1790628662000
+    },
+    {
+      "borderColor": "#45c1ff",
+      "label": {
+        "style": {
+          "color": "#000",
+          "background": "#45c1ff"
+        },
+        "text": "+450 - WATCH_STREAK"
+      },
+      "x": 1790635012000
+    }
+  ]
 }

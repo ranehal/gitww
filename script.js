@@ -71,8 +71,108 @@ var crossProfileSearchSort = "points_desc";
 var crossProfileFilterProfile = "all";
 var latestGlobalSearchResults = [];
 
+// --- Google Sheet Data State & Enriched Targets ---
+var sheetDataGlobal = null;
+var sheetStreamersMap = {};
+var sheetOnlineSet = new Set();
+
+function loadSheetData(callback) {
+    var sheetUrls = isStaticMode
+        ? ["sheet_data.json", "assets/sheet_data.json"]
+        : ["/sheet_data", "sheet_data.json", "assets/sheet_data.json"];
+
+    tryFetch(sheetUrls, function (data) {
+        if (data && data.streamers) {
+            sheetDataGlobal = data;
+            sheetStreamersMap = {};
+            sheetOnlineSet.clear();
+
+            // Populate streamers map (lowercased key)
+            Object.keys(data.streamers).forEach(name => {
+                var clean = name.toLowerCase().trim();
+                sheetStreamersMap[clean] = data.streamers[name];
+            });
+
+            // Populate online streamers set
+            if (Array.isArray(data.online_streamers)) {
+                data.online_streamers.forEach(name => sheetOnlineSet.add(name.toLowerCase().trim()));
+            }
+
+            // Update UI indicators
+            var onlineCount = data.metadata?.online_streamers_count || sheetOnlineSet.size;
+            $("#header-live-badge").text(onlineCount);
+            $("#tab-live-count").text(onlineCount);
+            $("#sidebar-live-count").text(onlineCount);
+            $("#sidebar-live-tag").toggle(onlineCount > 0);
+
+            // Enrich currently loaded streamers
+            if (streamersList.length > 0) {
+                enrichStreamersList(streamersList);
+                applySort();
+                applyFilters();
+                renderChannelsMatrix();
+                if (currentStreamer) {
+                    var sObj = streamersList.find(s => s.name === currentStreamer);
+                    if (sObj) updateSpotlightTargetCard(currentStreamer, sObj.points || 0, sObj);
+                }
+            }
+
+            // Enrich cross streamers dataset if already loaded
+            if (crossStreamersDataset.length > 0) {
+                enrichStreamersList(crossStreamersDataset);
+            }
+        }
+        if (callback) callback();
+    }, function () {
+        console.warn("[gitw] Note: sheet_data.json not yet available.");
+        if (callback) callback();
+    });
+}
+
+function enrichStreamer(s) {
+    if (!s) return;
+    var nameLower = (s.name || "").toLowerCase().trim();
+    var info = sheetStreamersMap[nameLower];
+    var pts = s.points || 0;
+
+    if (info) {
+        s.target_k = info.target_k || 0;
+        s.target_points = info.target_points || (s.target_k * 1000);
+        s.reward_name = info.reward_name || info.scraped_reward || "";
+        s.reward_desc = info.description || "";
+        s.hours = info.hours || 0;
+        s.ratio = info.ratio || 0;
+        s.live_status = info.live_status || (info.is_live ? "Active" : "Offline");
+        s.is_live_now = !!info.is_live || sheetOnlineSet.has(nameLower);
+    } else {
+        s.target_k = s.target_k || 0;
+        s.target_points = s.target_points || 0;
+        s.reward_name = s.reward_name || "";
+        s.reward_desc = s.reward_desc || "";
+        s.hours = s.hours || 0;
+        s.ratio = s.ratio || 0;
+        s.live_status = s.live_status || "Offline";
+        s.is_live_now = sheetOnlineSet.has(nameLower);
+    }
+
+    if (s.target_points > 0) {
+        s.target_pct = Math.round((pts / s.target_points) * 1000) / 10;
+        s.is_approaching_target = (s.target_pct >= 70 && s.target_pct < 100);
+        s.is_target_met = (s.target_pct >= 100);
+    } else {
+        s.target_pct = 0;
+        s.is_approaching_target = false;
+        s.is_target_met = false;
+    }
+}
+
+function enrichStreamersList(list) {
+    if (!Array.isArray(list)) return;
+    list.forEach(s => enrichStreamer(s));
+}
+
 // Farming Timeline State (5 Styles)
-var currentTimelineStyle = 1;
+var currentTimelineStyle = 3;
 var currentTimelineScope = "24h";
 var timelineApexChartInstance = null;
 var cachedAllStreamersSeries = {}; // sname -> series array
@@ -89,7 +189,7 @@ var endDate = new Date();
 
 // Chart Config
 var chartType = "area"; // area or line
-var chartCurve = "smooth"; // smooth, straight, stepline
+var chartCurve = "stepline"; // smooth, straight, stepline
 var showAnnotations = true;
 var currentAccentColor = localStorage.getItem("accentColor") || "#9146FF";
 
@@ -126,7 +226,7 @@ var chartOptions = {
         animations: { enabled: true, easing: "easeinout", speed: 500 }
     },
     dataLabels: { enabled: false },
-    stroke: { curve: "smooth", width: 2.5 },
+    stroke: { curve: "stepline", width: 2.5 },
     markers: { size: 0, hover: { size: 5 } },
     colors: [currentAccentColor],
     fill: {
@@ -190,6 +290,9 @@ $(document).ready(function () {
     // Setup All Event Listeners
     setupEventListeners();
 
+    // Load Google Sheet Details & Targets
+    loadSheetData();
+
     // Load Profiles & Initial Dashboard Data
     loadProfiles();
 
@@ -210,25 +313,42 @@ $(document).ready(function () {
 function loadProfiles() {
     var profUrl = isStaticMode ? "profiles.json" : "/profiles";
 
+    // URL deep-linking: ?profile=xyz&channel=abc
+    var urlParams = new URLSearchParams(window.location.search);
+    var paramProfile = urlParams.get("profile");
+    var paramChannel = urlParams.get("channel");
+
     $.getJSON(profUrl, function (data) {
         if (Array.isArray(data) && data.length > 0) {
             profilesList = data;
             renderProfilesDropdown();
 
-            // Set current profile
-            var found = profilesList.find(p => p.id === currentProfile);
-            if (!found) {
-                currentProfile = "all";
+            if (paramProfile && profilesList.some(p => p.id === paramProfile)) {
+                currentProfile = paramProfile;
+            } else {
+                var found = profilesList.find(p => p.id === currentProfile);
+                if (!found) {
+                    currentProfile = "all";
+                }
             }
             updateProfileButton(currentProfile);
         }
         // Load initial dashboard data for active profile
-        loadDashboardData(true);
+        loadDashboardData(true, function () {
+            if (paramChannel) {
+                selectStreamer(paramChannel);
+            }
+        });
     }).fail(function () {
         // Fallback profile if profiles.json missing
         profilesList = [{ id: "all", name: "All Accounts (Combined)", total_points: 0 }];
-        updateProfileButton("all");
-        loadDashboardData(true);
+        if (paramProfile) currentProfile = paramProfile;
+        updateProfileButton(currentProfile);
+        loadDashboardData(true, function () {
+            if (paramChannel) {
+                selectStreamer(paramChannel);
+            }
+        });
     });
 
     // Eagerly pre-load cross_streamers.json for instant multi-profile search
@@ -331,6 +451,7 @@ function loadDashboardData(reselectStreamer = false, callback = null) {
     tryFetch(streamersUrls, function (sList) {
         if (Array.isArray(sList) && sList.length > 0) {
             streamersList = sList;
+            enrichStreamersList(streamersList);
             applySort();
             applyFilters();
             renderChannelsMatrix();
@@ -405,6 +526,16 @@ function applyFilters() {
         }
 
         // 2. Tab Filter
+        if (activeFilter === "online") {
+            var isLiveStream = s.is_live_now || sheetOnlineSet.has(s.name.toLowerCase());
+            if (!isLiveStream) return false;
+        }
+        if (activeFilter === "near_target") {
+            if (!s.is_approaching_target && (s.target_pct < 70 || s.target_pct >= 100)) return false;
+        }
+        if (activeFilter === "target_met") {
+            if (!s.is_target_met && s.target_pct < 100) return false;
+        }
         if (activeFilter === "active" && !s.active_today && (now_ms - (s.last_activity || 0)) > ms_24h) {
             return false;
         }
@@ -442,6 +573,12 @@ function applySort() {
     streamersList.sort((a, b) => {
         var va, vb;
         if (field === "points") { va = a.points || 0; vb = b.points || 0; }
+        else if (field === "proximity") { va = a.target_pct || 0; vb = b.target_pct || 0; }
+        else if (field === "target") { va = a.target_points || 0; vb = b.target_points || 0; }
+        else if (field === "live") {
+            va = (a.is_live_now || sheetOnlineSet.has(a.name.toLowerCase())) ? 1 : 0;
+            vb = (b.is_live_now || sheetOnlineSet.has(b.name.toLowerCase())) ? 1 : 0;
+        }
         else if (field === "gain") { va = a.gain_24h || 0; vb = b.gain_24h || 0; }
         else if (field === "gain_total") { va = a.gain_total || 0; vb = b.gain_total || 0; }
         else if (field === "activity") { va = a.last_activity || 0; vb = b.last_activity || 0; }
@@ -475,16 +612,44 @@ function renderStreamersList() {
     filteredStreamers.forEach((s, idx) => {
         var isActive = currentStreamer === s.name;
         var activeClass = isActive ? "active" : "";
-        var isOnline = s.active_today || (now_ms - (s.last_activity || 0)) <= ms_24h;
-        var dotClass = isOnline ? "active" : "";
+        var isStreamOnline = s.is_live_now || sheetOnlineSet.has(s.name.toLowerCase());
+        var isOnline = isStreamOnline || s.active_today || (now_ms - (s.last_activity || 0)) <= ms_24h;
+        var dotClass = isStreamOnline ? "live-dot-pulse" : (isOnline ? "active" : "");
+        var liveBadge = isStreamOnline ? '<span class="li-live-tag">LIVE</span>' : '';
         var gainText = (s.gain_24h && s.gain_24h > 0) ? `+${millify(s.gain_24h)}` : "--";
 
+        // Target Proximity & Gradient Highlight Classes
+        var highlightClass = "";
+        var pillHtml = "";
+        var trackHtml = "";
+        var targetPct = s.target_pct || 0;
+
+        if (s.is_target_met) {
+            highlightClass = "target-reached-ready";
+            pillHtml = `<span class="li-target-pill pill-met" title="100%+ Target Reached! (${s.target_k}K target)">🏆 ${targetPct}%</span>`;
+            trackHtml = `<div class="li-target-track"><div class="li-target-fill fill-met" style="width: 100%"></div></div>`;
+        } else if (s.is_approaching_target) {
+            highlightClass = "near-target-approx";
+            pillHtml = `<span class="li-target-pill pill-near" title="Approximating Target! (${targetPct}% of ${s.target_k}K target)">🎯 ${targetPct}%</span>`;
+            trackHtml = `<div class="li-target-track"><div class="li-target-fill fill-near" style="width: ${Math.min(100, targetPct)}%"></div></div>`;
+        } else if (s.target_points > 0) {
+            pillHtml = `<span class="li-target-pill pill-progress" title="${targetPct}% of ${s.target_k}K target">${targetPct}%</span>`;
+            trackHtml = `<div class="li-target-track"><div class="li-target-fill fill-normal" style="width: ${Math.min(100, targetPct)}%"></div></div>`;
+        } else {
+            pillHtml = `<span class="li-target-pill pill-progress" title="No sheet target">--</span>`;
+        }
+
         var li = `
-            <li class="channel-li ${activeClass}" id="ch-item-${s.name}" onClick="selectStreamer('${s.name}')">
+            <li class="channel-li ${activeClass} ${highlightClass}" id="ch-item-${s.name}" onClick="selectStreamer('${s.name}')">
                 <span class="li-rank">${idx + 1}</span>
                 <div class="li-name-wrap">
-                    <span class="status-dot ${dotClass}" title="${isOnline ? 'Active today' : 'Offline'}"></span>
-                    <span class="li-name">${s.name}</span>
+                    <span class="${isStreamOnline ? 'live-dot-pulse' : 'status-dot ' + dotClass}" title="${isStreamOnline ? '🔴 STREAMING LIVE NOW' : (isOnline ? 'Active today' : 'Offline')}"></span>
+                    <span class="li-name" title="${s.name}">${s.name}</span>
+                    ${liveBadge}
+                </div>
+                <div class="li-target-wrap">
+                    ${pillHtml}
+                    ${trackHtml}
                 </div>
                 <span class="li-gain">${gainText}</span>
                 <span class="li-pts">${millify(s.points || 0)}</span>
@@ -658,6 +823,93 @@ function updateSpotlightBanner(name, data) {
     $("#bd-streak").text(formatNumber(bd.Streak || 0));
     $("#bd-raid").text(formatNumber(bd.Raid || 0));
     $("#bd-prediction").text(formatNumber(bd.Prediction || 0));
+
+    // Update Google Sheet Target & Reward Proximity Card
+    updateSpotlightTargetCard(name, currentPts, meta);
+}
+
+function updateSpotlightTargetCard(name, currentPts, meta) {
+    var $card = $("#spotlight-target-card");
+    var clean = name.toLowerCase().trim();
+    var sheetInfo = sheetStreamersMap[clean] || {};
+    var targetPoints = meta.target_points || sheetInfo.target_points || ((sheetInfo.target_k || 0) * 1000);
+    var targetK = meta.target_k || sheetInfo.target_k || 0;
+    var rewardName = meta.reward_name || sheetInfo.reward_name || sheetInfo.scraped_reward || "";
+    var desc = meta.reward_desc || sheetInfo.description || "";
+    var isLive = meta.is_live_now || sheetInfo.is_live || sheetOnlineSet.has(clean);
+    var hours = meta.hours || sheetInfo.hours || 0;
+    var ratio = meta.ratio || sheetInfo.ratio || 0;
+
+    if (!targetPoints && !rewardName && !targetK && !sheetInfo.row_index) {
+        $card.hide();
+        return;
+    }
+
+    $card.show();
+    $card.removeClass("near-target target-met");
+
+    var pct = targetPoints > 0 ? (Math.round((currentPts / targetPoints) * 1000) / 10) : 0;
+    var isApproaching = (pct >= 70 && pct < 100);
+    var isMet = (pct >= 100);
+
+    var $proxTag = $("#spotlight-proximity-tag");
+    $proxTag.removeClass("near met normal");
+
+    var $progFill = $("#spotlight-prog-fill");
+    $progFill.removeClass("near met");
+
+    if (isMet) {
+        $card.addClass("target-met");
+        $proxTag.addClass("met").html(`🏆 READY TO CLAIM (${pct}%)`);
+        $progFill.addClass("met").css("width", "100%");
+        $("#tp-meta-status").html(`🎉 <b>Target Reached!</b> Farmed ${formatNumber(currentPts)} / ${formatNumber(targetPoints)} pts (+${formatNumber(currentPts - targetPoints)} surplus)`);
+    } else if (isApproaching) {
+        $card.addClass("near-target");
+        $proxTag.addClass("near").html(`🎯 NEAR TARGET (${pct}%)`);
+        $progFill.addClass("near").css("width", `${Math.min(100, pct)}%`);
+        $("#tp-meta-status").html(`🔥 <b>Approximating Target!</b> Only ${formatNumber(targetPoints - currentPts)} points needed to redeem`);
+    } else {
+        $proxTag.addClass("normal").html(`${pct}% PROXIMITY`);
+        $progFill.css("width", `${Math.min(100, pct)}%`);
+        $("#tp-meta-status").html(`Progress towards reward redemption: ${formatNumber(currentPts)} / ${formatNumber(targetPoints)} pts`);
+    }
+
+    $("#spotlight-reward-name").text(rewardName || "Channel Points Reward");
+    if (desc) {
+        $("#spotlight-reward-desc").text(`"${desc}"`).show();
+    } else {
+        $("#spotlight-reward-desc").hide();
+    }
+
+    $("#tm-target-points").text(formatNumber(targetPoints) + " pts");
+    $("#tm-target-k").text(targetK ? `${targetK}K Target` : "Custom Target");
+
+    $("#tm-current-points").text(formatNumber(currentPts) + " pts");
+    $("#tm-farmed-k").text(`${(currentPts / 1000).toFixed(1)}K Balance`);
+
+    var needed = Math.max(0, targetPoints - currentPts);
+    if (isMet) {
+        $("#tm-needed-points").html(`+${formatNumber(currentPts - targetPoints)} pts`);
+        $("#tm-eta-text").text("Ready to redeem!");
+    } else {
+        $("#tm-needed-points").text(`${formatNumber(needed)} pts`);
+        var dailyRate = meta.gain_24h || (currentPts > 0 ? Math.round(currentPts / 30) : 450);
+        if (dailyRate > 0) {
+            var daysLeft = (needed / dailyRate).toFixed(1);
+            $("#tm-eta-text").text(`~${daysLeft}d at +${millify(dailyRate)}/day`);
+        } else {
+            $("#tm-eta-text").text("Awaiting 24h gain");
+        }
+    }
+
+    $("#tm-stream-hours").text(hours > 0 ? `${hours} hrs (7d)` : "-- hrs");
+    $("#tm-stream-ratio").text(ratio > 0 ? `${Number(ratio).toFixed(2)} ratio` : "-- ratio");
+    $("#tp-meta-pct").text(`${pct}%`);
+
+    $("#spotlight-sheet-live-tag").toggle(isLive);
+    if (isLive) {
+        $("#spotlight-live-tag").html(`<span class="live-dot-pulse-mini"></span> LIVE ON TWITCH`).show();
+    }
 }
 
 function renderChartData() {
@@ -787,23 +1039,49 @@ function renderChannelsMatrix() {
 
     var rows = "";
     streamersList.forEach((s, idx) => {
-        var bd = s.breakdown || {};
         var lastAct = s.last_activity ? formatRelativeTime(s.last_activity) : "--";
+        var isOnline = s.is_live_now || sheetOnlineSet.has(s.name.toLowerCase());
+        var progClass = s.is_target_met ? "met" : (s.is_approaching_target ? "near" : "normal");
+        var rowClass = s.is_target_met ? "row-target-met" : (s.is_approaching_target ? "row-near-target" : "");
+        var progLabel = s.target_points > 0 ? `${s.target_pct}%` : "--";
 
         rows += `
-            <tr>
+            <tr class="${rowClass}">
                 <td><b>#${idx + 1}</b></td>
-                <td><b>${s.name}</b></td>
+                <td>
+                    <div style="display: flex; align-items: center; gap: 6px;">
+                        <span class="${isOnline ? 'live-dot-pulse' : 'status-dot'}" title="${isOnline ? 'Streaming Live' : 'Offline'}"></span>
+                        <b>${s.name}</b>
+                    </div>
+                </td>
+                <td>
+                    <span class="matrix-live-pill ${isOnline ? 'online' : 'offline'}">
+                        ${isOnline ? '<span class="live-dot-pulse-mini"></span> LIVE' : 'Offline'}
+                    </span>
+                </td>
+                <td>
+                    <span title="${s.reward_desc || ''}" style="font-weight: 700; color: var(--text-bright);">${s.reward_name || '--'}</span>
+                </td>
+                <td>
+                    <span style="font-weight: 800; color: var(--gold);">${s.target_k ? (s.target_k + "K") : "--"}</span>
+                </td>
+                <td>
+                    <div class="matrix-prog-wrap">
+                        <div class="matrix-prog-bar">
+                            <div class="matrix-prog-fill ${progClass}" style="width: ${Math.min(100, s.target_pct || 0)}%"></div>
+                        </div>
+                        <div class="matrix-prog-label">
+                            <span style="font-weight: 800; color: ${s.is_target_met ? 'var(--gold)' : (s.is_approaching_target ? 'var(--green)' : 'var(--text-sub)')}">${progLabel}</span>
+                            <span style="color: var(--text-muted); font-size: 8px;">${s.target_points > 0 ? millify(s.target_points) : ''}</span>
+                        </div>
+                    </div>
+                </td>
                 <td><span class="metric-pill pill-purple">${formatNumber(s.points || 0)}</span></td>
                 <td><span class="text-green">+${formatNumber(s.gain_24h || 0)}</span></td>
                 <td><span class="text-blue">+${formatNumber(s.gain_total || 0)}</span></td>
                 <td><small>${lastAct}</small></td>
-                <td>${bd.Watch || 0}</td>
-                <td>${bd.Claim || 0}</td>
-                <td>${bd.Streak || 0}</td>
-                <td>${bd.Raid || 0}</td>
                 <td>
-                    <button class="btn-xs btn-twitch" onClick="selectStreamer('${s.name}')">View Chart</button>
+                    <button class="btn-xs btn-twitch" onClick="selectStreamer('${s.name}')">View Channel</button>
                 </td>
             </tr>
         `;
@@ -960,12 +1238,20 @@ function loadAllProfilesForSearch(onDone) {
     if (pending === 0 && onDone) onDone();
 }
 
+function showBackToSearchButton(summaryText) {
+    if (summaryText) {
+        $("#back-search-summary").text(summaryText);
+    }
+    $("#btn-back-to-search").fadeIn(150);
+}
+
 function performCrossProfileSearch() {
     var query = $("#streamer-search").val().trim().toLowerCase();
     if (!query) {
-        $("#search-cross-results-panel").hide();
         searchTerm = "";
         applyFilters();
+        $("#search-tab-badge").text("0");
+        $("#btn-back-to-search").hide();
         return;
     }
 
@@ -975,11 +1261,11 @@ function performCrossProfileSearch() {
     var results = [];
     var seen = new Set();
 
-    // 1. Preferred source: crossStreamersDataset (contains all streamers across all 34+ profiles pre-sorted by points)
+    // 1. Preferred source: crossStreamersDataset (contains all streamers across all 35 profiles pre-sorted by points)
     if (crossStreamersDataset && crossStreamersDataset.length > 0) {
         crossStreamersDataset.forEach(s => {
             var matchName = s.name.toLowerCase().includes(query);
-            var matchProf = s.profile.toLowerCase().includes(query);
+            var matchProf = (s.profile || "").toLowerCase().includes(query);
             if (matchName || matchProf) {
                 var key = `${s.profile}:${s.name}`;
                 if (!seen.has(key)) {
@@ -1018,8 +1304,18 @@ function performCrossProfileSearch() {
     }
 
     latestGlobalSearchResults = results;
+    $("#search-tab-badge").text(results.length);
     renderCrossProfileSearchResults(results, query);
-    $("#search-cross-results-panel").show();
+
+    // Switch to dedicated search tab automatically
+    if (!$("#tab-search").hasClass("active")) {
+        $(".d-tab").removeClass("active");
+        $(".tab-pane").removeClass("active");
+        $("#tab-btn-search").addClass("active");
+        $("#tab-search").addClass("active");
+        $("#drawer-body").slideDown(150);
+        $("#btn-toggle-drawer").find("i").removeClass("fa-chevron-up").addClass("fa-chevron-down");
+    }
 
     // If crossStreamersDataset wasn't loaded yet, try fetching it now
     if (!crossStreamersDataset || crossStreamersDataset.length === 0) {
@@ -1100,7 +1396,7 @@ function renderCrossProfileSearchResults(results, query) {
     if (filtered.length === 0) {
         $("#search-query-tag").html(`No accounts found for "${query}"`);
         $("#search-total-count").text("0 found");
-        $list.html('<div style="padding: 24px; text-align: center; color: var(--text-muted); font-size: 12px;"><i class="fas fa-search" style="font-size: 20px; margin-bottom: 8px; opacity: 0.5;"></i><br>No channels or profiles found matching this query.</div>');
+        $list.html('<tr><td colspan="10" class="empty-cell" style="padding: 28px; text-align: center;"><i class="fas fa-search" style="font-size: 20px; margin-bottom: 8px; opacity: 0.5;"></i><br>No channels or profiles found matching "' + query + '".</td></tr>');
         return;
     }
 
@@ -1125,6 +1421,7 @@ function renderCrossProfileSearchResults(results, query) {
     var streamerCurrentRank = {};
 
     filtered.forEach(item => {
+        enrichStreamer(item);
         var sName = item.name;
         var r = (streamerCurrentRank[sName] || 0) + 1;
         streamerCurrentRank[sName] = r;
@@ -1133,54 +1430,80 @@ function renderCrossProfileSearchResults(results, query) {
         var gainText = (item.gain_24h && item.gain_24h > 0) ? `+${millify(item.gain_24h)}` : "--";
         var isCurrentProf = (item.profile === currentProfile);
         var profBadge = isCurrentProf
-            ? `<span class="search-res-profile-tag" style="border-color: var(--accent); color: #fff; background: rgba(145, 70, 255, 0.3);">👤 ${item.profileName || item.profile} (Active)</span>`
-            : `<span class="search-res-profile-tag">👤 ${item.profileName || item.profile}</span>`;
+            ? `<span class="search-res-profile-tag active" title="Currently selected miner account in dashboard"><i class="fas fa-user-circle"></i> ${item.profileName || item.profile} (Active)</span>`
+            : `<span class="search-res-profile-tag"><i class="fas fa-user-circle"></i> ${item.profileName || item.profile}</span>`;
 
         var exactPoints = (item.points || 0).toLocaleString();
+        var isOnline = item.is_live_now || sheetOnlineSet.has(item.name.toLowerCase());
+        var progClass = item.is_target_met ? "met" : (item.is_approaching_target ? "near" : "normal");
+        var progLabel = item.target_points > 0 ? `${item.target_pct}%` : "--";
+        var rowClass = item.is_target_met ? "row-target-met" : (item.is_approaching_target ? "row-near-target" : "");
 
-        var html = `
-            <div class="search-result-item" data-channel="${item.name}" data-profile="${item.profile}">
-                <div class="search-res-left">
+        var rowHtml = `
+            <tr class="search-result-row ${rowClass} ${isCurrentProf ? 'is-current-profile' : ''}" data-channel="${item.name}" data-profile="${item.profile}">
+                <td style="text-align: center;">
                     <span class="search-res-rank ${rankClass}" title="Rank #${r} among profiles farming ${item.name}">#${r}</span>
-                    <img class="search-res-avatar" data-channel="${item.name}" src="banner.png" alt="${item.name}" />
-                    <div class="search-res-info">
-                        <div class="search-res-channel-row">
-                            <span class="search-res-name">${item.name}</span>
-                            ${profBadge}
+                </td>
+                <td>
+                    <div class="search-channel-cell">
+                        <img class="search-cell-avatar" data-channel="${item.name}" src="banner.png" alt="${item.name}" />
+                        <span class="search-cell-name">${item.name}</span>
+                    </div>
+                </td>
+                <td>
+                    <span class="matrix-live-pill ${isOnline ? 'online' : 'offline'}">
+                        ${isOnline ? '<span class="live-dot-pulse-mini"></span> LIVE' : 'Offline'}
+                    </span>
+                </td>
+                <td>
+                    <span title="${item.reward_desc || ''}" style="font-weight: 700; color: var(--text-bright);">${item.reward_name || '--'}</span>
+                </td>
+                <td>
+                    <div class="matrix-prog-wrap">
+                        <div class="matrix-prog-bar">
+                            <div class="matrix-prog-fill ${progClass}" style="width: ${Math.min(100, item.target_pct || 0)}%"></div>
                         </div>
-                        <div class="search-res-meta-row">
-                            <span class="search-res-time"><i class="fas fa-history"></i> ${formatRelativeTime(item.last_activity)}</span>
-                            ${item.active_today ? '<span class="search-res-badge-today">⚡ Active Today</span>' : ''}
+                        <div class="matrix-prog-label">
+                            <span style="font-weight: 800; color: ${item.is_target_met ? 'var(--gold)' : (item.is_approaching_target ? 'var(--green)' : 'var(--text-sub)')}">${progLabel}</span>
+                            <span style="color: var(--text-muted); font-size: 8px;">${item.target_points > 0 ? millify(item.target_points) : ''}</span>
                         </div>
                     </div>
-                </div>
-                <div class="search-res-right">
-                    <div class="search-res-pts-box">
-                        <span class="search-res-pts">${millify(item.points || 0)} pts</span>
-                        <span class="search-res-pts-exact">(${exactPoints})</span>
+                </td>
+                <td>
+                    ${profBadge}
+                </td>
+                <td style="text-align: right;">
+                    <div class="pts-table-cell">
+                        <span class="pts-exact-num">${exactPoints}</span>
+                        <span class="pts-millify-sub">${millify(item.points || 0)} pts</span>
                     </div>
-                    <span class="search-res-gain">${gainText}</span>
-                </div>
-            </div>
+                </td>
+                <td style="text-align: right;">
+                    <span class="${item.gain_24h > 0 ? 'text-green' : 'text-sub'}" style="font-weight: 700; font-family: var(--font-mono);">${gainText}</span>
+                </td>
+                <td>
+                    <small class="text-sub font-mono">${formatRelativeTime(item.last_activity)}</small>
+                </td>
+                <td style="text-align: center;">
+                    <div class="search-actions-group">
+                        <button class="btn-xs btn-spotlight" data-channel="${item.name}" data-profile="${item.profile}" title="Spotlight streamer & open chart in current tab">
+                            <i class="fas fa-eye"></i> View
+                        </button>
+                        <a href="?profile=${encodeURIComponent(item.profile)}&channel=${encodeURIComponent(item.name)}" target="_blank" class="btn-xs btn-newtab" title="Open ${item.name} on ${item.profile} in a new tab without interrupting your work">
+                            <i class="fas fa-external-link-alt"></i> New Tab
+                        </a>
+                        <a href="https://twitch.tv/${item.name}" target="_blank" class="btn-xs btn-twitch-link" title="Open twitch.tv/${item.name}">
+                            <i class="fab fa-twitch"></i>
+                        </a>
+                    </div>
+                </td>
+            </tr>
         `;
-        var $el = $(html);
+        var $el = $(rowHtml);
         $list.append($el);
 
         getTwitchAvatar(item.name, function (aUrl) {
-            $(`.search-res-avatar[data-channel="${item.name}"]`).attr("src", aUrl);
-        });
-
-        $el.click(function () {
-            var ch = $(this).data("channel");
-            var prof = $(this).data("profile");
-            $("#search-cross-results-panel").hide();
-            $("#streamer-search").val(ch);
-            if (prof && prof !== currentProfile) {
-                switchProfile(prof);
-                setTimeout(() => { selectStreamer(ch); }, 300);
-            } else {
-                selectStreamer(ch);
-            }
+            $(`.search-cell-avatar[data-channel="${item.name}"]`).attr("src", aUrl);
         });
     });
 }
@@ -1504,7 +1827,8 @@ function renderStyle3RangeBarChart(sessionsByChannel, allSessions) {
     $chartDiv.empty();
 
     var chartData = [];
-    var channels = Object.keys(sessionsByChannel).filter(ch => sessionsByChannel[ch].length > 0).slice(0, 15);
+    var channels = Object.keys(sessionsByChannel).filter(ch => sessionsByChannel[ch].length > 0);
+    channels.sort((a, b) => sessionsByChannel[b].length - sessionsByChannel[a].length);
 
     channels.forEach(ch => {
         var sList = sessionsByChannel[ch];
@@ -1524,7 +1848,13 @@ function renderStyle3RangeBarChart(sessionsByChannel, allSessions) {
             height: Math.max(340, channels.length * 28),
             toolbar: { show: true, tools: { zoom: true, pan: true, reset: true } },
             background: "transparent",
-            foreColor: "#adadb8"
+            foreColor: "#adadb8",
+            events: {
+                dataPointSelection: function (event, chartContext, config) {
+                    var item = chartData[config.dataPointIndex];
+                    if (item && item.x) selectStreamer(item.x);
+                }
+            }
         },
         plotOptions: {
             bar: {
@@ -1667,18 +1997,52 @@ function setupEventListeners() {
         $("#streamer-search").val("");
         searchTerm = "";
         $(this).hide();
-        $("#search-cross-results-panel").hide();
+        $("#btn-back-to-search").hide();
+        $("#search-tab-badge").text("0");
+        latestGlobalSearchResults = [];
+        $("#search-results-list").html('<tr><td colspan="8" class="empty-cell">Type a streamer name in the top searchbar to see points across all 35 profiles.</td></tr>');
+        $("#search-profile-filters").empty();
         applyFilters();
     });
 
-    $("#btn-close-search-panel").click(function () {
-        $("#search-cross-results-panel").hide();
+    // Back to Search Button in Toolbar (Preserves progress & returns to search tab)
+    $("#btn-back-to-search").click(function () {
+        $(".d-tab").removeClass("active");
+        $(".tab-pane").removeClass("active");
+        $("#tab-btn-search").addClass("active");
+        $("#tab-search").addClass("active");
+        $("#drawer-body").slideDown(150);
+        $("#btn-toggle-drawer").find("i").removeClass("fa-chevron-up").addClass("fa-chevron-down");
+        var drawer = document.getElementById("bottom-drawer-card");
+        if (drawer) {
+            drawer.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+    });
+
+    // Clear Search Button inside Dedicated Search Tab
+    $("#btn-clear-search-tab").click(function () {
+        $("#streamer-search").val("");
+        searchTerm = "";
+        $("#search-clear").hide();
+        $("#btn-back-to-search").hide();
+        $("#search-tab-badge").text("0");
+        latestGlobalSearchResults = [];
+        $("#search-results-list").html('<tr><td colspan="8" class="empty-cell">Type a streamer name in the top searchbar to see points across all 35 profiles.</td></tr>');
+        $("#search-profile-filters").empty();
+        $("#search-total-count").text("0 found");
+        applyFilters();
+
+        // Switch to Live Activity Feed
+        $(".d-tab").removeClass("active");
+        $(".tab-pane").removeClass("active");
+        $(".d-tab[data-tab='tab-events']").addClass("active");
+        $("#tab-events").addClass("active");
     });
 
     // Search Results Sort
     $("#search-results-sort").change(function () {
         crossProfileSearchSort = $(this).val();
-        renderCrossProfileSearchResults(latestGlobalSearchResults, $("#streamer-search").val().trim().toLowerCase(), getProfileCounts(latestGlobalSearchResults));
+        renderCrossProfileSearchResults(latestGlobalSearchResults, $("#streamer-search").val().trim().toLowerCase());
     });
 
     $("#btn-search-sort-dir").click(function () {
@@ -1688,19 +2052,34 @@ function setupEventListeners() {
             crossProfileSearchSort = crossProfileSearchSort.replace("_asc", "_desc");
         }
         $("#search-results-sort").val(crossProfileSearchSort);
-        renderCrossProfileSearchResults(latestGlobalSearchResults, $("#streamer-search").val().trim().toLowerCase(), getProfileCounts(latestGlobalSearchResults));
+        renderCrossProfileSearchResults(latestGlobalSearchResults, $("#streamer-search").val().trim().toLowerCase());
     });
 
-    // Profile Filter Chips inside Search Panel
+    // Profile Filter Chips inside Search Tab
     $(document).on("click", ".search-p-chip", function () {
         crossProfileFilterProfile = $(this).data("pfilter");
-        renderCrossProfileSearchResults(latestGlobalSearchResults, $("#streamer-search").val().trim().toLowerCase(), getProfileCounts(latestGlobalSearchResults));
+        renderCrossProfileSearchResults(latestGlobalSearchResults, $("#streamer-search").val().trim().toLowerCase());
     });
 
-    // Click outside to dismiss search results panel
-    $(document).click(function (e) {
-        if (!$(e.target).closest(".tool-search").length) {
-            $("#search-cross-results-panel").hide();
+    // Spotlight View button handler in search table
+    $(document).on("click", ".btn-spotlight", function (e) {
+        e.stopPropagation();
+        var ch = $(this).data("channel");
+        var prof = $(this).data("profile");
+
+        var curQuery = $("#streamer-search").val().trim();
+        showBackToSearchButton(curQuery || ch);
+
+        if (prof && prof !== currentProfile) {
+            switchProfile(prof);
+            setTimeout(() => { selectStreamer(ch); }, 300);
+        } else {
+            selectStreamer(ch);
+        }
+
+        var spotlightCard = document.getElementById("spotlight-card");
+        if (spotlightCard) {
+            spotlightCard.scrollIntoView({ behavior: "smooth", block: "start" });
         }
     });
 
@@ -1726,11 +2105,32 @@ function setupEventListeners() {
         updateAnnotations();
     });
 
+    // Header Live Pill Click (Toggle Online Filter)
+    $("#header-live-pill").click(function () {
+        if (activeFilter === "online") {
+            activeFilter = "all";
+            $(".filter-tab").removeClass("active");
+            $('.filter-tab[data-filter="all"]').addClass("active");
+            $("#header-live-pill").removeClass("active-filter");
+        } else {
+            activeFilter = "online";
+            $(".filter-tab").removeClass("active");
+            $('.filter-tab[data-filter="online"]').addClass("active");
+            $("#header-live-pill").addClass("active-filter");
+        }
+        applyFilters();
+    });
+
     // Filter Tabs
     $(".filter-tab").click(function () {
         $(".filter-tab").removeClass("active");
         $(this).addClass("active");
         activeFilter = $(this).data("filter");
+        if (activeFilter === "online") {
+            $("#header-live-pill").addClass("active-filter");
+        } else {
+            $("#header-live-pill").removeClass("active-filter");
+        }
         applyFilters();
     });
 
@@ -1763,6 +2163,7 @@ function setupEventListeners() {
 
     // Column header sort in sidebar
     $("#th-name").click(() => { currentSort = currentSort === "name_asc" ? "name_desc" : "name_asc"; $("#sort-select").val(currentSort); applySort(); applyFilters(); });
+    $("#th-target").click(() => { currentSort = (currentSort === "proximity_desc" ? "proximity_asc" : "proximity_desc"); $("#sort-select").val(currentSort); applySort(); applyFilters(); });
     $("#th-gain").click(() => { currentSort = currentSort === "gain_desc" ? "gain_asc" : "gain_desc"; $("#sort-select").val(currentSort); applySort(); applyFilters(); });
     $("#th-pts").click(() => { currentSort = currentSort === "points_desc" ? "points_asc" : "points_desc"; $("#sort-select").val(currentSort); applySort(); applyFilters(); });
 

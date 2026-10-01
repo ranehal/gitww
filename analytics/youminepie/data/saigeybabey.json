@@ -14,7 +14,55 @@
       "x": 1790626293000,
       "y": 12090,
       "z": "Watch"
+    },
+    {
+      "x": 1790667458000,
+      "y": 12550,
+      "z": "Watch"
+    },
+    {
+      "x": 1790667459000,
+      "y": 12670,
+      "z": "Watch"
+    },
+    {
+      "x": 1790683630000,
+      "y": 13010,
+      "z": "Watch Streak"
+    },
+    {
+      "x": 1790683631000,
+      "y": 12680,
+      "z": "Watch"
+    },
+    {
+      "x": 1790746937000,
+      "y": 13130,
+      "z": "Watch"
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "borderColor": "#45c1ff",
+      "label": {
+        "style": {
+          "color": "#000",
+          "background": "#45c1ff"
+        },
+        "text": "+450 - WATCH_STREAK"
+      },
+      "x": 1790683630000
+    },
+    {
+      "borderColor": "#45c1ff",
+      "label": {
+        "style": {
+          "color": "#000",
+          "background": "#45c1ff"
+        },
+        "text": "+450 - WATCH_STREAK"
+      },
+      "x": 1790683631000
+    }
+  ]
 }

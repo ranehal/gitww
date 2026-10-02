@@ -2091,14 +2091,15 @@ body.view-table-mode .table-scroll-wrap {
     }
 }
 
-/* Channel LI Highlighting */
+/* Channel LI Highlighting - Disabled */
 .channel-li.near-target-approx {
-    background: linear-gradient(135deg, rgba(255, 190, 59, 0.12) 0%, rgba(0, 245, 155, 0.15) 100%) !important;
-    border-left: 3px solid #00f59b !important;
-    animation: pulseGlowNearTarget 3s infinite ease-in-out;
+    background: transparent !important;
+    border-left: none !important;
+    box-shadow: none !important;
+    animation: none !important;
 }
 .channel-li.near-target-approx:hover {
-    background: linear-gradient(135deg, rgba(255, 190, 59, 0.2) 0%, rgba(0, 245, 155, 0.25) 100%) !important;
+    background: rgba(255, 255, 255, 0.05) !important;
 }
 
 .channel-li.target-reached-ready {
@@ -2108,6 +2109,28 @@ body.view-table-mode .table-scroll-wrap {
 }
 .channel-li.target-reached-ready:hover {
     background: rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Copy 100% Farmed Streamers Button */
+.btn-copy-100 {
+    color: #00f59b !important;
+    border-color: rgba(0, 245, 155, 0.35) !important;
+    font-weight: 700 !important;
+    transition: all 0.2s ease;
+}
+.btn-copy-100:hover {
+    background: rgba(0, 245, 155, 0.12) !important;
+    border-color: #00f59b !important;
+    color: #ffffff !important;
+    transform: translateY(-1px);
+}
+.btn-copy-100-mini {
+    transition: all 0.2s ease;
+}
+.btn-copy-100-mini:hover {
+    background: rgba(0, 245, 155, 0.15) !important;
+    border-color: #00f59b !important;
+    color: #ffffff !important;
 }
 
 /* Remove all highlighters behind olofmeister streamer name */

@@ -797,7 +797,7 @@ function renderStreamersList() {
             pillHtml = `<span class="li-target-pill pill-met" title="Target met (${s.target_k}K target • ${sRewardName})">${targetPct}%</span>`;
             trackHtml = `<div class="li-target-track"><div class="li-target-fill fill-met" style="width: 100%"></div></div>`;
         } else if (s.is_approaching_target) {
-            highlightClass = (s.name === "olofmeister") ? "" : "near-target-approx";
+            highlightClass = "";
             pillHtml = `<span class="li-target-pill pill-near" title="Approximating Target! (${targetPct}% of ${s.target_k}K target • ${sRewardName})">🎯 ${targetPct}%</span>`;
             trackHtml = `<div class="li-target-track"><div class="li-target-fill fill-near" style="width: ${Math.min(100, targetPct)}%"></div></div>`;
         } else if (s.target_points > 0) {
@@ -1383,6 +1383,94 @@ function copySummaryToClipboard() {
             $("#btn-copy-summary").html('<i class="fas fa-clipboard"></i> Copy');
         }, 1500);
     });
+}
+
+function copy100FarmedStreamersToClipboard() {
+    var metNames = [];
+    var seen = new Set();
+
+    // Collect streamers from crossStreamersDataset (all 35 profiles), current streamersList, and cached profiles
+    var pools = [
+        crossStreamersDataset || [],
+        streamersList || []
+    ];
+    if (typeof crossProfilesCache === "object" && crossProfilesCache !== null) {
+        Object.keys(crossProfilesCache).forEach(k => {
+            var pList = crossProfilesCache[k];
+            if (Array.isArray(pList)) pools.push(pList);
+        });
+    }
+
+    pools.forEach(list => {
+        if (!Array.isArray(list)) return;
+        list.forEach(s => {
+            if (!s || !s.name) return;
+            var cleanName = s.name.trim();
+            var nameLower = cleanName.toLowerCase();
+
+            var isMet = s.is_target_met || (s.target_pct && s.target_pct >= 100);
+            if (!isMet && s.points) {
+                var sInfo = sheetStreamersMap[nameLower];
+                if (sInfo) {
+                    var tp = sInfo.target_points || ((sInfo.target_k || 0) * 1000);
+                    if (tp > 0 && s.points >= tp) isMet = true;
+                }
+            }
+
+            if (isMet && !seen.has(nameLower)) {
+                seen.add(nameLower);
+                metNames.push(cleanName);
+            }
+        });
+    });
+
+    if (metNames.length === 0) {
+        $("#btn-copy-100-streamers").html('<i class="fas fa-info-circle"></i> None (0)');
+        $("#btn-copy-100-mini").html('<i class="fas fa-info-circle"></i> 0');
+        setTimeout(() => {
+            $("#btn-copy-100-streamers").html('<i class="fas fa-copy"></i> Copy 100% Farmed');
+            $("#btn-copy-100-mini").html('<i class="fas fa-copy"></i> 100%');
+        }, 1800);
+        return;
+    }
+
+    // Format in json-like format "a","b" etc.
+    var textToCopy = metNames.map(name => JSON.stringify(name)).join(",");
+
+    var onSuccess = function () {
+        var count = metNames.length;
+        $("#btn-copy-100-streamers").html(`<i class="fas fa-check"></i> Copied (${count})!`);
+        $("#btn-copy-100-mini").html(`<i class="fas fa-check"></i> (${count})`);
+        setTimeout(() => {
+            $("#btn-copy-100-streamers").html('<i class="fas fa-copy"></i> Copy 100% Farmed');
+            $("#btn-copy-100-mini").html('<i class="fas fa-copy"></i> 100%');
+        }, 2000);
+    };
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(textToCopy).then(onSuccess).catch(() => {
+            fallbackCopy100Text(textToCopy, onSuccess);
+        });
+    } else {
+        fallbackCopy100Text(textToCopy, onSuccess);
+    }
+}
+
+function fallbackCopy100Text(text, onSuccess) {
+    try {
+        var textarea = document.createElement("textarea");
+        textarea.value = text;
+        textarea.style.position = "fixed";
+        textarea.style.left = "-9999px";
+        document.body.appendChild(textarea);
+        textarea.focus();
+        textarea.select();
+        var successful = document.execCommand("copy");
+        document.body.removeChild(textarea);
+        if (successful && onSuccess) onSuccess();
+    } catch (e) {
+        console.error("Clipboard copy fallback error:", e);
+    }
 }
 
 // --- Theme & Accent Color Styling ---
@@ -2503,6 +2591,8 @@ function setupEventListeners() {
     $("#btn-export-csv").click(exportCSV);
     $("#btn-export-json").click(exportJSON);
     $("#btn-copy-summary").click(copySummaryToClipboard);
+    $("#btn-copy-100-streamers").click(copy100FarmedStreamersToClipboard);
+    $("#btn-copy-100-mini").click(copy100FarmedStreamersToClipboard);
 
     // Layout View Mode Toggles
     $("#view-mode-default").click(function () {

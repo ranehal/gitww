@@ -1314,24 +1314,6 @@
     }
   },
   {
-    "name": "ichigrim",
-    "points": 10570,
-    "last_activity": 1790626235000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 10570,
-    "events_count": 3,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "nbkguapo",
     "points": 10570,
     "last_activity": 1790676714000,
@@ -1345,6 +1327,24 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 3,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "ichigrim",
+    "points": 10570,
+    "last_activity": 1790626235000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 10570,
+    "events_count": 3,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }

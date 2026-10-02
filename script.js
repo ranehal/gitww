@@ -797,7 +797,7 @@ function renderStreamersList() {
             pillHtml = `<span class="li-target-pill pill-met" title="Target met (${s.target_k}K target • ${sRewardName})">${targetPct}%</span>`;
             trackHtml = `<div class="li-target-track"><div class="li-target-fill fill-met" style="width: 100%"></div></div>`;
         } else if (s.is_approaching_target) {
-            highlightClass = "near-target-approx";
+            highlightClass = (s.name === "olofmeister") ? "" : "near-target-approx";
             pillHtml = `<span class="li-target-pill pill-near" title="Approximating Target! (${targetPct}% of ${s.target_k}K target • ${sRewardName})">🎯 ${targetPct}%</span>`;
             trackHtml = `<div class="li-target-track"><div class="li-target-fill fill-near" style="width: ${Math.min(100, targetPct)}%"></div></div>`;
         } else if (s.target_points > 0) {

@@ -10,12 +10,12 @@
     "is_current": false
   },
   {
-    "id": "jhonny_sims_",
-    "name": "jhonny_sims_",
+    "id": "done_pata",
+    "name": "done_pata",
     "streamers_count": 87,
-    "total_points": 4659368,
-    "gain_24h": 0,
-    "active_today_count": 0,
+    "total_points": 4750238,
+    "gain_24h": 9790,
+    "active_today_count": 27,
     "has_data": true,
     "is_current": true
   },
@@ -52,16 +52,6 @@
   {
     "id": "Chodon_Purush",
     "name": "Chodon_Purush",
-    "streamers_count": 87,
-    "total_points": 4750238,
-    "gain_24h": 9790,
-    "active_today_count": 27,
-    "has_data": true,
-    "is_current": false
-  },
-  {
-    "id": "done_pata",
-    "name": "done_pata",
     "streamers_count": 87,
     "total_points": 4750238,
     "gain_24h": 9790,
@@ -146,6 +136,16 @@
     "total_points": 3002656,
     "gain_24h": 20572,
     "active_today_count": 87,
+    "has_data": true,
+    "is_current": false
+  },
+  {
+    "id": "jhonny_sims_",
+    "name": "jhonny_sims_",
+    "streamers_count": 87,
+    "total_points": 4659368,
+    "gain_24h": 0,
+    "active_today_count": 0,
     "has_data": true,
     "is_current": false
   },
@@ -243,8 +243,8 @@
     "id": "restless_rick",
     "name": "restless_rick",
     "streamers_count": 87,
-    "total_points": 3631844,
-    "gain_24h": 12790,
+    "total_points": 3631854,
+    "gain_24h": 12800,
     "active_today_count": 87,
     "has_data": true,
     "is_current": false

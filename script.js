@@ -777,6 +777,15 @@ function renderStreamersList() {
         var liveBadge = isStreamOnline ? '<span class="li-live-tag">LIVE</span>' : '';
         var gainText = (s.gain_24h && s.gain_24h > 0) ? `+${millify(s.gain_24h)}` : "--";
 
+        // Reward Name Hover Hint
+        var sNameClean = (s.name || "").toLowerCase().trim();
+        var sSheet = sheetStreamersMap[sNameClean] || {};
+        var sRewardName = s.reward_name || sSheet.reward_name || sSheet.scraped_reward || "";
+        var sTargetK = s.target_k || sSheet.target_k || 0;
+        var sRewardDesc = s.reward_desc || sSheet.description || "";
+        var sRewardHint = sRewardName ? `${s.name} • Reward: ${sRewardName}${sTargetK ? ' (' + sTargetK + 'K target)' : ''}${sRewardDesc ? ' - ' + sRewardDesc : ''}` : s.name;
+        var sPtsTooltip = `Current Balance: ${formatNumber(s.points || 0)} pts • Total Farmed: +${formatNumber(s.gain_total || 0)} pts • 24h Farmed: ${gainText}${sRewardName ? ' • Target Reward: ' + sRewardName : ''}`;
+
         // Target Proximity & Clean Badges (no cringe highlights)
         var highlightClass = "";
         var pillHtml = "";
@@ -785,33 +794,33 @@ function renderStreamersList() {
 
         if (s.is_target_met) {
             highlightClass = "";
-            pillHtml = `<span class="li-target-pill pill-met" title="Target met (${s.target_k}K target)">${targetPct}%</span>`;
+            pillHtml = `<span class="li-target-pill pill-met" title="Target met (${s.target_k}K target • ${sRewardName})">${targetPct}%</span>`;
             trackHtml = `<div class="li-target-track"><div class="li-target-fill fill-met" style="width: 100%"></div></div>`;
         } else if (s.is_approaching_target) {
             highlightClass = "near-target-approx";
-            pillHtml = `<span class="li-target-pill pill-near" title="Approximating Target! (${targetPct}% of ${s.target_k}K target)">🎯 ${targetPct}%</span>`;
+            pillHtml = `<span class="li-target-pill pill-near" title="Approximating Target! (${targetPct}% of ${s.target_k}K target • ${sRewardName})">🎯 ${targetPct}%</span>`;
             trackHtml = `<div class="li-target-track"><div class="li-target-fill fill-near" style="width: ${Math.min(100, targetPct)}%"></div></div>`;
         } else if (s.target_points > 0) {
-            pillHtml = `<span class="li-target-pill pill-progress" title="${targetPct}% of ${s.target_k}K target">${targetPct}%</span>`;
+            pillHtml = `<span class="li-target-pill pill-progress" title="${targetPct}% of ${s.target_k}K target • ${sRewardName}">${targetPct}%</span>`;
             trackHtml = `<div class="li-target-track"><div class="li-target-fill fill-normal" style="width: ${Math.min(100, targetPct)}%"></div></div>`;
         } else {
-            pillHtml = `<span class="li-target-pill pill-progress" title="No sheet target">--</span>`;
+            pillHtml = `<span class="li-target-pill pill-progress" title="${sRewardName ? 'Reward: ' + sRewardName : 'No sheet target'}">--</span>`;
         }
 
         var li = `
-            <li class="channel-li ${activeClass} ${highlightClass}" id="ch-item-${s.name}" onClick="selectStreamer('${s.name}')">
+            <li class="channel-li ${activeClass} ${highlightClass}" id="ch-item-${s.name}" onClick="selectStreamer('${s.name}')" title="${sRewardHint}">
                 <span class="li-rank">${idx + 1}</span>
                 <div class="li-name-wrap">
                     <span class="${isStreamOnline ? 'live-dot-pulse' : 'status-dot ' + dotClass}" title="${isStreamOnline ? '🔴 STREAMING LIVE NOW' : (isOnline ? 'Active today' : 'Offline')}"></span>
-                    <span class="li-name" title="${s.name}">${s.name}</span>
+                    <span class="li-name" title="${sRewardHint}">${s.name}</span>
                     ${liveBadge}
                 </div>
                 <div class="li-target-wrap">
                     ${pillHtml}
                     ${trackHtml}
                 </div>
-                <span class="li-gain">${gainText}</span>
-                <span class="li-pts">${millify(s.points || 0)}</span>
+                <span class="li-gain" title="24h Farmed: ${gainText}">${gainText}</span>
+                <span class="li-pts" title="${sPtsTooltip}">${millify(s.points || 0)}</span>
             </li>
         `;
         $ul.append(li);
@@ -949,7 +958,14 @@ function updateSpotlightBanner(name, data) {
     var totalGain = Math.max(0, currentPts - startPts);
     var lastActive = series.length > 0 ? series[series.length - 1].x : (meta.last_activity || 0);
 
-    $("#spotlight-name").text(name);
+    var cleanNameLower = name.toLowerCase().trim();
+    var sSheet = sheetStreamersMap[cleanNameLower] || {};
+    var sRewardName = meta.reward_name || sSheet.reward_name || sSheet.scraped_reward || "";
+    var sTargetK = meta.target_k || sSheet.target_k || 0;
+    var sRewardDesc = meta.reward_desc || sSheet.description || "";
+    var sRewardHint = sRewardName ? `${name} • Reward: ${sRewardName}${sTargetK ? ' (' + sTargetK + 'K target)' : ''}${sRewardDesc ? ' - ' + sRewardDesc : ''}` : name;
+
+    $("#spotlight-name").text(name).attr("title", sRewardHint);
     $("#spotlight-url").attr("href", `https://twitch.tv/${name}`);
     $("#btn-external-twitch").attr("href", `https://twitch.tv/${name}`);
 
@@ -1033,23 +1049,34 @@ function updateSpotlightTargetCard(name, currentPts, meta) {
     var $progFill = $("#spotlight-prog-fill");
     $progFill.removeClass("near met");
 
+    var gainTotal = meta.gain_total;
+    if (gainTotal === undefined || gainTotal === null) {
+        if (meta.summary && meta.summary.gain_total !== undefined) {
+            gainTotal = meta.summary.gain_total;
+        } else if (meta.start_points !== undefined && currentPts >= meta.start_points) {
+            gainTotal = currentPts - meta.start_points;
+        } else {
+            gainTotal = 0;
+        }
+    }
+
     if (isMet) {
         $card.addClass("target-met");
         $proxTag.addClass("met").html(`🏆 READY TO CLAIM (${pct}%)`);
         $progFill.addClass("met").css("width", "100%");
-        $("#tp-meta-status").html(`🎉 <b>Target Reached!</b> Farmed ${formatNumber(currentPts)} / ${formatNumber(targetPoints)} pts (+${formatNumber(currentPts - targetPoints)} surplus)`);
+        $("#tp-meta-status").html(`🎉 <b>Target Reached!</b> Farmed +${formatNumber(gainTotal)} pts • Current Balance: ${formatNumber(currentPts)} / ${formatNumber(targetPoints)} pts (+${formatNumber(currentPts - targetPoints)} surplus)`);
     } else if (isApproaching) {
         $card.addClass("near-target");
         $proxTag.addClass("near").html(`🎯 NEAR TARGET (${pct}%)`);
         $progFill.addClass("near").css("width", `${Math.min(100, pct)}%`);
-        $("#tp-meta-status").html(`🔥 <b>Approximating Target!</b> Only ${formatNumber(targetPoints - currentPts)} points needed to redeem`);
+        $("#tp-meta-status").html(`🔥 <b>Approaching Target!</b> Farmed +${formatNumber(gainTotal)} pts • Only ${formatNumber(targetPoints - currentPts)} points needed to reach ${formatNumber(targetPoints)} pts`);
     } else {
         $proxTag.addClass("normal").html(`${pct}% PROXIMITY`);
         $progFill.css("width", `${Math.min(100, pct)}%`);
-        $("#tp-meta-status").html(`Progress towards reward redemption: ${formatNumber(currentPts)} / ${formatNumber(targetPoints)} pts`);
+        $("#tp-meta-status").html(`Farmed +${formatNumber(gainTotal)} pts • Current Balance: ${formatNumber(currentPts)} / ${formatNumber(targetPoints)} pts`);
     }
 
-    $("#spotlight-reward-name").text(rewardName || "Channel Points Reward");
+    $("#spotlight-reward-name").text(rewardName || "Channel Points Reward").attr("title", rewardName ? `Reward: ${rewardName}` : "");
     if (desc) {
         $("#spotlight-reward-desc").text(`"${desc}"`).show();
     } else {
@@ -1059,8 +1086,11 @@ function updateSpotlightTargetCard(name, currentPts, meta) {
     $("#tm-target-points").text(formatNumber(targetPoints) + " pts");
     $("#tm-target-k").text(targetK ? `${targetK}K Target` : "Custom Target");
 
+    $("#tm-farmed-points").text("+" + formatNumber(gainTotal) + " pts");
+    $("#tm-farmed-k").text(`${(gainTotal / 1000).toFixed(1)}K Farmed`);
+
     $("#tm-current-points").text(formatNumber(currentPts) + " pts");
-    $("#tm-farmed-k").text(`${(currentPts / 1000).toFixed(1)}K Balance`);
+    $("#tm-balance-k").text(`${(currentPts / 1000).toFixed(1)}K Balance`);
 
     var needed = Math.max(0, targetPoints - currentPts);
     if (isMet) {
@@ -1087,13 +1117,29 @@ function updateSpotlightTargetCard(name, currentPts, meta) {
     }
 }
 
+function sanitizeSeriesForChart(rawSeries) {
+    if (!rawSeries || rawSeries.length <= 1) return rawSeries || [];
+    var sorted = rawSeries.slice().sort((a, b) => (a.x || 0) - (b.x || 0));
+    var cleaned = [sorted[sorted.length - 1]];
+    for (var i = sorted.length - 2; i >= 0; i--) {
+        var pt = sorted[i];
+        var anchor = cleaned[cleaned.length - 1];
+        var diff = anchor.y - pt.y;
+        if (diff >= -500 && diff <= 30000) {
+            cleaned.push(pt);
+        }
+    }
+    cleaned.reverse();
+    return cleaned;
+}
+
 function renderChartData() {
     if (!currentStreamerRawData || !currentStreamer) return;
 
     var startMs = (startDate && !isNaN(startDate.getTime())) ? startDate.getTime() : 0;
     var endMs = (endDate && !isNaN(endDate.getTime())) ? new Date(endDate).setHours(23, 59, 59, 999) : Infinity;
 
-    var rawSeries = currentStreamerRawData.series || [];
+    var rawSeries = sanitizeSeriesForChart(currentStreamerRawData.series || []);
     var filtered = rawSeries.filter(pt => pt.x >= startMs && pt.x <= endMs);
 
     // Baseline straight line if no stream
@@ -1159,7 +1205,7 @@ function clearAnnotations() {
 // --- Render Live Activity Feed (Drawer Tab 1) ---
 function renderEventsFeed(streamerName, data) {
     var $tbody = $("#events-table-body");
-    var series = data.series || [];
+    var series = sanitizeSeriesForChart(data.series || []);
 
     if (series.length === 0) {
         $tbody.html('<tr><td colspan="6" class="empty-cell">No event points found.</td></tr>');
@@ -1220,13 +1266,20 @@ function renderChannelsMatrix() {
         var rowClass = s.is_approaching_target ? "row-near-target" : "";
         var progLabel = s.target_points > 0 ? `${s.target_pct}%` : "--";
 
+        var sNameClean = (s.name || "").toLowerCase().trim();
+        var sSheet = sheetStreamersMap[sNameClean] || {};
+        var sRewardName = s.reward_name || sSheet.reward_name || sSheet.scraped_reward || "";
+        var sTargetK = s.target_k || sSheet.target_k || 0;
+        var sRewardDesc = s.reward_desc || sSheet.description || "";
+        var sRewardHint = sRewardName ? `${s.name} • Reward: ${sRewardName}${sTargetK ? ' (' + sTargetK + 'K target)' : ''}${sRewardDesc ? ' - ' + sRewardDesc : ''}` : s.name;
+
         rows += `
             <tr class="${rowClass}">
                 <td><b>#${idx + 1}</b></td>
                 <td>
                     <div style="display: flex; align-items: center; gap: 6px;">
                         <span class="${isOnline ? 'live-dot-pulse' : 'status-dot'}" title="${isOnline ? 'Streaming Live' : 'Offline'}"></span>
-                        <b>${s.name}</b>
+                        <b title="${sRewardHint}" style="cursor: pointer;" onClick="selectStreamer('${s.name}')">${s.name}</b>
                     </div>
                 </td>
                 <td>
@@ -1625,6 +1678,13 @@ function renderCrossProfileSearchResults(results, query) {
             ? `<span class="matrix-live-pill online" title="${liveDetails && liveDetails.game ? liveDetails.game : 'Streaming Live on Twitch'}"><span class="live-dot-pulse-mini"></span> LIVE${liveDetails && liveDetails.viewers ? ' (' + millify(liveDetails.viewers) + ')' : ''}</span>`
             : `<span class="matrix-live-pill offline">Offline</span>`;
 
+        var sNameClean = (item.name || "").toLowerCase().trim();
+        var sSheet = sheetStreamersMap[sNameClean] || {};
+        var sRewardName = item.reward_name || sSheet.reward_name || sSheet.scraped_reward || "";
+        var sTargetK = item.target_k || sSheet.target_k || 0;
+        var sRewardDesc = item.reward_desc || sSheet.description || "";
+        var sRewardHint = sRewardName ? `${item.name} • Reward: ${sRewardName}${sTargetK ? ' (' + sTargetK + 'K target)' : ''}${sRewardDesc ? ' - ' + sRewardDesc : ''}` : item.name;
+
         var rowHtml = `
             <tr class="search-result-row ${rowClass} ${isCurrentProf ? 'is-current-profile' : ''}" data-channel="${item.name}" data-profile="${item.profile}">
                 <td style="text-align: center;">
@@ -1633,7 +1693,7 @@ function renderCrossProfileSearchResults(results, query) {
                 <td>
                     <div class="search-channel-cell">
                         <img class="search-cell-avatar" data-channel="${item.name}" src="banner.png" alt="${item.name}" />
-                        <span class="search-cell-name">${item.name}</span>
+                        <span class="search-cell-name" title="${sRewardHint}">${item.name}</span>
                     </div>
                 </td>
                 <td>

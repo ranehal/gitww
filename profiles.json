@@ -3,19 +3,19 @@
     "id": "all",
     "name": "All Accounts (Combined)",
     "streamers_count": 87,
-    "total_points": 4776558,
-    "gain_24h": 50860,
-    "active_today_count": 57,
+    "total_points": 4776568,
+    "gain_24h": 50870,
+    "active_today_count": 52,
     "has_data": true,
     "is_current": false
   },
   {
-    "id": "done_pata",
-    "name": "done_pata",
+    "id": "zaree_chan",
+    "name": "zaree_chan",
     "streamers_count": 87,
     "total_points": 4750238,
     "gain_24h": 24530,
-    "active_today_count": 54,
+    "active_today_count": 49,
     "has_data": true,
     "is_current": true
   },
@@ -56,6 +56,16 @@
     "total_points": 4750238,
     "gain_24h": 24530,
     "active_today_count": 49,
+    "has_data": true,
+    "is_current": false
+  },
+  {
+    "id": "done_pata",
+    "name": "done_pata",
+    "streamers_count": 87,
+    "total_points": 4750238,
+    "gain_24h": 24530,
+    "active_today_count": 54,
     "has_data": true,
     "is_current": false
   },
@@ -183,8 +193,8 @@
     "id": "moemoe____",
     "name": "moemoe____",
     "streamers_count": 87,
-    "total_points": 3566582,
-    "gain_24h": 27610,
+    "total_points": 3566592,
+    "gain_24h": 27620,
     "active_today_count": 87,
     "has_data": true,
     "is_current": false
@@ -346,16 +356,6 @@
     "total_points": 4750238,
     "gain_24h": 24530,
     "active_today_count": 54,
-    "has_data": true,
-    "is_current": false
-  },
-  {
-    "id": "zaree_chan",
-    "name": "zaree_chan",
-    "streamers_count": 87,
-    "total_points": 4750238,
-    "gain_24h": 24530,
-    "active_today_count": 49,
     "has_data": true,
     "is_current": false
   }

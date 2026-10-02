@@ -253,7 +253,7 @@
                 <div class="tool-group chart-ctrl-group">
                     <span class="tool-label"><i class="fas fa-chart-area"></i> CHART:</span>
                     <button class="btn-ctrl active" id="btn-chart-type" title="Toggle Area / Line chart">Area</button>
-                    <button class="btn-ctrl" id="btn-chart-curve" title="Toggle Smooth / Straight / Stepline">Smooth</button>
+                    <button class="btn-ctrl" id="btn-chart-curve" title="Toggle Smooth / Straight / Stepline">Stepline</button>
                     <button class="btn-ctrl active" id="btn-toggle-annotations" title="Toggle point gain badges on graph">Annotations</button>
                     <button class="btn-ctrl" id="btn-reset-zoom" title="Reset chart zoom">Reset Zoom</button>
                     <button class="btn-ctrl" id="btn-fullscreen-chart" title="Fullscreen chart mode"><i class="fas fa-expand"></i> Fullscreen</button>
@@ -430,9 +430,9 @@
                             <div class="timeline-toolbar">
                                 <div class="timeline-style-switcher">
                                     <span class="style-label"><i class="fas fa-palette"></i> TIMELINE STYLE:</span>
-                                    <button class="t-style-btn active" data-style="1"><i class="fas fa-bars-progress"></i> Style 1: Swimlane Gantt</button>
+                                    <button class="t-style-btn" data-style="1"><i class="fas fa-bars-progress"></i> Style 1: Swimlane Gantt</button>
                                     <button class="t-style-btn" data-style="2"><i class="fas fa-border-all"></i> Style 2: 24h Activity Heatmap</button>
-                                    <button class="t-style-btn" data-style="3"><i class="fas fa-chart-bar"></i> Style 3: RangeBar Chart</button>
+                                    <button class="t-style-btn active" data-style="3"><i class="fas fa-chart-bar"></i> Style 3: RangeBar Chart</button>
                                     <button class="t-style-btn" data-style="4"><i class="fas fa-water"></i> Style 4: Waterfall Stream</button>
                                     <button class="t-style-btn" data-style="5"><i class="fas fa-barcode"></i> Style 5: Ultra-Dense Ribbon</button>
                                 </div>
@@ -449,7 +449,7 @@
                             <!-- 5 Style Viewport -->
                             <div class="timeline-viewport">
                                 <!-- Style 1: Swimlane Gantt Matrix -->
-                                <div class="timeline-view-pane active" id="timeline-style-1">
+                                <div class="timeline-view-pane" id="timeline-style-1">
                                     <div class="gantt-container" id="gantt-container"></div>
                                 </div>
                                 <!-- Style 2: 24h Activity Heatmap Grid -->
@@ -457,7 +457,7 @@
                                     <div class="heatmap-container" id="heatmap-container"></div>
                                 </div>
                                 <!-- Style 3: Interactive RangeBar ApexChart -->
-                                <div class="timeline-view-pane" id="timeline-style-3">
+                                <div class="timeline-view-pane active" id="timeline-style-3">
                                     <div id="timeline-rangebar-chart" style="min-height: 380px;"></div>
                                 </div>
                                 <!-- Style 4: Waterfall Event Stream -->

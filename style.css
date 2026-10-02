@@ -680,6 +680,10 @@ a:hover {
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    height: 100vh;
+    max-height: 100vh;
+    position: sticky;
+    top: 8px;
 }
 
 .sidebar-top {
@@ -723,7 +727,9 @@ a:hover {
 .col-target, .col-gain, .col-pts { text-align: right; }
 
 .channels-scroll {
-    max-height: 520px;
+    flex: 1 1 0;
+    min-height: 0;
+    max-height: none;
     overflow-y: auto;
 }
 
@@ -969,6 +975,19 @@ a:hover {
     border: 1px solid var(--border);
     border-radius: 8px;
     overflow: hidden;
+    transition: order 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Search Results Main Priority: pushes everything else to bottom when searching */
+body.is-searching #bottom-drawer-card {
+    order: -1 !important;
+    margin-bottom: 12px;
+    border-color: rgba(145, 70, 255, 0.5);
+    box-shadow: 0 6px 28px rgba(0, 0, 0, 0.6);
+}
+
+body.is-searching #tab-search .table-scroll-wrap {
+    max-height: 580px;
 }
 
 .drawer-tabs-header {
@@ -1160,9 +1179,13 @@ body.view-table-mode .table-scroll-wrap {
     }
     .channels-sidebar {
         width: 100%;
+        height: auto;
+        max-height: none;
+        position: static;
     }
     .channels-scroll {
         max-height: 260px;
+        flex: none;
     }
     .kpi-ribbon {
         grid-template-columns: repeat(2, 1fr);
@@ -1434,19 +1457,26 @@ body.view-table-mode .table-scroll-wrap {
     display: inline-flex;
     align-items: center;
     gap: 5px;
-    background: #1e1e28;
-    color: var(--accent-light);
-    border: 1px solid rgba(145, 70, 255, 0.3);
-    padding: 2px 8px;
+    background: rgba(145, 70, 255, 0.18);
+    color: #e2d4ff;
+    border: 1px solid rgba(145, 70, 255, 0.45);
+    padding: 3px 9px;
     border-radius: 4px;
-    font-size: 11px;
+    font-size: 11.5px;
     font-weight: 700;
+    white-space: nowrap;
+}
+.search-res-profile-tag i {
+    color: #bf94ff;
 }
 .search-res-profile-tag.active {
-    background: rgba(145, 70, 255, 0.25);
+    background: rgba(145, 70, 255, 0.4);
     border-color: var(--accent);
-    color: #fff;
-    box-shadow: 0 0 6px rgba(145, 70, 255, 0.3);
+    color: #ffffff;
+    box-shadow: 0 0 8px rgba(145, 70, 255, 0.5);
+}
+.search-res-profile-tag.active i {
+    color: #ffffff;
 }
 .pts-table-cell {
     display: flex;
@@ -2065,13 +2095,12 @@ body.view-table-mode .table-scroll-wrap {
 }
 
 .channel-li.target-reached-ready {
-    background: linear-gradient(135deg, rgba(145, 70, 255, 0.18) 0%, rgba(0, 245, 155, 0.2) 50%, rgba(255, 190, 59, 0.22) 100%) !important;
-    background-size: 200% 200% !important;
-    border-left: 3px solid #ffd700 !important;
-    animation: shimmerRainbowGold 4s infinite ease-in-out;
+    background: transparent !important;
+    border-left: none !important;
+    animation: none !important;
 }
 .channel-li.target-reached-ready:hover {
-    background: linear-gradient(135deg, rgba(145, 70, 255, 0.25) 0%, rgba(0, 245, 155, 0.28) 50%, rgba(255, 190, 59, 0.3) 100%) !important;
+    background: rgba(255, 255, 255, 0.05) !important;
 }
 
 /* Sidebar Channel Mini Progress Bar & Target Badge */
@@ -2096,10 +2125,11 @@ body.view-table-mode .table-scroll-wrap {
     animation: pulseGlowNearTarget 2.5s infinite;
 }
 .li-target-pill.pill-met {
-    background: linear-gradient(90deg, #ffd700, #ff8c00);
-    color: #000000;
-    font-weight: 900;
-    box-shadow: 0 0 8px rgba(255, 215, 0, 0.6);
+    background: #1c2420;
+    color: #00f59b;
+    border: 1px solid rgba(0, 245, 155, 0.35);
+    font-weight: 700;
+    box-shadow: none;
 }
 .li-target-pill.pill-progress {
     background: #26262c;
@@ -2124,8 +2154,8 @@ body.view-table-mode .table-scroll-wrap {
     box-shadow: 0 0 6px #00f59b;
 }
 .li-target-fill.fill-met {
-    background: linear-gradient(90deg, #00f59b 0%, #00b5ff 50%, #ffd700 100%);
-    box-shadow: 0 0 8px #ffd700;
+    background: #00f59b;
+    box-shadow: none;
 }
 .li-target-fill.fill-normal {
     background: var(--accent);
@@ -2165,9 +2195,9 @@ body.view-table-mode .table-scroll-wrap {
     background: linear-gradient(135deg, rgba(255, 190, 59, 0.08) 0%, rgba(0, 245, 155, 0.1) 100%), #16161b;
 }
 .spotlight-target-card.target-met {
-    border-color: #ffd700;
-    box-shadow: 0 0 24px rgba(255, 215, 0, 0.35), 0 0 12px rgba(145, 70, 255, 0.3);
-    background: linear-gradient(135deg, rgba(145, 70, 255, 0.12) 0%, rgba(0, 245, 155, 0.12) 50%, rgba(255, 215, 0, 0.14) 100%), #16161b;
+    border-color: rgba(255, 190, 59, 0.4);
+    box-shadow: none;
+    background: linear-gradient(135deg, #16161b 0%, #1a1a24 100%);
 }
 
 .target-card-main {
@@ -2307,10 +2337,8 @@ body.view-table-mode .table-scroll-wrap {
     box-shadow: 0 0 14px rgba(0, 245, 155, 0.6);
 }
 .tp-track-fill.met {
-    background: linear-gradient(90deg, #00f59b 0%, #00b5ff 33%, #ffd700 66%, #9146ff 100%);
-    background-size: 200% 100%;
-    animation: shimmerRainbowGold 4s infinite linear;
-    box-shadow: 0 0 16px rgba(255, 215, 0, 0.7);
+    background: #00f59b;
+    box-shadow: none;
 }
 
 @keyframes shimmerLight {
@@ -2384,8 +2412,8 @@ body.view-table-mode .table-scroll-wrap {
     box-shadow: 0 0 6px #00f59b;
 }
 .matrix-prog-fill.met {
-    background: linear-gradient(90deg, #00f59b, #ffd700);
-    box-shadow: 0 0 8px #ffd700;
+    background: #00f59b;
+    box-shadow: none;
 }
 .matrix-prog-fill.normal {
     background: var(--accent);
@@ -2404,8 +2432,8 @@ body.view-table-mode .table-scroll-wrap {
     background: rgba(0, 245, 155, 0.12);
 }
 .matrix-table tbody tr.row-target-met {
-    background: rgba(255, 215, 0, 0.08);
+    background: transparent;
 }
 .matrix-table tbody tr.row-target-met:hover {
-    background: rgba(255, 215, 0, 0.16);
+    background: rgba(255, 255, 255, 0.04);
 }

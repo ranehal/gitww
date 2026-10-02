@@ -43,6 +43,8 @@ function formatDate(date) {
 var isStaticMode = (
     window.location.hostname.endsWith("github.io") ||
     window.location.protocol === "file:" ||
+    window.location.port === "8089" ||
+    window.location.port === "8000" ||
     (!window.location.port && window.location.protocol !== "http:")
 );
 
@@ -76,6 +78,166 @@ var sheetDataGlobal = null;
 var sheetStreamersMap = {};
 var sheetOnlineSet = new Set();
 
+// --- Realtime Twitch Live Status Engine (Direct from Twitch GQL, NOT Twitch Miner) ---
+var twitchRealtimeLiveMap = {}; // login -> { isLive: boolean, viewers: number, game: string }
+var isCheckingTwitchLive = false;
+
+function isStreamerOnlineRealtime(name) {
+    if (!name) return false;
+    var login = name.toLowerCase().trim();
+    if (twitchRealtimeLiveMap[login] !== undefined) {
+        return !!twitchRealtimeLiveMap[login].isLive;
+    }
+    return false;
+}
+
+function getStreamerLiveDetails(name) {
+    if (!name) return null;
+    var login = name.toLowerCase().trim();
+    return twitchRealtimeLiveMap[login] || null;
+}
+
+function fetchRealtimeTwitchLiveStatus(callback) {
+    if (isCheckingTwitchLive) {
+        if (callback) callback();
+        return;
+    }
+    isCheckingTwitchLive = true;
+
+    // Collect all unique streamer logins from current profile and cross profile dataset
+    var loginsSet = new Set();
+    if (Array.isArray(streamersList)) {
+        streamersList.forEach(s => {
+            if (s && s.name) loginsSet.add(s.name.toLowerCase().trim());
+        });
+    }
+    if (Array.isArray(crossStreamersDataset)) {
+        crossStreamersDataset.forEach(s => {
+            if (s && s.name) loginsSet.add(s.name.toLowerCase().trim());
+        });
+    }
+
+    var allLogins = Array.from(loginsSet).filter(Boolean);
+    if (allLogins.length === 0) {
+        isCheckingTwitchLive = false;
+        if (callback) callback();
+        return;
+    }
+
+    var chunkSize = 50;
+    var chunks = [];
+    for (var i = 0; i < allLogins.length; i += chunkSize) {
+        chunks.push(allLogins.slice(i, i + chunkSize));
+    }
+
+    var promises = chunks.map(chunk => {
+        return fetch("https://gql.twitch.tv/gql", {
+            method: "POST",
+            headers: {
+                "Client-Id": "kimne78kx3ncx6brgo4mv6wki5h1ko",
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify([{
+                query: `query CheckLive($logins: [String!]) {
+                    users(logins: $logins) {
+                        login
+                        stream {
+                            id
+                            type
+                            viewersCount
+                            game { name }
+                        }
+                    }
+                }`,
+                variables: { logins: chunk }
+            }])
+        })
+        .then(r => r.json())
+        .then(data => {
+            var users = data && data[0] && data[0].data && data[0].data.users;
+            if (Array.isArray(users)) {
+                users.forEach(u => {
+                    if (!u || !u.login) return;
+                    var l = u.login.toLowerCase();
+                    if (u.stream && (u.stream.type === "live" || u.stream.id)) {
+                        twitchRealtimeLiveMap[l] = {
+                            isLive: true,
+                            viewers: u.stream.viewersCount || 0,
+                            game: (u.stream.game && u.stream.game.name) || ""
+                        };
+                    } else {
+                        twitchRealtimeLiveMap[l] = {
+                            isLive: false,
+                            viewers: 0,
+                            game: ""
+                        };
+                    }
+                });
+            }
+        })
+        .catch(err => {
+            console.warn("Twitch GQL live check error:", err);
+        });
+    });
+
+    Promise.all(promises).then(() => {
+        isCheckingTwitchLive = false;
+        updateRealtimeLiveUI();
+        if (callback) callback();
+    }).catch(() => {
+        isCheckingTwitchLive = false;
+        if (callback) callback();
+    });
+}
+
+function updateRealtimeLiveUI() {
+    var currProfileLiveCount = 0;
+    if (Array.isArray(streamersList)) {
+        streamersList.forEach(s => {
+            s.is_live_now = isStreamerOnlineRealtime(s.name);
+            if (s.is_live_now) currProfileLiveCount++;
+        });
+    }
+
+    var totalRealtimeLiveCount = 0;
+    Object.keys(twitchRealtimeLiveMap).forEach(k => {
+        if (twitchRealtimeLiveMap[k] && twitchRealtimeLiveMap[k].isLive) {
+            totalRealtimeLiveCount++;
+        }
+    });
+
+    $("#sidebar-live-count").text(currProfileLiveCount);
+    $("#sidebar-live-tag").toggle(currProfileLiveCount > 0);
+    $("#tab-live-count").text(currProfileLiveCount);
+    $("#header-live-badge").text(totalRealtimeLiveCount);
+
+    renderStreamersList();
+
+    if (currentStreamer) {
+        var clean = currentStreamer.toLowerCase().trim();
+        var isLive = isStreamerOnlineRealtime(clean);
+        var liveDetails = getStreamerLiveDetails(clean);
+        var $liveTag = $("#spotlight-live-tag");
+        if (isLive) {
+            var viewText = liveDetails && liveDetails.viewers ? ` • ${liveDetails.viewers.toLocaleString()} viewers` : "";
+            var gameText = liveDetails && liveDetails.game ? ` • ${liveDetails.game}` : "";
+            $liveTag.removeClass("status-offline").addClass("status-live").html(`<span class="live-dot-pulse-mini"></span> LIVE NOW${viewText}${gameText}`);
+            $("#spotlight-sheet-live-tag").show();
+        } else {
+            $liveTag.removeClass("status-live").addClass("status-offline").html(`<span class="dot"></span> OFFLINE`);
+            $("#spotlight-sheet-live-tag").hide();
+        }
+    }
+
+    if ($("#tab-search").hasClass("active") && latestGlobalSearchResults.length > 0) {
+        var query = $("#streamer-search").val().trim().toLowerCase();
+        renderCrossProfileSearchResults(latestGlobalSearchResults, query);
+    }
+    if ($("#tab-matrix").hasClass("active")) {
+        renderOverviewMatrix();
+    }
+}
+
 function loadSheetData(callback) {
     var sheetUrls = isStaticMode
         ? ["sheet_data.json", "assets/sheet_data.json"]
@@ -98,13 +260,6 @@ function loadSheetData(callback) {
                 data.online_streamers.forEach(name => sheetOnlineSet.add(name.toLowerCase().trim()));
             }
 
-            // Update UI indicators
-            var onlineCount = data.metadata?.online_streamers_count || sheetOnlineSet.size;
-            $("#header-live-badge").text(onlineCount);
-            $("#tab-live-count").text(onlineCount);
-            $("#sidebar-live-count").text(onlineCount);
-            $("#sidebar-live-tag").toggle(onlineCount > 0);
-
             // Enrich currently loaded streamers
             if (streamersList.length > 0) {
                 enrichStreamersList(streamersList);
@@ -121,6 +276,9 @@ function loadSheetData(callback) {
             if (crossStreamersDataset.length > 0) {
                 enrichStreamersList(crossStreamersDataset);
             }
+
+            // Query realtime live status from Twitch GQL
+            fetchRealtimeTwitchLiveStatus();
         }
         if (callback) callback();
     }, function () {
@@ -134,6 +292,7 @@ function enrichStreamer(s) {
     var nameLower = (s.name || "").toLowerCase().trim();
     var info = sheetStreamersMap[nameLower];
     var pts = s.points || 0;
+    var isLiveNow = isStreamerOnlineRealtime(nameLower);
 
     if (info) {
         s.target_k = info.target_k || 0;
@@ -142,8 +301,8 @@ function enrichStreamer(s) {
         s.reward_desc = info.description || "";
         s.hours = info.hours || 0;
         s.ratio = info.ratio || 0;
-        s.live_status = info.live_status || (info.is_live ? "Active" : "Offline");
-        s.is_live_now = !!info.is_live || sheetOnlineSet.has(nameLower);
+        s.live_status = isLiveNow ? "Active" : "Offline";
+        s.is_live_now = isLiveNow;
     } else {
         s.target_k = s.target_k || 0;
         s.target_points = s.target_points || 0;
@@ -151,8 +310,8 @@ function enrichStreamer(s) {
         s.reward_desc = s.reward_desc || "";
         s.hours = s.hours || 0;
         s.ratio = s.ratio || 0;
-        s.live_status = s.live_status || "Offline";
-        s.is_live_now = sheetOnlineSet.has(nameLower);
+        s.live_status = isLiveNow ? "Active" : "Offline";
+        s.is_live_now = isLiveNow;
     }
 
     if (s.target_points > 0) {
@@ -527,7 +686,7 @@ function applyFilters() {
 
         // 2. Tab Filter
         if (activeFilter === "online") {
-            var isLiveStream = s.is_live_now || sheetOnlineSet.has(s.name.toLowerCase());
+            var isLiveStream = isStreamerOnlineRealtime(s.name);
             if (!isLiveStream) return false;
         }
         if (activeFilter === "near_target") {
@@ -576,8 +735,8 @@ function applySort() {
         else if (field === "proximity") { va = a.target_pct || 0; vb = b.target_pct || 0; }
         else if (field === "target") { va = a.target_points || 0; vb = b.target_points || 0; }
         else if (field === "live") {
-            va = (a.is_live_now || sheetOnlineSet.has(a.name.toLowerCase())) ? 1 : 0;
-            vb = (b.is_live_now || sheetOnlineSet.has(b.name.toLowerCase())) ? 1 : 0;
+            va = isStreamerOnlineRealtime(a.name) ? 1 : 0;
+            vb = isStreamerOnlineRealtime(b.name) ? 1 : 0;
         }
         else if (field === "gain") { va = a.gain_24h || 0; vb = b.gain_24h || 0; }
         else if (field === "gain_total") { va = a.gain_total || 0; vb = b.gain_total || 0; }
@@ -612,21 +771,21 @@ function renderStreamersList() {
     filteredStreamers.forEach((s, idx) => {
         var isActive = currentStreamer === s.name;
         var activeClass = isActive ? "active" : "";
-        var isStreamOnline = s.is_live_now || sheetOnlineSet.has(s.name.toLowerCase());
+        var isStreamOnline = isStreamerOnlineRealtime(s.name);
         var isOnline = isStreamOnline || s.active_today || (now_ms - (s.last_activity || 0)) <= ms_24h;
         var dotClass = isStreamOnline ? "live-dot-pulse" : (isOnline ? "active" : "");
         var liveBadge = isStreamOnline ? '<span class="li-live-tag">LIVE</span>' : '';
         var gainText = (s.gain_24h && s.gain_24h > 0) ? `+${millify(s.gain_24h)}` : "--";
 
-        // Target Proximity & Gradient Highlight Classes
+        // Target Proximity & Clean Badges (no cringe highlights)
         var highlightClass = "";
         var pillHtml = "";
         var trackHtml = "";
         var targetPct = s.target_pct || 0;
 
         if (s.is_target_met) {
-            highlightClass = "target-reached-ready";
-            pillHtml = `<span class="li-target-pill pill-met" title="100%+ Target Reached! (${s.target_k}K target)">🏆 ${targetPct}%</span>`;
+            highlightClass = "";
+            pillHtml = `<span class="li-target-pill pill-met" title="Target met (${s.target_k}K target)">${targetPct}%</span>`;
             trackHtml = `<div class="li-target-track"><div class="li-target-fill fill-met" style="width: 100%"></div></div>`;
         } else if (s.is_approaching_target) {
             highlightClass = "near-target-approx";
@@ -798,11 +957,21 @@ function updateSpotlightBanner(name, data) {
     $("#spotlight-gain-24h").html(`<i class="fas fa-arrow-up"></i> +${formatNumber(meta.gain_24h || 0)} 24h`);
     $("#spotlight-gain-total").html(`<i class="fas fa-history"></i> +${formatNumber(totalGain)} all-time`);
     $("#spotlight-last-active").html(`<i class="far fa-clock"></i> ${formatRelativeTime(lastActive)}`);
-    $("#spotlight-events-count").html(`<i class="fas fa-receipt"></i> ${formatNumber(series.length)} events`);
-
-    // Live tag
-    var isLiveNow = (Date.now() - lastActive) <= (24 * 3600 * 1000);
-    $("#spotlight-live-tag").toggle(isLiveNow);
+    // Live tag (realtime checked from Twitch)
+    var cleanNameLower = name.toLowerCase().trim();
+    var isLiveNow = isStreamerOnlineRealtime(cleanNameLower);
+    var liveDetails = getStreamerLiveDetails(cleanNameLower);
+    var $liveTag = $("#spotlight-live-tag");
+    $liveTag.show();
+    if (isLiveNow) {
+        var viewText = liveDetails && liveDetails.viewers ? ` • ${liveDetails.viewers.toLocaleString()} viewers` : "";
+        var gameText = liveDetails && liveDetails.game ? ` • ${liveDetails.game}` : "";
+        $liveTag.removeClass("status-offline").addClass("status-live").html(`<span class="live-dot-pulse-mini"></span> LIVE NOW${viewText}${gameText}`);
+        $("#spotlight-sheet-live-tag").show();
+    } else {
+        $liveTag.removeClass("status-live").addClass("status-offline").html(`<span class="dot"></span> OFFLINE`);
+        $("#spotlight-sheet-live-tag").hide();
+    }
 
     // Breakdown Counters
     var bd = meta.breakdown || { Watch: 0, Claim: 0, Streak: 0, Raid: 0, Prediction: 0 };
@@ -836,9 +1005,15 @@ function updateSpotlightTargetCard(name, currentPts, meta) {
     var targetK = meta.target_k || sheetInfo.target_k || 0;
     var rewardName = meta.reward_name || sheetInfo.reward_name || sheetInfo.scraped_reward || "";
     var desc = meta.reward_desc || sheetInfo.description || "";
-    var isLive = meta.is_live_now || sheetInfo.is_live || sheetOnlineSet.has(clean);
+    var isLive = isStreamerOnlineRealtime(clean);
     var hours = meta.hours || sheetInfo.hours || 0;
     var ratio = meta.ratio || sheetInfo.ratio || 0;
+
+    if (isLive) {
+        $("#spotlight-sheet-live-tag").show();
+    } else {
+        $("#spotlight-sheet-live-tag").hide();
+    }
 
     if (!targetPoints && !rewardName && !targetK && !sheetInfo.row_index) {
         $card.hide();
@@ -1040,9 +1215,9 @@ function renderChannelsMatrix() {
     var rows = "";
     streamersList.forEach((s, idx) => {
         var lastAct = s.last_activity ? formatRelativeTime(s.last_activity) : "--";
-        var isOnline = s.is_live_now || sheetOnlineSet.has(s.name.toLowerCase());
+        var isOnline = isStreamerOnlineRealtime(s.name);
         var progClass = s.is_target_met ? "met" : (s.is_approaching_target ? "near" : "normal");
-        var rowClass = s.is_target_met ? "row-target-met" : (s.is_approaching_target ? "row-near-target" : "");
+        var rowClass = s.is_approaching_target ? "row-near-target" : "";
         var progLabel = s.target_points > 0 ? `${s.target_pct}%` : "--";
 
         rows += `
@@ -1180,8 +1355,11 @@ function setupAutoRefresh() {
     if (interval > 0) {
         autoRefreshTimer = setInterval(() => {
             loadDashboardData(false);
+            fetchRealtimeTwitchLiveStatus();
         }, interval);
     }
+    // Also poll realtime Twitch live status every 45 seconds
+    setInterval(fetchRealtimeTwitchLiveStatus, 45000);
 }
 
 // --- Cross-Profile Search & Sort Engine ---
@@ -1202,6 +1380,7 @@ function preloadCrossStreamersData(onDone) {
                 if (!crossProfilesCache[item.profile]) crossProfilesCache[item.profile] = [];
                 crossProfilesCache[item.profile].push(item);
             });
+            fetchRealtimeTwitchLiveStatus();
         }
         if (onDone) onDone();
     }).fail(function () {
@@ -1249,6 +1428,7 @@ function performCrossProfileSearch() {
     var query = $("#streamer-search").val().trim().toLowerCase();
     if (!query) {
         searchTerm = "";
+        $("body").removeClass("is-searching");
         applyFilters();
         $("#search-tab-badge").text("0");
         $("#btn-back-to-search").hide();
@@ -1256,6 +1436,7 @@ function performCrossProfileSearch() {
     }
 
     searchTerm = query;
+    $("body").addClass("is-searching");
     applyFilters();
 
     var results = [];
@@ -1411,7 +1592,7 @@ function renderCrossProfileSearchResults(results, query) {
     var subtitle = "";
     if (uniqueStreamers === 1) {
         var sName = filtered[0].name;
-        subtitle = `Streamer: <b style="color: var(--accent-light);">"${sName}"</b> across <b>${filtered.length} profiles</b> • Sorted by Points (Desc)`;
+        subtitle = `Streamer: <b style="color: #c8aaff;">"${sName}"</b> across <b>${filtered.length} profiles</b> • Sorted by Points (Desc)`;
     } else {
         subtitle = `Found <b>${uniqueStreamers} streamers</b> across <b>${uniqueProfiles} profiles</b> (${filtered.length} total) • Sorted by Points (Desc)`;
     }
@@ -1434,10 +1615,15 @@ function renderCrossProfileSearchResults(results, query) {
             : `<span class="search-res-profile-tag"><i class="fas fa-user-circle"></i> ${item.profileName || item.profile}</span>`;
 
         var exactPoints = (item.points || 0).toLocaleString();
-        var isOnline = item.is_live_now || sheetOnlineSet.has(item.name.toLowerCase());
+        var isOnline = isStreamerOnlineRealtime(item.name);
+        var liveDetails = getStreamerLiveDetails(item.name);
         var progClass = item.is_target_met ? "met" : (item.is_approaching_target ? "near" : "normal");
         var progLabel = item.target_points > 0 ? `${item.target_pct}%` : "--";
-        var rowClass = item.is_target_met ? "row-target-met" : (item.is_approaching_target ? "row-near-target" : "");
+        var rowClass = item.is_approaching_target ? "row-near-target" : "";
+
+        var livePillHtml = isOnline
+            ? `<span class="matrix-live-pill online" title="${liveDetails && liveDetails.game ? liveDetails.game : 'Streaming Live on Twitch'}"><span class="live-dot-pulse-mini"></span> LIVE${liveDetails && liveDetails.viewers ? ' (' + millify(liveDetails.viewers) + ')' : ''}</span>`
+            : `<span class="matrix-live-pill offline">Offline</span>`;
 
         var rowHtml = `
             <tr class="search-result-row ${rowClass} ${isCurrentProf ? 'is-current-profile' : ''}" data-channel="${item.name}" data-profile="${item.profile}">
@@ -1451,9 +1637,7 @@ function renderCrossProfileSearchResults(results, query) {
                     </div>
                 </td>
                 <td>
-                    <span class="matrix-live-pill ${isOnline ? 'online' : 'offline'}">
-                        ${isOnline ? '<span class="live-dot-pulse-mini"></span> LIVE' : 'Offline'}
-                    </span>
+                    ${livePillHtml}
                 </td>
                 <td>
                     <span title="${item.reward_desc || ''}" style="font-weight: 700; color: var(--text-bright);">${item.reward_name || '--'}</span>
@@ -1996,6 +2180,7 @@ function setupEventListeners() {
     $("#search-clear").click(function () {
         $("#streamer-search").val("");
         searchTerm = "";
+        $("body").removeClass("is-searching");
         $(this).hide();
         $("#btn-back-to-search").hide();
         $("#search-tab-badge").text("0");
@@ -2007,6 +2192,7 @@ function setupEventListeners() {
 
     // Back to Search Button in Toolbar (Preserves progress & returns to search tab)
     $("#btn-back-to-search").click(function () {
+        $("body").addClass("is-searching");
         $(".d-tab").removeClass("active");
         $(".tab-pane").removeClass("active");
         $("#tab-btn-search").addClass("active");
@@ -2023,6 +2209,7 @@ function setupEventListeners() {
     $("#btn-clear-search-tab").click(function () {
         $("#streamer-search").val("");
         searchTerm = "";
+        $("body").removeClass("is-searching");
         $("#search-clear").hide();
         $("#btn-back-to-search").hide();
         $("#search-tab-badge").text("0");

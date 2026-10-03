@@ -10,6 +10,16 @@
     "is_current": false
   },
   {
+    "id": "flank_man",
+    "name": "flank_man",
+    "streamers_count": 87,
+    "total_points": 3397456,
+    "gain_24h": 0,
+    "active_today_count": 0,
+    "has_data": true,
+    "is_current": true
+  },
+  {
     "id": "aethermain7",
     "name": "aethermain7",
     "streamers_count": 87,
@@ -17,7 +27,7 @@
     "gain_24h": 0,
     "active_today_count": 0,
     "has_data": true,
-    "is_current": true
+    "is_current": false
   },
   {
     "id": "aloneyexe",
@@ -73,8 +83,8 @@
     "id": "egomanyk",
     "name": "egomanyk",
     "streamers_count": 87,
-    "total_points": 3701072,
-    "gain_24h": 3352,
+    "total_points": 3701132,
+    "gain_24h": 3412,
     "active_today_count": 87,
     "has_data": true,
     "is_current": false
@@ -82,16 +92,6 @@
   {
     "id": "emotional_damage_pro_max",
     "name": "emotional_damage_pro_max",
-    "streamers_count": 87,
-    "total_points": 3397456,
-    "gain_24h": 0,
-    "active_today_count": 0,
-    "has_data": true,
-    "is_current": false
-  },
-  {
-    "id": "flank_man",
-    "name": "flank_man",
     "streamers_count": 87,
     "total_points": 3397456,
     "gain_24h": 0,
@@ -213,8 +213,8 @@
     "id": "penguinfar8",
     "name": "penguinfar8",
     "streamers_count": 87,
-    "total_points": 2127680,
-    "gain_24h": 80,
+    "total_points": 2127690,
+    "gain_24h": 90,
     "active_today_count": 86,
     "has_data": true,
     "is_current": false

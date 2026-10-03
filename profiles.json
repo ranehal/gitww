@@ -3,19 +3,19 @@
     "id": "all",
     "name": "All Accounts (Combined)",
     "streamers_count": 87,
-    "total_points": 5062940,
-    "gain_24h": 62458,
+    "total_points": 5062950,
+    "gain_24h": 62468,
     "active_today_count": 85,
     "has_data": true,
     "is_current": false
   },
   {
-    "id": "Vodar_Jol",
-    "name": "Vodar_Jol",
+    "id": "thomus_shebly",
+    "name": "thomus_shebly",
     "streamers_count": 87,
-    "total_points": 3056250,
-    "gain_24h": 0,
-    "active_today_count": 0,
+    "total_points": 3492087,
+    "gain_24h": 4000,
+    "active_today_count": 87,
     "has_data": true,
     "is_current": true
   },
@@ -243,8 +243,8 @@
     "id": "real_ice77",
     "name": "real_ice77",
     "streamers_count": 87,
-    "total_points": 3319308,
-    "gain_24h": 31410,
+    "total_points": 3319318,
+    "gain_24h": 31420,
     "active_today_count": 87,
     "has_data": true,
     "is_current": false
@@ -310,22 +310,22 @@
     "is_current": false
   },
   {
-    "id": "thomus_shebly",
-    "name": "thomus_shebly",
-    "streamers_count": 87,
-    "total_points": 3492087,
-    "gain_24h": 4000,
-    "active_today_count": 87,
-    "has_data": true,
-    "is_current": false
-  },
-  {
     "id": "truck_me1",
     "name": "truck_me1",
     "streamers_count": 87,
     "total_points": 2726356,
     "gain_24h": 16700,
     "active_today_count": 87,
+    "has_data": true,
+    "is_current": false
+  },
+  {
+    "id": "Vodar_Jol",
+    "name": "Vodar_Jol",
+    "streamers_count": 87,
+    "total_points": 3056250,
+    "gain_24h": 0,
+    "active_today_count": 0,
     "has_data": true,
     "is_current": false
   },

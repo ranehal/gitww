@@ -468,24 +468,6 @@
     }
   },
   {
-    "name": "original_stump",
-    "points": 27020,
-    "last_activity": 1790626251000,
-    "gain_24h": 0,
-    "gain_total": 1190,
-    "start_points": 26310,
-    "events_count": 6,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 5,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "faded689",
     "points": 25770,
     "last_activity": 1790626227000,
@@ -859,24 +841,6 @@
       "Claim": 10,
       "Streak": 0,
       "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "activelyboss",
-    "points": 13980,
-    "last_activity": 1790626256000,
-    "gain_24h": 0,
-    "gain_total": 1910,
-    "start_points": 12070,
-    "events_count": 3,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }
@@ -1458,9 +1422,45 @@
     }
   },
   {
+    "name": "activelyboss",
+    "points": 10,
+    "last_activity": 1791049098000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 10,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "benolaie",
     "points": 10,
     "last_activity": 1791047676000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 10,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "original_stump",
+    "points": 10,
+    "last_activity": 1791049047000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 10,

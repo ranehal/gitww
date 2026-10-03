@@ -10,6 +10,16 @@
     "is_current": false
   },
   {
+    "id": "done_pata",
+    "name": "done_pata",
+    "streamers_count": 87,
+    "total_points": 3397456,
+    "gain_24h": 0,
+    "active_today_count": 0,
+    "has_data": true,
+    "is_current": true
+  },
+  {
     "id": "aethermain7",
     "name": "aethermain7",
     "streamers_count": 87,
@@ -17,7 +27,7 @@
     "gain_24h": 0,
     "active_today_count": 0,
     "has_data": true,
-    "is_current": true
+    "is_current": false
   },
   {
     "id": "aloneyexe",
@@ -46,16 +56,6 @@
     "total_points": 2092688,
     "gain_24h": 0,
     "active_today_count": 81,
-    "has_data": true,
-    "is_current": false
-  },
-  {
-    "id": "done_pata",
-    "name": "done_pata",
-    "streamers_count": 87,
-    "total_points": 3397456,
-    "gain_24h": 0,
-    "active_today_count": 0,
     "has_data": true,
     "is_current": false
   },

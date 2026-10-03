@@ -1,12 +1,18 @@
 {
   "profile": "insta_lock4",
-  "total_points": 0,
+  "total_points": 191590,
   "gain_24h": 0,
-  "streamers_count": 0,
-  "active_today_count": 0,
-  "top_streamer": null,
-  "top_gain_streamer": null,
-  "last_sync_time": "2026-10-03T15:53:49Z",
-  "last_sync_timestamp": 1791042829557,
+  "streamers_count": 10,
+  "active_today_count": 10,
+  "top_streamer": {
+    "name": "ksfoster",
+    "points": 78720
+  },
+  "top_gain_streamer": {
+    "name": "ksfoster",
+    "gain_24h": 0
+  },
+  "last_sync_time": "2026-10-03T17:02:20Z",
+  "last_sync_timestamp": 1791046940337,
   "days_ago": 90
 }

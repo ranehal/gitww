@@ -3,11 +3,21 @@
     "id": "all",
     "name": "All Accounts (Combined)",
     "streamers_count": 87,
-    "total_points": 5374450,
-    "gain_24h": 101400,
+    "total_points": 5374510,
+    "gain_24h": 101460,
     "active_today_count": 86,
     "has_data": true,
     "is_current": false
+  },
+  {
+    "id": "jigss99",
+    "name": "jigss99",
+    "streamers_count": 87,
+    "total_points": 3397456,
+    "gain_24h": 0,
+    "active_today_count": 0,
+    "has_data": true,
+    "is_current": true
   },
   {
     "id": "aethermain7",
@@ -17,7 +27,7 @@
     "gain_24h": 0,
     "active_today_count": 0,
     "has_data": true,
-    "is_current": true
+    "is_current": false
   },
   {
     "id": "aloneyexe",
@@ -73,8 +83,8 @@
     "id": "egomanyk",
     "name": "egomanyk",
     "streamers_count": 87,
-    "total_points": 3531894,
-    "gain_24h": 28888,
+    "total_points": 3531954,
+    "gain_24h": 28948,
     "active_today_count": 87,
     "has_data": true,
     "is_current": false
@@ -156,16 +166,6 @@
     "total_points": 2394573,
     "gain_24h": 190,
     "active_today_count": 81,
-    "has_data": true,
-    "is_current": false
-  },
-  {
-    "id": "jigss99",
-    "name": "jigss99",
-    "streamers_count": 87,
-    "total_points": 3397456,
-    "gain_24h": 0,
-    "active_today_count": 0,
     "has_data": true,
     "is_current": false
   },
@@ -313,8 +313,8 @@
     "id": "thomus_shebly",
     "name": "thomus_shebly",
     "streamers_count": 87,
-    "total_points": 3449127,
-    "gain_24h": 19220,
+    "total_points": 3449187,
+    "gain_24h": 19280,
     "active_today_count": 87,
     "has_data": true,
     "is_current": false

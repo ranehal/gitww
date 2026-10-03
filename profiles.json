@@ -10,16 +10,6 @@
     "is_current": false
   },
   {
-    "id": "mylyfe69",
-    "name": "mylyfe69",
-    "streamers_count": 87,
-    "total_points": 2416736,
-    "gain_24h": 0,
-    "active_today_count": 79,
-    "has_data": true,
-    "is_current": true
-  },
-  {
     "id": "aethermain7",
     "name": "aethermain7",
     "streamers_count": 87,
@@ -27,7 +17,7 @@
     "gain_24h": 0,
     "active_today_count": 0,
     "has_data": true,
-    "is_current": false
+    "is_current": true
   },
   {
     "id": "aloneyexe",
@@ -206,6 +196,16 @@
     "total_points": 3571144,
     "gain_24h": 19490,
     "active_today_count": 87,
+    "has_data": true,
+    "is_current": false
+  },
+  {
+    "id": "mylyfe69",
+    "name": "mylyfe69",
+    "streamers_count": 87,
+    "total_points": 2416736,
+    "gain_24h": 0,
+    "active_today_count": 79,
     "has_data": true,
     "is_current": false
   },

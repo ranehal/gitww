@@ -10,12 +10,12 @@
     "is_current": false
   },
   {
-    "id": "restless_rick",
-    "name": "restless_rick",
+    "id": "flank_man",
+    "name": "flank_man",
     "streamers_count": 87,
-    "total_points": 3664024,
-    "gain_24h": 34400,
-    "active_today_count": 87,
+    "total_points": 1837596,
+    "gain_24h": 210,
+    "active_today_count": 81,
     "has_data": true,
     "is_current": true
   },
@@ -95,16 +95,6 @@
     "streamers_count": 87,
     "total_points": 2308720,
     "gain_24h": 27810,
-    "active_today_count": 81,
-    "has_data": true,
-    "is_current": false
-  },
-  {
-    "id": "flank_man",
-    "name": "flank_man",
-    "streamers_count": 87,
-    "total_points": 1837596,
-    "gain_24h": 210,
     "active_today_count": 81,
     "has_data": true,
     "is_current": false
@@ -260,6 +250,16 @@
     "is_current": false
   },
   {
+    "id": "restless_rick",
+    "name": "restless_rick",
+    "streamers_count": 87,
+    "total_points": 3664024,
+    "gain_24h": 34400,
+    "active_today_count": 87,
+    "has_data": true,
+    "is_current": false
+  },
+  {
     "id": "rinn__sama",
     "name": "rinn__sama",
     "streamers_count": 87,
@@ -363,8 +363,8 @@
     "id": "zaree_chan",
     "name": "zaree_chan",
     "streamers_count": 87,
-    "total_points": 2332982,
-    "gain_24h": 6240,
+    "total_points": 2332992,
+    "gain_24h": 6250,
     "active_today_count": 81,
     "has_data": true,
     "is_current": false

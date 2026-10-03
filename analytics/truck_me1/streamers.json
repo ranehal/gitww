@@ -6,10 +6,10 @@
     "gain_24h": 680,
     "gain_total": 5240,
     "start_points": 188700,
-    "events_count": 30,
+    "events_count": 29,
     "active_today": true,
     "breakdown": {
-      "Watch": 21,
+      "Watch": 20,
       "Claim": 9,
       "Streak": 0,
       "Raid": 0,
@@ -384,10 +384,10 @@
     "gain_24h": 510,
     "gain_total": 1910,
     "start_points": 38290,
-    "events_count": 6,
+    "events_count": 5,
     "active_today": true,
     "breakdown": {
-      "Watch": 5,
+      "Watch": 4,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -414,24 +414,6 @@
     }
   },
   {
-    "name": "rysl2",
-    "points": 37310,
-    "last_activity": 1791037341000,
-    "gain_24h": 13300,
-    "gain_total": 13300,
-    "start_points": 24010,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "kiid2xx",
     "points": 37310,
     "last_activity": 1791037341000,
@@ -442,6 +424,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "rysl2",
+    "points": 37310,
+    "last_activity": 1791037341000,
+    "gain_24h": 13300,
+    "gain_total": 13300,
+    "start_points": 24010,
+    "events_count": 2,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1152,24 +1152,6 @@
     }
   },
   {
-    "name": "nbkguapo",
-    "points": 11820,
-    "last_activity": 1791037474000,
-    "gain_24h": 0,
-    "gain_total": 1520,
-    "start_points": 10300,
-    "events_count": 5,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 4,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "mikkioplayz",
     "points": 11820,
     "last_activity": 1791037433000,
@@ -1183,6 +1165,24 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "nbkguapo",
+    "points": 11820,
+    "last_activity": 1791037474000,
+    "gain_24h": 0,
+    "gain_total": 1520,
+    "start_points": 10300,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }

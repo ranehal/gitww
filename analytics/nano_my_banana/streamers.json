@@ -6,10 +6,10 @@
     "gain_24h": 670,
     "gain_total": 4830,
     "start_points": 303308,
-    "events_count": 33,
+    "events_count": 32,
     "active_today": true,
     "breakdown": {
-      "Watch": 24,
+      "Watch": 23,
       "Claim": 9,
       "Streak": 0,
       "Raid": 0,
@@ -240,10 +240,10 @@
     "gain_24h": 610,
     "gain_total": 8140,
     "start_points": 53400,
-    "events_count": 9,
+    "events_count": 8,
     "active_today": true,
     "breakdown": {
-      "Watch": 7,
+      "Watch": 6,
       "Claim": 2,
       "Streak": 0,
       "Raid": 0,
@@ -414,6 +414,24 @@
     }
   },
   {
+    "name": "carno_asada",
+    "points": 33506,
+    "last_activity": 1791037283000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 33506,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "im_brutus_",
     "points": 33506,
     "last_activity": 1791037283000,
@@ -442,24 +460,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "carno_asada",
-    "points": 33506,
-    "last_activity": 1791037283000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 33506,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -846,24 +846,6 @@
     }
   },
   {
-    "name": "lilwunkrazy",
-    "points": 15940,
-    "last_activity": 1791037313000,
-    "gain_24h": 8880,
-    "gain_total": 8880,
-    "start_points": 7060,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "annyquilladora",
     "points": 15940,
     "last_activity": 1791037313000,
@@ -874,6 +856,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "lilwunkrazy",
+    "points": 15940,
+    "last_activity": 1791037313000,
+    "gain_24h": 8880,
+    "gain_total": 8880,
+    "start_points": 7060,
+    "events_count": 2,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

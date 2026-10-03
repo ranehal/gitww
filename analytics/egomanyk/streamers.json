@@ -78,10 +78,10 @@
     "gain_24h": 610,
     "gain_total": 2530,
     "start_points": 157570,
-    "events_count": 9,
+    "events_count": 8,
     "active_today": true,
     "breakdown": {
-      "Watch": 7,
+      "Watch": 6,
       "Claim": 2,
       "Streak": 0,
       "Raid": 0,
@@ -306,24 +306,6 @@
     }
   },
   {
-    "name": "king_munc",
-    "points": 48110,
-    "last_activity": 1791037311000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 48110,
-    "events_count": 1,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "hezeclips",
     "points": 48110,
     "last_activity": 1791037311000,
@@ -334,6 +316,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "king_munc",
+    "points": 48110,
+    "last_activity": 1791037311000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 48110,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -456,10 +456,10 @@
     "gain_24h": 534,
     "gain_total": 2094,
     "start_points": 34742,
-    "events_count": 6,
+    "events_count": 5,
     "active_today": true,
     "breakdown": {
-      "Watch": 5,
+      "Watch": 4,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,

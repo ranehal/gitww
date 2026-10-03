@@ -60,10 +60,10 @@
     "gain_24h": 610,
     "gain_total": 2520,
     "start_points": 158450,
-    "events_count": 9,
+    "events_count": 8,
     "active_today": true,
     "breakdown": {
-      "Watch": 7,
+      "Watch": 6,
       "Claim": 2,
       "Streak": 0,
       "Raid": 0,
@@ -418,12 +418,12 @@
     "points": 38238,
     "last_activity": 1791038353000,
     "gain_24h": 522,
-    "gain_total": 2544,
+    "gain_total": 2094,
     "start_points": 36144,
-    "events_count": 6,
+    "events_count": 4,
     "active_today": true,
     "breakdown": {
-      "Watch": 5,
+      "Watch": 3,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -810,24 +810,6 @@
     }
   },
   {
-    "name": "king_munc",
-    "points": 16920,
-    "last_activity": 1791037309000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 16920,
-    "events_count": 1,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "digooo1",
     "points": 16920,
     "last_activity": 1791037309000,
@@ -838,6 +820,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "king_munc",
+    "points": 16920,
+    "last_activity": 1791037309000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 16920,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1386,24 +1386,6 @@
     }
   },
   {
-    "name": "olofmeister",
-    "points": 5810,
-    "last_activity": 1791037485000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 5810,
-    "events_count": 1,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "jemplfg",
     "points": 5810,
     "last_activity": 1791037485000,
@@ -1414,6 +1396,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "olofmeister",
+    "points": 5810,
+    "last_activity": 1791037485000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 5810,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

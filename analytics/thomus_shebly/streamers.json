@@ -180,24 +180,6 @@
     }
   },
   {
-    "name": "wockhardtxx",
-    "points": 86850,
-    "last_activity": 1791037286000,
-    "gain_24h": 0,
-    "gain_total": 2090,
-    "start_points": 84760,
-    "events_count": 10,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 8,
-      "Claim": 2,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "carno_asada",
     "points": 86850,
     "last_activity": 1791037286000,
@@ -209,6 +191,24 @@
     "breakdown": {
       "Watch": 1,
       "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "wockhardtxx",
+    "points": 86850,
+    "last_activity": 1791037286000,
+    "gain_24h": 0,
+    "gain_total": 2090,
+    "start_points": 84760,
+    "events_count": 10,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 8,
+      "Claim": 2,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -312,10 +312,10 @@
     "gain_24h": 680,
     "gain_total": 4480,
     "start_points": 55960,
-    "events_count": 11,
+    "events_count": 10,
     "active_today": true,
     "breakdown": {
-      "Watch": 8,
+      "Watch": 7,
       "Claim": 3,
       "Streak": 0,
       "Raid": 0,
@@ -960,10 +960,10 @@
     "gain_24h": 460,
     "gain_total": 2080,
     "start_points": 12390,
-    "events_count": 5,
+    "events_count": 4,
     "active_today": true,
     "breakdown": {
-      "Watch": 5,
+      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1098,24 +1098,6 @@
     }
   },
   {
-    "name": "mikkioplayz",
-    "points": 12210,
-    "last_activity": 1791037437000,
-    "gain_24h": 0,
-    "gain_total": 1440,
-    "start_points": 10770,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "betrigan",
     "points": 12210,
     "last_activity": 1791037421000,
@@ -1134,12 +1116,12 @@
     }
   },
   {
-    "name": "wilsonnr1",
-    "points": 12000,
-    "last_activity": 1791037487000,
+    "name": "mikkioplayz",
+    "points": 12210,
+    "last_activity": 1791037437000,
     "gain_24h": 0,
-    "gain_total": 460,
-    "start_points": 11540,
+    "gain_total": 1440,
+    "start_points": 10770,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -1158,6 +1140,24 @@
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 12000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "wilsonnr1",
+    "points": 12000,
+    "last_activity": 1791037487000,
+    "gain_24h": 0,
+    "gain_total": 460,
+    "start_points": 11540,
     "events_count": 3,
     "active_today": true,
     "breakdown": {

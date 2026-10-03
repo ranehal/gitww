@@ -6,10 +6,10 @@
     "gain_24h": 670,
     "gain_total": 3800,
     "start_points": 453754,
-    "events_count": 32,
+    "events_count": 31,
     "active_today": true,
     "breakdown": {
-      "Watch": 23,
+      "Watch": 22,
       "Claim": 9,
       "Streak": 0,
       "Raid": 0,
@@ -450,24 +450,6 @@
     }
   },
   {
-    "name": "rysl2",
-    "points": 36340,
-    "last_activity": 1791037341000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 36340,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "goosebian",
     "points": 36340,
     "last_activity": 1791037341000,
@@ -478,6 +460,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "rysl2",
+    "points": 36340,
+    "last_activity": 1791037341000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 36340,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -744,10 +744,10 @@
     "gain_24h": 520,
     "gain_total": 2220,
     "start_points": 16750,
-    "events_count": 6,
+    "events_count": 5,
     "active_today": true,
     "breakdown": {
-      "Watch": 5,
+      "Watch": 4,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,

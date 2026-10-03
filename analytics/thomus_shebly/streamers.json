@@ -42,10 +42,10 @@
     "gain_24h": 510,
     "gain_total": 2430,
     "start_points": 224540,
-    "events_count": 5,
+    "events_count": 4,
     "active_today": true,
     "breakdown": {
-      "Watch": 4,
+      "Watch": 3,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -60,10 +60,10 @@
     "gain_24h": 530,
     "gain_total": 4120,
     "start_points": 206479,
-    "events_count": 31,
+    "events_count": 30,
     "active_today": true,
     "breakdown": {
-      "Watch": 23,
+      "Watch": 22,
       "Claim": 8,
       "Streak": 0,
       "Raid": 0,
@@ -312,10 +312,10 @@
     "gain_24h": 590,
     "gain_total": 4390,
     "start_points": 55960,
-    "events_count": 9,
+    "events_count": 6,
     "active_today": true,
     "breakdown": {
-      "Watch": 7,
+      "Watch": 4,
       "Claim": 2,
       "Streak": 0,
       "Raid": 0,
@@ -384,10 +384,10 @@
     "gain_24h": 460,
     "gain_total": 460,
     "start_points": 40290,
-    "events_count": 4,
+    "events_count": 3,
     "active_today": true,
     "breakdown": {
-      "Watch": 4,
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -510,10 +510,10 @@
     "gain_24h": 460,
     "gain_total": 2890,
     "start_points": 27150,
-    "events_count": 4,
+    "events_count": 3,
     "active_today": true,
     "breakdown": {
-      "Watch": 4,
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -738,12 +738,12 @@
     }
   },
   {
-    "name": "do_worrk",
+    "name": "chawndo",
     "points": 18800,
     "last_activity": 1791034655000,
     "gain_24h": 0,
-    "gain_total": 8030,
-    "start_points": 10770,
+    "gain_total": 1890,
+    "start_points": 16910,
     "events_count": 2,
     "active_today": true,
     "breakdown": {
@@ -756,12 +756,12 @@
     }
   },
   {
-    "name": "chawndo",
+    "name": "do_worrk",
     "points": 18800,
     "last_activity": 1791034655000,
     "gain_24h": 0,
-    "gain_total": 1890,
-    "start_points": 16910,
+    "gain_total": 8030,
+    "start_points": 10770,
     "events_count": 2,
     "active_today": true,
     "breakdown": {
@@ -798,10 +798,10 @@
     "gain_24h": 460,
     "gain_total": 2160,
     "start_points": 15770,
-    "events_count": 4,
+    "events_count": 3,
     "active_today": true,
     "breakdown": {
-      "Watch": 4,
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1044,24 +1044,6 @@
     }
   },
   {
-    "name": "itzmelloncs",
-    "points": 13020,
-    "last_activity": 1791034655000,
-    "gain_24h": 0,
-    "gain_total": 1430,
-    "start_points": 11590,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "battlecorgiiii",
     "points": 13020,
     "last_activity": 1791034655000,
@@ -1072,6 +1054,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "itzmelloncs",
+    "points": 13020,
+    "last_activity": 1791034655000,
+    "gain_24h": 0,
+    "gain_total": 1430,
+    "start_points": 11590,
+    "events_count": 2,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

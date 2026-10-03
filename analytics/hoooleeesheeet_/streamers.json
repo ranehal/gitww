@@ -6,10 +6,10 @@
     "gain_24h": 530,
     "gain_total": 2440,
     "start_points": 163750,
-    "events_count": 7,
+    "events_count": 5,
     "active_today": true,
     "breakdown": {
-      "Watch": 6,
+      "Watch": 4,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -24,10 +24,10 @@
     "gain_24h": 540,
     "gain_total": 5230,
     "start_points": 152740,
-    "events_count": 30,
+    "events_count": 28,
     "active_today": true,
     "breakdown": {
-      "Watch": 21,
+      "Watch": 19,
       "Claim": 9,
       "Streak": 0,
       "Raid": 0,
@@ -198,24 +198,6 @@
     }
   },
   {
-    "name": "ichigrim",
-    "points": 69890,
-    "last_activity": 1791034638000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 69890,
-    "events_count": 1,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "goosebian",
     "points": 69890,
     "last_activity": 1791034638000,
@@ -226,6 +208,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "ichigrim",
+    "points": 69890,
+    "last_activity": 1791034638000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 69890,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -382,12 +382,12 @@
     "points": 41710,
     "last_activity": 1791035263000,
     "gain_24h": 12,
-    "gain_total": 1938,
+    "gain_total": 1488,
     "start_points": 40222,
-    "events_count": 4,
+    "events_count": 3,
     "active_today": true,
     "breakdown": {
-      "Watch": 4,
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -528,10 +528,10 @@
     "gain_24h": 9120,
     "gain_total": 9120,
     "start_points": 20110,
-    "events_count": 3,
+    "events_count": 2,
     "active_today": true,
     "breakdown": {
-      "Watch": 3,
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -708,10 +708,10 @@
     "gain_24h": 460,
     "gain_total": 2160,
     "start_points": 17980,
-    "events_count": 4,
+    "events_count": 3,
     "active_today": true,
     "breakdown": {
-      "Watch": 4,
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -996,10 +996,10 @@
     "gain_24h": 460,
     "gain_total": 2230,
     "start_points": 12580,
-    "events_count": 5,
+    "events_count": 4,
     "active_today": true,
     "breakdown": {
-      "Watch": 5,
+      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1458,24 +1458,6 @@
     }
   },
   {
-    "name": "frizzercs",
-    "points": 3830,
-    "last_activity": 1791034651000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 3830,
-    "events_count": 1,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "evokeddd",
     "points": 3830,
     "last_activity": 1791034651000,
@@ -1486,6 +1468,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "frizzercs",
+    "points": 3830,
+    "last_activity": 1791034651000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 3830,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

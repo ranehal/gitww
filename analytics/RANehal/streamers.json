@@ -24,10 +24,10 @@
     "gain_24h": 360,
     "gain_total": 21770,
     "start_points": 157060,
-    "events_count": 8,
+    "events_count": 6,
     "active_today": true,
     "breakdown": {
-      "Watch": 6,
+      "Watch": 4,
       "Claim": 2,
       "Streak": 0,
       "Raid": 0,
@@ -42,10 +42,10 @@
     "gain_24h": 380,
     "gain_total": 380,
     "start_points": 165581,
-    "events_count": 6,
+    "events_count": 5,
     "active_today": true,
     "breakdown": {
-      "Watch": 5,
+      "Watch": 4,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -402,10 +402,10 @@
     "gain_24h": 410,
     "gain_total": 410,
     "start_points": 28040,
-    "events_count": 4,
+    "events_count": 3,
     "active_today": true,
     "breakdown": {
-      "Watch": 3,
+      "Watch": 2,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -580,12 +580,12 @@
     "points": 15430,
     "last_activity": 1791036313000,
     "gain_24h": 410,
-    "gain_total": 760,
+    "gain_total": 410,
     "start_points": 15020,
-    "events_count": 4,
+    "events_count": 2,
     "active_today": true,
     "breakdown": {
-      "Watch": 3,
+      "Watch": 1,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -774,24 +774,6 @@
     }
   },
   {
-    "name": "bonda13",
-    "points": 8670,
-    "last_activity": 1791034649000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 8670,
-    "events_count": 1,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "activelyboss",
     "points": 8670,
     "last_activity": 1791035463000,
@@ -802,6 +784,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "bonda13",
+    "points": 8670,
+    "last_activity": 1791034649000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 8670,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1260,7 +1260,7 @@
     }
   },
   {
-    "name": "fermboss0",
+    "name": "denie",
     "points": 4250,
     "last_activity": 1791034651000,
     "gain_24h": 0,
@@ -1278,7 +1278,7 @@
     }
   },
   {
-    "name": "denie",
+    "name": "fermboss0",
     "points": 4250,
     "last_activity": 1791034651000,
     "gain_24h": 0,

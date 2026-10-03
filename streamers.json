@@ -199,15 +199,15 @@
   },
   {
     "name": "magilacs",
-    "points": 119630,
-    "last_activity": 1791034649000,
+    "points": 128990,
+    "last_activity": 1791037674000,
     "gain_24h": 0,
     "gain_total": 0,
-    "start_points": 119630,
-    "events_count": 2,
+    "start_points": 128990,
+    "events_count": 1,
     "active_today": true,
     "breakdown": {
-      "Watch": 2,
+      "Watch": 1,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -352,6 +352,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "demon1",
+    "points": 85922,
+    "last_activity": 1791037643000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 85922,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1482,24 +1500,6 @@
     "gain_24h": 0,
     "gain_total": 1230,
     "start_points": 7360,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "demon1",
-    "points": 7060,
-    "last_activity": 1791034634000,
-    "gain_24h": 0,
-    "gain_total": 610,
-    "start_points": 6450,
     "events_count": 2,
     "active_today": true,
     "breakdown": {

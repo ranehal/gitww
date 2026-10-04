@@ -1032,10 +1032,10 @@
     "gain_24h": 570,
     "gain_total": 570,
     "start_points": 960,
-    "events_count": 6,
+    "events_count": 5,
     "active_today": true,
     "breakdown": {
-      "Watch": 6,
+      "Watch": 5,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1285,9 +1285,9 @@
     "gain_total": 330,
     "start_points": 340,
     "events_count": 7,
-    "active_today": true,
+    "active_today": : true,
     "breakdown": {
-      "Watch": 6,
+      "Watch": 7,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -1350,16 +1350,16 @@
     }
   },
   {
-    "name": "kurumichaos",
+    "name": "evokeddd",
     "points": 320,
-    "last_activity": 1791088440000,
+    "last_activity": 1791088396000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 320,
-    "events_count": 6,
+    "events_count": 3,
     "active_today": true,
     "breakdown": {
-      "Watch": 6,
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1386,16 +1386,16 @@
     }
   },
   {
-    "name": "evokeddd",
+    "name": "kurumichaos",
     "points": 320,
-    "last_activity": 1791088396000,
+    "last_activity": 1791088440000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 320,
-    "events_count": 3,
+    "events_count": 6,
     "active_today": true,
     "breakdown": {
-      "Watch": 3,
+      "Watch": 6,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1476,24 +1476,6 @@
     }
   },
   {
-    "name": "jptv2403",
-    "points": 20,
-    "last_activity": 1791088189000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 20,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "andres_3197",
     "points": 20,
     "last_activity": 1791088292000,
@@ -1530,12 +1512,12 @@
     }
   },
   {
-    "name": "kyriefnx",
-    "points": 10,
-    "last_activity": 1791088341000,
+    "name": "jptv2403",
+    "points": 20,
+    "last_activity": 1791088189000,
     "gain_24h": 0,
     "gain_total": 0,
-    "start_points": 10,
+    "start_points": 20,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -1551,6 +1533,24 @@
     "name": "cblitzkrieg",
     "points": 10,
     "last_activity": 1791088120000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 10,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "kyriefnx",
+    "points": 10,
+    "last_activity": 1791088341000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 10,

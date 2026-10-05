@@ -3,19 +3,19 @@
     "id": "all",
     "name": "All Accounts (Combined)",
     "streamers_count": 87,
-    "total_points": 5287909,
-    "gain_24h": 114640,
+    "total_points": 5287919,
+    "gain_24h": 114650,
     "active_today_count": 85,
     "has_data": true,
     "is_current": false
   },
   {
-    "id": "thomus_shebly",
-    "name": "thomus_shebly",
+    "id": "Chodon_Purush",
+    "name": "Chodon_Purush",
     "streamers_count": 87,
-    "total_points": 3571535,
-    "gain_24h": 12200,
-    "active_today_count": 87,
+    "total_points": 2086138,
+    "gain_24h": 4630,
+    "active_today_count": 82,
     "has_data": true,
     "is_current": true
   },
@@ -46,16 +46,6 @@
     "total_points": 4013772,
     "gain_24h": 28800,
     "active_today_count": 87,
-    "has_data": true,
-    "is_current": false
-  },
-  {
-    "id": "Chodon_Purush",
-    "name": "Chodon_Purush",
-    "streamers_count": 87,
-    "total_points": 2086138,
-    "gain_24h": 4630,
-    "active_today_count": 82,
     "has_data": true,
     "is_current": false
   },
@@ -315,6 +305,16 @@
     "streamers_count": 87,
     "total_points": 3316454,
     "gain_24h": 34438,
+    "active_today_count": 87,
+    "has_data": true,
+    "is_current": false
+  },
+  {
+    "id": "thomus_shebly",
+    "name": "thomus_shebly",
+    "streamers_count": 87,
+    "total_points": 3571545,
+    "gain_24h": 12210,
     "active_today_count": 87,
     "has_data": true,
     "is_current": false

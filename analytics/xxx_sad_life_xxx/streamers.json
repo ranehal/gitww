@@ -144,24 +144,6 @@
     }
   },
   {
-    "name": "wockhardtxx",
-    "points": 90550,
-    "last_activity": 1790665773000,
-    "gain_24h": 0,
-    "gain_total": 3310,
-    "start_points": 87630,
-    "events_count": 101,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 70,
-      "Claim": 31,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "magilacs",
     "points": 86160,
     "last_activity": 1790626268000,
@@ -342,6 +324,24 @@
     }
   },
   {
+    "name": "wockhardtxx",
+    "points": 40700,
+    "last_activity": 1791170367000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 40700,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "r20cs",
     "points": 39232,
     "last_activity": 1790626282000,
@@ -460,24 +460,6 @@
     "active_today": false,
     "breakdown": {
       "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "carno_asada",
-    "points": 32040,
-    "last_activity": 1790626212000,
-    "gain_24h": 0,
-    "gain_total": 900,
-    "start_points": 31140,
-    "events_count": 2,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -658,24 +640,6 @@
     "active_today": false,
     "breakdown": {
       "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "ninjanelo",
-    "points": 18220,
-    "last_activity": 1790626211000,
-    "gain_24h": 0,
-    "gain_total": 70,
-    "start_points": 18220,
-    "events_count": 3,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -874,6 +838,24 @@
     "active_today": false,
     "breakdown": {
       "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "carno_asada",
+    "points": 14494,
+    "last_activity": 1791170373000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 14494,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1482,6 +1464,24 @@
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 3750,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "ninjanelo",
+    "points": 3070,
+    "last_activity": 1791170371000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 3070,
     "events_count": 1,
     "active_today": true,
     "breakdown": {

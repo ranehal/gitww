@@ -236,14 +236,14 @@
   {
     "name": "king_munc",
     "points": 35680,
-    "last_activity": 1791037904000,
+    "last_activity": 1791170403000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 35680,
-    "events_count": 1,
-    "active_today": false,
+    "events_count": 2,
+    "active_today": true,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -794,14 +794,14 @@
   {
     "name": "cheapgp",
     "points": 3930,
-    "last_activity": 1791037906000,
+    "last_activity": 1791170414000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 3930,
-    "events_count": 1,
-    "active_today": false,
+    "events_count": 2,
+    "active_today": true,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -902,14 +902,14 @@
   {
     "name": "digooo1",
     "points": 3040,
-    "last_activity": 1791037905000,
+    "last_activity": 1791170412000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 3040,
-    "events_count": 1,
-    "active_today": false,
+    "events_count": 2,
+    "active_today": true,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1116,6 +1116,24 @@
     }
   },
   {
+    "name": "renafying",
+    "points": 1080,
+    "last_activity": 1791170416000,
+    "gain_24h": 0,
+    "gain_total": 330,
+    "start_points": 750,
+    "events_count": 2,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "cozy030",
     "points": 1060,
     "last_activity": 1791037941000,
@@ -1230,24 +1248,6 @@
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 780,
-    "events_count": 1,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "renafying",
-    "points": 750,
-    "last_activity": 1791037906000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 750,
     "events_count": 1,
     "active_today": false,
     "breakdown": {

@@ -37,16 +37,16 @@
   },
   {
     "name": "heatoncs",
-    "points": 222470,
-    "last_activity": 1791213672000,
-    "gain_24h": 500,
-    "gain_total": 1240,
+    "points": 222560,
+    "last_activity": 1791215112000,
+    "gain_24h": 590,
+    "gain_total": 1330,
     "start_points": 221580,
-    "events_count": 12,
+    "events_count": 17,
     "active_today": true,
     "breakdown": {
-      "Watch": 10,
-      "Claim": 2,
+      "Watch": 14,
+      "Claim": 3,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -180,17 +180,17 @@
     }
   },
   {
-    "name": "goosebian",
-    "points": 52390,
-    "last_activity": 1791211662000,
-    "gain_24h": 0,
-    "gain_total": 10,
-    "start_points": 52380,
-    "events_count": 3,
+    "name": "benolaie",
+    "points": 52830,
+    "last_activity": 1791215164000,
+    "gain_24h": 450,
+    "gain_total": 1070,
+    "start_points": 51760,
+    "events_count": 10,
     "active_today": true,
     "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
+      "Watch": 9,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -198,12 +198,12 @@
     }
   },
   {
-    "name": "benolaie",
-    "points": 52380,
-    "last_activity": 1791211650000,
+    "name": "goosebian",
+    "points": 52390,
+    "last_activity": 1791211662000,
     "gain_24h": 0,
-    "gain_total": 620,
-    "start_points": 51760,
+    "gain_total": 10,
+    "start_points": 52380,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -1026,6 +1026,24 @@
     }
   },
   {
+    "name": "original_stump",
+    "points": 1630,
+    "last_activity": 1791214256000,
+    "gain_24h": 410,
+    "gain_total": 730,
+    "start_points": 900,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "onelegend1_",
     "points": 1480,
     "last_activity": 1791211786000,
@@ -1104,24 +1122,6 @@
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 1240,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "original_stump",
-    "points": 1220,
-    "last_activity": 1791211768000,
-    "gain_24h": 0,
-    "gain_total": 320,
-    "start_points": 900,
     "events_count": 3,
     "active_today": true,
     "breakdown": {

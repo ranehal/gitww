@@ -37,16 +37,16 @@
   },
   {
     "name": "heatoncs",
-    "points": 205180,
-    "last_activity": 1791213650000,
-    "gain_24h": 450,
-    "gain_total": 450,
+    "points": 205260,
+    "last_activity": 1791214814000,
+    "gain_24h": 530,
+    "gain_total": 530,
     "start_points": 204730,
-    "events_count": 10,
+    "events_count": 14,
     "active_today": true,
     "breakdown": {
-      "Watch": 8,
-      "Claim": 2,
+      "Watch": 11,
+      "Claim": 3,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -180,17 +180,17 @@
     }
   },
   {
-    "name": "jolyhype",
-    "points": 52720,
-    "last_activity": 1791211952000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 52720,
-    "events_count": 2,
+    "name": "benolaie",
+    "points": 53100,
+    "last_activity": 1791214681000,
+    "gain_24h": 430,
+    "gain_total": 780,
+    "start_points": 52670,
+    "events_count": 7,
     "active_today": true,
     "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
+      "Watch": 6,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -198,12 +198,12 @@
     }
   },
   {
-    "name": "benolaie",
-    "points": 52670,
-    "last_activity": 1791211647000,
+    "name": "jolyhype",
+    "points": 52720,
+    "last_activity": 1791211952000,
     "gain_24h": 0,
     "gain_total": 0,
-    "start_points": 52670,
+    "start_points": 52720,
     "events_count": 2,
     "active_today": true,
     "breakdown": {
@@ -1026,6 +1026,24 @@
     }
   },
   {
+    "name": "original_stump",
+    "points": 1690,
+    "last_activity": 1791214254000,
+    "gain_24h": 410,
+    "gain_total": 760,
+    "start_points": 1280,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "kookiekiku",
     "points": 1660,
     "last_activity": 1791211992000,
@@ -1068,24 +1086,6 @@
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 1320,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "original_stump",
-    "points": 1280,
-    "last_activity": 1791211769000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 1280,
     "events_count": 2,
     "active_today": true,
     "breakdown": {

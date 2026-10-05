@@ -55,16 +55,16 @@
   },
   {
     "name": "heatoncs",
-    "points": 187470,
-    "last_activity": 1791213787000,
-    "gain_24h": 510,
-    "gain_total": 510,
+    "points": 187610,
+    "last_activity": 1791215231000,
+    "gain_24h": 650,
+    "gain_total": 650,
     "start_points": 186960,
-    "events_count": 11,
+    "events_count": 17,
     "active_today": true,
     "breakdown": {
-      "Watch": 9,
-      "Claim": 2,
+      "Watch": 13,
+      "Claim": 4,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -487,16 +487,16 @@
   },
   {
     "name": "benolaie",
-    "points": 14810,
-    "last_activity": 1791211649000,
-    "gain_24h": 0,
-    "gain_total": 0,
+    "points": 15240,
+    "last_activity": 1791215101000,
+    "gain_24h": 430,
+    "gain_total": 430,
     "start_points": 14810,
-    "events_count": 2,
+    "events_count": 7,
     "active_today": true,
     "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
+      "Watch": 6,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1134,6 +1134,24 @@
     }
   },
   {
+    "name": "original_stump",
+    "points": 1230,
+    "last_activity": 1791214249000,
+    "gain_24h": 410,
+    "gain_total": 760,
+    "start_points": 820,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "chawndo",
     "points": 980,
     "last_activity": 1791211959000,
@@ -1183,24 +1201,6 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "original_stump",
-    "points": 820,
-    "last_activity": 1791211774000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 820,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }

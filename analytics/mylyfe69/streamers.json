@@ -469,16 +469,16 @@
   },
   {
     "name": "wockhardtxx",
-    "points": 10530,
-    "last_activity": 1791254538000,
-    "gain_24h": 8600,
-    "gain_total": 8600,
+    "points": 10590,
+    "last_activity": 1791254814000,
+    "gain_24h": 8660,
+    "gain_total": 8660,
     "start_points": 1930,
-    "events_count": 5,
+    "events_count": 7,
     "active_today": true,
     "breakdown": {
-      "Watch": 5,
-      "Claim": 0,
+      "Watch": 6,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -900,6 +900,24 @@
     }
   },
   {
+    "name": "ichigrim",
+    "points": 2690,
+    "last_activity": 1791254784000,
+    "gain_24h": 370,
+    "gain_total": 2210,
+    "start_points": 780,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 7,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "kookiekiku",
     "points": 2680,
     "last_activity": 1791253174000,
@@ -967,24 +985,6 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "ichigrim",
-    "points": 2330,
-    "last_activity": 1791253398000,
-    "gain_24h": 10,
-    "gain_total": 1850,
-    "start_points": 780,
-    "events_count": 6,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 6,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }

@@ -6,10 +6,10 @@
     "gain_24h": 620,
     "gain_total": 2090,
     "start_points": 424940,
-    "events_count": 13,
+    "events_count": 11,
     "active_today": true,
     "breakdown": {
-      "Watch": 10,
+      "Watch": 8,
       "Claim": 3,
       "Streak": 0,
       "Raid": 0,
@@ -60,10 +60,10 @@
     "gain_24h": 360,
     "gain_total": 740,
     "start_points": 151550,
-    "events_count": 4,
+    "events_count": 3,
     "active_today": true,
     "breakdown": {
-      "Watch": 4,
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -114,10 +114,10 @@
     "gain_24h": 70,
     "gain_total": 4750,
     "start_points": 83786,
-    "events_count": 5,
+    "events_count": 4,
     "active_today": true,
     "breakdown": {
-      "Watch": 4,
+      "Watch": 3,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -492,10 +492,10 @@
     "gain_24h": 360,
     "gain_total": 710,
     "start_points": 9720,
-    "events_count": 5,
+    "events_count": 3,
     "active_today": true,
     "breakdown": {
-      "Watch": 4,
+      "Watch": 2,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -1014,10 +1014,10 @@
     "gain_24h": 70,
     "gain_total": 1390,
     "start_points": 980,
-    "events_count": 5,
+    "events_count": 4,
     "active_today": true,
     "breakdown": {
-      "Watch": 4,
+      "Watch": 3,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -1350,6 +1350,24 @@
     }
   },
   {
+    "name": "itzmelloncs",
+    "points": 330,
+    "last_activity": 1791368513000,
+    "gain_24h": 0,
+    "gain_total": 320,
+    "start_points": 10,
+    "events_count": 2,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "do_worrk",
     "points": 330,
     "last_activity": 1791368516000,
@@ -1368,12 +1386,12 @@
     }
   },
   {
-    "name": "itzmelloncs",
-    "points": 330,
-    "last_activity": 1791368513000,
+    "name": "evokeddd",
+    "points": 320,
+    "last_activity": 1791368453000,
     "gain_24h": 0,
-    "gain_total": 320,
-    "start_points": 10,
+    "gain_total": 0,
+    "start_points": 320,
     "events_count": 2,
     "active_today": true,
     "breakdown": {
@@ -1396,24 +1414,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "evokeddd",
-    "points": 320,
-    "last_activity": 1791368453000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 320,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1530,24 +1530,6 @@
     }
   },
   {
-    "name": "kiid2xx",
-    "points": 10,
-    "last_activity": 1791368215000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 10,
-    "events_count": 1,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "kyriefnx",
     "points": 10,
     "last_activity": 1791368392000,
@@ -1558,6 +1540,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "kiid2xx",
+    "points": 10,
+    "last_activity": 1791368215000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 10,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

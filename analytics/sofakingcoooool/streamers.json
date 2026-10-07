@@ -76,13 +76,13 @@
     "points": 132400,
     "last_activity": 1791371411000,
     "gain_24h": 150,
-    "gain_total": 11490,
+    "gain_total": 11440,
     "start_points": 120960,
-    "events_count": 11,
+    "events_count": 10,
     "active_today": true,
     "breakdown": {
       "Watch": 9,
-      "Claim": 2,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -630,24 +630,6 @@
     }
   },
   {
-    "name": "heatoncs",
-    "points": 22240,
-    "last_activity": 1791368198000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 22240,
-    "events_count": 1,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "shortysheriff",
     "points": 22240,
     "last_activity": 1791368198000,
@@ -658,6 +640,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "heatoncs",
+    "points": 22240,
+    "last_activity": 1791368198000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 22240,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

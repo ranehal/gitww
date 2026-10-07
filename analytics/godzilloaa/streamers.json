@@ -90,24 +90,6 @@
     }
   },
   {
-    "name": "pbomba_",
-    "points": 123912,
-    "last_activity": 1790663060000,
-    "gain_24h": 0,
-    "gain_total": 1106,
-    "start_points": 123042,
-    "events_count": 11,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 9,
-      "Claim": 1,
-      "Streak": 0,
-      "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "lilwunkrazy",
     "points": 94038,
     "last_activity": 1790626224000,
@@ -1180,6 +1162,24 @@
     "active_today": false,
     "breakdown": {
       "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "pbomba_",
+    "points": 5800,
+    "last_activity": 1791368087000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 5800,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

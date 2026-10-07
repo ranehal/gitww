@@ -91,15 +91,15 @@
   },
   {
     "name": "pbomba_",
-    "points": 131852,
-    "last_activity": 1791037308000,
+    "points": 138472,
+    "last_activity": 1791368079000,
     "gain_24h": 0,
-    "gain_total": 6670,
+    "gain_total": 13290,
     "start_points": 125182,
-    "events_count": 3,
-    "active_today": false,
+    "events_count": 4,
+    "active_today": true,
     "breakdown": {
-      "Watch": 3,
+      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -470,14 +470,14 @@
   {
     "name": "beastnamedjon",
     "points": 35210,
-    "last_activity": 1791037312000,
+    "last_activity": 1791368074000,
     "gain_24h": 0,
     "gain_total": 6570,
     "start_points": 28640,
-    "events_count": 10,
-    "active_today": false,
+    "events_count": 11,
+    "active_today": true,
     "breakdown": {
-      "Watch": 8,
+      "Watch": 9,
       "Claim": 2,
       "Streak": 0,
       "Raid": 0,
@@ -702,6 +702,24 @@
     }
   },
   {
+    "name": "renafying",
+    "points": 21820,
+    "last_activity": 1791368075000,
+    "gain_24h": 0,
+    "gain_total": 6820,
+    "start_points": 15000,
+    "events_count": 4,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "ninjanelo",
     "points": 21560,
     "last_activity": 1791368010000,
@@ -888,24 +906,6 @@
     "gain_24h": 0,
     "gain_total": 1880,
     "start_points": 15940,
-    "events_count": 3,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "renafying",
-    "points": 17710,
-    "last_activity": 1791037311000,
-    "gain_24h": 0,
-    "gain_total": 2710,
-    "start_points": 15000,
     "events_count": 3,
     "active_today": false,
     "breakdown": {

@@ -10,12 +10,12 @@
     "is_current": false
   },
   {
-    "id": "youminepie",
-    "name": "youminepie",
+    "id": "truck_me1",
+    "name": "truck_me1",
     "streamers_count": 87,
-    "total_points": 2216150,
-    "gain_24h": 9870,
-    "active_today_count": 83,
+    "total_points": 2968832,
+    "gain_24h": 87572,
+    "active_today_count": 87,
     "has_data": true,
     "is_current": true
   },
@@ -153,8 +153,8 @@
     "id": "insta_lock4",
     "name": "insta_lock4",
     "streamers_count": 84,
-    "total_points": 2276099,
-    "gain_24h": 29020,
+    "total_points": 2276149,
+    "gain_24h": 29070,
     "active_today_count": 84,
     "has_data": true,
     "is_current": false
@@ -330,16 +330,6 @@
     "is_current": false
   },
   {
-    "id": "truck_me1",
-    "name": "truck_me1",
-    "streamers_count": 87,
-    "total_points": 2968832,
-    "gain_24h": 87572,
-    "active_today_count": 87,
-    "has_data": true,
-    "is_current": false
-  },
-  {
     "id": "Vodar_Jol",
     "name": "Vodar_Jol",
     "streamers_count": 87,
@@ -356,6 +346,16 @@
     "total_points": 2359377,
     "gain_24h": 22290,
     "active_today_count": 87,
+    "has_data": true,
+    "is_current": false
+  },
+  {
+    "id": "youminepie",
+    "name": "youminepie",
+    "streamers_count": 87,
+    "total_points": 2216210,
+    "gain_24h": 9930,
+    "active_today_count": 83,
     "has_data": true,
     "is_current": false
   },

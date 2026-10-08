@@ -1,0 +1,64 @@
+{
+  "series": [
+    {
+      "x": 1791034651000,
+      "y": 4250,
+      "z": "Watch"
+    },
+    {
+      "x": 1791037442000,
+      "y": 18310,
+      "z": "Watch"
+    },
+    {
+      "x": 1791368394000,
+      "y": 18310,
+      "z": "Watch"
+    },
+    {
+      "x": 1791409531000,
+      "y": 18310,
+      "z": "Watch"
+    },
+    {
+      "x": 1791491732000,
+      "y": 18310,
+      "z": "Watch"
+    }
+  ],
+  "annotations": [
+    {
+      "borderColor": "#45c1ff",
+      "label": {
+        "style": {
+          "color": "#000",
+          "background": "#45c1ff"
+        },
+        "text": "+450 - WATCH_STREAK"
+      },
+      "x": 1790608845000
+    },
+    {
+      "borderColor": "#45c1ff",
+      "label": {
+        "style": {
+          "color": "#000",
+          "background": "#45c1ff"
+        },
+        "text": "+450 - WATCH_STREAK"
+      },
+      "x": 1790608851000
+    },
+    {
+      "borderColor": "#45c1ff",
+      "label": {
+        "style": {
+          "color": "#000",
+          "background": "#45c1ff"
+        },
+        "text": "+450 - WATCH_STREAK"
+      },
+      "x": 1790608854000
+    }
+  ]
+}

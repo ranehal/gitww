@@ -3,29 +3,9 @@
     "id": "all",
     "name": "All Accounts (Combined)",
     "streamers_count": 87,
-    "total_points": 5636576,
-    "gain_24h": 83722,
-    "active_today_count": 87,
-    "has_data": true,
-    "is_current": false
-  },
-  {
-    "id": "egomanyk",
-    "name": "egomanyk",
-    "streamers_count": 87,
-    "total_points": 3724074,
-    "gain_24h": 31992,
-    "active_today_count": 87,
-    "has_data": true,
-    "is_current": true
-  },
-  {
-    "id": "aethermain7",
-    "name": "aethermain7",
-    "streamers_count": 87,
-    "total_points": 3397456,
-    "gain_24h": 0,
-    "active_today_count": 0,
+    "total_points": 5636636,
+    "gain_24h": 83782,
+    "active_today_count": 86,
     "has_data": true,
     "is_current": false
   },
@@ -36,6 +16,16 @@
     "total_points": 2381896,
     "gain_24h": 12260,
     "active_today_count": 83,
+    "has_data": true,
+    "is_current": true
+  },
+  {
+    "id": "aethermain7",
+    "name": "aethermain7",
+    "streamers_count": 87,
+    "total_points": 3397456,
+    "gain_24h": 0,
+    "active_today_count": 0,
     "has_data": true,
     "is_current": false
   },
@@ -63,8 +53,8 @@
     "id": "done_pata",
     "name": "done_pata",
     "streamers_count": 87,
-    "total_points": 2605041,
-    "gain_24h": 51000,
+    "total_points": 2605101,
+    "gain_24h": 51060,
     "active_today_count": 84,
     "has_data": true,
     "is_current": false
@@ -75,6 +65,16 @@
     "streamers_count": 87,
     "total_points": 3710104,
     "gain_24h": 40120,
+    "active_today_count": 87,
+    "has_data": true,
+    "is_current": false
+  },
+  {
+    "id": "egomanyk",
+    "name": "egomanyk",
+    "streamers_count": 87,
+    "total_points": 3724134,
+    "gain_24h": 32052,
     "active_today_count": 87,
     "has_data": true,
     "is_current": false

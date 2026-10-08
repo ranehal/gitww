@@ -798,10 +798,10 @@
     "gain_24h": 310,
     "gain_total": 1010,
     "start_points": 3250,
-    "events_count": 5,
+    "events_count": 4,
     "active_today": true,
     "breakdown": {
-      "Watch": 5,
+      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -924,10 +924,10 @@
     "gain_24h": 310,
     "gain_total": 320,
     "start_points": 2120,
-    "events_count": 5,
+    "events_count": 4,
     "active_today": true,
     "breakdown": {
-      "Watch": 5,
+      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -994,12 +994,12 @@
     "points": 2060,
     "last_activity": 1791411450000,
     "gain_24h": 20,
-    "gain_total": 1480,
+    "gain_total": 1080,
     "start_points": 980,
-    "events_count": 6,
+    "events_count": 5,
     "active_today": true,
     "breakdown": {
-      "Watch": 6,
+      "Watch": 5,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1224,24 +1224,6 @@
     }
   },
   {
-    "name": "chawndo",
-    "points": 1060,
-    "last_activity": 1791411531000,
-    "gain_24h": 310,
-    "gain_total": 320,
-    "start_points": 740,
-    "events_count": 5,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 5,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "cozy030",
     "points": 1060,
     "last_activity": 1791409490000,
@@ -1252,6 +1234,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "chawndo",
+    "points": 1060,
+    "last_activity": 1791411531000,
+    "gain_24h": 310,
+    "gain_total": 320,
+    "start_points": 740,
+    "events_count": 4,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1404,9 +1404,9 @@
     }
   },
   {
-    "name": "evokeddd",
+    "name": "do_worrk",
     "points": 320,
-    "last_activity": 1791409545000,
+    "last_activity": 1791409626000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 320,
@@ -1422,9 +1422,9 @@
     }
   },
   {
-    "name": "do_worrk",
+    "name": "evokeddd",
     "points": 320,
-    "last_activity": 1791409626000,
+    "last_activity": 1791409545000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 320,
@@ -1446,10 +1446,10 @@
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 270,
-    "events_count": 1,
+    "events_count": 2,
     "active_today": true,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

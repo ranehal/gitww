@@ -632,14 +632,14 @@
   {
     "name": "radiuss9",
     "points": 24520,
-    "last_activity": 1791409363000,
+    "last_activity": 1791450489000,
     "gain_24h": 60,
     "gain_total": 2120,
     "start_points": 22400,
-    "events_count": 14,
+    "events_count": 15,
     "active_today": true,
     "breakdown": {
-      "Watch": 11,
+      "Watch": 12,
       "Claim": 3,
       "Streak": 0,
       "Raid": 0,
@@ -650,14 +650,14 @@
   {
     "name": "skytookie",
     "points": 24450,
-    "last_activity": 1791409354000,
+    "last_activity": 1791450489000,
     "gain_24h": 0,
     "gain_total": 3410,
     "start_points": 21040,
-    "events_count": 5,
+    "events_count": 6,
     "active_today": true,
     "breakdown": {
-      "Watch": 5,
+      "Watch": 6,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -722,14 +722,14 @@
   {
     "name": "the_office_nerd",
     "points": 21530,
-    "last_activity": 1791409414000,
+    "last_activity": 1791450518000,
     "gain_24h": 0,
     "gain_total": 3350,
     "start_points": 18180,
-    "events_count": 5,
+    "events_count": 6,
     "active_today": true,
     "breakdown": {
-      "Watch": 5,
+      "Watch": 6,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -870,24 +870,6 @@
     "gain_24h": 0,
     "gain_total": 700,
     "start_points": 17980,
-    "events_count": 5,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 5,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "mrbunnyelite",
-    "points": 18680,
-    "last_activity": 1791409414000,
-    "gain_24h": 12680,
-    "gain_total": 13820,
-    "start_points": 4860,
     "events_count": 5,
     "active_today": true,
     "breakdown": {
@@ -1410,6 +1392,24 @@
     "gain_24h": 0,
     "gain_total": 2750,
     "start_points": 3790,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "mrbunnyelite",
+    "points": 6000,
+    "last_activity": 1791450502000,
+    "gain_24h": 0,
+    "gain_total": 1140,
+    "start_points": 4860,
     "events_count": 5,
     "active_today": true,
     "breakdown": {

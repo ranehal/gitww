@@ -3,11 +3,21 @@
     "id": "all",
     "name": "All Accounts (Combined)",
     "streamers_count": 87,
-    "total_points": 5416001,
-    "gain_24h": 96190,
+    "total_points": 5416011,
+    "gain_24h": 96200,
     "active_today_count": 86,
     "has_data": true,
     "is_current": false
+  },
+  {
+    "id": "insta_lock4",
+    "name": "insta_lock4",
+    "streamers_count": 84,
+    "total_points": 2326889,
+    "gain_24h": 15570,
+    "active_today_count": 84,
+    "has_data": true,
+    "is_current": true
   },
   {
     "id": "aethermain7",
@@ -17,7 +27,7 @@
     "gain_24h": 0,
     "active_today_count": 0,
     "has_data": true,
-    "is_current": true
+    "is_current": false
   },
   {
     "id": "aloneyexe",
@@ -140,16 +150,6 @@
     "is_current": false
   },
   {
-    "id": "insta_lock4",
-    "name": "insta_lock4",
-    "streamers_count": 84,
-    "total_points": 2326889,
-    "gain_24h": 15570,
-    "active_today_count": 84,
-    "has_data": true,
-    "is_current": false
-  },
-  {
     "id": "jhonny_sims_",
     "name": "jhonny_sims_",
     "streamers_count": 87,
@@ -173,8 +173,8 @@
     "id": "john_week__",
     "name": "john_week__",
     "streamers_count": 87,
-    "total_points": 3993939,
-    "gain_24h": 33980,
+    "total_points": 3993949,
+    "gain_24h": 33990,
     "active_today_count": 86,
     "has_data": true,
     "is_current": false

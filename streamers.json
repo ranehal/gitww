@@ -630,24 +630,6 @@
     }
   },
   {
-    "name": "tdrizzzly",
-    "points": 53680,
-    "last_activity": 1791450759000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 53680,
-    "events_count": 1,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "activelyboss",
     "points": 52800,
     "last_activity": 1791450310000,
@@ -1055,6 +1037,24 @@
     "breakdown": {
       "Watch": 7,
       "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "tdrizzzly",
+    "points": 20900,
+    "last_activity": 1791450757000,
+    "gain_24h": 530,
+    "gain_total": 4050,
+    "start_points": 16900,
+    "events_count": 14,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 12,
+      "Claim": 2,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1532,14 +1532,14 @@
   {
     "name": "kyriefnx",
     "points": 4450,
-    "last_activity": 1791450299000,
+    "last_activity": 1790626207000,
     "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 4450,
-    "events_count": 6,
-    "active_today": true,
+    "gain_total": 2960,
+    "start_points": 1490,
+    "events_count": 2,
+    "active_today": false,
     "breakdown": {
-      "Watch": 6,
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

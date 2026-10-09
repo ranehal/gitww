@@ -432,6 +432,24 @@
     }
   },
   {
+    "name": "original_stump",
+    "points": 73250,
+    "last_activity": 1791579524000,
+    "gain_24h": 1330,
+    "gain_total": 19850,
+    "start_points": 53400,
+    "events_count": 31,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 24,
+      "Claim": 6,
+      "Streak": 0,
+      "Raid": 1,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "goosebian",
     "points": 73220,
     "last_activity": 1791573877000,
@@ -443,24 +461,6 @@
     "breakdown": {
       "Watch": 9,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "original_stump",
-    "points": 73000,
-    "last_activity": 1791579352000,
-    "gain_24h": 1080,
-    "gain_total": 19600,
-    "start_points": 53400,
-    "events_count": 30,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 24,
-      "Claim": 6,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -487,16 +487,16 @@
   },
   {
     "name": "rallencs2",
-    "points": 65010,
-    "last_activity": 1791579196000,
-    "gain_24h": 1330,
-    "gain_total": 6350,
+    "points": 65020,
+    "last_activity": 1791579479000,
+    "gain_24h": 1340,
+    "gain_total": 6410,
     "start_points": 59160,
-    "events_count": 40,
+    "events_count": 42,
     "active_today": true,
     "breakdown": {
-      "Watch": 33,
-      "Claim": 7,
+      "Watch": 34,
+      "Claim": 8,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1083,7 +1083,7 @@
     "name": "tdrizzzly",
     "points": 21210,
     "last_activity": 1791575589000,
-    "gain_24h": 240,
+    "gain_24h": 230,
     "gain_total": 4360,
     "start_points": 16900,
     "events_count": 24,

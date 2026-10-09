@@ -49,6 +49,11 @@
       "x": 1791574189000,
       "y": 8290,
       "z": "Watch"
+    },
+    {
+      "x": 1791583456000,
+      "y": 8740,
+      "z": "Watch Streak"
     }
   ],
   "annotations": [
@@ -62,6 +67,17 @@
         "text": "+450 - WATCH_STREAK"
       },
       "x": 1790633128000
+    },
+    {
+      "borderColor": "#45c1ff",
+      "label": {
+        "style": {
+          "color": "#000",
+          "background": "#45c1ff"
+        },
+        "text": "+450 - WATCH_STREAK"
+      },
+      "x": 1791583456000
     }
   ]
 }

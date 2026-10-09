@@ -289,18 +289,18 @@
   },
   {
     "name": "r20cs",
-    "points": 25750,
-    "last_activity": 1791575576000,
-    "gain_24h": 10,
-    "gain_total": 20,
+    "points": 26000,
+    "last_activity": 1791580685000,
+    "gain_24h": 260,
+    "gain_total": 270,
     "start_points": 25730,
-    "events_count": 8,
+    "events_count": 9,
     "active_today": true,
     "breakdown": {
       "Watch": 8,
       "Claim": 0,
       "Streak": 0,
-      "Raid": 0,
+      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }
@@ -687,7 +687,7 @@
     "name": "shortysheriff",
     "points": 5480,
     "last_activity": 1791579346000,
-    "gain_24h": 630,
+    "gain_24h": 460,
     "gain_total": 2230,
     "start_points": 3250,
     "events_count": 12,
@@ -795,7 +795,7 @@
     "name": "beastnamedjon",
     "points": 4060,
     "last_activity": 1791578511000,
-    "gain_24h": 1380,
+    "gain_24h": 1290,
     "gain_total": 1770,
     "start_points": 2290,
     "events_count": 31,
@@ -954,6 +954,24 @@
     }
   },
   {
+    "name": "annyquilladora",
+    "points": 2450,
+    "last_activity": 1791580455000,
+    "gain_24h": 700,
+    "gain_total": 2110,
+    "start_points": 340,
+    "events_count": 35,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 28,
+      "Claim": 6,
+      "Streak": 0,
+      "Raid": 1,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "baconsbeta",
     "points": 2440,
     "last_activity": 1791574202000,
@@ -967,24 +985,6 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "annyquilladora",
-    "points": 2370,
-    "last_activity": 1791579237000,
-    "gain_24h": 710,
-    "gain_total": 2030,
-    "start_points": 340,
-    "events_count": 31,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 25,
-      "Claim": 5,
-      "Streak": 0,
-      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }
@@ -1026,6 +1026,24 @@
     }
   },
   {
+    "name": "renafying",
+    "points": 2040,
+    "last_activity": 1791580585000,
+    "gain_24h": 560,
+    "gain_total": 1290,
+    "start_points": 750,
+    "events_count": 28,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 24,
+      "Claim": 4,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "rincewindtgw",
     "points": 2030,
     "last_activity": 1791574201000,
@@ -1037,24 +1055,6 @@
     "breakdown": {
       "Watch": 7,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "renafying",
-    "points": 1960,
-    "last_activity": 1791579673000,
-    "gain_24h": 480,
-    "gain_total": 1210,
-    "start_points": 750,
-    "events_count": 24,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 21,
-      "Claim": 3,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,

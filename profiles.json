@@ -10,16 +10,6 @@
     "is_current": false
   },
   {
-    "id": "jigss99",
-    "name": "jigss99",
-    "streamers_count": 87,
-    "total_points": 3397456,
-    "gain_24h": 0,
-    "active_today_count": 0,
-    "has_data": true,
-    "is_current": true
-  },
-  {
     "id": "aethermain7",
     "name": "aethermain7",
     "streamers_count": 87,
@@ -27,7 +17,7 @@
     "gain_24h": 0,
     "active_today_count": 0,
     "has_data": true,
-    "is_current": false
+    "is_current": true
   },
   {
     "id": "aloneyexe",
@@ -170,11 +160,21 @@
     "is_current": false
   },
   {
+    "id": "jigss99",
+    "name": "jigss99",
+    "streamers_count": 87,
+    "total_points": 3397456,
+    "gain_24h": 0,
+    "active_today_count": 0,
+    "has_data": true,
+    "is_current": false
+  },
+  {
     "id": "john_week__",
     "name": "john_week__",
     "streamers_count": 87,
     "total_points": 3704651,
-    "gain_24h": 20020,
+    "gain_24h": 19970,
     "active_today_count": 86,
     "has_data": true,
     "is_current": false

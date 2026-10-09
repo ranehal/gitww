@@ -325,15 +325,15 @@
   },
   {
     "name": "rallencs2",
-    "points": 23980,
-    "last_activity": 1791574588000,
-    "gain_24h": 720,
-    "gain_total": 1080,
+    "points": 23990,
+    "last_activity": 1791576585000,
+    "gain_24h": 730,
+    "gain_total": 1090,
     "start_points": 23250,
-    "events_count": 12,
+    "events_count": 13,
     "active_today": true,
     "breakdown": {
-      "Watch": 11,
+      "Watch": 12,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -936,17 +936,17 @@
     }
   },
   {
-    "name": "baconsbeta",
-    "points": 2440,
-    "last_activity": 1791574202000,
-    "gain_24h": 0,
-    "gain_total": 320,
-    "start_points": 2120,
-    "events_count": 8,
+    "name": "original_stump",
+    "points": 2510,
+    "last_activity": 1791577269000,
+    "gain_24h": 160,
+    "gain_total": 1550,
+    "start_points": 960,
+    "events_count": 14,
     "active_today": true,
     "breakdown": {
-      "Watch": 8,
-      "Claim": 0,
+      "Watch": 12,
+      "Claim": 2,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -954,12 +954,12 @@
     }
   },
   {
-    "name": "original_stump",
-    "points": 2360,
-    "last_activity": 1791574505000,
-    "gain_24h": 10,
-    "gain_total": 1400,
-    "start_points": 960,
+    "name": "baconsbeta",
+    "points": 2440,
+    "last_activity": 1791574202000,
+    "gain_24h": 0,
+    "gain_total": 320,
+    "start_points": 2120,
     "events_count": 8,
     "active_today": true,
     "breakdown": {
@@ -1062,6 +1062,24 @@
     }
   },
   {
+    "name": "renafying",
+    "points": 1860,
+    "last_activity": 1791577458000,
+    "gain_24h": 380,
+    "gain_total": 1110,
+    "start_points": 750,
+    "events_count": 18,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 16,
+      "Claim": 2,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "im_brutus_",
     "points": 1850,
     "last_activity": 1791573773000,
@@ -1147,24 +1165,6 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "renafying",
-    "points": 1480,
-    "last_activity": 1791573831000,
-    "gain_24h": 0,
-    "gain_total": 730,
-    "start_points": 750,
-    "events_count": 13,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 12,
-      "Claim": 1,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }

@@ -867,7 +867,7 @@
     "name": "beastnamedjon",
     "points": 3910,
     "last_activity": 1791578358000,
-    "gain_24h": 1090,
+    "gain_24h": 520,
     "gain_total": 2380,
     "start_points": 2280,
     "events_count": 27,
@@ -972,6 +972,24 @@
     }
   },
   {
+    "name": "renafying",
+    "points": 2810,
+    "last_activity": 1791581507000,
+    "gain_24h": 690,
+    "gain_total": 2300,
+    "start_points": 810,
+    "events_count": 34,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 27,
+      "Claim": 7,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "original_stump",
     "points": 2770,
     "last_activity": 1791579522000,
@@ -985,24 +1003,6 @@
       "Claim": 2,
       "Streak": 0,
       "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "renafying",
-    "points": 2750,
-    "last_activity": 1791581206000,
-    "gain_24h": 630,
-    "gain_total": 2240,
-    "start_points": 810,
-    "events_count": 32,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 26,
-      "Claim": 6,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }

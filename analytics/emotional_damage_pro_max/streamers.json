@@ -255,7 +255,7 @@
     "name": "king_munc",
     "points": 29230,
     "last_activity": 1791573831000,
-    "gain_24h": 100,
+    "gain_24h": 0,
     "gain_total": 100,
     "start_points": 29130,
     "events_count": 7,
@@ -363,7 +363,7 @@
     "name": "flxnked",
     "points": 20120,
     "last_activity": 1791573781000,
-    "gain_24h": 380,
+    "gain_24h": 0,
     "gain_total": 700,
     "start_points": 19420,
     "events_count": 8,
@@ -759,7 +759,7 @@
     "name": "annyquilladora",
     "points": 4620,
     "last_activity": 1791577722000,
-    "gain_24h": 990,
+    "gain_24h": 980,
     "gain_total": 2600,
     "start_points": 2420,
     "events_count": 22,
@@ -867,7 +867,7 @@
     "name": "beastnamedjon",
     "points": 3900,
     "last_activity": 1791573842000,
-    "gain_24h": 1610,
+    "gain_24h": 1300,
     "gain_total": 1970,
     "start_points": 2280,
     "events_count": 25,
@@ -990,6 +990,24 @@
     }
   },
   {
+    "name": "original_stump",
+    "points": 2520,
+    "last_activity": 1791577906000,
+    "gain_24h": 170,
+    "gain_total": 1560,
+    "start_points": 960,
+    "events_count": 14,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 12,
+      "Claim": 2,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "renafying",
     "points": 2500,
     "last_activity": 1791577762000,
@@ -1001,24 +1019,6 @@
     "breakdown": {
       "Watch": 17,
       "Claim": 3,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "original_stump",
-    "points": 2470,
-    "last_activity": 1791577270000,
-    "gain_24h": 120,
-    "gain_total": 1510,
-    "start_points": 960,
-    "events_count": 13,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 12,
-      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,

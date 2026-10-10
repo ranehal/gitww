@@ -10,16 +10,6 @@
     "is_current": false
   },
   {
-    "id": "alphazeta111",
-    "name": "alphazeta111",
-    "streamers_count": 87,
-    "total_points": 4072632,
-    "gain_24h": 43144,
-    "active_today_count": 87,
-    "has_data": true,
-    "is_current": true
-  },
-  {
     "id": "aethermain7",
     "name": "aethermain7",
     "streamers_count": 87,
@@ -27,7 +17,7 @@
     "gain_24h": 0,
     "active_today_count": 0,
     "has_data": true,
-    "is_current": false
+    "is_current": true
   },
   {
     "id": "aloneyexe",
@@ -36,6 +26,16 @@
     "total_points": 2306816,
     "gain_24h": 80674,
     "active_today_count": 83,
+    "has_data": true,
+    "is_current": false
+  },
+  {
+    "id": "alphazeta111",
+    "name": "alphazeta111",
+    "streamers_count": 87,
+    "total_points": 4072642,
+    "gain_24h": 43154,
+    "active_today_count": 87,
     "has_data": true,
     "is_current": false
   },
@@ -223,8 +223,8 @@
     "id": "penguinfar8",
     "name": "penguinfar8",
     "streamers_count": 87,
-    "total_points": 2266144,
-    "gain_24h": 14544,
+    "total_points": 2266154,
+    "gain_24h": 14554,
     "active_today_count": 87,
     "has_data": true,
     "is_current": false

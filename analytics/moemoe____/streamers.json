@@ -1026,24 +1026,6 @@
     }
   },
   {
-    "name": "nbkguapo",
-    "points": 14980,
-    "last_activity": 1791738854000,
-    "gain_24h": 0,
-    "gain_total": 4670,
-    "start_points": 10310,
-    "events_count": 12,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 11,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "ichigrim",
     "points": 14890,
     "last_activity": 1791738532000,
@@ -1147,6 +1129,24 @@
       "Claim": 8,
       "Streak": 0,
       "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "nbkguapo",
+    "points": 14010,
+    "last_activity": 1791574176000,
+    "gain_24h": 0,
+    "gain_total": 3700,
+    "start_points": 10310,
+    "events_count": 11,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 10,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }
@@ -1262,14 +1262,14 @@
   {
     "name": "do_worrk",
     "points": 12810,
-    "last_activity": 1791738851000,
+    "last_activity": 1791574166000,
     "gain_24h": 0,
     "gain_total": 920,
     "start_points": 11890,
-    "events_count": 10,
-    "active_today": true,
+    "events_count": 9,
+    "active_today": false,
     "breakdown": {
-      "Watch": 10,
+      "Watch": 9,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

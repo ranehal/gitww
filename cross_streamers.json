@@ -115,25 +115,6 @@
   },
   {
     "name": "eryctriceps",
-    "profile": "mylyfe69",
-    "profileName": "mylyfe69",
-    "points": 432390,
-    "gain_24h": 0,
-    "gain_total": 7450,
-    "last_activity": 1791738628000,
-    "events_count": 18,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 15,
-      "Claim": 3,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "eryctriceps",
     "profile": "Vodar_Jol",
     "profileName": "Vodar_Jol",
     "points": 432390,
@@ -144,6 +125,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 14,
+      "Claim": 3,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "eryctriceps",
+    "profile": "mylyfe69",
+    "profileName": "mylyfe69",
+    "points": 432390,
+    "gain_24h": 0,
+    "gain_total": 7450,
+    "last_activity": 1791738628000,
+    "events_count": 18,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 15,
       "Claim": 3,
       "Streak": 0,
       "Raid": 0,
@@ -932,8 +932,8 @@
   },
   {
     "name": "frizzercs",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
+    "profile": "aethermain7",
+    "profileName": "aethermain7",
     "points": 274730,
     "gain_24h": 0,
     "gain_total": 0,
@@ -951,8 +951,8 @@
   },
   {
     "name": "frizzercs",
-    "profile": "aethermain7",
-    "profileName": "aethermain7",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
     "points": 274730,
     "gain_24h": 0,
     "gain_total": 0,
@@ -3459,14 +3459,14 @@
   },
   {
     "name": "magilacs",
-    "profile": "mylyfe69",
-    "profileName": "mylyfe69",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
     "points": 124178,
     "gain_24h": 0,
     "gain_total": 0,
-    "last_activity": 1791615309000,
+    "last_activity": 1791738857000,
     "events_count": 8,
-    "active_today": false,
+    "active_today": true,
     "breakdown": {
       "Watch": 8,
       "Claim": 0,
@@ -3478,14 +3478,14 @@
   },
   {
     "name": "magilacs",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
+    "profile": "mylyfe69",
+    "profileName": "mylyfe69",
     "points": 124178,
     "gain_24h": 0,
     "gain_total": 0,
-    "last_activity": 1791738857000,
+    "last_activity": 1791615309000,
     "events_count": 8,
-    "active_today": true,
+    "active_today": false,
     "breakdown": {
       "Watch": 8,
       "Claim": 0,
@@ -5434,6 +5434,25 @@
     }
   },
   {
+    "name": "annyquilladora",
+    "profile": "THISseemedFUNNYat3AM",
+    "profileName": "THISseemedFUNNYat3AM",
+    "points": 89610,
+    "gain_24h": 240,
+    "gain_total": 21730,
+    "last_activity": 1791742638000,
+    "events_count": 40,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 30,
+      "Claim": 10,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "ksfoster",
     "profile": "penguinfar8",
     "profileName": "penguinfar8",
@@ -5446,25 +5465,6 @@
     "breakdown": {
       "Watch": 10,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "annyquilladora",
-    "profile": "THISseemedFUNNYat3AM",
-    "profileName": "THISseemedFUNNYat3AM",
-    "points": 89550,
-    "gain_24h": 180,
-    "gain_total": 21670,
-    "last_activity": 1791742340000,
-    "events_count": 38,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 29,
-      "Claim": 9,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -5682,25 +5682,6 @@
   },
   {
     "name": "magilacs",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 86160,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1790626268000,
-    "events_count": 2,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "magilacs",
     "profile": "aethermain7",
     "profileName": "aethermain7",
     "points": 86160,
@@ -5730,6 +5711,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 11,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "magilacs",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 86160,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1790626268000,
+    "events_count": 2,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -5853,25 +5853,6 @@
   },
   {
     "name": "ksfoster",
-    "profile": "mylyfe69",
-    "profileName": "mylyfe69",
-    "points": 84540,
-    "gain_24h": 0,
-    "gain_total": 3720,
-    "last_activity": 1791738503000,
-    "events_count": 9,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 9,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "ksfoster",
     "profile": "Vodar_Jol",
     "profileName": "Vodar_Jol",
     "points": 84540,
@@ -5882,6 +5863,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "ksfoster",
+    "profile": "mylyfe69",
+    "profileName": "mylyfe69",
+    "points": 84540,
+    "gain_24h": 0,
+    "gain_total": 3720,
+    "last_activity": 1791738503000,
+    "events_count": 9,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 9,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -6688,25 +6688,6 @@
     }
   },
   {
-    "name": "lilwunkrazy",
-    "profile": "mylyfe69",
-    "profileName": "mylyfe69",
-    "points": 74900,
-    "gain_24h": 0,
-    "gain_total": 480,
-    "last_activity": 1791738564000,
-    "events_count": 9,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 9,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "demon1",
     "profile": "Vodar_Jol",
     "profileName": "Vodar_Jol",
@@ -6737,6 +6718,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "lilwunkrazy",
+    "profile": "mylyfe69",
+    "profileName": "mylyfe69",
+    "points": 74900,
+    "gain_24h": 0,
+    "gain_total": 480,
+    "last_activity": 1791738564000,
+    "events_count": 9,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 9,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -6973,6 +6973,25 @@
     }
   },
   {
+    "name": "annyquilladora",
+    "profile": "john_week__",
+    "profileName": "john_week__",
+    "points": 73870,
+    "gain_24h": 760,
+    "gain_total": 28102,
+    "last_activity": 1791742629000,
+    "events_count": 28,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 23,
+      "Claim": 5,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "king_munc",
     "profile": "THISseemedFUNNYat3AM",
     "profileName": "THISseemedFUNNYat3AM",
@@ -7004,25 +7023,6 @@
     "breakdown": {
       "Watch": 4,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "annyquilladora",
-    "profile": "john_week__",
-    "profileName": "john_week__",
-    "points": 73810,
-    "gain_24h": 700,
-    "gain_total": 28042,
-    "last_activity": 1791742336000,
-    "events_count": 26,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 22,
-      "Claim": 4,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -8304,25 +8304,6 @@
   },
   {
     "name": "sgtfresh",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 60810,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1790626213000,
-    "events_count": 2,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "sgtfresh",
     "profile": "aethermain7",
     "profileName": "aethermain7",
     "points": 60810,
@@ -8352,6 +8333,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 11,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "sgtfresh",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 60810,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1790626213000,
+    "events_count": 2,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -9310,25 +9310,6 @@
     }
   },
   {
-    "name": "benolaie",
-    "profile": "emotional_damage_pro_max",
-    "profileName": "emotional_damage_pro_max",
-    "points": 54240,
-    "gain_24h": 0,
-    "gain_total": 2840,
-    "last_activity": 1791738543000,
-    "events_count": 9,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 9,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "jolyhype",
     "profile": "Vodar_Jol",
     "profileName": "Vodar_Jol",
@@ -9340,6 +9321,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "benolaie",
+    "profile": "emotional_damage_pro_max",
+    "profileName": "emotional_damage_pro_max",
+    "points": 54240,
+    "gain_24h": 0,
+    "gain_total": 2840,
+    "last_activity": 1791738543000,
+    "events_count": 9,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 9,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -9823,6 +9823,25 @@
     }
   },
   {
+    "name": "goosebian",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 51370,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791738634000,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "jolyhype",
     "profile": "jhonny_sims_",
     "profileName": "jhonny_sims_",
@@ -9853,25 +9872,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 4,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "goosebian",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 51370,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738634000,
-    "events_count": 8,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 8,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -12351,25 +12351,6 @@
   },
   {
     "name": "rysl2",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 38000,
-    "gain_24h": 0,
-    "gain_total": 170,
-    "last_activity": 1790626234000,
-    "events_count": 3,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "rysl2",
     "profile": "aethermain7",
     "profileName": "aethermain7",
     "points": 38000,
@@ -12399,6 +12380,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 11,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "rysl2",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 38000,
+    "gain_24h": 0,
+    "gain_total": 170,
+    "last_activity": 1790626234000,
+    "events_count": 3,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -13566,6 +13566,25 @@
     }
   },
   {
+    "name": "king_munc",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 32650,
+    "gain_24h": 0,
+    "gain_total": 27370,
+    "last_activity": 1791738572000,
+    "events_count": 14,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 11,
+      "Claim": 2,
+      "Streak": 0,
+      "Raid": 1,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "pbomba_",
     "profile": "mylyfe69",
     "profileName": "mylyfe69",
@@ -13596,25 +13615,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 16,
-      "Claim": 2,
-      "Streak": 0,
-      "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "king_munc",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 32650,
-    "gain_24h": 0,
-    "gain_total": 27370,
-    "last_activity": 1791738572000,
-    "events_count": 14,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 11,
       "Claim": 2,
       "Streak": 0,
       "Raid": 1,
@@ -14593,25 +14593,6 @@
   },
   {
     "name": "rysl2",
-    "profile": "mylyfe69",
-    "profileName": "mylyfe69",
-    "points": 29580,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738495000,
-    "events_count": 9,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 9,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "rysl2",
     "profile": "Vodar_Jol",
     "profileName": "Vodar_Jol",
     "points": 29580,
@@ -14622,6 +14603,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "rysl2",
+    "profile": "mylyfe69",
+    "profileName": "mylyfe69",
+    "points": 29580,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791738495000,
+    "events_count": 9,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 9,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -15904,25 +15904,6 @@
   },
   {
     "name": "flxnked",
-    "profile": "mylyfe69",
-    "profileName": "mylyfe69",
-    "points": 26140,
-    "gain_24h": 0,
-    "gain_total": 4660,
-    "last_activity": 1791738504000,
-    "events_count": 16,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 13,
-      "Claim": 3,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "flxnked",
     "profile": "Vodar_Jol",
     "profileName": "Vodar_Jol",
     "points": 26140,
@@ -15933,6 +15914,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 10,
+      "Claim": 3,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "flxnked",
+    "profile": "mylyfe69",
+    "profileName": "mylyfe69",
+    "points": 26140,
+    "gain_24h": 0,
+    "gain_total": 4660,
+    "last_activity": 1791738504000,
+    "events_count": 16,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 13,
       "Claim": 3,
       "Streak": 0,
       "Raid": 0,
@@ -16721,25 +16721,6 @@
   },
   {
     "name": "twogood4u95",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 24700,
-    "gain_24h": 0,
-    "gain_total": 160,
-    "last_activity": 1790626230000,
-    "events_count": 3,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "twogood4u95",
     "profile": "aethermain7",
     "profileName": "aethermain7",
     "points": 24700,
@@ -16769,6 +16750,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 11,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "twogood4u95",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 24700,
+    "gain_24h": 0,
+    "gain_total": 160,
+    "last_activity": 1790626230000,
+    "events_count": 3,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -19191,6 +19191,25 @@
   },
   {
     "name": "estoniaman",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 22060,
+    "gain_24h": 0,
+    "gain_total": 320,
+    "last_activity": 1791738753000,
+    "events_count": 11,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 11,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "estoniaman",
     "profile": "done_pata",
     "profileName": "done_pata",
     "points": 22060,
@@ -19220,25 +19239,6 @@
     "active_today": false,
     "breakdown": {
       "Watch": 10,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "estoniaman",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 22060,
-    "gain_24h": 0,
-    "gain_total": 320,
-    "last_activity": 1791738753000,
-    "events_count": 11,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 11,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -19305,25 +19305,6 @@
   },
   {
     "name": "im_brutus_",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 21958,
-    "gain_24h": 0,
-    "gain_total": 266,
-    "last_activity": 1790626216000,
-    "events_count": 3,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "im_brutus_",
     "profile": "aethermain7",
     "profileName": "aethermain7",
     "points": 21958,
@@ -19353,6 +19334,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 10,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "im_brutus_",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 21958,
+    "gain_24h": 0,
+    "gain_total": 266,
+    "last_activity": 1790626216000,
+    "events_count": 3,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -20559,25 +20559,6 @@
   },
   {
     "name": "n0kedleee",
-    "profile": "mylyfe69",
-    "profileName": "mylyfe69",
-    "points": 20830,
-    "gain_24h": 0,
-    "gain_total": 3730,
-    "last_activity": 1791615183000,
-    "events_count": 8,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 8,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "n0kedleee",
     "profile": "Vodar_Jol",
     "profileName": "Vodar_Jol",
     "points": 20830,
@@ -20588,6 +20569,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "n0kedleee",
+    "profile": "mylyfe69",
+    "profileName": "mylyfe69",
+    "points": 20830,
+    "gain_24h": 0,
+    "gain_total": 3730,
+    "last_activity": 1791615183000,
+    "events_count": 8,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 8,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -21413,6 +21413,25 @@
     }
   },
   {
+    "name": "sgtfresh",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 20100,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791738508000,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "onelegend1_",
     "profile": "hoooleeesheeet_",
     "profileName": "hoooleeesheeet_",
@@ -21462,25 +21481,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 9,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "sgtfresh",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 20100,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738508000,
-    "events_count": 8,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 8,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -21794,25 +21794,6 @@
   },
   {
     "name": "wockhardtxx",
-    "profile": "mylyfe69",
-    "profileName": "mylyfe69",
-    "points": 19610,
-    "gain_24h": 0,
-    "gain_total": 13190,
-    "last_activity": 1791738501000,
-    "events_count": 16,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 14,
-      "Claim": 2,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "wockhardtxx",
     "profile": "Vodar_Jol",
     "profileName": "Vodar_Jol",
     "points": 19610,
@@ -21823,6 +21804,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 13,
+      "Claim": 2,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "wockhardtxx",
+    "profile": "mylyfe69",
+    "profileName": "mylyfe69",
+    "points": 19610,
+    "gain_24h": 0,
+    "gain_total": 13190,
+    "last_activity": 1791738501000,
+    "events_count": 16,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 14,
       "Claim": 2,
       "Streak": 0,
       "Raid": 0,
@@ -22763,25 +22763,6 @@
   },
   {
     "name": "faded689",
-    "profile": "mylyfe69",
-    "profileName": "mylyfe69",
-    "points": 18410,
-    "gain_24h": 0,
-    "gain_total": 10,
-    "last_activity": 1791738609000,
-    "events_count": 10,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 10,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "faded689",
     "profile": "Vodar_Jol",
     "profileName": "Vodar_Jol",
     "points": 18410,
@@ -22792,6 +22773,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 9,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "faded689",
+    "profile": "mylyfe69",
+    "profileName": "mylyfe69",
+    "points": 18410,
+    "gain_24h": 0,
+    "gain_total": 10,
+    "last_activity": 1791738609000,
+    "events_count": 10,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 10,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -23200,6 +23200,25 @@
   },
   {
     "name": "888gut",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 17940,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1790585064000,
+    "events_count": 1,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "888gut",
     "profile": "aloneyexe",
     "profileName": "aloneyexe",
     "points": 17940,
@@ -23295,44 +23314,6 @@
   },
   {
     "name": "888gut",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 17940,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1790585064000,
-    "events_count": 1,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "888gut",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 17930,
-    "gain_24h": 0,
-    "gain_total": 10,
-    "last_activity": 1790626214000,
-    "events_count": 3,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "888gut",
     "profile": "aethermain7",
     "profileName": "aethermain7",
     "points": 17930,
@@ -23392,6 +23373,25 @@
     "name": "888gut",
     "profile": "flank_man",
     "profileName": "flank_man",
+    "points": 17930,
+    "gain_24h": 0,
+    "gain_total": 10,
+    "last_activity": 1790626214000,
+    "events_count": 3,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "888gut",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
     "points": 17930,
     "gain_24h": 0,
     "gain_total": 10,
@@ -23960,25 +23960,6 @@
   },
   {
     "name": "hezeclips",
-    "profile": "mylyfe69",
-    "profileName": "mylyfe69",
-    "points": 17430,
-    "gain_24h": 0,
-    "gain_total": 3620,
-    "last_activity": 1791738554000,
-    "events_count": 9,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 9,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "hezeclips",
     "profile": "Vodar_Jol",
     "profileName": "Vodar_Jol",
     "points": 17430,
@@ -23989,6 +23970,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "hezeclips",
+    "profile": "mylyfe69",
+    "profileName": "mylyfe69",
+    "points": 17430,
+    "gain_24h": 0,
+    "gain_total": 3620,
+    "last_activity": 1791738554000,
+    "events_count": 9,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 9,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -25157,25 +25157,6 @@
   },
   {
     "name": "crxdaniiel",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 16110,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1790626240000,
-    "events_count": 2,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "crxdaniiel",
     "profile": "aethermain7",
     "profileName": "aethermain7",
     "points": 16110,
@@ -25205,6 +25186,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 11,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "crxdaniiel",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 16110,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1790626240000,
+    "events_count": 2,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -25936,25 +25936,6 @@
   },
   {
     "name": "alxb_",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 15200,
-    "gain_24h": 0,
-    "gain_total": 520,
-    "last_activity": 1790626246000,
-    "events_count": 2,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "alxb_",
     "profile": "aethermain7",
     "profileName": "aethermain7",
     "points": 15200,
@@ -25984,6 +25965,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 11,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "alxb_",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 15200,
+    "gain_24h": 0,
+    "gain_total": 520,
+    "last_activity": 1790626246000,
+    "events_count": 2,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -29716,6 +29716,25 @@
     }
   },
   {
+    "name": "topshoter_no",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 12630,
+    "gain_24h": 0,
+    "gain_total": 2560,
+    "last_activity": 1791738744000,
+    "events_count": 10,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 9,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "bonda13",
     "profile": "alphazeta111",
     "profileName": "alphazeta111",
@@ -29746,25 +29765,6 @@
     "active_today": false,
     "breakdown": {
       "Watch": 8,
-      "Claim": 1,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "topshoter_no",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 12630,
-    "gain_24h": 0,
-    "gain_total": 2560,
-    "last_activity": 1791738744000,
-    "events_count": 10,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 9,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -30572,25 +30572,6 @@
   },
   {
     "name": "bonda13",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 11750,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1790626265000,
-    "events_count": 2,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "bonda13",
     "profile": "aethermain7",
     "profileName": "aethermain7",
     "points": 11750,
@@ -30620,6 +30601,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 11,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "bonda13",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 11750,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1790626265000,
+    "events_count": 2,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -31446,25 +31446,6 @@
   },
   {
     "name": "flapflap00",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 10500,
-    "gain_24h": 0,
-    "gain_total": 60,
-    "last_activity": 1790626265000,
-    "events_count": 3,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "flapflap00",
     "profile": "aethermain7",
     "profileName": "aethermain7",
     "points": 10500,
@@ -31513,6 +31494,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 11,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "flapflap00",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 10500,
+    "gain_24h": 0,
+    "gain_total": 60,
+    "last_activity": 1790626265000,
+    "events_count": 3,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -31807,12 +31807,12 @@
   },
   {
     "name": "carno_asada",
-    "profile": "mylyfe69",
-    "profileName": "mylyfe69",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
     "points": 10230,
     "gain_24h": 0,
     "gain_total": 0,
-    "last_activity": 1791738505000,
+    "last_activity": 1791738510000,
     "events_count": 8,
     "active_today": true,
     "breakdown": {
@@ -31826,12 +31826,12 @@
   },
   {
     "name": "carno_asada",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
+    "profile": "mylyfe69",
+    "profileName": "mylyfe69",
     "points": 10230,
     "gain_24h": 0,
     "gain_total": 0,
-    "last_activity": 1791738510000,
+    "last_activity": 1791738505000,
     "events_count": 8,
     "active_today": true,
     "breakdown": {
@@ -32148,6 +32148,25 @@
     }
   },
   {
+    "name": "skytookie",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 9720,
+    "gain_24h": 0,
+    "gain_total": 770,
+    "last_activity": 1791738702000,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "topshoter_no",
     "profile": "Hoga_Mara",
     "profileName": "Hoga_Mara",
@@ -32176,25 +32195,6 @@
     "last_activity": 1791615183000,
     "events_count": 8,
     "active_today": false,
-    "breakdown": {
-      "Watch": 8,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "skytookie",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 9720,
-    "gain_24h": 0,
-    "gain_total": 770,
-    "last_activity": 1791738702000,
-    "events_count": 8,
-    "active_today": true,
     "breakdown": {
       "Watch": 8,
       "Claim": 0,
@@ -32528,25 +32528,6 @@
     }
   },
   {
-    "name": "demon1",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 9360,
-    "gain_24h": 0,
-    "gain_total": 2910,
-    "last_activity": 1791738472000,
-    "events_count": 11,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 11,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "babushkaboytv",
     "profile": "Vodar_Jol",
     "profileName": "Vodar_Jol",
@@ -32559,6 +32540,25 @@
     "breakdown": {
       "Watch": 15,
       "Claim": 2,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "demon1",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 9360,
+    "gain_24h": 0,
+    "gain_total": 2910,
+    "last_activity": 1791738472000,
+    "events_count": 11,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 11,
+      "Claim": 0,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -34182,6 +34182,25 @@
   },
   {
     "name": "alxb_",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 7900,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791738694000,
+    "events_count": 7,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 7,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "alxb_",
     "profile": "mylyfe69",
     "profileName": "mylyfe69",
     "points": 7900,
@@ -34214,25 +34233,6 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "alxb_",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 7900,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738694000,
-    "events_count": 7,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 7,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }
@@ -34390,6 +34390,25 @@
     }
   },
   {
+    "name": "annyquilladora",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 7820,
+    "gain_24h": 240,
+    "gain_total": 5760,
+    "last_activity": 1791742465000,
+    "events_count": 55,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 43,
+      "Claim": 11,
+      "Streak": 0,
+      "Raid": 1,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "alxb_",
     "profile": "Chodon_Purush",
     "profileName": "Chodon_Purush",
@@ -34423,25 +34442,6 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "annyquilladora",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 7820,
-    "gain_24h": 240,
-    "gain_total": 5760,
-    "last_activity": 1791742465000,
-    "events_count": 55,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 43,
-      "Claim": 11,
-      "Streak": 0,
-      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }
@@ -34828,6 +34828,25 @@
   },
   {
     "name": "shortysheriff",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 7460,
+    "gain_24h": 0,
+    "gain_total": 2430,
+    "last_activity": 1791738700000,
+    "events_count": 11,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 10,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "shortysheriff",
     "profile": "mylyfe69",
     "profileName": "mylyfe69",
     "points": 7460,
@@ -34858,25 +34877,6 @@
     "breakdown": {
       "Watch": 13,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "shortysheriff",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 7460,
-    "gain_24h": 0,
-    "gain_total": 2430,
-    "last_activity": 1791738700000,
-    "events_count": 11,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 10,
-      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -34936,6 +34936,25 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "annyquilladora",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 7430,
+    "gain_24h": 690,
+    "gain_total": 5410,
+    "last_activity": 1791742637000,
+    "events_count": 56,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 43,
+      "Claim": 12,
+      "Streak": 0,
+      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }
@@ -35088,25 +35107,6 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "annyquilladora",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 7370,
-    "gain_24h": 630,
-    "gain_total": 5350,
-    "last_activity": 1791742341000,
-    "events_count": 54,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 42,
-      "Claim": 11,
-      "Streak": 0,
-      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }
@@ -35645,25 +35645,6 @@
   },
   {
     "name": "beastnamedjon",
-    "profile": "emotional_damage_pro_max",
-    "profileName": "emotional_damage_pro_max",
-    "points": 7020,
-    "gain_24h": 610,
-    "gain_total": 5540,
-    "last_activity": 1791742349000,
-    "events_count": 41,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 33,
-      "Claim": 8,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "beastnamedjon",
     "profile": "Vodar_Jol",
     "profileName": "Vodar_Jol",
     "points": 7020,
@@ -35675,6 +35656,25 @@
     "breakdown": {
       "Watch": 31,
       "Claim": 7,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "beastnamedjon",
+    "profile": "emotional_damage_pro_max",
+    "profileName": "emotional_damage_pro_max",
+    "points": 7020,
+    "gain_24h": 610,
+    "gain_total": 5540,
+    "last_activity": 1791742349000,
+    "events_count": 41,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 33,
+      "Claim": 8,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -36652,6 +36652,25 @@
   },
   {
     "name": "bonda13",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 6320,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791738825000,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "bonda13",
     "profile": "done_pata",
     "profileName": "done_pata",
     "points": 6320,
@@ -36766,25 +36785,6 @@
   },
   {
     "name": "bonda13",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 6320,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738825000,
-    "events_count": 8,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 8,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "bonda13",
     "profile": "youminepie",
     "profileName": "youminepie",
     "points": 6320,
@@ -36823,25 +36823,6 @@
   },
   {
     "name": "cozy030",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 6300,
-    "gain_24h": 0,
-    "gain_total": 460,
-    "last_activity": 1790626264000,
-    "events_count": 3,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "cozy030",
     "profile": "aethermain7",
     "profileName": "aethermain7",
     "points": 6300,
@@ -36871,6 +36852,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 10,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "cozy030",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 6300,
+    "gain_24h": 0,
+    "gain_total": 460,
+    "last_activity": 1790626264000,
+    "events_count": 3,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -36956,6 +36956,25 @@
   },
   {
     "name": "the_office_nerd",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 6280,
+    "gain_24h": 0,
+    "gain_total": 1070,
+    "last_activity": 1791738751000,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "the_office_nerd",
     "profile": "done_pata",
     "profileName": "done_pata",
     "points": 6280,
@@ -37023,25 +37042,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 9,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "the_office_nerd",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 6280,
-    "gain_24h": 0,
-    "gain_total": 1070,
-    "last_activity": 1791738751000,
-    "events_count": 8,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 8,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -37563,25 +37563,6 @@
     }
   },
   {
-    "name": "king_munc",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 6000,
-    "gain_24h": 0,
-    "gain_total": 3540,
-    "last_activity": 1791738468000,
-    "events_count": 7,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 7,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "symc0e",
     "profile": "flank_man",
     "profileName": "flank_man",
@@ -37593,6 +37574,25 @@
     "active_today": false,
     "breakdown": {
       "Watch": 6,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "king_munc",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 6000,
+    "gain_24h": 0,
+    "gain_total": 3540,
+    "last_activity": 1791738468000,
+    "events_count": 7,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 7,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -37773,25 +37773,6 @@
   },
   {
     "name": "crxdaniiel",
-    "profile": "mylyfe69",
-    "profileName": "mylyfe69",
-    "points": 5910,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738673000,
-    "events_count": 9,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 9,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "crxdaniiel",
     "profile": "Vodar_Jol",
     "profileName": "Vodar_Jol",
     "points": 5910,
@@ -37824,6 +37805,25 @@
       "Claim": 2,
       "Streak": 0,
       "Raid": 1,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "crxdaniiel",
+    "profile": "mylyfe69",
+    "profileName": "mylyfe69",
+    "points": 5910,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791738673000,
+    "events_count": 9,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 9,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }
@@ -37924,25 +37924,6 @@
     }
   },
   {
-    "name": "flxnked",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 5860,
-    "gain_24h": 0,
-    "gain_total": 2430,
-    "last_activity": 1791738409000,
-    "events_count": 16,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 13,
-      "Claim": 3,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "cheapgp",
     "profile": "alphazeta111",
     "profileName": "alphazeta111",
@@ -37955,6 +37936,25 @@
     "breakdown": {
       "Watch": 13,
       "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "flxnked",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 5860,
+    "gain_24h": 0,
+    "gain_total": 2430,
+    "last_activity": 1791738409000,
+    "events_count": 16,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 13,
+      "Claim": 3,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -38012,6 +38012,25 @@
     "breakdown": {
       "Watch": 10,
       "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "renafying",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 5830,
+    "gain_24h": 0,
+    "gain_total": 3620,
+    "last_activity": 1791738574000,
+    "events_count": 28,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 22,
+      "Claim": 6,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -38088,25 +38107,6 @@
     "breakdown": {
       "Watch": 20,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "renafying",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 5830,
-    "gain_24h": 0,
-    "gain_total": 3620,
-    "last_activity": 1791738574000,
-    "events_count": 28,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 22,
-      "Claim": 6,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -38419,25 +38419,6 @@
   },
   {
     "name": "cheapgp",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 5620,
-    "gain_24h": 0,
-    "gain_total": 200,
-    "last_activity": 1790626223000,
-    "events_count": 3,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "cheapgp",
     "profile": "aethermain7",
     "profileName": "aethermain7",
     "points": 5620,
@@ -38486,6 +38467,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 11,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "cheapgp",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 5620,
+    "gain_24h": 0,
+    "gain_total": 200,
+    "last_activity": 1790626223000,
+    "events_count": 3,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -38837,25 +38837,6 @@
   },
   {
     "name": "symc0e",
-    "profile": "mylyfe69",
-    "profileName": "mylyfe69",
-    "points": 5490,
-    "gain_24h": 0,
-    "gain_total": 670,
-    "last_activity": 1791738634000,
-    "events_count": 4,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 4,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "symc0e",
     "profile": "Vodar_Jol",
     "profileName": "Vodar_Jol",
     "points": 5490,
@@ -38866,6 +38847,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "symc0e",
+    "profile": "mylyfe69",
+    "profileName": "mylyfe69",
+    "points": 5490,
+    "gain_24h": 0,
+    "gain_total": 670,
+    "last_activity": 1791738634000,
+    "events_count": 4,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -38970,25 +38970,6 @@
   },
   {
     "name": "digooo1",
-    "profile": "mylyfe69",
-    "profileName": "mylyfe69",
-    "points": 5450,
-    "gain_24h": 0,
-    "gain_total": 2350,
-    "last_activity": 1791738565000,
-    "events_count": 19,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 17,
-      "Claim": 2,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "digooo1",
     "profile": "Vodar_Jol",
     "profileName": "Vodar_Jol",
     "points": 5450,
@@ -38999,6 +38980,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 16,
+      "Claim": 2,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "digooo1",
+    "profile": "mylyfe69",
+    "profileName": "mylyfe69",
+    "points": 5450,
+    "gain_24h": 0,
+    "gain_total": 2350,
+    "last_activity": 1791738565000,
+    "events_count": 19,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 17,
       "Claim": 2,
       "Streak": 0,
       "Raid": 0,
@@ -39730,6 +39730,25 @@
   },
   {
     "name": "flapflap00",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 5110,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791738821000,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "flapflap00",
     "profile": "Chodon_Purush",
     "profileName": "Chodon_Purush",
     "points": 5110,
@@ -39797,25 +39816,6 @@
     "active_today": false,
     "breakdown": {
       "Watch": 7,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "flapflap00",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 5110,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738821000,
-    "events_count": 8,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 8,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -40394,25 +40394,6 @@
     }
   },
   {
-    "name": "ksfoster",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 4940,
-    "gain_24h": 0,
-    "gain_total": 3970,
-    "last_activity": 1791738405000,
-    "events_count": 8,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 8,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "mrbunnyelite",
     "profile": "dsa_hater",
     "profileName": "dsa_hater",
@@ -40424,6 +40405,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 12,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "ksfoster",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 4940,
+    "gain_24h": 0,
+    "gain_total": 3970,
+    "last_activity": 1791738405000,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 8,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -41193,6 +41193,25 @@
   },
   {
     "name": "wilsonnr1",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 4490,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791738918000,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "wilsonnr1",
     "profile": "mylyfe69",
     "profileName": "mylyfe69",
     "points": 4490,
@@ -41222,44 +41241,6 @@
     "active_today": false,
     "breakdown": {
       "Watch": 7,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "wilsonnr1",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 4490,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738918000,
-    "events_count": 8,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 8,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "mrbunnyelite",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 4480,
-    "gain_24h": 0,
-    "gain_total": 520,
-    "last_activity": 1790629930000,
-    "events_count": 4,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -41328,6 +41309,25 @@
     "name": "mrbunnyelite",
     "profile": "flank_man",
     "profileName": "flank_man",
+    "points": 4480,
+    "gain_24h": 0,
+    "gain_total": 520,
+    "last_activity": 1790629930000,
+    "events_count": 4,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "mrbunnyelite",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
     "points": 4480,
     "gain_24h": 0,
     "gain_total": 520,
@@ -41706,14 +41706,14 @@
   },
   {
     "name": "gangsta1989",
-    "profile": "mylyfe69",
-    "profileName": "mylyfe69",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
     "points": 4370,
     "gain_24h": 0,
-    "gain_total": 170,
-    "last_activity": 1791615373000,
+    "gain_total": 70,
+    "last_activity": 1791738914000,
     "events_count": 8,
-    "active_today": false,
+    "active_today": true,
     "breakdown": {
       "Watch": 8,
       "Claim": 0,
@@ -41725,14 +41725,14 @@
   },
   {
     "name": "gangsta1989",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
+    "profile": "mylyfe69",
+    "profileName": "mylyfe69",
     "points": 4370,
     "gain_24h": 0,
-    "gain_total": 70,
-    "last_activity": 1791738914000,
+    "gain_total": 170,
+    "last_activity": 1791615373000,
     "events_count": 8,
-    "active_today": true,
+    "active_today": false,
     "breakdown": {
       "Watch": 8,
       "Claim": 0,
@@ -41896,6 +41896,25 @@
   },
   {
     "name": "mrbunnyelite",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 4180,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1790585103000,
+    "events_count": 1,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "mrbunnyelite",
     "profile": "aloneyexe",
     "profileName": "aloneyexe",
     "points": 4180,
@@ -41955,25 +41974,6 @@
     "name": "mrbunnyelite",
     "profile": "MikasasHusb",
     "profileName": "MikasasHusb",
-    "points": 4180,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1790585103000,
-    "events_count": 1,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "mrbunnyelite",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
     "points": 4180,
     "gain_24h": 0,
     "gain_total": 0,
@@ -42143,6 +42143,25 @@
   },
   {
     "name": "saigeybabey",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 4050,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791738917000,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "saigeybabey",
     "profile": "mylyfe69",
     "profileName": "mylyfe69",
     "points": 4050,
@@ -42191,25 +42210,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 9,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "saigeybabey",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 4050,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738917000,
-    "events_count": 8,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 8,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -42447,14 +42447,14 @@
   },
   {
     "name": "rincewindtgw",
-    "profile": "mylyfe69",
-    "profileName": "mylyfe69",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
     "points": 3910,
     "gain_24h": 0,
-    "gain_total": 980,
-    "last_activity": 1791615379000,
+    "gain_total": 410,
+    "last_activity": 1791738920000,
     "events_count": 8,
-    "active_today": false,
+    "active_today": true,
     "breakdown": {
       "Watch": 8,
       "Claim": 0,
@@ -42466,14 +42466,14 @@
   },
   {
     "name": "rincewindtgw",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
+    "profile": "mylyfe69",
+    "profileName": "mylyfe69",
     "points": 3910,
     "gain_24h": 0,
-    "gain_total": 410,
-    "last_activity": 1791738920000,
+    "gain_total": 980,
+    "last_activity": 1791615379000,
     "events_count": 8,
-    "active_today": true,
+    "active_today": false,
     "breakdown": {
       "Watch": 8,
       "Claim": 0,
@@ -42561,6 +42561,25 @@
   },
   {
     "name": "cheapgp",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 3862,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791738573000,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "cheapgp",
     "profile": "done_pata",
     "profileName": "done_pata",
     "points": 3862,
@@ -42590,25 +42609,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 9,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "cheapgp",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 3862,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738573000,
-    "events_count": 8,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 8,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -42674,6 +42674,25 @@
     }
   },
   {
+    "name": "wesleytw_",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 3850,
+    "gain_24h": 0,
+    "gain_total": 1890,
+    "last_activity": 1791738885000,
+    "events_count": 9,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 9,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "cheapgp",
     "profile": "emotional_damage_pro_max",
     "profileName": "emotional_damage_pro_max",
@@ -42704,25 +42723,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 5,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "wesleytw_",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 3850,
-    "gain_24h": 0,
-    "gain_total": 1890,
-    "last_activity": 1791738885000,
-    "events_count": 9,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 9,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -43130,25 +43130,6 @@
     }
   },
   {
-    "name": "ichigrim",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 3630,
-    "gain_24h": 0,
-    "gain_total": 410,
-    "last_activity": 1791738538000,
-    "events_count": 7,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 7,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "reyou67",
     "profile": "Vodar_Jol",
     "profileName": "Vodar_Jol",
@@ -43168,18 +43149,18 @@
     }
   },
   {
-    "name": "shortysheriff",
+    "name": "ichigrim",
     "profile": "godzilloaa",
     "profileName": "godzilloaa",
-    "points": 3610,
+    "points": 3630,
     "gain_24h": 0,
-    "gain_total": 2170,
-    "last_activity": 1791738598000,
-    "events_count": 12,
+    "gain_total": 410,
+    "last_activity": 1791738538000,
+    "events_count": 7,
     "active_today": true,
     "breakdown": {
-      "Watch": 9,
-      "Claim": 3,
+      "Watch": 7,
+      "Claim": 0,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -43199,6 +43180,25 @@
     "breakdown": {
       "Watch": 27,
       "Claim": 7,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "shortysheriff",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 3610,
+    "gain_24h": 0,
+    "gain_total": 2170,
+    "last_activity": 1791738598000,
+    "events_count": 12,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 9,
+      "Claim": 3,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -43282,25 +43282,6 @@
     }
   },
   {
-    "name": "beastnamedjon",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 3550,
-    "gain_24h": 230,
-    "gain_total": 3540,
-    "last_activity": 1791742511000,
-    "events_count": 26,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 20,
-      "Claim": 6,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "ichigrim",
     "profile": "done_pata",
     "profileName": "done_pata",
@@ -43320,6 +43301,25 @@
     }
   },
   {
+    "name": "beastnamedjon",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 3550,
+    "gain_24h": 230,
+    "gain_total": 3540,
+    "last_activity": 1791742511000,
+    "events_count": 26,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 20,
+      "Claim": 6,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "n0kedleee",
     "profile": "MikasasHusb",
     "profileName": "MikasasHusb",
@@ -43327,6 +43327,25 @@
     "gain_24h": 0,
     "gain_total": 1680,
     "last_activity": 1791738642000,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "ichigrim",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 3540,
+    "gain_24h": 0,
+    "gain_total": 360,
+    "last_activity": 1791738641000,
     "events_count": 8,
     "active_today": true,
     "breakdown": {
@@ -43369,25 +43388,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 9,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "ichigrim",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 3540,
-    "gain_24h": 0,
-    "gain_total": 360,
-    "last_activity": 1791738641000,
-    "events_count": 8,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 8,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -44327,20 +44327,20 @@
     }
   },
   {
-    "name": "duhsonva",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 3070,
-    "gain_24h": 0,
-    "gain_total": 1930,
-    "last_activity": 1791738751000,
-    "events_count": 6,
+    "name": "annyquilladora",
+    "profile": "zaree_chan",
+    "profileName": "zaree_chan",
+    "points": 3080,
+    "gain_24h": 250,
+    "gain_total": 2740,
+    "last_activity": 1791742640000,
+    "events_count": 39,
     "active_today": true,
     "breakdown": {
-      "Watch": 6,
-      "Claim": 0,
+      "Watch": 31,
+      "Claim": 7,
       "Streak": 0,
-      "Raid": 0,
+      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }
@@ -44384,20 +44384,20 @@
     }
   },
   {
-    "name": "annyquilladora",
-    "profile": "zaree_chan",
-    "profileName": "zaree_chan",
+    "name": "duhsonva",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
     "points": 3070,
-    "gain_24h": 240,
-    "gain_total": 2730,
-    "last_activity": 1791742334000,
-    "events_count": 38,
+    "gain_24h": 0,
+    "gain_total": 1930,
+    "last_activity": 1791738751000,
+    "events_count": 6,
     "active_today": true,
     "breakdown": {
-      "Watch": 30,
-      "Claim": 7,
+      "Watch": 6,
+      "Claim": 0,
       "Streak": 0,
-      "Raid": 1,
+      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }
@@ -44555,6 +44555,25 @@
     }
   },
   {
+    "name": "chawndo",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 2960,
+    "gain_24h": 0,
+    "gain_total": 1430,
+    "last_activity": 1791738899000,
+    "events_count": 11,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 10,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "nbkguapo",
     "profile": "done_pata",
     "profileName": "done_pata",
@@ -44605,25 +44624,6 @@
     "breakdown": {
       "Watch": 15,
       "Claim": 2,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "chawndo",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 2960,
-    "gain_24h": 0,
-    "gain_total": 1430,
-    "last_activity": 1791738899000,
-    "events_count": 11,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 10,
-      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -44708,25 +44708,6 @@
   },
   {
     "name": "evokeddd",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 2940,
-    "gain_24h": 0,
-    "gain_total": 30,
-    "last_activity": 1790633951000,
-    "events_count": 4,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 4,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "evokeddd",
     "profile": "aethermain7",
     "profileName": "aethermain7",
     "points": 2940,
@@ -44776,6 +44757,25 @@
     "breakdown": {
       "Watch": 13,
       "Claim": 2,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "evokeddd",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 2940,
+    "gain_24h": 0,
+    "gain_total": 30,
+    "last_activity": 1790633951000,
+    "events_count": 4,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 0,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -45373,6 +45373,25 @@
   },
   {
     "name": "kookiekiku",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 2690,
+    "gain_24h": 0,
+    "gain_total": 10,
+    "last_activity": 1791738912000,
+    "events_count": 9,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 9,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "kookiekiku",
     "profile": "jhonny_sims_",
     "profileName": "jhonny_sims_",
     "points": 2690,
@@ -45400,25 +45419,6 @@
     "last_activity": 1791615371000,
     "events_count": 9,
     "active_today": false,
-    "breakdown": {
-      "Watch": 9,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "kookiekiku",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 2690,
-    "gain_24h": 0,
-    "gain_total": 10,
-    "last_activity": 1791738912000,
-    "events_count": 9,
-    "active_today": true,
     "breakdown": {
       "Watch": 9,
       "Claim": 0,
@@ -45676,25 +45676,6 @@
     }
   },
   {
-    "name": "mrbunnyelite",
-    "profile": "RANehal",
-    "profileName": "RANehal",
-    "points": 2550,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738613000,
-    "events_count": 9,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 9,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "nbkguapo",
     "profile": "Vodar_Jol",
     "profileName": "Vodar_Jol",
@@ -45706,6 +45687,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "mrbunnyelite",
+    "profile": "RANehal",
+    "profileName": "RANehal",
+    "points": 2550,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791738613000,
+    "events_count": 9,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 9,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -45905,25 +45905,6 @@
   },
   {
     "name": "humzazx",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 2500,
-    "gain_24h": 0,
-    "gain_total": 420,
-    "last_activity": 1790626281000,
-    "events_count": 3,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "humzazx",
     "profile": "aethermain7",
     "profileName": "aethermain7",
     "points": 2500,
@@ -45953,6 +45934,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 11,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "humzazx",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 2500,
+    "gain_24h": 0,
+    "gain_total": 420,
+    "last_activity": 1790626281000,
+    "events_count": 3,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -46209,6 +46209,25 @@
   },
   {
     "name": "baconsbeta",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 2440,
+    "gain_24h": 0,
+    "gain_total": 310,
+    "last_activity": 1791738924000,
+    "events_count": 9,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 9,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "baconsbeta",
     "profile": "aloneyexe",
     "profileName": "aloneyexe",
     "points": 2440,
@@ -46295,25 +46314,6 @@
     "active_today": false,
     "breakdown": {
       "Watch": 8,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "baconsbeta",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 2440,
-    "gain_24h": 0,
-    "gain_total": 310,
-    "last_activity": 1791738924000,
-    "events_count": 9,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 9,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -46532,25 +46532,6 @@
   },
   {
     "name": "denie",
-    "profile": "mylyfe69",
-    "profileName": "mylyfe69",
-    "points": 2330,
-    "gain_24h": 0,
-    "gain_total": 1600,
-    "last_activity": 1791615316000,
-    "events_count": 8,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 8,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "denie",
     "profile": "Vodar_Jol",
     "profileName": "Vodar_Jol",
     "points": 2330,
@@ -46561,6 +46542,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "denie",
+    "profile": "mylyfe69",
+    "profileName": "mylyfe69",
+    "points": 2330,
+    "gain_24h": 0,
+    "gain_total": 1600,
+    "last_activity": 1791615316000,
+    "events_count": 8,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 8,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -46797,6 +46797,25 @@
     }
   },
   {
+    "name": "jetersold",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 2280,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1790585117000,
+    "events_count": 1,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "kiid2xx",
     "profile": "aethermain7",
     "profileName": "aethermain7",
@@ -46960,25 +46979,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 11,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "jetersold",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 2280,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1790585117000,
-    "events_count": 1,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 1,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -47329,25 +47329,6 @@
     }
   },
   {
-    "name": "the_office_nerd",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 2140,
-    "gain_24h": 0,
-    "gain_total": 1320,
-    "last_activity": 1791738664000,
-    "events_count": 6,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 6,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "humzazx",
     "profile": "dsa_hater",
     "profileName": "dsa_hater",
@@ -47359,6 +47340,25 @@
     "active_today": false,
     "breakdown": {
       "Watch": 10,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "the_office_nerd",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 2140,
+    "gain_24h": 0,
+    "gain_total": 1320,
+    "last_activity": 1791738664000,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 6,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -47386,25 +47386,6 @@
     }
   },
   {
-    "name": "chawndo",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 2130,
-    "gain_24h": 0,
-    "gain_total": 1400,
-    "last_activity": 1791738840000,
-    "events_count": 9,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 9,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "baconsbeta",
     "profile": "emotional_damage_pro_max",
     "profileName": "emotional_damage_pro_max",
@@ -47416,6 +47397,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 10,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "chawndo",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 2130,
+    "gain_24h": 0,
+    "gain_total": 1400,
+    "last_activity": 1791738840000,
+    "events_count": 9,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 9,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -47634,6 +47634,25 @@
   },
   {
     "name": "jemplfg",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 2060,
+    "gain_24h": 0,
+    "gain_total": 560,
+    "last_activity": 1791738914000,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "jemplfg",
     "profile": "done_pata",
     "profileName": "done_pata",
     "points": 2060,
@@ -47728,25 +47747,6 @@
     }
   },
   {
-    "name": "jemplfg",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 2060,
-    "gain_24h": 0,
-    "gain_total": 560,
-    "last_activity": 1791738914000,
-    "events_count": 8,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 8,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "onelegend1_",
     "profile": "youminepie",
     "profileName": "youminepie",
@@ -47759,6 +47759,25 @@
     "breakdown": {
       "Watch": 9,
       "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "blamzzy",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 2050,
+    "gain_24h": 510,
+    "gain_total": 1730,
+    "last_activity": 1791739867000,
+    "events_count": 11,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 10,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -47899,25 +47918,6 @@
     }
   },
   {
-    "name": "blamzzy",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 2050,
-    "gain_24h": 510,
-    "gain_total": 1730,
-    "last_activity": 1791739867000,
-    "events_count": 11,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 10,
-      "Claim": 1,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "demon1",
     "profile": "youminepie",
     "profileName": "youminepie",
@@ -47975,25 +47975,6 @@
     }
   },
   {
-    "name": "heatoncs",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 2010,
-    "gain_24h": 10,
-    "gain_total": 780,
-    "last_activity": 1791739186000,
-    "events_count": 7,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 7,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "blamzzy",
     "profile": "done_pata",
     "profileName": "done_pata",
@@ -48005,6 +47986,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 10,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "heatoncs",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 2010,
+    "gain_24h": 10,
+    "gain_total": 780,
+    "last_activity": 1791739186000,
+    "events_count": 7,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 7,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -48185,6 +48185,25 @@
   },
   {
     "name": "im_brutus_",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 1930,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791738505000,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "im_brutus_",
     "profile": "aloneyexe",
     "profileName": "aloneyexe",
     "points": 1930,
@@ -48233,25 +48252,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 9,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "im_brutus_",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 1930,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738505000,
-    "events_count": 8,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 8,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -48811,25 +48811,6 @@
     }
   },
   {
-    "name": "demon1",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 1760,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738473000,
-    "events_count": 7,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 7,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "im_brutus_",
     "profile": "flank_man",
     "profileName": "flank_man",
@@ -48841,6 +48822,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 9,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "demon1",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 1760,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791738473000,
+    "events_count": 7,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 7,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -49097,6 +49097,25 @@
   },
   {
     "name": "ninjanelo",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 1610,
+    "gain_24h": 0,
+    "gain_total": 320,
+    "last_activity": 1791738507000,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "ninjanelo",
     "profile": "MikasasHusb",
     "profileName": "MikasasHusb",
     "points": 1610,
@@ -49134,13 +49153,13 @@
     }
   },
   {
-    "name": "ninjanelo",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 1610,
+    "name": "im_brutus_",
+    "profile": "done_pata",
+    "profileName": "done_pata",
+    "points": 1600,
     "gain_24h": 0,
-    "gain_total": 320,
-    "last_activity": 1791738507000,
+    "gain_total": 170,
+    "last_activity": 1791738453000,
     "events_count": 8,
     "active_today": true,
     "breakdown": {
@@ -49164,25 +49183,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 6,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "im_brutus_",
-    "profile": "done_pata",
-    "profileName": "done_pata",
-    "points": 1600,
-    "gain_24h": 0,
-    "gain_total": 170,
-    "last_activity": 1791738453000,
-    "events_count": 8,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 8,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -49286,6 +49286,25 @@
     }
   },
   {
+    "name": "mikkioplayz",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 1520,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791738848000,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "chawndo",
     "profile": "emotional_damage_pro_max",
     "profileName": "emotional_damage_pro_max",
@@ -49333,25 +49352,6 @@
     "last_activity": 1791615303000,
     "events_count": 8,
     "active_today": false,
-    "breakdown": {
-      "Watch": 8,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "mikkioplayz",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 1520,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738848000,
-    "events_count": 8,
-    "active_today": true,
     "breakdown": {
       "Watch": 8,
       "Claim": 0,
@@ -49534,25 +49534,6 @@
   },
   {
     "name": "jetersold",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 1440,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1790626259000,
-    "events_count": 2,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "jetersold",
     "profile": "aethermain7",
     "profileName": "aethermain7",
     "points": 1440,
@@ -49631,6 +49612,25 @@
     "name": "jetersold",
     "profile": "flank_man",
     "profileName": "flank_man",
+    "points": 1440,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1790626259000,
+    "events_count": 2,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "jetersold",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
     "points": 1440,
     "gain_24h": 0,
     "gain_total": 0,
@@ -49894,6 +49894,25 @@
     }
   },
   {
+    "name": "itstrunksz",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 1310,
+    "gain_24h": 410,
+    "gain_total": 1330,
+    "last_activity": 1791740647000,
+    "events_count": 11,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 10,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "twogood4u95",
     "profile": "Chodon_Purush",
     "profileName": "Chodon_Purush",
@@ -50027,25 +50046,6 @@
     }
   },
   {
-    "name": "itstrunksz",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 1310,
-    "gain_24h": 410,
-    "gain_total": 1330,
-    "last_activity": 1791740647000,
-    "events_count": 11,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 10,
-      "Claim": 1,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "twogood4u95",
     "profile": "zaree_chan",
     "profileName": "zaree_chan",
@@ -50065,17 +50065,17 @@
     }
   },
   {
-    "name": "activelyboss",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
+    "name": "twogood4u95",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
     "points": 1300,
     "gain_24h": 0,
-    "gain_total": 470,
-    "last_activity": 1791738693000,
-    "events_count": 7,
+    "gain_total": 0,
+    "last_activity": 1791738638000,
+    "events_count": 8,
     "active_today": true,
     "breakdown": {
-      "Watch": 7,
+      "Watch": 8,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -50093,6 +50093,25 @@
     "last_activity": 1791615045000,
     "events_count": 7,
     "active_today": false,
+    "breakdown": {
+      "Watch": 7,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "activelyboss",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 1300,
+    "gain_24h": 0,
+    "gain_total": 470,
+    "last_activity": 1791738693000,
+    "events_count": 7,
+    "active_today": true,
     "breakdown": {
       "Watch": 7,
       "Claim": 0,
@@ -50152,25 +50171,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 9,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "twogood4u95",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 1300,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738638000,
-    "events_count": 8,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 8,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -50654,6 +50654,25 @@
     }
   },
   {
+    "name": "betrigan",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 1130,
+    "gain_24h": 0,
+    "gain_total": 300,
+    "last_activity": 1791738817000,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "cozy030",
     "profile": "aloneyexe",
     "profileName": "aloneyexe",
@@ -50722,25 +50741,6 @@
     "active_today": false,
     "breakdown": {
       "Watch": 6,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "betrigan",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 1130,
-    "gain_24h": 0,
-    "gain_total": 300,
-    "last_activity": 1791738817000,
-    "events_count": 8,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 8,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -51016,25 +51016,6 @@
   },
   {
     "name": "cozy030",
-    "profile": "mylyfe69",
-    "profileName": "mylyfe69",
-    "points": 1070,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791615277000,
-    "events_count": 7,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 7,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "cozy030",
     "profile": "Vodar_Jol",
     "profileName": "Vodar_Jol",
     "points": 1070,
@@ -51045,6 +51026,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 6,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "cozy030",
+    "profile": "mylyfe69",
+    "profileName": "mylyfe69",
+    "points": 1070,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791615277000,
+    "events_count": 7,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 7,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -51244,6 +51244,25 @@
   },
   {
     "name": "kurumichaos",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 980,
+    "gain_24h": 660,
+    "gain_total": 1030,
+    "last_activity": 1791738895000,
+    "events_count": 17,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 16,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "kurumichaos",
     "profile": "godzilloaa",
     "profileName": "godzilloaa",
     "points": 980,
@@ -51274,25 +51293,6 @@
     "breakdown": {
       "Watch": 1,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "kurumichaos",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 980,
-    "gain_24h": 660,
-    "gain_total": 1030,
-    "last_activity": 1791738895000,
-    "events_count": 17,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 16,
-      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -51376,25 +51376,6 @@
     }
   },
   {
-    "name": "cojomocs",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 900,
-    "gain_24h": 0,
-    "gain_total": 890,
-    "last_activity": 1791738722000,
-    "events_count": 11,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 9,
-      "Claim": 2,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "spolli1_",
     "profile": "aloneyexe",
     "profileName": "aloneyexe",
@@ -51407,6 +51388,25 @@
     "breakdown": {
       "Watch": 9,
       "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "cojomocs",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 900,
+    "gain_24h": 0,
+    "gain_total": 890,
+    "last_activity": 1791738722000,
+    "events_count": 11,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 9,
+      "Claim": 2,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -51547,25 +51547,6 @@
     }
   },
   {
-    "name": "rallencs2",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 830,
-    "gain_24h": 0,
-    "gain_total": 1170,
-    "last_activity": 1791738711000,
-    "events_count": 12,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 11,
-      "Claim": 1,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "nbkguapo",
     "profile": "aloneyexe",
     "profileName": "aloneyexe",
@@ -51642,6 +51623,25 @@
     }
   },
   {
+    "name": "rallencs2",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 830,
+    "gain_24h": 0,
+    "gain_total": 1170,
+    "last_activity": 1791738711000,
+    "events_count": 12,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 11,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "betrigan",
     "profile": "mylyfe69",
     "profileName": "mylyfe69",
@@ -51699,25 +51699,6 @@
     }
   },
   {
-    "name": "jemplfg",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 820,
-    "gain_24h": 0,
-    "gain_total": 560,
-    "last_activity": 1791738874000,
-    "events_count": 6,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 6,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "ninjanelo",
     "profile": "emotional_damage_pro_max",
     "profileName": "emotional_damage_pro_max",
@@ -51729,6 +51710,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "jemplfg",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 820,
+    "gain_24h": 0,
+    "gain_total": 560,
+    "last_activity": 1791738874000,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 6,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -52231,6 +52231,25 @@
     }
   },
   {
+    "name": "itzmelloncs",
+    "profile": "flank_man",
+    "profileName": "flank_man",
+    "points": 680,
+    "gain_24h": 0,
+    "gain_total": 350,
+    "last_activity": 1791615313000,
+    "events_count": 7,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 7,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "symc0e",
     "profile": "godzilloaa",
     "profileName": "godzilloaa",
@@ -52261,25 +52280,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 8,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "itzmelloncs",
-    "profile": "flank_man",
-    "profileName": "flank_man",
-    "points": 680,
-    "gain_24h": 0,
-    "gain_total": 350,
-    "last_activity": 1791615313000,
-    "events_count": 7,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 7,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -52516,6 +52516,44 @@
     }
   },
   {
+    "name": "do_worrk",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 640,
+    "gain_24h": 0,
+    "gain_total": 310,
+    "last_activity": 1791738905000,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "sadgirlgaymer",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 640,
+    "gain_24h": 0,
+    "gain_total": 370,
+    "last_activity": 1791738879000,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "twogood4u95",
     "profile": "aloneyexe",
     "profileName": "aloneyexe",
@@ -52717,44 +52755,6 @@
     "active_today": false,
     "breakdown": {
       "Watch": 17,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "do_worrk",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 640,
-    "gain_24h": 0,
-    "gain_total": 310,
-    "last_activity": 1791738905000,
-    "events_count": 8,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 8,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "sadgirlgaymer",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 640,
-    "gain_24h": 0,
-    "gain_total": 370,
-    "last_activity": 1791738879000,
-    "events_count": 8,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 8,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -53105,25 +53105,6 @@
     }
   },
   {
-    "name": "renafying",
-    "profile": "Hoga_Mara",
-    "profileName": "Hoga_Mara",
-    "points": 400,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791038417000,
-    "events_count": 1,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "andres_3197",
     "profile": "Vodar_Jol",
     "profileName": "Vodar_Jol",
@@ -53135,6 +53116,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "renafying",
+    "profile": "Hoga_Mara",
+    "profileName": "Hoga_Mara",
+    "points": 400,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791038417000,
+    "events_count": 1,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 1,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -53219,25 +53219,6 @@
     }
   },
   {
-    "name": "sadgirlgaymer",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 380,
-    "gain_24h": 0,
-    "gain_total": 370,
-    "last_activity": 1791738802000,
-    "events_count": 6,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 6,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "mikkioplayz",
     "profile": "aloneyexe",
     "profileName": "aloneyexe",
@@ -53249,6 +53230,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "sadgirlgaymer",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 380,
+    "gain_24h": 0,
+    "gain_total": 370,
+    "last_activity": 1791738802000,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 6,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -53352,6 +53352,25 @@
     }
   },
   {
+    "name": "jptv2403",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 340,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791738641000,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "itzmelloncs",
     "profile": "insta_lock4",
     "profileName": "insta_lock4",
@@ -53409,17 +53428,17 @@
     }
   },
   {
-    "name": "jptv2403",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 340,
+    "name": "itzmelloncs",
+    "profile": "Chodon_Purush",
+    "profileName": "Chodon_Purush",
+    "points": 330,
     "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738641000,
-    "events_count": 8,
-    "active_today": true,
+    "gain_total": 320,
+    "last_activity": 1791615328000,
+    "events_count": 7,
+    "active_today": false,
     "breakdown": {
-      "Watch": 8,
+      "Watch": 7,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -53439,25 +53458,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 6,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "itzmelloncs",
-    "profile": "Chodon_Purush",
-    "profileName": "Chodon_Purush",
-    "points": 330,
-    "gain_24h": 0,
-    "gain_total": 320,
-    "last_activity": 1791615328000,
-    "events_count": 7,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 7,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -53542,36 +53542,17 @@
     }
   },
   {
-    "name": "do_worrk",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
+    "name": "evokeddd",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
     "points": 320,
     "gain_24h": 0,
-    "gain_total": 310,
-    "last_activity": 1791738859000,
-    "events_count": 6,
+    "gain_total": 0,
+    "last_activity": 1791738864000,
+    "events_count": 8,
     "active_today": true,
     "breakdown": {
-      "Watch": 6,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "advrse_",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 320,
-    "gain_24h": 0,
-    "gain_total": 310,
-    "last_activity": 1791738690000,
-    "events_count": 6,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 6,
+      "Watch": 8,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -53722,6 +53703,44 @@
     "last_activity": 1791615247000,
     "events_count": 6,
     "active_today": false,
+    "breakdown": {
+      "Watch": 6,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "do_worrk",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 320,
+    "gain_24h": 0,
+    "gain_total": 310,
+    "last_activity": 1791738859000,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 6,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "advrse_",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 320,
+    "gain_24h": 0,
+    "gain_total": 310,
+    "last_activity": 1791738690000,
+    "events_count": 6,
+    "active_today": true,
     "breakdown": {
       "Watch": 6,
       "Claim": 0,
@@ -53980,25 +53999,6 @@
   },
   {
     "name": "evokeddd",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 320,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738864000,
-    "events_count": 8,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 8,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "evokeddd",
     "profile": "youminepie",
     "profileName": "youminepie",
     "points": 320,
@@ -54169,25 +54169,6 @@
     }
   },
   {
-    "name": "itstrunksz",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 270,
-    "gain_24h": 10,
-    "gain_total": 310,
-    "last_activity": 1791740624000,
-    "events_count": 5,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 5,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "sadgirlgaymer",
     "profile": "Chodon_Purush",
     "profileName": "Chodon_Purush",
@@ -54226,6 +54207,25 @@
     }
   },
   {
+    "name": "itstrunksz",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 270,
+    "gain_24h": 10,
+    "gain_total": 310,
+    "last_activity": 1791740624000,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "sadgirlgaymer",
     "profile": "rinn__sama",
     "profileName": "rinn__sama",
@@ -54245,74 +54245,17 @@
     }
   },
   {
-    "name": "jolyhype",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
+    "name": "humzazx",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
     "points": 260,
     "gain_24h": 0,
     "gain_total": 0,
-    "last_activity": 1791738830000,
-    "events_count": 5,
+    "last_activity": 1791738895000,
+    "events_count": 8,
     "active_today": true,
     "breakdown": {
-      "Watch": 5,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "betrigan",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 260,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738730000,
-    "events_count": 6,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 6,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "kookiekiku",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 260,
-    "gain_24h": 0,
-    "gain_total": 250,
-    "last_activity": 1791738869000,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "goosebian",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 260,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738537000,
-    "events_count": 7,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 7,
+      "Watch": 8,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -54435,6 +54378,82 @@
     }
   },
   {
+    "name": "jolyhype",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 260,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791738830000,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "betrigan",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 260,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791738730000,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 6,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "kookiekiku",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 260,
+    "gain_24h": 0,
+    "gain_total": 250,
+    "last_activity": 1791738869000,
+    "events_count": 2,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "goosebian",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 260,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791738537000,
+    "events_count": 7,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 7,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "sadgirlgaymer",
     "profile": "Hoga_Mara",
     "profileName": "Hoga_Mara",
@@ -54541,25 +54560,6 @@
     "active_today": false,
     "breakdown": {
       "Watch": 7,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "humzazx",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 260,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738895000,
-    "events_count": 8,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 8,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -54834,44 +54834,6 @@
     }
   },
   {
-    "name": "kiid2xx",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 80,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738543000,
-    "events_count": 7,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 7,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "wilsonnr1",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 80,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738882000,
-    "events_count": 6,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 6,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "andres_3197",
     "profile": "Chodon_Purush",
     "profileName": "Chodon_Purush",
@@ -54921,6 +54883,44 @@
     "active_today": true,
     "breakdown": {
       "Watch": 9,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "kiid2xx",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 80,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791738543000,
+    "events_count": 7,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 7,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "wilsonnr1",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 80,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791738882000,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 6,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -55024,17 +55024,36 @@
     }
   },
   {
-    "name": "carno_asada",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
+    "name": "cblitzkrieg",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
     "points": 20,
     "gain_24h": 0,
     "gain_total": 0,
-    "last_activity": 1791738410000,
+    "last_activity": 1791738634000,
     "events_count": 8,
     "active_today": true,
     "breakdown": {
       "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "kyriefnx",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 20,
+    "gain_24h": 0,
+    "gain_total": 10,
+    "last_activity": 1791738811000,
+    "events_count": 9,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 9,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -55244,6 +55263,25 @@
     "active_today": false,
     "breakdown": {
       "Watch": 7,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "carno_asada",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 20,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791738410000,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 8,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -55480,44 +55518,6 @@
     }
   },
   {
-    "name": "cblitzkrieg",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 20,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738634000,
-    "events_count": 8,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 8,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "kyriefnx",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 20,
-    "gain_24h": 0,
-    "gain_total": 10,
-    "last_activity": 1791738811000,
-    "events_count": 9,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 9,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "jptv2403",
     "profile": "youminepie",
     "profileName": "youminepie",
@@ -55575,74 +55575,17 @@
     }
   },
   {
-    "name": "cblitzkrieg",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
+    "name": "kiid2xx",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
     "points": 10,
     "gain_24h": 0,
     "gain_total": 0,
-    "last_activity": 1791738533000,
-    "events_count": 7,
+    "last_activity": 1791738637000,
+    "events_count": 8,
     "active_today": true,
     "breakdown": {
-      "Watch": 7,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "battlecorgiiii",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 10,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738842000,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "faded689",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 10,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738513000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "kyriefnx",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 10,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738727000,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
+      "Watch": 8,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -55795,6 +55738,82 @@
     "active_today": true,
     "breakdown": {
       "Watch": 9,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "cblitzkrieg",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 10,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791738533000,
+    "events_count": 7,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 7,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "battlecorgiiii",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 10,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791738842000,
+    "events_count": 2,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "faded689",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 10,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791738513000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "kyriefnx",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 10,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791738727000,
+    "events_count": 2,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -56021,25 +56040,6 @@
     "last_activity": 1791615239000,
     "events_count": 8,
     "active_today": false,
-    "breakdown": {
-      "Watch": 8,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "kiid2xx",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 10,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791738637000,
-    "events_count": 8,
-    "active_today": true,
     "breakdown": {
       "Watch": 8,
       "Claim": 0,

@@ -10,16 +10,6 @@
     "is_current": false
   },
   {
-    "id": "godzilloaa",
-    "name": "godzilloaa",
-    "streamers_count": 87,
-    "total_points": 512958,
-    "gain_24h": 38524,
-    "active_today_count": 72,
-    "has_data": true,
-    "is_current": true
-  },
-  {
     "id": "aethermain7",
     "name": "aethermain7",
     "streamers_count": 87,
@@ -27,7 +17,7 @@
     "gain_24h": 0,
     "active_today_count": 0,
     "has_data": true,
-    "is_current": false
+    "is_current": true
   },
   {
     "id": "aloneyexe",
@@ -93,8 +83,8 @@
     "id": "emotional_damage_pro_max",
     "name": "emotional_damage_pro_max",
     "streamers_count": 87,
-    "total_points": 2311680,
-    "gain_24h": 37590,
+    "total_points": 2311690,
+    "gain_24h": 37600,
     "active_today_count": 84,
     "has_data": true,
     "is_current": false
@@ -116,6 +106,16 @@
     "total_points": 3863426,
     "gain_24h": 33700,
     "active_today_count": 87,
+    "has_data": true,
+    "is_current": false
+  },
+  {
+    "id": "godzilloaa",
+    "name": "godzilloaa",
+    "streamers_count": 87,
+    "total_points": 512958,
+    "gain_24h": 38524,
+    "active_today_count": 72,
     "has_data": true,
     "is_current": false
   },

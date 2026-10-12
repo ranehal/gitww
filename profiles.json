@@ -10,12 +10,12 @@
     "is_current": false
   },
   {
-    "id": "ganja_broker",
-    "name": "ganja_broker",
+    "id": "done_pata",
+    "name": "done_pata",
     "streamers_count": 87,
-    "total_points": 3864206,
-    "gain_24h": 23590,
-    "active_today_count": 87,
+    "total_points": 2661057,
+    "gain_24h": 22858,
+    "active_today_count": 85,
     "has_data": true,
     "is_current": true
   },
@@ -60,16 +60,6 @@
     "is_current": false
   },
   {
-    "id": "done_pata",
-    "name": "done_pata",
-    "streamers_count": 87,
-    "total_points": 2661057,
-    "gain_24h": 22858,
-    "active_today_count": 85,
-    "has_data": true,
-    "is_current": false
-  },
-  {
     "id": "dsa_hater",
     "name": "dsa_hater",
     "streamers_count": 87,
@@ -106,6 +96,16 @@
     "total_points": 2389128,
     "gain_24h": 24170,
     "active_today_count": 84,
+    "has_data": true,
+    "is_current": false
+  },
+  {
+    "id": "ganja_broker",
+    "name": "ganja_broker",
+    "streamers_count": 87,
+    "total_points": 3864206,
+    "gain_24h": 23590,
+    "active_today_count": 87,
     "has_data": true,
     "is_current": false
   },
@@ -243,8 +243,8 @@
     "id": "real_ice77",
     "name": "real_ice77",
     "streamers_count": 87,
-    "total_points": 3735386,
-    "gain_24h": 22240,
+    "total_points": 3735446,
+    "gain_24h": 22300,
     "active_today_count": 87,
     "has_data": true,
     "is_current": false

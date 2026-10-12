@@ -93,7 +93,7 @@
     "name": "wockhardtxx",
     "points": 19740,
     "last_activity": 1791820685000,
-    "gain_24h": 1730,
+    "gain_24h": 870,
     "gain_total": 8080,
     "start_points": 11710,
     "events_count": 53,
@@ -453,7 +453,7 @@
     "name": "ninjanelo",
     "points": 4610,
     "last_activity": 1791820687000,
-    "gain_24h": 1810,
+    "gain_24h": 0,
     "gain_total": 1810,
     "start_points": 2800,
     "events_count": 10,
@@ -846,6 +846,24 @@
     }
   },
   {
+    "name": "baconsbeta",
+    "points": 1600,
+    "last_activity": 1791824800000,
+    "gain_24h": 870,
+    "gain_total": 1280,
+    "start_points": 320,
+    "events_count": 11,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 10,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "tdrizzzly",
     "points": 1590,
     "last_activity": 1791821082000,
@@ -1036,24 +1054,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 11,
-      "Claim": 1,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "baconsbeta",
-    "points": 1140,
-    "last_activity": 1791821146000,
-    "gain_24h": 410,
-    "gain_total": 820,
-    "start_points": 320,
-    "events_count": 9,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 8,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,

@@ -10,11 +10,11 @@
     "is_current": false
   },
   {
-    "id": "restless_rick",
-    "name": "restless_rick",
+    "id": "ganja_broker",
+    "name": "ganja_broker",
     "streamers_count": 87,
-    "total_points": 3954824,
-    "gain_24h": 38450,
+    "total_points": 3878276,
+    "gain_24h": 48550,
     "active_today_count": 87,
     "has_data": true,
     "is_current": true
@@ -63,8 +63,8 @@
     "id": "done_pata",
     "name": "done_pata",
     "streamers_count": 87,
-    "total_points": 2664721,
-    "gain_24h": 26092,
+    "total_points": 2664743,
+    "gain_24h": 26114,
     "active_today_count": 85,
     "has_data": true,
     "is_current": false
@@ -106,16 +106,6 @@
     "total_points": 2295088,
     "gain_24h": 6360,
     "active_today_count": 84,
-    "has_data": true,
-    "is_current": false
-  },
-  {
-    "id": "ganja_broker",
-    "name": "ganja_broker",
-    "streamers_count": 87,
-    "total_points": 3878276,
-    "gain_24h": 48550,
-    "active_today_count": 87,
     "has_data": true,
     "is_current": false
   },
@@ -255,6 +245,16 @@
     "streamers_count": 87,
     "total_points": 3846348,
     "gain_24h": 24560,
+    "active_today_count": 87,
+    "has_data": true,
+    "is_current": false
+  },
+  {
+    "id": "restless_rick",
+    "name": "restless_rick",
+    "streamers_count": 87,
+    "total_points": 3954824,
+    "gain_24h": 38450,
     "active_today_count": 87,
     "has_data": true,
     "is_current": false

@@ -10,12 +10,12 @@
     "is_current": false
   },
   {
-    "id": "ganja_broker",
-    "name": "ganja_broker",
+    "id": "Vodar_Jol",
+    "name": "Vodar_Jol",
     "streamers_count": 87,
-    "total_points": 3877916,
-    "gain_24h": 48190,
-    "active_today_count": 87,
+    "total_points": 2475746,
+    "gain_24h": 17270,
+    "active_today_count": 85,
     "has_data": true,
     "is_current": true
   },
@@ -106,6 +106,16 @@
     "total_points": 2294838,
     "gain_24h": 6110,
     "active_today_count": 84,
+    "has_data": true,
+    "is_current": false
+  },
+  {
+    "id": "ganja_broker",
+    "name": "ganja_broker",
+    "streamers_count": 87,
+    "total_points": 3877916,
+    "gain_24h": 48190,
+    "active_today_count": 87,
     "has_data": true,
     "is_current": false
   },
@@ -326,16 +336,6 @@
     "total_points": 3034930,
     "gain_24h": 10970,
     "active_today_count": 87,
-    "has_data": true,
-    "is_current": false
-  },
-  {
-    "id": "Vodar_Jol",
-    "name": "Vodar_Jol",
-    "streamers_count": 87,
-    "total_points": 2475746,
-    "gain_24h": 17270,
-    "active_today_count": 85,
     "has_data": true,
     "is_current": false
   },

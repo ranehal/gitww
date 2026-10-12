@@ -882,24 +882,6 @@
     }
   },
   {
-    "name": "original_stump",
-    "points": 3840,
-    "last_activity": 1791828501000,
-    "gain_24h": 610,
-    "gain_total": 3230,
-    "start_points": 960,
-    "events_count": 22,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 18,
-      "Claim": 2,
-      "Streak": 0,
-      "Raid": 2,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "reyou67",
     "points": 3650,
     "last_activity": 1791820944000,
@@ -929,6 +911,24 @@
     "breakdown": {
       "Watch": 11,
       "Claim": 0,
+      "Streak": 0,
+      "Raid": 1,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "original_stump",
+    "points": 3240,
+    "last_activity": 1791821557000,
+    "gain_24h": 10,
+    "gain_total": 2630,
+    "start_points": 960,
+    "events_count": 21,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 18,
+      "Claim": 2,
       "Streak": 0,
       "Raid": 1,
       "Prediction": 0,

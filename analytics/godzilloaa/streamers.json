@@ -558,24 +558,6 @@
     }
   },
   {
-    "name": "original_stump",
-    "points": 3300,
-    "last_activity": 1791828502000,
-    "gain_24h": 270,
-    "gain_total": 2470,
-    "start_points": 830,
-    "events_count": 19,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 14,
-      "Claim": 3,
-      "Streak": 0,
-      "Raid": 2,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "denie",
     "points": 3118,
     "last_activity": 1791821036000,
@@ -607,6 +589,24 @@
       "Claim": 2,
       "Streak": 0,
       "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "original_stump",
+    "points": 3050,
+    "last_activity": 1791822075000,
+    "gain_24h": 20,
+    "gain_total": 2220,
+    "start_points": 830,
+    "events_count": 18,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 14,
+      "Claim": 3,
+      "Streak": 0,
+      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }

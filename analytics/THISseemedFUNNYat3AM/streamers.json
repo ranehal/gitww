@@ -486,6 +486,24 @@
     }
   },
   {
+    "name": "original_stump",
+    "points": 36080,
+    "last_activity": 1791828501000,
+    "gain_24h": 560,
+    "gain_total": 9600,
+    "start_points": 26780,
+    "events_count": 29,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 24,
+      "Claim": 3,
+      "Streak": 0,
+      "Raid": 2,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "mikkioplayz",
     "points": 35810,
     "last_activity": 1791820676000,
@@ -499,24 +517,6 @@
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "original_stump",
-    "points": 35530,
-    "last_activity": 1791821996000,
-    "gain_24h": 10,
-    "gain_total": 9050,
-    "start_points": 26780,
-    "events_count": 28,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 24,
-      "Claim": 3,
-      "Streak": 0,
-      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }

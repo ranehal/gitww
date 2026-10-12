@@ -10,12 +10,12 @@
     "is_current": false
   },
   {
-    "id": "Vodar_Jol",
-    "name": "Vodar_Jol",
+    "id": "flank_man",
+    "name": "flank_man",
     "streamers_count": 87,
-    "total_points": 2862548,
-    "gain_24h": 14650,
-    "active_today_count": 85,
+    "total_points": 2389128,
+    "gain_24h": 24170,
+    "active_today_count": 84,
     "has_data": true,
     "is_current": true
   },
@@ -44,7 +44,7 @@
     "name": "alphazeta111",
     "streamers_count": 87,
     "total_points": 4189522,
-    "gain_24h": 44580,
+    "gain_24h": 44520,
     "active_today_count": 87,
     "has_data": true,
     "is_current": false
@@ -95,16 +95,6 @@
     "streamers_count": 87,
     "total_points": 2312010,
     "gain_24h": 35400,
-    "active_today_count": 84,
-    "has_data": true,
-    "is_current": false
-  },
-  {
-    "id": "flank_man",
-    "name": "flank_man",
-    "streamers_count": 87,
-    "total_points": 2389128,
-    "gain_24h": 24170,
     "active_today_count": 84,
     "has_data": true,
     "is_current": false
@@ -264,7 +254,7 @@
     "name": "restless_rick",
     "streamers_count": 87,
     "total_points": 3916932,
-    "gain_24h": 33650,
+    "gain_24h": 33590,
     "active_today_count": 87,
     "has_data": true,
     "is_current": false
@@ -336,6 +326,16 @@
     "total_points": 3040070,
     "gain_24h": 8870,
     "active_today_count": 86,
+    "has_data": true,
+    "is_current": false
+  },
+  {
+    "id": "Vodar_Jol",
+    "name": "Vodar_Jol",
+    "streamers_count": 87,
+    "total_points": 2862548,
+    "gain_24h": 14650,
+    "active_today_count": 85,
     "has_data": true,
     "is_current": false
   },

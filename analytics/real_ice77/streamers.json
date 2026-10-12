@@ -1009,15 +1009,15 @@
   },
   {
     "name": "baconsbeta",
-    "points": 15320,
-    "last_activity": 1791821160000,
-    "gain_24h": 450,
-    "gain_total": 2850,
+    "points": 15330,
+    "last_activity": 1791824688000,
+    "gain_24h": 460,
+    "gain_total": 3310,
     "start_points": 12470,
-    "events_count": 13,
+    "events_count": 15,
     "active_today": true,
     "breakdown": {
-      "Watch": 13,
+      "Watch": 15,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1134,6 +1134,24 @@
     }
   },
   {
+    "name": "blamzzy",
+    "points": 13960,
+    "last_activity": 1791824769000,
+    "gain_24h": 520,
+    "gain_total": 520,
+    "start_points": 13440,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "kurumichaos",
     "points": 13950,
     "last_activity": 1791821130000,
@@ -1147,24 +1165,6 @@
       "Claim": 1,
       "Streak": 0,
       "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "blamzzy",
-    "points": 13900,
-    "last_activity": 1791824348000,
-    "gain_24h": 460,
-    "gain_total": 460,
-    "start_points": 13440,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }

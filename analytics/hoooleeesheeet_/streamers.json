@@ -272,14 +272,14 @@
   {
     "name": "magilacs",
     "points": 64340,
-    "last_activity": 1791037431000,
+    "last_activity": 1791903287000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 64340,
-    "events_count": 3,
-    "active_today": false,
+    "events_count": 4,
+    "active_today": true,
     "breakdown": {
-      "Watch": 3,
+      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -396,6 +396,24 @@
     }
   },
   {
+    "name": "duhsonva",
+    "points": 45560,
+    "last_activity": 1791903269000,
+    "gain_24h": 0,
+    "gain_total": 6200,
+    "start_points": 39360,
+    "events_count": 4,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "estoniaman",
     "points": 42340,
     "last_activity": 1791903185000,
@@ -407,24 +425,6 @@
     "breakdown": {
       "Watch": 10,
       "Claim": 3,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "duhsonva",
-    "points": 40740,
-    "last_activity": 1791037430000,
-    "gain_24h": 0,
-    "gain_total": 1380,
-    "start_points": 39360,
-    "events_count": 3,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1134,6 +1134,24 @@
     }
   },
   {
+    "name": "mikkioplayz",
+    "points": 13420,
+    "last_activity": 1791903275000,
+    "gain_24h": 0,
+    "gain_total": 3340,
+    "start_points": 10080,
+    "events_count": 4,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "bonda13",
     "points": 13040,
     "last_activity": 1791903264000,
@@ -1255,24 +1273,6 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "mikkioplayz",
-    "points": 11520,
-    "last_activity": 1791037432000,
-    "gain_24h": 0,
-    "gain_total": 1440,
-    "start_points": 10080,
-    "events_count": 3,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }

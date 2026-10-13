@@ -342,6 +342,24 @@
     }
   },
   {
+    "name": "rallencs2",
+    "points": 25670,
+    "last_activity": 1791903282000,
+    "gain_24h": 0,
+    "gain_total": 1560,
+    "start_points": 24110,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "estoniaman",
     "points": 24870,
     "last_activity": 1791903240000,
@@ -388,24 +406,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "rallencs2",
-    "points": 24110,
-    "last_activity": 1791037399000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 24110,
-    "events_count": 2,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -756,6 +756,24 @@
     }
   },
   {
+    "name": "activelyboss",
+    "points": 8430,
+    "last_activity": 1791903283000,
+    "gain_24h": 0,
+    "gain_total": 1450,
+    "start_points": 6980,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 6,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "flapflap00",
     "points": 8140,
     "last_activity": 1791037423000,
@@ -854,24 +872,6 @@
     "start_points": 5500,
     "events_count": 5,
     "active_today": true,
-    "breakdown": {
-      "Watch": 5,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "activelyboss",
-    "points": 7010,
-    "last_activity": 1791038812000,
-    "gain_24h": 0,
-    "gain_total": 30,
-    "start_points": 6980,
-    "events_count": 5,
-    "active_today": false,
     "breakdown": {
       "Watch": 5,
       "Claim": 0,
@@ -1514,14 +1514,14 @@
   {
     "name": "jetersold",
     "points": 680,
-    "last_activity": 1791037407000,
+    "last_activity": 1791903285000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 680,
-    "events_count": 2,
-    "active_today": false,
+    "events_count": 3,
+    "active_today": true,
     "breakdown": {
-      "Watch": 2,
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

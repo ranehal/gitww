@@ -757,15 +757,15 @@
   },
   {
     "name": "activelyboss",
-    "points": 6420,
-    "last_activity": 1792068171000,
-    "gain_24h": 410,
-    "gain_total": 1070,
+    "points": 6430,
+    "last_activity": 1792069659000,
+    "gain_24h": 420,
+    "gain_total": 1530,
     "start_points": 5350,
-    "events_count": 7,
+    "events_count": 9,
     "active_today": true,
     "breakdown": {
-      "Watch": 6,
+      "Watch": 8,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -1818,6 +1818,24 @@
     }
   },
   {
+    "name": "sc4p3_fps",
+    "points": 20,
+    "last_activity": 1792069811000,
+    "gain_24h": 10,
+    "gain_total": 10,
+    "start_points": 10,
+    "events_count": 2,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "terraformer20",
     "points": 10,
     "last_activity": 1792068208000,
@@ -1947,24 +1965,6 @@
     "name": "vulture5x",
     "points": 10,
     "last_activity": 1792067848000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 10,
-    "events_count": 1,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "sc4p3_fps",
-    "points": 10,
-    "last_activity": 1792069508000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 10,

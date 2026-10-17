@@ -630,6 +630,24 @@
     }
   },
   {
+    "name": "original_stump",
+    "points": 10270,
+    "last_activity": 1792234817000,
+    "gain_24h": 830,
+    "gain_total": 10260,
+    "start_points": 10,
+    "events_count": 18,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 14,
+      "Claim": 4,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "shortysheriff",
     "points": 10240,
     "last_activity": 1792232457000,
@@ -641,24 +659,6 @@
     "breakdown": {
       "Watch": 7,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "original_stump",
-    "points": 10200,
-    "last_activity": 1792234217000,
-    "gain_24h": 760,
-    "gain_total": 10190,
-    "start_points": 10,
-    "events_count": 15,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 12,
-      "Claim": 3,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -2503,15 +2503,15 @@
   },
   {
     "name": "anonymousashlar",
-    "points": 80,
-    "last_activity": 1792232724000,
-    "gain_24h": 70,
-    "gain_total": 70,
+    "points": 90,
+    "last_activity": 1792234617000,
+    "gain_24h": 80,
+    "gain_total": 80,
     "start_points": 10,
-    "events_count": 6,
+    "events_count": 7,
     "active_today": true,
     "breakdown": {
-      "Watch": 5,
+      "Watch": 6,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,

@@ -1639,16 +1639,16 @@
   },
   {
     "name": "sarconius",
-    "points": 2370,
-    "last_activity": 1792234339000,
-    "gain_24h": 500,
-    "gain_total": 1980,
+    "points": 2430,
+    "last_activity": 1792234633000,
+    "gain_24h": 560,
+    "gain_total": 2040,
     "start_points": 500,
-    "events_count": 23,
+    "events_count": 25,
     "active_today": true,
     "breakdown": {
-      "Watch": 17,
-      "Claim": 6,
+      "Watch": 18,
+      "Claim": 7,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1657,15 +1657,15 @@
   },
   {
     "name": "ssjaymusic",
-    "points": 2300,
-    "last_activity": 1792234237000,
-    "gain_24h": 840,
-    "gain_total": 840,
+    "points": 2310,
+    "last_activity": 1792234549000,
+    "gain_24h": 850,
+    "gain_total": 850,
     "start_points": 1460,
-    "events_count": 19,
+    "events_count": 20,
     "active_today": true,
     "breakdown": {
-      "Watch": 15,
+      "Watch": 16,
       "Claim": 4,
       "Streak": 0,
       "Raid": 0,
@@ -2502,6 +2502,24 @@
     }
   },
   {
+    "name": "emniag",
+    "points": 260,
+    "last_activity": 1792234805000,
+    "gain_24h": 20,
+    "gain_total": 250,
+    "start_points": 10,
+    "events_count": 7,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 6,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "adomhamez",
     "points": 260,
     "last_activity": 1792232504000,
@@ -2567,24 +2585,6 @@
     "breakdown": {
       "Watch": 2,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "emniag",
-    "points": 250,
-    "last_activity": 1792232923000,
-    "gain_24h": 10,
-    "gain_total": 240,
-    "start_points": 10,
-    "events_count": 6,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 5,
-      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,

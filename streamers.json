@@ -1621,15 +1621,15 @@
   },
   {
     "name": "sarconius",
-    "points": 6600,
-    "last_activity": 1792230634000,
-    "gain_24h": 230,
-    "gain_total": 5210,
+    "points": 6610,
+    "last_activity": 1792230942000,
+    "gain_24h": 240,
+    "gain_total": 5220,
     "start_points": 1390,
-    "events_count": 9,
+    "events_count": 10,
     "active_today": true,
     "breakdown": {
-      "Watch": 7,
+      "Watch": 8,
       "Claim": 2,
       "Streak": 0,
       "Raid": 0,
@@ -1944,6 +1944,24 @@
     }
   },
   {
+    "name": "emniag",
+    "points": 2480,
+    "last_activity": 1792230943000,
+    "gain_24h": 220,
+    "gain_total": 2280,
+    "start_points": 250,
+    "events_count": 14,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 10,
+      "Claim": 4,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "sloptv__",
     "points": 2470,
     "last_activity": 1792229494000,
@@ -1955,24 +1973,6 @@
     "breakdown": {
       "Watch": 8,
       "Claim": 2,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "emniag",
-    "points": 2420,
-    "last_activity": 1792230636000,
-    "gain_24h": 160,
-    "gain_total": 2220,
-    "start_points": 250,
-    "events_count": 12,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 9,
-      "Claim": 3,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -2250,9 +2250,9 @@
     }
   },
   {
-    "name": "shawthaking",
+    "name": "outlawz_psycho",
     "points": 1200,
-    "last_activity": 1792227209000,
+    "last_activity": 1792227168000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 1200,
@@ -2268,9 +2268,9 @@
     }
   },
   {
-    "name": "outlawz_psycho",
+    "name": "shawthaking",
     "points": 1200,
-    "last_activity": 1792227168000,
+    "last_activity": 1792227209000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 1200,
@@ -2394,6 +2394,24 @@
     }
   },
   {
+    "name": "sqweagy",
+    "points": 880,
+    "last_activity": 1792227637000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 880,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "abyzou",
     "points": 880,
     "last_activity": 1792227580000,
@@ -2422,24 +2440,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "sqweagy",
-    "points": 880,
-    "last_activity": 1792227637000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 880,
-    "events_count": 1,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 1,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2682,24 +2682,6 @@
     }
   },
   {
-    "name": "moroccan789",
-    "points": 380,
-    "last_activity": 1792227217000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 380,
-    "events_count": 1,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "ironmancarter",
     "points": 380,
     "last_activity": 1792227538000,
@@ -2718,16 +2700,34 @@
     }
   },
   {
-    "name": "anonymousashlar",
-    "points": 350,
-    "last_activity": 1792230665000,
-    "gain_24h": 50,
-    "gain_total": 50,
-    "start_points": 300,
-    "events_count": 11,
+    "name": "moroccan789",
+    "points": 380,
+    "last_activity": 1792227217000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 380,
+    "events_count": 1,
     "active_today": true,
     "breakdown": {
-      "Watch": 11,
+      "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "anonymousashlar",
+    "points": 360,
+    "last_activity": 1792230972000,
+    "gain_24h": 60,
+    "gain_total": 60,
+    "start_points": 300,
+    "events_count": 12,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 12,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

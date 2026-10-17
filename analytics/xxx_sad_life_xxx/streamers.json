@@ -181,15 +181,15 @@
   },
   {
     "name": "lymegreentv",
-    "points": 75110,
-    "last_activity": 1792227937000,
-    "gain_24h": 0,
-    "gain_total": 10,
+    "points": 75120,
+    "last_activity": 1792229161000,
+    "gain_24h": 10,
+    "gain_total": 320,
     "start_points": 75100,
-    "events_count": 2,
+    "events_count": 4,
     "active_today": true,
     "breakdown": {
-      "Watch": 2,
+      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1800,6 +1800,24 @@
     }
   },
   {
+    "name": "sarconius",
+    "points": 730,
+    "last_activity": 1792229025000,
+    "gain_24h": 410,
+    "gain_total": 1070,
+    "start_points": 10,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "mavietoria",
     "points": 730,
     "last_activity": 1792227464000,
@@ -2091,24 +2109,6 @@
     "name": "efohitemdown",
     "points": 320,
     "last_activity": 1792227286000,
-    "gain_24h": 0,
-    "gain_total": 310,
-    "start_points": 10,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "sarconius",
-    "points": 320,
-    "last_activity": 1792227742000,
     "gain_24h": 0,
     "gain_total": 310,
     "start_points": 10,

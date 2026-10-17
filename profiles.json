@@ -4,18 +4,18 @@
     "name": "All Accounts (Combined)",
     "streamers_count": 166,
     "total_points": 6572443,
-    "gain_24h": 40570,
+    "gain_24h": 40980,
     "active_today_count": 132,
     "has_data": true,
     "is_current": false
   },
   {
-    "id": "egomanyk",
-    "name": "egomanyk",
-    "streamers_count": 157,
-    "total_points": 4190324,
-    "gain_24h": 8740,
-    "active_today_count": 124,
+    "id": "Chodon_Purush",
+    "name": "Chodon_Purush",
+    "streamers_count": 142,
+    "total_points": 2384508,
+    "gain_24h": 4310,
+    "active_today_count": 108,
     "has_data": true,
     "is_current": true
   },
@@ -50,16 +50,6 @@
     "is_current": false
   },
   {
-    "id": "Chodon_Purush",
-    "name": "Chodon_Purush",
-    "streamers_count": 142,
-    "total_points": 2384508,
-    "gain_24h": 4310,
-    "active_today_count": 108,
-    "has_data": true,
-    "is_current": false
-  },
-  {
     "id": "done_pata",
     "name": "done_pata",
     "streamers_count": 155,
@@ -75,6 +65,16 @@
     "streamers_count": 157,
     "total_points": 4064454,
     "gain_24h": 12330,
+    "active_today_count": 124,
+    "has_data": true,
+    "is_current": false
+  },
+  {
+    "id": "egomanyk",
+    "name": "egomanyk",
+    "streamers_count": 157,
+    "total_points": 4190324,
+    "gain_24h": 8740,
     "active_today_count": 124,
     "has_data": true,
     "is_current": false
@@ -323,8 +323,8 @@
     "id": "truck_me1",
     "name": "truck_me1",
     "streamers_count": 156,
-    "total_points": 3264990,
-    "gain_24h": 26590,
+    "total_points": 3265000,
+    "gain_24h": 26600,
     "active_today_count": 123,
     "has_data": true,
     "is_current": false

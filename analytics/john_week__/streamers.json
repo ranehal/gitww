@@ -432,6 +432,24 @@
     }
   },
   {
+    "name": "original_stump",
+    "points": 40000,
+    "last_activity": 1792231430000,
+    "gain_24h": 510,
+    "gain_total": 14130,
+    "start_points": 26320,
+    "events_count": 15,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 14,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "beastnamedjon",
     "points": 39640,
     "last_activity": 1791985347000,
@@ -443,24 +461,6 @@
     "breakdown": {
       "Watch": 12,
       "Claim": 2,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "original_stump",
-    "points": 39490,
-    "last_activity": 1792227408000,
-    "gain_24h": 0,
-    "gain_total": 13170,
-    "start_points": 26320,
-    "events_count": 12,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 12,
-      "Claim": 0,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1585,15 +1585,15 @@
   },
   {
     "name": "ssjaymusic",
-    "points": 2170,
-    "last_activity": 1792231156000,
-    "gain_24h": 540,
-    "gain_total": 940,
+    "points": 2180,
+    "last_activity": 1792231457000,
+    "gain_24h": 550,
+    "gain_total": 950,
     "start_points": 1630,
-    "events_count": 9,
+    "events_count": 10,
     "active_today": true,
     "breakdown": {
-      "Watch": 7,
+      "Watch": 8,
       "Claim": 2,
       "Streak": 0,
       "Raid": 0,

@@ -235,16 +235,16 @@
   },
   {
     "name": "lymegreentv",
-    "points": 76060,
-    "last_activity": 1792227953000,
-    "gain_24h": 0,
-    "gain_total": 0,
+    "points": 76120,
+    "last_activity": 1792229614000,
+    "gain_24h": 60,
+    "gain_total": 60,
     "start_points": 76060,
-    "events_count": 1,
+    "events_count": 3,
     "active_today": true,
     "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
+      "Watch": 2,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -2088,6 +2088,24 @@
     }
   },
   {
+    "name": "sloptv__",
+    "points": 380,
+    "last_activity": 1792229624000,
+    "gain_24h": 60,
+    "gain_total": 60,
+    "start_points": 320,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "nickkehh",
     "points": 330,
     "last_activity": 1792227723000,
@@ -2217,24 +2235,6 @@
     "name": "guacgamesxo",
     "points": 320,
     "last_activity": 1792227778000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 320,
-    "events_count": 1,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "sloptv__",
-    "points": 320,
-    "last_activity": 1792227885000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 320,

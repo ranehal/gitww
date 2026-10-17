@@ -469,16 +469,16 @@
   },
   {
     "name": "original_stump",
-    "points": 39440,
-    "last_activity": 1792236573000,
-    "gain_24h": 860,
-    "gain_total": 14340,
+    "points": 39500,
+    "last_activity": 1792236880000,
+    "gain_24h": 920,
+    "gain_total": 14400,
     "start_points": 25100,
-    "events_count": 22,
+    "events_count": 24,
     "active_today": true,
     "breakdown": {
-      "Watch": 18,
-      "Claim": 4,
+      "Watch": 19,
+      "Claim": 5,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -2178,6 +2178,24 @@
     }
   },
   {
+    "name": "joshltfc",
+    "points": 390,
+    "last_activity": 1792236784000,
+    "gain_24h": 380,
+    "gain_total": 680,
+    "start_points": 10,
+    "events_count": 7,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 6,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "sc4p3_fps",
     "points": 390,
     "last_activity": 1792232600000,
@@ -2189,24 +2207,6 @@
     "breakdown": {
       "Watch": 3,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "joshltfc",
-    "points": 380,
-    "last_activity": 1792236478000,
-    "gain_24h": 370,
-    "gain_total": 670,
-    "start_points": 10,
-    "events_count": 6,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 5,
-      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,

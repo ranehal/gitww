@@ -918,6 +918,24 @@
     }
   },
   {
+    "name": "original_stump",
+    "points": 4310,
+    "last_activity": 1792231412000,
+    "gain_24h": 510,
+    "gain_total": 4300,
+    "start_points": 10,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "onelegend1_",
     "points": 4060,
     "last_activity": 1792227655000,
@@ -929,24 +947,6 @@
     "breakdown": {
       "Watch": 7,
       "Claim": 1,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "original_stump",
-    "points": 3800,
-    "last_activity": 1792227480000,
-    "gain_24h": 0,
-    "gain_total": 3790,
-    "start_points": 10,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -2071,15 +2071,15 @@
   },
   {
     "name": "anonymousashlar",
-    "points": 170,
-    "last_activity": 1792231237000,
-    "gain_24h": 160,
-    "gain_total": 160,
+    "points": 180,
+    "last_activity": 1792231533000,
+    "gain_24h": 170,
+    "gain_total": 170,
     "start_points": 10,
-    "events_count": 9,
+    "events_count": 10,
     "active_today": true,
     "breakdown": {
-      "Watch": 7,
+      "Watch": 8,
       "Claim": 2,
       "Streak": 0,
       "Raid": 0,

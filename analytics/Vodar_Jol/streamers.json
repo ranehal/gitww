@@ -181,15 +181,15 @@
   },
   {
     "name": "lymegreentv",
-    "points": 70790,
-    "last_activity": 1792227968000,
-    "gain_24h": 0,
-    "gain_total": 0,
+    "points": 71100,
+    "last_activity": 1792229464000,
+    "gain_24h": 310,
+    "gain_total": 310,
     "start_points": 70790,
-    "events_count": 1,
+    "events_count": 3,
     "active_today": true,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2340,6 +2340,24 @@
     }
   },
   {
+    "name": "sloptv__",
+    "points": 320,
+    "last_activity": 1792229453000,
+    "gain_24h": 310,
+    "gain_total": 310,
+    "start_points": 10,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "zobstan",
     "points": 270,
     "last_activity": 1792227730000,
@@ -2484,6 +2502,24 @@
     }
   },
   {
+    "name": "anonymousashlar",
+    "points": 80,
+    "last_activity": 1792229334000,
+    "gain_24h": 70,
+    "gain_total": 70,
+    "start_points": 10,
+    "events_count": 4,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "kyriefnx",
     "points": 20,
     "last_activity": 1791985630000,
@@ -2530,24 +2566,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "anonymousashlar",
-    "points": 20,
-    "last_activity": 1792229031000,
-    "gain_24h": 10,
-    "gain_total": 10,
-    "start_points": 10,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2739,24 +2757,6 @@
     "name": "saturn_720",
     "points": 10,
     "last_activity": 1792227705000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 10,
-    "events_count": 1,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "sloptv__",
-    "points": 10,
-    "last_activity": 1792227910000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 10,

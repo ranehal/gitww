@@ -253,16 +253,16 @@
   },
   {
     "name": "lymegreentv",
-    "points": 72550,
-    "last_activity": 1792228103000,
-    "gain_24h": 310,
-    "gain_total": 570,
+    "points": 72560,
+    "last_activity": 1792229282000,
+    "gain_24h": 320,
+    "gain_total": 630,
     "start_points": 71980,
-    "events_count": 5,
+    "events_count": 7,
     "active_today": true,
     "breakdown": {
-      "Watch": 5,
-      "Claim": 0,
+      "Watch": 6,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -2376,6 +2376,24 @@
     }
   },
   {
+    "name": "anonymousashlar",
+    "points": 80,
+    "last_activity": 1792229431000,
+    "gain_24h": 70,
+    "gain_total": 70,
+    "start_points": 10,
+    "events_count": 4,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "zenny",
     "points": 80,
     "last_activity": 1792227700000,
@@ -2386,24 +2404,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "anonymousashlar",
-    "points": 20,
-    "last_activity": 1792229142000,
-    "gain_24h": 10,
-    "gain_total": 10,
-    "start_points": 10,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

@@ -1765,15 +1765,15 @@
   },
   {
     "name": "sarconius",
-    "points": 1230,
-    "last_activity": 1792227773000,
-    "gain_24h": 0,
-    "gain_total": 0,
+    "points": 1240,
+    "last_activity": 1792229178000,
+    "gain_24h": 10,
+    "gain_total": 10,
     "start_points": 1230,
-    "events_count": 1,
+    "events_count": 2,
     "active_today": true,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2448,6 +2448,24 @@
     }
   },
   {
+    "name": "anonymousashlar",
+    "points": 90,
+    "last_activity": 1792229166000,
+    "gain_24h": 80,
+    "gain_total": 80,
+    "start_points": 10,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "thegoldenboyshow_",
     "points": 80,
     "last_activity": 1792227884000,
@@ -2459,24 +2477,6 @@
     "breakdown": {
       "Watch": 1,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "anonymousashlar",
-    "points": 80,
-    "last_activity": 1792228866000,
-    "gain_24h": 70,
-    "gain_total": 70,
-    "start_points": 10,
-    "events_count": 5,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 4,
-      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,

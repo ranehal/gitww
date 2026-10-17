@@ -1621,15 +1621,15 @@
   },
   {
     "name": "sarconius",
-    "points": 7080,
-    "last_activity": 1792236375000,
-    "gain_24h": 710,
-    "gain_total": 5790,
+    "points": 7090,
+    "last_activity": 1792236668000,
+    "gain_24h": 720,
+    "gain_total": 5800,
     "start_points": 1390,
-    "events_count": 26,
+    "events_count": 27,
     "active_today": true,
     "breakdown": {
-      "Watch": 20,
+      "Watch": 21,
       "Claim": 6,
       "Streak": 0,
       "Raid": 0,
@@ -1675,15 +1675,15 @@
   },
   {
     "name": "ssjaymusic",
-    "points": 6140,
-    "last_activity": 1792236419000,
-    "gain_24h": 610,
-    "gain_total": 610,
+    "points": 6150,
+    "last_activity": 1792236730000,
+    "gain_24h": 620,
+    "gain_total": 620,
     "start_points": 5530,
-    "events_count": 11,
+    "events_count": 12,
     "active_today": true,
     "breakdown": {
-      "Watch": 9,
+      "Watch": 10,
       "Claim": 2,
       "Streak": 0,
       "Raid": 0,
@@ -2394,24 +2394,6 @@
     }
   },
   {
-    "name": "sqweagy",
-    "points": 880,
-    "last_activity": 1792232804000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 880,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "abyzou",
     "points": 880,
     "last_activity": 1792232772000,
@@ -2440,6 +2422,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "sqweagy",
+    "points": 880,
+    "last_activity": 1792232804000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 880,
+    "events_count": 2,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

@@ -1800,16 +1800,34 @@
     }
   },
   {
-    "name": "abyzou",
-    "points": 330,
-    "last_activity": 1792273722000,
-    "gain_24h": 70,
-    "gain_total": 70,
-    "start_points": 260,
-    "events_count": 4,
+    "name": "vulture5x",
+    "points": 380,
+    "last_activity": 1792276002000,
+    "gain_24h": 360,
+    "gain_total": 670,
+    "start_points": 10,
+    "events_count": 7,
     "active_today": true,
     "breakdown": {
-      "Watch": 4,
+      "Watch": 6,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "abyzou",
+    "points": 340,
+    "last_activity": 1792275781000,
+    "gain_24h": 80,
+    "gain_total": 80,
+    "start_points": 260,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2224,24 +2242,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "vulture5x",
-    "points": 20,
-    "last_activity": 1792273754000,
-    "gain_24h": 0,
-    "gain_total": 10,
-    "start_points": 10,
-    "events_count": 4,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

@@ -4,10 +4,20 @@
     "name": "All Accounts (Combined)",
     "streamers_count": 166,
     "total_points": 6571663,
-    "gain_24h": 40200,
+    "gain_24h": 39790,
     "active_today_count": 132,
     "has_data": true,
     "is_current": false
+  },
+  {
+    "id": "flank_man",
+    "name": "flank_man",
+    "streamers_count": 152,
+    "total_points": 2555008,
+    "gain_24h": 110,
+    "active_today_count": 119,
+    "has_data": true,
+    "is_current": true
   },
   {
     "id": "aethermain7",
@@ -17,7 +27,7 @@
     "gain_24h": 0,
     "active_today_count": 0,
     "has_data": true,
-    "is_current": true
+    "is_current": false
   },
   {
     "id": "aloneyexe",
@@ -86,16 +96,6 @@
     "total_points": 2647530,
     "gain_24h": 240,
     "active_today_count": 110,
-    "has_data": true,
-    "is_current": false
-  },
-  {
-    "id": "flank_man",
-    "name": "flank_man",
-    "streamers_count": 152,
-    "total_points": 2555008,
-    "gain_24h": 110,
-    "active_today_count": 119,
     "has_data": true,
     "is_current": false
   },

@@ -649,15 +649,15 @@
   },
   {
     "name": "original_stump",
-    "points": 10800,
-    "last_activity": 1792236016000,
-    "gain_24h": 920,
-    "gain_total": 4120,
+    "points": 10810,
+    "last_activity": 1792236335000,
+    "gain_24h": 930,
+    "gain_total": 4130,
     "start_points": 7130,
-    "events_count": 26,
+    "events_count": 27,
     "active_today": true,
     "breakdown": {
-      "Watch": 21,
+      "Watch": 22,
       "Claim": 5,
       "Streak": 0,
       "Raid": 0,
@@ -2070,6 +2070,24 @@
     }
   },
   {
+    "name": "joshltfc",
+    "points": 380,
+    "last_activity": 1792236488000,
+    "gain_24h": 370,
+    "gain_total": 370,
+    "start_points": 10,
+    "events_count": 7,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 6,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "ironmancarter",
     "points": 320,
     "last_activity": 1792232760000,
@@ -2134,24 +2152,6 @@
     "active_today": false,
     "breakdown": {
       "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "joshltfc",
-    "points": 320,
-    "last_activity": 1792236199000,
-    "gain_24h": 310,
-    "gain_total": 310,
-    "start_points": 10,
-    "events_count": 5,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 5,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

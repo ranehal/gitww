@@ -1135,15 +1135,15 @@
   },
   {
     "name": "emniag",
-    "points": 2720,
-    "last_activity": 1792236062000,
-    "gain_24h": 630,
-    "gain_total": 2430,
+    "points": 2730,
+    "last_activity": 1792236485000,
+    "gain_24h": 640,
+    "gain_total": 2440,
     "start_points": 340,
-    "events_count": 34,
+    "events_count": 35,
     "active_today": true,
     "breakdown": {
-      "Watch": 26,
+      "Watch": 27,
       "Claim": 8,
       "Streak": 0,
       "Raid": 0,
@@ -2268,6 +2268,24 @@
     }
   },
   {
+    "name": "joshltfc",
+    "points": 20,
+    "last_activity": 1792236495000,
+    "gain_24h": 10,
+    "gain_total": 310,
+    "start_points": 10,
+    "events_count": 4,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "zenny",
     "points": 20,
     "last_activity": 1792232662000,
@@ -2469,24 +2487,6 @@
     "name": "cvrsify",
     "points": 10,
     "last_activity": 1792232612000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 10,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "joshltfc",
-    "points": 10,
-    "last_activity": 1792232640000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 10,

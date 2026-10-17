@@ -1153,16 +1153,34 @@
   },
   {
     "name": "sarconius",
-    "points": 1960,
-    "last_activity": 1792228495000,
-    "gain_24h": 90,
-    "gain_total": 1460,
+    "points": 2040,
+    "last_activity": 1792230567000,
+    "gain_24h": 170,
+    "gain_total": 1540,
     "start_points": 500,
+    "events_count": 9,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 7,
+      "Claim": 2,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "ssjaymusic",
+    "points": 2000,
+    "last_activity": 1792230719000,
+    "gain_24h": 470,
+    "gain_total": 920,
+    "start_points": 1530,
     "events_count": 5,
     "active_today": true,
     "breakdown": {
-      "Watch": 4,
-      "Claim": 1,
+      "Watch": 5,
+      "Claim": 0,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1266,24 +1284,6 @@
     "gain_24h": 0,
     "gain_total": 1280,
     "start_points": 320,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "ssjaymusic",
-    "points": 1530,
-    "last_activity": 1792227483000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 1530,
     "events_count": 2,
     "active_today": true,
     "breakdown": {
@@ -1512,6 +1512,24 @@
     }
   },
   {
+    "name": "defuseggxttv",
+    "points": 890,
+    "last_activity": 1792230022000,
+    "gain_24h": 420,
+    "gain_total": 790,
+    "start_points": 100,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "sqweagy",
     "points": 880,
     "last_activity": 1792227775000,
@@ -1558,24 +1576,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "defuseggxttv",
-    "points": 830,
-    "last_activity": 1792228613000,
-    "gain_24h": 360,
-    "gain_total": 730,
-    "start_points": 100,
-    "events_count": 4,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

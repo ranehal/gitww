@@ -217,15 +217,15 @@
   },
   {
     "name": "lymegreentv",
-    "points": 81340,
-    "last_activity": 1792229102000,
-    "gain_24h": 160,
-    "gain_total": 2870,
+    "points": 81360,
+    "last_activity": 1792230560000,
+    "gain_24h": 180,
+    "gain_total": 2890,
     "start_points": 78470,
-    "events_count": 7,
+    "events_count": 9,
     "active_today": true,
     "breakdown": {
-      "Watch": 6,
+      "Watch": 8,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -1656,6 +1656,24 @@
     }
   },
   {
+    "name": "ssjaymusic",
+    "points": 1990,
+    "last_activity": 1792230630000,
+    "gain_24h": 520,
+    "gain_total": 520,
+    "start_points": 1470,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "therealtae22",
     "points": 1890,
     "last_activity": 1792227700000,
@@ -1711,15 +1729,15 @@
   },
   {
     "name": "sarconius",
-    "points": 1640,
-    "last_activity": 1792229781000,
-    "gain_24h": 70,
-    "gain_total": 1150,
+    "points": 1650,
+    "last_activity": 1792230072000,
+    "gain_24h": 80,
+    "gain_total": 1160,
     "start_points": 490,
-    "events_count": 5,
+    "events_count": 6,
     "active_today": true,
     "breakdown": {
-      "Watch": 4,
+      "Watch": 5,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -1770,24 +1788,6 @@
     "gain_24h": 0,
     "gain_total": 1240,
     "start_points": 260,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "ssjaymusic",
-    "points": 1470,
-    "last_activity": 1792227496000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 1470,
     "events_count": 2,
     "active_today": true,
     "breakdown": {

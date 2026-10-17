@@ -1620,6 +1620,24 @@
     }
   },
   {
+    "name": "sarconius",
+    "points": 6600,
+    "last_activity": 1792230634000,
+    "gain_24h": 230,
+    "gain_total": 5210,
+    "start_points": 1390,
+    "events_count": 9,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 7,
+      "Claim": 2,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "jetersold",
     "points": 6580,
     "last_activity": 1791985333000,
@@ -1631,24 +1649,6 @@
     "breakdown": {
       "Watch": 7,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "sarconius",
-    "points": 6520,
-    "last_activity": 1792228482000,
-    "gain_24h": 150,
-    "gain_total": 5130,
-    "start_points": 1390,
-    "events_count": 5,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 4,
-      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1962,6 +1962,24 @@
     }
   },
   {
+    "name": "emniag",
+    "points": 2420,
+    "last_activity": 1792230636000,
+    "gain_24h": 160,
+    "gain_total": 2220,
+    "start_points": 250,
+    "events_count": 12,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 9,
+      "Claim": 3,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "krypticvipex",
     "points": 2380,
     "last_activity": 1792227239000,
@@ -1991,24 +2009,6 @@
     "breakdown": {
       "Watch": 3,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "emniag",
-    "points": 2340,
-    "last_activity": 1792229722000,
-    "gain_24h": 80,
-    "gain_total": 2090,
-    "start_points": 250,
-    "events_count": 8,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 6,
-      "Claim": 2,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -2126,14 +2126,14 @@
   {
     "name": "zobstan",
     "points": 1670,
-    "last_activity": 1792227242000,
+    "last_activity": 1792227201000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 1670,
-    "events_count": 1,
+    "events_count": 2,
     "active_today": true,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2162,7 +2162,7 @@
   {
     "name": "vulture5x",
     "points": 1600,
-    "last_activity": 1792227695000,
+    "last_activity": 1792227829000,
     "gain_24h": 0,
     "gain_total": 1280,
     "start_points": 320,
@@ -2394,27 +2394,9 @@
     }
   },
   {
-    "name": "sqweagy",
-    "points": 880,
-    "last_activity": 1792227587000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 880,
-    "events_count": 1,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "abyzou",
     "points": 880,
-    "last_activity": 1792227669000,
+    "last_activity": 1792227580000,
     "gain_24h": 0,
     "gain_total": 620,
     "start_points": 260,
@@ -2440,6 +2422,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "sqweagy",
+    "points": 880,
+    "last_activity": 1792227637000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 880,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2719,15 +2719,15 @@
   },
   {
     "name": "anonymousashlar",
-    "points": 330,
-    "last_activity": 1792228938000,
-    "gain_24h": 30,
-    "gain_total": 30,
+    "points": 350,
+    "last_activity": 1792230665000,
+    "gain_24h": 50,
+    "gain_total": 50,
     "start_points": 300,
-    "events_count": 9,
+    "events_count": 11,
     "active_today": true,
     "breakdown": {
-      "Watch": 9,
+      "Watch": 11,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2738,7 +2738,7 @@
   {
     "name": "krayyzzee",
     "points": 320,
-    "last_activity": 1792227728000,
+    "last_activity": 1792227623000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 320,

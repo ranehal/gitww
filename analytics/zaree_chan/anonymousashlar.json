@@ -129,7 +129,39 @@
       "x": 1792314617000,
       "y": 410,
       "z": "Watch"
+    },
+    {
+      "x": 1792315876000,
+      "y": 720,
+      "z": "Watch Streak"
+    },
+    {
+      "x": 1792315877000,
+      "y": 420,
+      "z": "Watch"
+    },
+    {
+      "x": 1792316190000,
+      "y": 730,
+      "z": "Watch"
+    },
+    {
+      "x": 1792316190000,
+      "y": 780,
+      "z": "Claim"
     }
   ],
-  "annotations": []
+  "annotations": [
+    {
+      "borderColor": "#45c1ff",
+      "label": {
+        "style": {
+          "color": "#000",
+          "background": "#45c1ff"
+        },
+        "text": "+300 - WATCH_STREAK"
+      },
+      "x": 1792315876000
+    }
+  ]
 }

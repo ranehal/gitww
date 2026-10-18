@@ -1443,7 +1443,7 @@
     "name": "ssjaymusic",
     "points": 7530,
     "last_activity": 1792314930000,
-    "gain_24h": 4190,
+    "gain_24h": 4170,
     "gain_total": 4700,
     "start_points": 2830,
     "events_count": 29,
@@ -1569,7 +1569,7 @@
     "name": "sarconius",
     "points": 4200,
     "last_activity": 1792314852000,
-    "gain_24h": 1280,
+    "gain_24h": 1260,
     "gain_total": 3660,
     "start_points": 590,
     "events_count": 28,
@@ -2664,6 +2664,24 @@
     }
   },
   {
+    "name": "emniag",
+    "points": 320,
+    "last_activity": 1792317033000,
+    "gain_24h": 140,
+    "gain_total": 360,
+    "start_points": 10,
+    "events_count": 12,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 9,
+      "Claim": 3,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "cobeano_",
     "points": 270,
     "last_activity": 1792315265000,
@@ -2675,24 +2693,6 @@
     "breakdown": {
       "Watch": 4,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "emniag",
-    "points": 260,
-    "last_activity": 1792315283000,
-    "gain_24h": 80,
-    "gain_total": 300,
-    "start_points": 10,
-    "events_count": 10,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 8,
-      "Claim": 2,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,

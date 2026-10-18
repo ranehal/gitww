@@ -1407,7 +1407,7 @@
     "name": "sarconius",
     "points": 8200,
     "last_activity": 1792314594000,
-    "gain_24h": 1660,
+    "gain_24h": 1590,
     "gain_total": 6860,
     "start_points": 1390,
     "events_count": 35,
@@ -1551,7 +1551,7 @@
     "name": "ssjaymusic",
     "points": 5220,
     "last_activity": 1792315336000,
-    "gain_24h": 2170,
+    "gain_24h": 2100,
     "gain_total": 2630,
     "start_points": 2590,
     "events_count": 19,
@@ -2034,6 +2034,24 @@
     }
   },
   {
+    "name": "abyzou",
+    "points": 1320,
+    "last_activity": 1792317075000,
+    "gain_24h": 440,
+    "gain_total": 1060,
+    "start_points": 260,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 7,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "doxlet",
     "points": 1310,
     "last_activity": 1792315225000,
@@ -2058,24 +2076,6 @@
     "gain_24h": 460,
     "gain_total": 1130,
     "start_points": 160,
-    "events_count": 5,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 5,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "abyzou",
-    "points": 1250,
-    "last_activity": 1792315157000,
-    "gain_24h": 370,
-    "gain_total": 990,
-    "start_points": 260,
     "events_count": 5,
     "active_today": true,
     "breakdown": {
@@ -2394,6 +2394,24 @@
     }
   },
   {
+    "name": "anonymousashlar",
+    "points": 710,
+    "last_activity": 1792317049000,
+    "gain_24h": 620,
+    "gain_total": 700,
+    "start_points": 10,
+    "events_count": 16,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 14,
+      "Claim": 2,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "leenlx",
     "points": 630,
     "last_activity": 1792316327000,
@@ -2531,24 +2549,6 @@
     "breakdown": {
       "Watch": 4,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "anonymousashlar",
-    "points": 350,
-    "last_activity": 1792315232000,
-    "gain_24h": 260,
-    "gain_total": 340,
-    "start_points": 10,
-    "events_count": 13,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 12,
-      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,

@@ -1371,7 +1371,7 @@
     "name": "defuseggxttv",
     "points": 2180,
     "last_activity": 1792315901000,
-    "gain_24h": 720,
+    "gain_24h": 700,
     "gain_total": 1930,
     "start_points": 250,
     "events_count": 20,
@@ -1387,15 +1387,15 @@
   },
   {
     "name": "ninjanelo",
-    "points": 2130,
-    "last_activity": 1792314967000,
-    "gain_24h": 0,
-    "gain_total": 0,
+    "points": 2140,
+    "last_activity": 1792316779000,
+    "gain_24h": 10,
+    "gain_total": 410,
     "start_points": 2130,
-    "events_count": 4,
+    "events_count": 6,
     "active_today": true,
     "breakdown": {
-      "Watch": 4,
+      "Watch": 6,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1693,15 +1693,15 @@
   },
   {
     "name": "abyzou",
-    "points": 1310,
-    "last_activity": 1792316557000,
-    "gain_24h": 490,
-    "gain_total": 1050,
+    "points": 1320,
+    "last_activity": 1792316885000,
+    "gain_24h": 500,
+    "gain_total": 1060,
     "start_points": 260,
-    "events_count": 8,
+    "events_count": 9,
     "active_today": true,
     "breakdown": {
-      "Watch": 7,
+      "Watch": 8,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -2250,6 +2250,24 @@
     }
   },
   {
+    "name": "anonymousashlar",
+    "points": 650,
+    "last_activity": 1792317196000,
+    "gain_24h": 570,
+    "gain_total": 640,
+    "start_points": 10,
+    "events_count": 13,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 12,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "sadgirlgaymer",
     "points": 640,
     "last_activity": 1792315472000,
@@ -2351,24 +2369,6 @@
     "breakdown": {
       "Watch": 1,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "anonymousashlar",
-    "points": 340,
-    "last_activity": 1792315067000,
-    "gain_24h": 260,
-    "gain_total": 330,
-    "start_points": 10,
-    "events_count": 11,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 10,
-      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,

@@ -1515,7 +1515,7 @@
     "name": "anonymousashlar",
     "points": 780,
     "last_activity": 1792316190000,
-    "gain_24h": 680,
+    "gain_24h": 670,
     "gain_total": 1070,
     "start_points": 10,
     "events_count": 30,
@@ -2404,6 +2404,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "leenlx",
+    "points": 10,
+    "last_activity": 1792317254000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 10,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

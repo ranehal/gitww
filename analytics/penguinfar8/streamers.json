@@ -1551,7 +1551,7 @@
     "name": "emniag",
     "points": 1410,
     "last_activity": 1792315846000,
-    "gain_24h": 190,
+    "gain_24h": 180,
     "gain_total": 1110,
     "start_points": 300,
     "events_count": 21,
@@ -1965,7 +1965,7 @@
     "name": "anonymousashlar",
     "points": 790,
     "last_activity": 1792316630000,
-    "gain_24h": 430,
+    "gain_24h": 420,
     "gain_total": 490,
     "start_points": 300,
     "events_count": 25,
@@ -2178,6 +2178,24 @@
     }
   },
   {
+    "name": "vbake_",
+    "points": 630,
+    "last_activity": 1792317396000,
+    "gain_24h": 320,
+    "gain_total": 680,
+    "start_points": 300,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "themuffingirl",
     "points": 620,
     "last_activity": 1792315451000,
@@ -2242,24 +2260,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 4,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "vbake_",
-    "points": 620,
-    "last_activity": 1792315047000,
-    "gain_24h": 310,
-    "gain_total": 320,
-    "start_points": 300,
-    "events_count": 6,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 6,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

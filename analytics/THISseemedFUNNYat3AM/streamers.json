@@ -288,6 +288,24 @@
     }
   },
   {
+    "name": "topshoter_no",
+    "points": 63650,
+    "last_activity": 1792356126000,
+    "gain_24h": 0,
+    "gain_total": 17350,
+    "start_points": 46300,
+    "events_count": 38,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 27,
+      "Claim": 11,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "sgtfresh",
     "points": 61980,
     "last_activity": 1791037284000,
@@ -317,24 +335,6 @@
     "breakdown": {
       "Watch": 3,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "topshoter_no",
-    "points": 54460,
-    "last_activity": 1791037391000,
-    "gain_24h": 0,
-    "gain_total": 8160,
-    "start_points": 46300,
-    "events_count": 37,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 26,
-      "Claim": 11,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -576,6 +576,24 @@
     }
   },
   {
+    "name": "skytookie",
+    "points": 29870,
+    "last_activity": 1792356130000,
+    "gain_24h": 0,
+    "gain_total": 6960,
+    "start_points": 22910,
+    "events_count": 4,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "radiuss9",
     "points": 25200,
     "last_activity": 1792356090000,
@@ -604,24 +622,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 4,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "skytookie",
-    "points": 24850,
-    "last_activity": 1791037370000,
-    "gain_24h": 0,
-    "gain_total": 1940,
-    "start_points": 22910,
-    "events_count": 3,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1010,14 +1010,14 @@
   {
     "name": "crxdaniiel",
     "points": 17460,
-    "last_activity": 1791037370000,
+    "last_activity": 1792356126000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 17460,
-    "events_count": 3,
-    "active_today": false,
+    "events_count": 4,
+    "active_today": true,
     "breakdown": {
-      "Watch": 3,
+      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1896,6 +1896,42 @@
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 820,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "sadgirlz_4life",
+    "points": 740,
+    "last_activity": 1792356106000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 740,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "jsaxter",
+    "points": 730,
+    "last_activity": 1792356106000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 730,
     "events_count": 1,
     "active_today": true,
     "breakdown": {

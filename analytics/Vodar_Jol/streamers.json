@@ -1242,24 +1242,6 @@
     }
   },
   {
-    "name": "blamzzy",
-    "points": 9150,
-    "last_activity": 1790585098000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 9150,
-    "events_count": 1,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "alexnoclip",
     "points": 7500,
     "last_activity": 1792355829000,
@@ -1404,14 +1386,14 @@
     }
   },
   {
-    "name": "andres_3197",
-    "points": 3670,
-    "last_activity": 1790585111000,
+    "name": "blamzzy",
+    "points": 3510,
+    "last_activity": 1792356112000,
     "gain_24h": 0,
     "gain_total": 0,
-    "start_points": 3670,
+    "start_points": 3510,
     "events_count": 1,
-    "active_today": false,
+    "active_today": true,
     "breakdown": {
       "Watch": 1,
       "Claim": 0,
@@ -1656,12 +1638,48 @@
     }
   },
   {
+    "name": "andres_3197",
+    "points": 2030,
+    "last_activity": 1792356146000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 2030,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "sammymedows",
     "points": 1890,
     "last_activity": 1792355807000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 1890,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "mavietoria",
+    "points": 1650,
+    "last_activity": 1792356129000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 1650,
     "events_count": 1,
     "active_today": true,
     "breakdown": {
@@ -2052,6 +2070,24 @@
     }
   },
   {
+    "name": "doxlet",
+    "points": 730,
+    "last_activity": 1792356113000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 730,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "itkeallneekno_tv",
     "points": 650,
     "last_activity": 1792355753000,
@@ -2195,4 +2231,4 @@
       "Other": 0
     }
   }
-]
+]]

@@ -522,24 +522,6 @@
     }
   },
   {
-    "name": "radiuss9",
-    "points": 21640,
-    "last_activity": 1790585102000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 21640,
-    "events_count": 1,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "n0kedleee",
     "points": 21630,
     "last_activity": 1792356053000,
@@ -612,24 +594,6 @@
     }
   },
   {
-    "name": "crxdaniiel",
-    "points": 17460,
-    "last_activity": 1790585094000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 17460,
-    "events_count": 1,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "digooo1",
     "points": 17320,
     "last_activity": 1790585072000,
@@ -672,24 +636,6 @@
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 17140,
-    "events_count": 1,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "the_office_nerd",
-    "points": 16930,
-    "last_activity": 1790585106000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 16930,
     "events_count": 1,
     "active_today": false,
     "breakdown": {
@@ -1116,24 +1062,6 @@
     }
   },
   {
-    "name": "betrigan",
-    "points": 10560,
-    "last_activity": 1790585122000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 10560,
-    "events_count": 1,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "kurumichaos",
     "points": 10500,
     "last_activity": 1790585140000,
@@ -1188,6 +1116,24 @@
     }
   },
   {
+    "name": "radiuss9",
+    "points": 9730,
+    "last_activity": 1792356169000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 9730,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "nbkguapo",
     "points": 9400,
     "last_activity": 1790585149000,
@@ -1212,6 +1158,24 @@
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 7500,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "crxdaniiel",
+    "points": 7390,
+    "last_activity": 1792356124000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 7390,
     "events_count": 1,
     "active_today": true,
     "breakdown": {
@@ -1304,6 +1268,24 @@
     "start_points": 5420,
     "events_count": 1,
     "active_today": false,
+    "breakdown": {
+      "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "the_office_nerd",
+    "points": 5380,
+    "last_activity": 1792356127000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 5380,
+    "events_count": 1,
+    "active_today": true,
     "breakdown": {
       "Watch": 1,
       "Claim": 0,
@@ -1518,6 +1500,24 @@
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 1390,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "betrigan",
+    "points": 1080,
+    "last_activity": 1792356133000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 1080,
     "events_count": 1,
     "active_today": true,
     "breakdown": {
@@ -1964,14 +1964,14 @@
   {
     "name": "jsaxter",
     "points": 20,
-    "last_activity": 1792355964000,
+    "last_activity": 1792356125000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 20,
-    "events_count": 1,
+    "events_count": 2,
     "active_today": true,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2019,6 +2019,24 @@
     "name": "therealtae22",
     "points": 10,
     "last_activity": 1792355941000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 10,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "krumzzz",
+    "points": 10,
+    "last_activity": 1792356111000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 10,

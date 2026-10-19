@@ -1209,7 +1209,7 @@
     "name": "mavietoria",
     "points": 2090,
     "last_activity": 1792440112000,
-    "gain_24h": 810,
+    "gain_24h": 410,
     "gain_total": 820,
     "start_points": 1270,
     "events_count": 7,
@@ -1281,7 +1281,7 @@
     "name": "blakkghostcs",
     "points": 1880,
     "last_activity": 1792438239000,
-    "gain_24h": 700,
+    "gain_24h": 0,
     "gain_total": 710,
     "start_points": 1170,
     "events_count": 5,
@@ -1605,7 +1605,7 @@
     "name": "vbake_",
     "points": 1150,
     "last_activity": 1792438396000,
-    "gain_24h": 410,
+    "gain_24h": 0,
     "gain_total": 420,
     "start_points": 730,
     "events_count": 4,
@@ -2484,6 +2484,24 @@
     }
   },
   {
+    "name": "b7nnzy",
+    "points": 20,
+    "last_activity": 1792444040000,
+    "gain_24h": 10,
+    "gain_total": 310,
+    "start_points": 10,
+    "events_count": 4,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "cobeano_",
     "points": 20,
     "last_activity": 1792440037000,
@@ -2646,24 +2664,6 @@
     }
   },
   {
-    "name": "b7nnzy",
-    "points": 10,
-    "last_activity": 1792438820000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 10,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "cblitzkrieg",
     "points": 10,
     "last_activity": 1791038080000,
@@ -2710,6 +2710,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "v_illains",
+    "points": 10,
+    "last_activity": 1792443999000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 10,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

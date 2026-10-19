@@ -1965,7 +1965,7 @@
     "name": "blakkghostcs",
     "points": 2140,
     "last_activity": 1792438344000,
-    "gain_24h": 650,
+    "gain_24h": 0,
     "gain_total": 660,
     "start_points": 1480,
     "events_count": 4,
@@ -2001,7 +2001,7 @@
     "name": "sc4p3_fps",
     "points": 1750,
     "last_activity": 1792438345000,
-    "gain_24h": 520,
+    "gain_24h": 460,
     "gain_total": 530,
     "start_points": 1220,
     "events_count": 5,
@@ -2718,6 +2718,24 @@
     }
   },
   {
+    "name": "b7nnzy",
+    "points": 270,
+    "last_activity": 1792444040000,
+    "gain_24h": 20,
+    "gain_total": 20,
+    "start_points": 250,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "cnrayy",
     "points": 270,
     "last_activity": 1792438517000,
@@ -2728,24 +2746,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "b7nnzy",
-    "points": 260,
-    "last_activity": 1792443734000,
-    "gain_24h": 10,
-    "gain_total": 10,
-    "start_points": 250,
-    "events_count": 4,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2872,6 +2872,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "v_illains",
+    "points": 10,
+    "last_activity": 1792444034000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 10,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

@@ -55,15 +55,15 @@
   },
   {
     "name": "cojomocs",
-    "points": 170320,
-    "last_activity": 1792443285000,
-    "gain_24h": 1730,
-    "gain_total": 7750,
+    "points": 170330,
+    "last_activity": 1792444183000,
+    "gain_24h": 1740,
+    "gain_total": 7760,
     "start_points": 162570,
-    "events_count": 9,
+    "events_count": 10,
     "active_today": true,
     "breakdown": {
-      "Watch": 8,
+      "Watch": 9,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -705,7 +705,7 @@
     "name": "activelyboss",
     "points": 24430,
     "last_activity": 1792438393000,
-    "gain_24h": 250,
+    "gain_24h": 0,
     "gain_total": 10440,
     "start_points": 13990,
     "events_count": 9,
@@ -2017,15 +2017,15 @@
   },
   {
     "name": "pricolacc",
-    "points": 2070,
-    "last_activity": 1792443585000,
-    "gain_24h": 1180,
-    "gain_total": 1180,
+    "points": 2080,
+    "last_activity": 1792443884000,
+    "gain_24h": 1190,
+    "gain_total": 1190,
     "start_points": 890,
-    "events_count": 7,
+    "events_count": 8,
     "active_today": true,
     "breakdown": {
-      "Watch": 6,
+      "Watch": 7,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -2700,6 +2700,24 @@
     }
   },
   {
+    "name": "v_illains",
+    "points": 320,
+    "last_activity": 1792444059000,
+    "gain_24h": 310,
+    "gain_total": 310,
+    "start_points": 10,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "huffalispuffalis",
     "points": 320,
     "last_activity": 1792438721000,
@@ -2890,24 +2908,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "v_illains",
-    "points": 10,
-    "last_activity": 1792438693000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 10,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

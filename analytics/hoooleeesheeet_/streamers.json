@@ -73,15 +73,15 @@
   },
   {
     "name": "cojomocs",
-    "points": 132940,
-    "last_activity": 1792443701000,
-    "gain_24h": 1660,
-    "gain_total": 6980,
+    "points": 132950,
+    "last_activity": 1792444067000,
+    "gain_24h": 1670,
+    "gain_total": 6990,
     "start_points": 125960,
-    "events_count": 10,
+    "events_count": 11,
     "active_today": true,
     "breakdown": {
-      "Watch": 9,
+      "Watch": 10,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -741,7 +741,7 @@
     "name": "activelyboss",
     "points": 24110,
     "last_activity": 1792438456000,
-    "gain_24h": 250,
+    "gain_24h": 0,
     "gain_total": 11530,
     "start_points": 12580,
     "events_count": 10,
@@ -1461,7 +1461,7 @@
     "name": "ssjaymusic",
     "points": 6660,
     "last_activity": 1792438480000,
-    "gain_24h": 1610,
+    "gain_24h": 1550,
     "gain_total": 1630,
     "start_points": 5030,
     "events_count": 12,
@@ -2646,6 +2646,24 @@
     }
   },
   {
+    "name": "v_illains",
+    "points": 320,
+    "last_activity": 1792444133000,
+    "gain_24h": 310,
+    "gain_total": 310,
+    "start_points": 10,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "huffalispuffalis",
     "points": 320,
     "last_activity": 1792438773000,
@@ -2656,24 +2674,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "v_illains",
-    "points": 310,
-    "last_activity": 1792441999000,
-    "gain_24h": 300,
-    "gain_total": 300,
-    "start_points": 10,
-    "events_count": 4,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

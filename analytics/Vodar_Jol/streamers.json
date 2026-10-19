@@ -309,7 +309,7 @@
     "name": "goosebian",
     "points": 51970,
     "last_activity": 1792397204000,
-    "gain_24h": 250,
+    "gain_24h": 0,
     "gain_total": 600,
     "start_points": 51370,
     "events_count": 3,
@@ -1479,7 +1479,7 @@
     "name": "mavietoria",
     "points": 3120,
     "last_activity": 1792440132000,
-    "gain_24h": 1460,
+    "gain_24h": 460,
     "gain_total": 1470,
     "start_points": 1650,
     "events_count": 7,
@@ -1620,6 +1620,24 @@
     }
   },
   {
+    "name": "sammymedows",
+    "points": 2420,
+    "last_activity": 1792444239000,
+    "gain_24h": 530,
+    "gain_total": 980,
+    "start_points": 1890,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 7,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "demon1",
     "points": 2370,
     "last_activity": 1792438352000,
@@ -1731,7 +1749,7 @@
     "name": "baddieblume",
     "points": 2150,
     "last_activity": 1792438350000,
-    "gain_24h": 250,
+    "gain_24h": 0,
     "gain_total": 660,
     "start_points": 1490,
     "events_count": 4,
@@ -1774,24 +1792,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "sammymedows",
-    "points": 1900,
-    "last_activity": 1792443653000,
-    "gain_24h": 10,
-    "gain_total": 460,
-    "start_points": 1890,
-    "events_count": 5,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 5,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2865,6 +2865,24 @@
     "name": "guacgamesxo",
     "points": 10,
     "last_activity": 1792440849000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 10,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "v_illains",
+    "points": 10,
+    "last_activity": 1792444039000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 10,

@@ -1837,15 +1837,15 @@
   },
   {
     "name": "cobeano_",
-    "points": 870,
-    "last_activity": 1792443535000,
-    "gain_24h": 450,
-    "gain_total": 450,
+    "points": 880,
+    "last_activity": 1792444183000,
+    "gain_24h": 460,
+    "gain_total": 460,
     "start_points": 420,
-    "events_count": 7,
+    "events_count": 8,
     "active_today": true,
     "breakdown": {
-      "Watch": 6,
+      "Watch": 7,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -2710,6 +2710,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "v_illains",
+    "points": 10,
+    "last_activity": 1792444058000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 10,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

@@ -2180,7 +2180,7 @@
   {
     "name": "burrqt",
     "points": 2550,
-    "last_activity": 1792438929000,
+    "last_activity": 1792438912000,
     "gain_24h": 660,
     "gain_total": 660,
     "start_points": 1890,
@@ -2286,24 +2286,6 @@
     }
   },
   {
-    "name": "zobstan",
-    "points": 2350,
-    "last_activity": 1792438062000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 2350,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "mattlibra",
     "points": 2350,
     "last_activity": 1792443980000,
@@ -2314,6 +2296,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "zobstan",
+    "points": 2350,
+    "last_activity": 1792438062000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 2350,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2468,14 +2468,14 @@
   {
     "name": "krayyzzee",
     "points": 1660,
-    "last_activity": 1792440963000,
-    "gain_24h": 510,
-    "gain_total": 960,
-    "start_points": 1150,
-    "events_count": 6,
+    "last_activity": 1792442076000,
+    "gain_24h": 520,
+    "gain_total": 520,
+    "start_points": 1140,
+    "events_count": 5,
     "active_today": true,
     "breakdown": {
-      "Watch": 5,
+      "Watch": 4,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -2683,15 +2683,15 @@
   },
   {
     "name": "b7nnzy",
-    "points": 950,
-    "last_activity": 1792443970000,
-    "gain_24h": 370,
-    "gain_total": 370,
+    "points": 960,
+    "last_activity": 1792444310000,
+    "gain_24h": 380,
+    "gain_total": 380,
     "start_points": 580,
-    "events_count": 6,
+    "events_count": 7,
     "active_today": true,
     "breakdown": {
-      "Watch": 5,
+      "Watch": 6,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,

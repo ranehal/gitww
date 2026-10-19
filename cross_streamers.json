@@ -7429,25 +7429,6 @@
     }
   },
   {
-    "name": "flxnked",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 74300,
-    "gain_24h": 0,
-    "gain_total": 3950,
-    "last_activity": 1791044054000,
-    "events_count": 4,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 4,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "lymegreentv",
     "profile": "alphazeta111",
     "profileName": "alphazeta111",
@@ -7459,6 +7440,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "flxnked",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 74300,
+    "gain_24h": 0,
+    "gain_total": 3950,
+    "last_activity": 1791044054000,
+    "events_count": 4,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -8306,14 +8306,14 @@
     "name": "goosebian",
     "profile": "thomus_shebly",
     "profileName": "thomus_shebly",
-    "points": 69360,
-    "gain_24h": 710,
-    "gain_total": 6760,
-    "last_activity": 1792438450000,
-    "events_count": 6,
+    "points": 69370,
+    "gain_24h": 720,
+    "gain_total": 7220,
+    "last_activity": 1792440680000,
+    "events_count": 8,
     "active_today": true,
     "breakdown": {
-      "Watch": 6,
+      "Watch": 8,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -16588,12 +16588,12 @@
   },
   {
     "name": "skytookie",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
+    "profile": "alphazeta111",
+    "profileName": "alphazeta111",
     "points": 30180,
     "gain_24h": 0,
-    "gain_total": 7100,
-    "last_activity": 1792438272000,
+    "gain_total": 6670,
+    "last_activity": 1792438204000,
     "events_count": 6,
     "active_today": true,
     "breakdown": {
@@ -16607,12 +16607,12 @@
   },
   {
     "name": "skytookie",
-    "profile": "alphazeta111",
-    "profileName": "alphazeta111",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
     "points": 30180,
     "gain_24h": 0,
-    "gain_total": 6670,
-    "last_activity": 1792438204000,
+    "gain_total": 7100,
+    "last_activity": 1792438272000,
     "events_count": 6,
     "active_today": true,
     "breakdown": {
@@ -19304,25 +19304,6 @@
     }
   },
   {
-    "name": "ninjanelo",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 24720,
-    "gain_24h": 0,
-    "gain_total": 6030,
-    "last_activity": 1792438592000,
-    "events_count": 7,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 7,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "symc0e",
     "profile": "john_week__",
     "profileName": "john_week__",
@@ -19349,6 +19330,25 @@
     "gain_24h": 0,
     "gain_total": 3120,
     "last_activity": 1792438159000,
+    "events_count": 7,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 7,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "ninjanelo",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 24720,
+    "gain_24h": 0,
+    "gain_total": 6030,
+    "last_activity": 1792438592000,
     "events_count": 7,
     "active_today": true,
     "breakdown": {
@@ -19950,25 +19950,6 @@
     }
   },
   {
-    "name": "radiuss9",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 24340,
-    "gain_24h": 0,
-    "gain_total": 3410,
-    "last_activity": 1792438236000,
-    "events_count": 7,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 7,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "tdrizzzly",
     "profile": "ganja_broker",
     "profileName": "ganja_broker",
@@ -19981,6 +19962,25 @@
     "breakdown": {
       "Watch": 6,
       "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "radiuss9",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 24340,
+    "gain_24h": 0,
+    "gain_total": 3410,
+    "last_activity": 1792438236000,
+    "events_count": 7,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 7,
+      "Claim": 0,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -26562,25 +26562,6 @@
     }
   },
   {
-    "name": "saigeybabey",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 17280,
-    "gain_24h": 0,
-    "gain_total": 5240,
-    "last_activity": 1792438784000,
-    "events_count": 7,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 7,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "reyou67",
     "profile": "moemoe____",
     "profileName": "moemoe____",
@@ -26592,6 +26573,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 6,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "saigeybabey",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 17280,
+    "gain_24h": 0,
+    "gain_total": 5240,
+    "last_activity": 1792438784000,
+    "events_count": 7,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 7,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -27512,13 +27512,13 @@
     }
   },
   {
-    "name": "reyou67",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
+    "name": "mikkioplayz",
+    "profile": "john_week__",
+    "profileName": "john_week__",
     "points": 16480,
     "gain_24h": 0,
-    "gain_total": 4050,
-    "last_activity": 1792438700000,
+    "gain_total": 4110,
+    "last_activity": 1792438734000,
     "events_count": 6,
     "active_today": true,
     "breakdown": {
@@ -27531,13 +27531,13 @@
     }
   },
   {
-    "name": "mikkioplayz",
-    "profile": "john_week__",
-    "profileName": "john_week__",
+    "name": "reyou67",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
     "points": 16480,
     "gain_24h": 0,
-    "gain_total": 4110,
-    "last_activity": 1792438734000,
+    "gain_total": 4050,
+    "last_activity": 1792438700000,
     "events_count": 6,
     "active_today": true,
     "breakdown": {
@@ -28633,25 +28633,6 @@
     }
   },
   {
-    "name": "baconsbeta",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 15470,
-    "gain_24h": 0,
-    "gain_total": 3260,
-    "last_activity": 1792438933000,
-    "events_count": 6,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 6,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "9inegg",
     "profile": "Chodon_Purush",
     "profileName": "Chodon_Purush",
@@ -28678,6 +28659,25 @@
     "gain_24h": 0,
     "gain_total": 5860,
     "last_activity": 1792438479000,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 6,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "baconsbeta",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 15470,
+    "gain_24h": 0,
+    "gain_total": 3260,
+    "last_activity": 1792438933000,
     "events_count": 6,
     "active_today": true,
     "breakdown": {
@@ -29013,15 +29013,15 @@
     }
   },
   {
-    "name": "digooo1",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
+    "name": "9inegg",
+    "profile": "MikasasHusb",
+    "profileName": "MikasasHusb",
     "points": 15140,
     "gain_24h": 0,
     "gain_total": 0,
-    "last_activity": 1791037310000,
+    "last_activity": 1792438503000,
     "events_count": 3,
-    "active_today": false,
+    "active_today": true,
     "breakdown": {
       "Watch": 3,
       "Claim": 0,
@@ -29032,15 +29032,15 @@
     }
   },
   {
-    "name": "9inegg",
-    "profile": "MikasasHusb",
-    "profileName": "MikasasHusb",
+    "name": "digooo1",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
     "points": 15140,
     "gain_24h": 0,
     "gain_total": 0,
-    "last_activity": 1792438503000,
+    "last_activity": 1791037310000,
     "events_count": 3,
-    "active_today": true,
+    "active_today": false,
     "breakdown": {
       "Watch": 3,
       "Claim": 0,
@@ -30248,15 +30248,15 @@
     }
   },
   {
-    "name": "alxb_",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
+    "name": "hezeclips",
+    "profile": "aloneyexe",
+    "profileName": "aloneyexe",
     "points": 14290,
     "gain_24h": 0,
     "gain_total": 0,
-    "last_activity": 1791037374000,
+    "last_activity": 1792438116000,
     "events_count": 3,
-    "active_today": false,
+    "active_today": true,
     "breakdown": {
       "Watch": 3,
       "Claim": 0,
@@ -30267,15 +30267,15 @@
     }
   },
   {
-    "name": "hezeclips",
-    "profile": "aloneyexe",
-    "profileName": "aloneyexe",
+    "name": "alxb_",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
     "points": 14290,
     "gain_24h": 0,
     "gain_total": 0,
-    "last_activity": 1792438116000,
+    "last_activity": 1791037374000,
     "events_count": 3,
-    "active_today": true,
+    "active_today": false,
     "breakdown": {
       "Watch": 3,
       "Claim": 0,
@@ -32472,12 +32472,12 @@
   },
   {
     "name": "wilsonnr1",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
+    "profile": "moemoe____",
+    "profileName": "moemoe____",
     "points": 12480,
     "gain_24h": 0,
-    "gain_total": 460,
-    "last_activity": 1791037486000,
+    "gain_total": 410,
+    "last_activity": 1791037484000,
     "events_count": 3,
     "active_today": false,
     "breakdown": {
@@ -32491,12 +32491,12 @@
   },
   {
     "name": "wilsonnr1",
-    "profile": "moemoe____",
-    "profileName": "moemoe____",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
     "points": 12480,
     "gain_24h": 0,
-    "gain_total": 410,
-    "last_activity": 1791037484000,
+    "gain_total": 460,
+    "last_activity": 1791037486000,
     "events_count": 3,
     "active_today": false,
     "breakdown": {
@@ -33194,25 +33194,6 @@
   },
   {
     "name": "do_worrk",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 11920,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791037472000,
-    "events_count": 2,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "do_worrk",
     "profile": "alphazeta111",
     "profileName": "alphazeta111",
     "points": 11920,
@@ -33223,6 +33204,25 @@
     "active_today": false,
     "breakdown": {
       "Watch": 5,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "do_worrk",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 11920,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791037472000,
+    "events_count": 2,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -34694,15 +34694,15 @@
     }
   },
   {
-    "name": "jptv2403",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
+    "name": "eryctriceps",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
     "points": 10830,
-    "gain_24h": 0,
-    "gain_total": 1170,
-    "last_activity": 1791037365000,
+    "gain_24h": 460,
+    "gain_total": 460,
+    "last_activity": 1792438639000,
     "events_count": 3,
-    "active_today": false,
+    "active_today": true,
     "breakdown": {
       "Watch": 3,
       "Claim": 0,
@@ -34713,15 +34713,15 @@
     }
   },
   {
-    "name": "eryctriceps",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
+    "name": "jptv2403",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
     "points": 10830,
-    "gain_24h": 460,
-    "gain_total": 460,
-    "last_activity": 1792438639000,
+    "gain_24h": 0,
+    "gain_total": 1170,
+    "last_activity": 1791037365000,
     "events_count": 3,
-    "active_today": true,
+    "active_today": false,
     "breakdown": {
       "Watch": 3,
       "Claim": 0,
@@ -34789,25 +34789,6 @@
     }
   },
   {
-    "name": "sarconius",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 10790,
-    "gain_24h": 2590,
-    "gain_total": 2590,
-    "last_activity": 1792438064000,
-    "events_count": 5,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 5,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "carno_asada",
     "profile": "aloneyexe",
     "profileName": "aloneyexe",
@@ -34819,6 +34800,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "sarconius",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 10790,
+    "gain_24h": 2590,
+    "gain_total": 2590,
+    "last_activity": 1792438064000,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -35208,8 +35208,8 @@
   },
   {
     "name": "flapflap00",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
+    "profile": "ganja_broker",
+    "profileName": "ganja_broker",
     "points": 10510,
     "gain_24h": 0,
     "gain_total": 0,
@@ -35227,8 +35227,8 @@
   },
   {
     "name": "flapflap00",
-    "profile": "ganja_broker",
-    "profileName": "ganja_broker",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
     "points": 10510,
     "gain_24h": 0,
     "gain_total": 0,
@@ -36955,25 +36955,6 @@
     }
   },
   {
-    "name": "9inegg",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 9160,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438312000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "blamzzy",
     "profile": "aethermain7",
     "profileName": "aethermain7",
@@ -37004,6 +36985,25 @@
     "active_today": false,
     "breakdown": {
       "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "9inegg",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 9160,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438312000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -37449,25 +37449,6 @@
     }
   },
   {
-    "name": "kookiekiku",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 8890,
-    "gain_24h": 0,
-    "gain_total": 2070,
-    "last_activity": 1792438923000,
-    "events_count": 6,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 6,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "babushkaboytv",
     "profile": "emotional_damage_pro_max",
     "profileName": "emotional_damage_pro_max",
@@ -37498,6 +37479,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 5,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "kookiekiku",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 8890,
+    "gain_24h": 0,
+    "gain_total": 2070,
+    "last_activity": 1792438923000,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 6,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -38950,6 +38950,25 @@
     }
   },
   {
+    "name": "ssjaymusic",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 7902,
+    "gain_24h": 3242,
+    "gain_total": 3242,
+    "last_activity": 1792440680000,
+    "events_count": 18,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 15,
+      "Claim": 3,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "mrbunnyelite",
     "profile": "ganja_broker",
     "profileName": "ganja_broker",
@@ -39000,25 +39019,6 @@
     "breakdown": {
       "Watch": 1,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "ssjaymusic",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 7890,
-    "gain_24h": 3230,
-    "gain_total": 3230,
-    "last_activity": 1792440382000,
-    "events_count": 17,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 14,
-      "Claim": 3,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -40148,25 +40148,6 @@
   },
   {
     "name": "sadgirlgaymer",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 7320,
-    "gain_24h": 0,
-    "gain_total": 1840,
-    "last_activity": 1792438838000,
-    "events_count": 6,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 6,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "sadgirlgaymer",
     "profile": "alphazeta111",
     "profileName": "alphazeta111",
     "points": 7320,
@@ -40234,6 +40215,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "sadgirlgaymer",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 7320,
+    "gain_24h": 0,
+    "gain_total": 1840,
+    "last_activity": 1792438838000,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 6,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -41591,13 +41591,13 @@
     }
   },
   {
-    "name": "adomhamez",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
+    "name": "cato_cm",
+    "profile": "hoooleeesheeet_",
+    "profileName": "hoooleeesheeet_",
     "points": 6510,
-    "gain_24h": 2430,
-    "gain_total": 2430,
-    "last_activity": 1792438070000,
+    "gain_24h": 920,
+    "gain_total": 920,
+    "last_activity": 1792438045000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -41610,13 +41610,13 @@
     }
   },
   {
-    "name": "cato_cm",
-    "profile": "hoooleeesheeet_",
-    "profileName": "hoooleeesheeet_",
+    "name": "adomhamez",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
     "points": 6510,
-    "gain_24h": 920,
-    "gain_total": 920,
-    "last_activity": 1792438045000,
+    "gain_24h": 2430,
+    "gain_total": 2430,
+    "last_activity": 1792438070000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -42712,15 +42712,15 @@
     }
   },
   {
-    "name": "cozy030",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
+    "name": "denie",
+    "profile": "done_pata",
+    "profileName": "done_pata",
     "points": 6110,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791037420000,
+    "gain_24h": 462,
+    "gain_total": 462,
+    "last_activity": 1792438685000,
     "events_count": 3,
-    "active_today": false,
+    "active_today": true,
     "breakdown": {
       "Watch": 3,
       "Claim": 0,
@@ -42731,15 +42731,15 @@
     }
   },
   {
-    "name": "denie",
-    "profile": "done_pata",
-    "profileName": "done_pata",
+    "name": "cozy030",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
     "points": 6110,
-    "gain_24h": 462,
-    "gain_total": 462,
-    "last_activity": 1792438685000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791037420000,
     "events_count": 3,
-    "active_today": true,
+    "active_today": false,
     "breakdown": {
       "Watch": 3,
       "Claim": 0,
@@ -45144,25 +45144,6 @@
     }
   },
   {
-    "name": "kiid2xx",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 5130,
-    "gain_24h": 0,
-    "gain_total": 2400,
-    "last_activity": 1792438839000,
-    "events_count": 6,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 6,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "flapflap00",
     "profile": "Hoga_Mara",
     "profileName": "Hoga_Mara",
@@ -45193,6 +45174,25 @@
     "active_today": false,
     "breakdown": {
       "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "kiid2xx",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 5130,
+    "gain_24h": 0,
+    "gain_total": 2400,
+    "last_activity": 1792438839000,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 6,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -48071,25 +48071,6 @@
   },
   {
     "name": "evokeddd",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 3840,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791037445000,
-    "events_count": 3,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "evokeddd",
     "profile": "alphazeta111",
     "profileName": "alphazeta111",
     "points": 3840,
@@ -48100,6 +48081,25 @@
     "active_today": false,
     "breakdown": {
       "Watch": 6,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "evokeddd",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 3840,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791037445000,
+    "events_count": 3,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -48203,6 +48203,25 @@
     }
   },
   {
+    "name": "ssjaymusic",
+    "profile": "jhonny_sims_",
+    "profileName": "jhonny_sims_",
+    "points": 3800,
+    "gain_24h": 1070,
+    "gain_total": 1070,
+    "last_activity": 1792440679000,
+    "events_count": 7,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 7,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "jemplfg",
     "profile": "aethermain7",
     "profileName": "aethermain7",
@@ -48217,25 +48236,6 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "ssjaymusic",
-    "profile": "jhonny_sims_",
-    "profileName": "jhonny_sims_",
-    "points": 3790,
-    "gain_24h": 1060,
-    "gain_total": 1060,
-    "last_activity": 1792438776000,
-    "events_count": 6,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 6,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }
@@ -48488,25 +48488,6 @@
     }
   },
   {
-    "name": "dotmalibu",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 3690,
-    "gain_24h": 760,
-    "gain_total": 760,
-    "last_activity": 1792438488000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "krumzzz",
     "profile": "done_pata",
     "profileName": "done_pata",
@@ -48552,6 +48533,25 @@
     "gain_24h": 760,
     "gain_total": 760,
     "last_activity": 1792438614000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "dotmalibu",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 3690,
+    "gain_24h": 760,
+    "gain_total": 760,
+    "last_activity": 1792438488000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -49913,6 +49913,25 @@
     }
   },
   {
+    "name": "ssjaymusic",
+    "profile": "restless_rick",
+    "profileName": "restless_rick",
+    "points": 3350,
+    "gain_24h": 1140,
+    "gain_total": 1140,
+    "last_activity": 1792440679000,
+    "events_count": 7,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 7,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "sarconius",
     "profile": "sofakingcoooool",
     "profileName": "sofakingcoooool",
@@ -49963,25 +49982,6 @@
     "breakdown": {
       "Watch": 4,
       "Claim": 1,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "ssjaymusic",
-    "profile": "restless_rick",
-    "profileName": "restless_rick",
-    "points": 3340,
-    "gain_24h": 1130,
-    "gain_total": 1130,
-    "last_activity": 1792438760000,
-    "events_count": 6,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 6,
-      "Claim": 0,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -50559,25 +50559,6 @@
     }
   },
   {
-    "name": "mavietoria",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 3190,
-    "gain_24h": 1020,
-    "gain_total": 1020,
-    "last_activity": 1792438719000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "therealtae22",
     "profile": "done_pata",
     "profileName": "done_pata",
@@ -50623,6 +50604,25 @@
     "gain_24h": 510,
     "gain_total": 510,
     "last_activity": 1792438172000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "mavietoria",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 3190,
+    "gain_24h": 1020,
+    "gain_total": 1020,
+    "last_activity": 1792438719000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -50731,25 +50731,6 @@
   },
   {
     "name": "slayer_izaya",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 3160,
-    "gain_24h": 1010,
-    "gain_total": 1010,
-    "last_activity": 1792438413000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "slayer_izaya",
     "profile": "dsa_hater",
     "profileName": "dsa_hater",
     "points": 3160,
@@ -50832,6 +50813,25 @@
     "gain_24h": 1010,
     "gain_total": 1010,
     "last_activity": 1792438521000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "slayer_izaya",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 3160,
+    "gain_24h": 1010,
+    "gain_total": 1010,
+    "last_activity": 1792438413000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -51757,25 +51757,6 @@
   },
   {
     "name": "vulture5x",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 3030,
-    "gain_24h": 920,
-    "gain_total": 920,
-    "last_activity": 1792438665000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "vulture5x",
     "profile": "jhonny_sims_",
     "profileName": "jhonny_sims_",
     "points": 3030,
@@ -51805,6 +51786,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 5,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "vulture5x",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 3030,
+    "gain_24h": 920,
+    "gain_total": 920,
+    "last_activity": 1792438665000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -52205,6 +52205,25 @@
     "breakdown": {
       "Watch": 4,
       "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "mavietoria",
+    "profile": "restless_rick",
+    "profileName": "restless_rick",
+    "points": 2940,
+    "gain_24h": 1470,
+    "gain_total": 1920,
+    "last_activity": 1792440650000,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -53941,25 +53960,6 @@
     }
   },
   {
-    "name": "defuseggxttv",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 2620,
-    "gain_24h": 520,
-    "gain_total": 520,
-    "last_activity": 1792438485000,
-    "events_count": 4,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 4,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "cato_cm",
     "profile": "egomanyk",
     "profileName": "egomanyk",
@@ -54017,6 +54017,25 @@
     }
   },
   {
+    "name": "defuseggxttv",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 2620,
+    "gain_24h": 520,
+    "gain_total": 520,
+    "last_activity": 1792438485000,
+    "events_count": 4,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "sarconius",
     "profile": "THISseemedFUNNYat3AM",
     "profileName": "THISseemedFUNNYat3AM",
@@ -54055,13 +54074,13 @@
     }
   },
   {
-    "name": "therealtae22",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
+    "name": "rincewindtgw",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
     "points": 2610,
-    "gain_24h": 760,
-    "gain_total": 760,
-    "last_activity": 1792438416000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438920000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -54074,13 +54093,13 @@
     }
   },
   {
-    "name": "rincewindtgw",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
+    "name": "therealtae22",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
     "points": 2610,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438920000,
+    "gain_24h": 760,
+    "gain_total": 760,
+    "last_activity": 1792438416000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -54359,25 +54378,6 @@
     }
   },
   {
-    "name": "burrqt",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 2550,
-    "gain_24h": 660,
-    "gain_total": 660,
-    "last_activity": 1792438929000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "cato_cm",
     "profile": "Chodon_Purush",
     "profileName": "Chodon_Purush",
@@ -54442,6 +54442,25 @@
     "gain_24h": 660,
     "gain_total": 660,
     "last_activity": 1792438964000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "burrqt",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 2550,
+    "gain_24h": 660,
+    "gain_total": 660,
+    "last_activity": 1792438929000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -55329,44 +55348,6 @@
   },
   {
     "name": "baddieblume",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 2460,
-    "gain_24h": 310,
-    "gain_total": 310,
-    "last_activity": 1792438594000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "humzazx",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 2460,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791037468000,
-    "events_count": 3,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "baddieblume",
     "profile": "alphazeta111",
     "profileName": "alphazeta111",
     "points": 2460,
@@ -55489,6 +55470,44 @@
     "last_activity": 1792438675000,
     "events_count": 3,
     "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "baddieblume",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 2460,
+    "gain_24h": 310,
+    "gain_total": 310,
+    "last_activity": 1792438594000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "humzazx",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 2460,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791037468000,
+    "events_count": 3,
+    "active_today": false,
     "breakdown": {
       "Watch": 3,
       "Claim": 0,
@@ -55708,25 +55727,6 @@
     }
   },
   {
-    "name": "mavietoria",
-    "profile": "restless_rick",
-    "profileName": "restless_rick",
-    "points": 2430,
-    "gain_24h": 960,
-    "gain_total": 960,
-    "last_activity": 1792438529000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "sqweagy",
     "profile": "THISseemedFUNNYat3AM",
     "profileName": "THISseemedFUNNYat3AM",
@@ -55734,25 +55734,6 @@
     "gain_24h": 720,
     "gain_total": 720,
     "last_activity": 1792438752000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "sqweagy",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 2420,
-    "gain_24h": 710,
-    "gain_total": 710,
-    "last_activity": 1792438536000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -55867,6 +55848,25 @@
     "gain_24h": 710,
     "gain_total": 710,
     "last_activity": 1792438630000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "sqweagy",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 2420,
+    "gain_24h": 710,
+    "gain_total": 710,
+    "last_activity": 1792438536000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -56184,25 +56184,6 @@
   },
   {
     "name": "puddin086",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 2370,
-    "gain_24h": 1220,
-    "gain_total": 1220,
-    "last_activity": 1792438370000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "puddin086",
     "profile": "alphazeta111",
     "profileName": "alphazeta111",
     "points": 2370,
@@ -56232,6 +56213,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "puddin086",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 2370,
+    "gain_24h": 1220,
+    "gain_total": 1220,
+    "last_activity": 1792438370000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -56716,25 +56716,6 @@
   },
   {
     "name": "jetersold",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 2300,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791037406000,
-    "events_count": 3,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "jetersold",
     "profile": "alphazeta111",
     "profileName": "alphazeta111",
     "points": 2300,
@@ -56817,6 +56798,25 @@
     "gain_24h": 0,
     "gain_total": 0,
     "last_activity": 1791037411000,
+    "events_count": 3,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "jetersold",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 2300,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791037406000,
     "events_count": 3,
     "active_today": false,
     "breakdown": {
@@ -57495,6 +57495,25 @@
   },
   {
     "name": "abyzou",
+    "profile": "mylyfe69",
+    "profileName": "mylyfe69",
+    "points": 2230,
+    "gain_24h": 1410,
+    "gain_total": 1410,
+    "last_activity": 1792439545000,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 1,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "abyzou",
     "profile": "nano_my_banana",
     "profileName": "nano_my_banana",
     "points": 2230,
@@ -57527,25 +57546,6 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "abyzou",
-    "profile": "mylyfe69",
-    "profileName": "mylyfe69",
-    "points": 2230,
-    "gain_24h": 1410,
-    "gain_total": 1410,
-    "last_activity": 1792439545000,
-    "events_count": 5,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 4,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }
@@ -57931,25 +57931,6 @@
     }
   },
   {
-    "name": "blakkghostcs",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 2210,
-    "gain_24h": 710,
-    "gain_total": 710,
-    "last_activity": 1792438537000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "abyzou",
     "profile": "done_pata",
     "profileName": "done_pata",
@@ -58014,6 +57995,25 @@
     "gain_24h": 0,
     "gain_total": 0,
     "last_activity": 1792438376000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "blakkghostcs",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 2210,
+    "gain_24h": 710,
+    "gain_total": 710,
+    "last_activity": 1792438537000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -58919,25 +58919,6 @@
     }
   },
   {
-    "name": "krumzzz",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 2080,
-    "gain_24h": 790,
-    "gain_total": 790,
-    "last_activity": 1792438302000,
-    "events_count": 6,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 5,
-      "Claim": 1,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "humzazx",
     "profile": "aloneyexe",
     "profileName": "aloneyexe",
@@ -58969,6 +58950,25 @@
     "breakdown": {
       "Watch": 1,
       "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "krumzzz",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 2080,
+    "gain_24h": 790,
+    "gain_total": 790,
+    "last_activity": 1792438302000,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -59565,25 +59565,6 @@
     }
   },
   {
-    "name": "doxlet",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 1980,
-    "gain_24h": 260,
-    "gain_total": 260,
-    "last_activity": 1792438685000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "blakkghostcs",
     "profile": "dsa_hater",
     "profileName": "dsa_hater",
@@ -59679,13 +59660,13 @@
     }
   },
   {
-    "name": "blakkghostcs",
-    "profile": "sofakingcoooool",
-    "profileName": "sofakingcoooool",
+    "name": "doxlet",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
     "points": 1980,
-    "gain_24h": 660,
-    "gain_total": 660,
-    "last_activity": 1792438730000,
+    "gain_24h": 260,
+    "gain_total": 260,
+    "last_activity": 1792438685000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -59698,13 +59679,13 @@
     }
   },
   {
-    "name": "sammymedows",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 1970,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438430000,
+    "name": "blakkghostcs",
+    "profile": "sofakingcoooool",
+    "profileName": "sofakingcoooool",
+    "points": 1980,
+    "gain_24h": 660,
+    "gain_total": 660,
+    "last_activity": 1792438730000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -59876,6 +59857,25 @@
     "gain_24h": 0,
     "gain_total": 0,
     "last_activity": 1792438541000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "sammymedows",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 1970,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438430000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -60439,13 +60439,13 @@
     }
   },
   {
-    "name": "zobstan",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
+    "name": "ninjanelo",
+    "profile": "MikasasHusb",
+    "profileName": "MikasasHusb",
     "points": 1870,
     "gain_24h": 0,
     "gain_total": 0,
-    "last_activity": 1792438139000,
+    "last_activity": 1792438298000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -60458,13 +60458,13 @@
     }
   },
   {
-    "name": "ninjanelo",
-    "profile": "MikasasHusb",
-    "profileName": "MikasasHusb",
+    "name": "zobstan",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
     "points": 1870,
     "gain_24h": 0,
     "gain_total": 0,
-    "last_activity": 1792438298000,
+    "last_activity": 1792438139000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -60933,6 +60933,25 @@
     }
   },
   {
+    "name": "ssjaymusic",
+    "profile": "youminepie",
+    "profileName": "youminepie",
+    "points": 1830,
+    "gain_24h": 1000,
+    "gain_total": 1450,
+    "last_activity": 1792440677000,
+    "events_count": 11,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 10,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "abyzou",
     "profile": "alphazeta111",
     "profileName": "alphazeta111",
@@ -61021,25 +61040,6 @@
     "breakdown": {
       "Watch": 3,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "ssjaymusic",
-    "profile": "youminepie",
-    "profileName": "youminepie",
-    "points": 1820,
-    "gain_24h": 990,
-    "gain_total": 990,
-    "last_activity": 1792438739000,
-    "events_count": 9,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 8,
-      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -61552,6 +61552,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "ssjaymusic",
+    "profile": "zaree_chan",
+    "profileName": "zaree_chan",
+    "points": 1750,
+    "gain_24h": 1350,
+    "gain_total": 1350,
+    "last_activity": 1792440656000,
+    "events_count": 9,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 9,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -62187,25 +62206,6 @@
     }
   },
   {
-    "name": "sc4p3_fps",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 1680,
-    "gain_24h": 530,
-    "gain_total": 530,
-    "last_activity": 1792438546000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "defuseggxttv",
     "profile": "Chodon_Purush",
     "profileName": "Chodon_Purush",
@@ -62274,6 +62274,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "sc4p3_fps",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 1680,
+    "gain_24h": 530,
+    "gain_total": 530,
+    "last_activity": 1792438546000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -62567,25 +62586,6 @@
     }
   },
   {
-    "name": "joshltfc",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 1660,
-    "gain_24h": 520,
-    "gain_total": 520,
-    "last_activity": 1792439942000,
-    "events_count": 5,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 4,
-      "Claim": 1,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "kookiekiku",
     "profile": "aloneyexe",
     "profileName": "aloneyexe",
@@ -62654,6 +62654,44 @@
     "active_today": true,
     "breakdown": {
       "Watch": 5,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "joshltfc",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 1660,
+    "gain_24h": 520,
+    "gain_total": 520,
+    "last_activity": 1792439942000,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "joshltfc",
+    "profile": "real_ice77",
+    "profileName": "real_ice77",
+    "points": 1660,
+    "gain_24h": 520,
+    "gain_total": 520,
+    "last_activity": 1792440681000,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -62872,25 +62910,6 @@
   },
   {
     "name": "plaguejestersky",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 1640,
-    "gain_24h": 410,
-    "gain_total": 410,
-    "last_activity": 1792438876000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "plaguejestersky",
     "profile": "egomanyk",
     "profileName": "egomanyk",
     "points": 1640,
@@ -62978,6 +62997,25 @@
     "breakdown": {
       "Watch": 4,
       "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "plaguejestersky",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 1640,
+    "gain_24h": 410,
+    "gain_total": 410,
+    "last_activity": 1792438876000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -63118,13 +63156,13 @@
     }
   },
   {
-    "name": "itszedar",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
+    "name": "itzmelloncs",
+    "profile": "aloneyexe",
+    "profileName": "aloneyexe",
     "points": 1610,
     "gain_24h": 0,
     "gain_total": 0,
-    "last_activity": 1792438474000,
+    "last_activity": 1792438622000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -63137,13 +63175,13 @@
     }
   },
   {
-    "name": "itzmelloncs",
-    "profile": "aloneyexe",
-    "profileName": "aloneyexe",
+    "name": "itszedar",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
     "points": 1610,
     "gain_24h": 0,
     "gain_total": 0,
-    "last_activity": 1792438622000,
+    "last_activity": 1792438474000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -63186,25 +63224,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 4,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "artemiskp",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 1600,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438870000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -63262,6 +63281,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "krayyzzee",
+    "profile": "dsa_hater",
+    "profileName": "dsa_hater",
+    "points": 1600,
+    "gain_24h": 460,
+    "gain_total": 460,
+    "last_activity": 1792440635000,
+    "events_count": 4,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -63518,6 +63556,25 @@
   },
   {
     "name": "artemiskp",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 1600,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438870000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "artemiskp",
     "profile": "real_ice77",
     "profileName": "real_ice77",
     "points": 1600,
@@ -63562,25 +63619,6 @@
     "gain_24h": 460,
     "gain_total": 460,
     "last_activity": 1792438801000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "joshltfc",
-    "profile": "real_ice77",
-    "profileName": "real_ice77",
-    "points": 1600,
-    "gain_24h": 460,
-    "gain_total": 460,
-    "last_activity": 1792438544000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -64353,25 +64391,6 @@
     }
   },
   {
-    "name": "terraformer20",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 1510,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438074000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "jemplfg",
     "profile": "Chodon_Purush",
     "profileName": "Chodon_Purush",
@@ -64410,6 +64429,25 @@
     }
   },
   {
+    "name": "terraformer20",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 1510,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438074000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "jemplfg",
     "profile": "youminepie",
     "profileName": "youminepie",
@@ -64421,25 +64459,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 4,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "kyriefnx",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 1500,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1791037419000,
-    "events_count": 3,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -64512,6 +64531,25 @@
     "gain_24h": 0,
     "gain_total": 0,
     "last_activity": 1791037421000,
+    "events_count": 3,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "kyriefnx",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 1500,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1791037419000,
     "events_count": 3,
     "active_today": false,
     "breakdown": {
@@ -65759,25 +65797,6 @@
     }
   },
   {
-    "name": "guacgamesxo",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 1390,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438736000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "mavietoria",
     "profile": "Chodon_Purush",
     "profileName": "Chodon_Purush",
@@ -65956,6 +65975,25 @@
     "gain_24h": 660,
     "gain_total": 660,
     "last_activity": 1792438506000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "guacgamesxo",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 1390,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438736000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -66348,25 +66386,6 @@
     }
   },
   {
-    "name": "anonymousashlar",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 1330,
-    "gain_24h": 610,
-    "gain_total": 610,
-    "last_activity": 1792438672000,
-    "events_count": 6,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 6,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "spysmily",
     "profile": "done_pata",
     "profileName": "done_pata",
@@ -66431,6 +66450,25 @@
     "gain_24h": 610,
     "gain_total": 610,
     "last_activity": 1792438775000,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 6,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "anonymousashlar",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 1330,
+    "gain_24h": 610,
+    "gain_total": 610,
+    "last_activity": 1792438672000,
     "events_count": 6,
     "active_today": true,
     "breakdown": {
@@ -67165,25 +67203,6 @@
     }
   },
   {
-    "name": "ssjaymusic",
-    "profile": "zaree_chan",
-    "profileName": "zaree_chan",
-    "points": 1290,
-    "gain_24h": 890,
-    "gain_total": 890,
-    "last_activity": 1792438749000,
-    "events_count": 7,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 7,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "blamzzy",
     "profile": "zaree_chan",
     "profileName": "zaree_chan",
@@ -67355,25 +67374,6 @@
     }
   },
   {
-    "name": "jllei",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 1250,
-    "gain_24h": 260,
-    "gain_total": 260,
-    "last_activity": 1792438833000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "ichigrim",
     "profile": "aloneyexe",
     "profileName": "aloneyexe",
@@ -67442,6 +67442,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "jllei",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 1250,
+    "gain_24h": 260,
+    "gain_total": 260,
+    "last_activity": 1792438833000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -67651,25 +67670,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "yteddiecolon",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 1230,
-    "gain_24h": 420,
-    "gain_total": 420,
-    "last_activity": 1792438630000,
-    "events_count": 12,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 12,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -67974,6 +67974,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "yteddiecolon",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 1230,
+    "gain_24h": 420,
+    "gain_total": 420,
+    "last_activity": 1792438630000,
+    "events_count": 12,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 12,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -68324,25 +68343,6 @@
     }
   },
   {
-    "name": "flipnekotv",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 1210,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438227000,
-    "events_count": 6,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 6,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "sloptv__",
     "profile": "alphazeta111",
     "profileName": "alphazeta111",
@@ -68487,6 +68487,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "flipnekotv",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 1210,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438227000,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 6,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -68913,44 +68932,6 @@
     }
   },
   {
-    "name": "krayyzzee",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 1150,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438672000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "sloptv__",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 1150,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438809000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "defuseggxttv",
     "profile": "aloneyexe",
     "profileName": "aloneyexe",
@@ -68958,6 +68939,25 @@
     "gain_24h": 410,
     "gain_total": 410,
     "last_activity": 1792438283000,
+    "events_count": 4,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "krayyzzee",
+    "profile": "alphazeta111",
+    "profileName": "alphazeta111",
+    "points": 1150,
+    "gain_24h": 10,
+    "gain_total": 460,
+    "last_activity": 1792440618000,
     "events_count": 4,
     "active_today": true,
     "breakdown": {
@@ -69274,6 +69274,44 @@
     }
   },
   {
+    "name": "krayyzzee",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 1150,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438672000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "sloptv__",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 1150,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438809000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "anonymousashlar",
     "profile": "penguinfar8",
     "profileName": "penguinfar8",
@@ -69464,44 +69502,6 @@
     }
   },
   {
-    "name": "sadgirlz_4life",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 1140,
-    "gain_24h": 410,
-    "gain_total": 410,
-    "last_activity": 1792438239000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "efohitemdown",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 1140,
-    "gain_24h": 410,
-    "gain_total": 410,
-    "last_activity": 1792438513000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "doxlet",
     "profile": "aloneyexe",
     "profileName": "aloneyexe",
@@ -69616,25 +69616,6 @@
     }
   },
   {
-    "name": "krayyzzee",
-    "profile": "alphazeta111",
-    "profileName": "alphazeta111",
-    "points": 1140,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438592000,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "doxlet",
     "profile": "Chodon_Purush",
     "profileName": "Chodon_Purush",
@@ -69722,25 +69703,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "krayyzzee",
-    "profile": "dsa_hater",
-    "profileName": "dsa_hater",
-    "points": 1140,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438694000,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -69874,6 +69836,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "guacgamesxo",
+    "profile": "flank_man",
+    "profileName": "flank_man",
+    "points": 1140,
+    "gain_24h": 410,
+    "gain_total": 410,
+    "last_activity": 1792440705000,
+    "events_count": 4,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -70281,6 +70262,44 @@
     }
   },
   {
+    "name": "sadgirlz_4life",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 1140,
+    "gain_24h": 410,
+    "gain_total": 410,
+    "last_activity": 1792438239000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "efohitemdown",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 1140,
+    "gain_24h": 410,
+    "gain_total": 410,
+    "last_activity": 1792438513000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "cato_cm",
     "profile": "penguinfar8",
     "profileName": "penguinfar8",
@@ -70426,6 +70445,25 @@
     "breakdown": {
       "Watch": 3,
       "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "mattlibra",
+    "profile": "sofakingcoooool",
+    "profileName": "sofakingcoooool",
+    "points": 1140,
+    "gain_24h": 490,
+    "gain_total": 490,
+    "last_activity": 1792440698000,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -70813,6 +70851,25 @@
     }
   },
   {
+    "name": "ssjaymusic",
+    "profile": "aloneyexe",
+    "profileName": "aloneyexe",
+    "points": 1120,
+    "gain_24h": 1040,
+    "gain_total": 1040,
+    "last_activity": 1792440703000,
+    "events_count": 9,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 9,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "nickkehh",
     "profile": "Chodon_Purush",
     "profileName": "Chodon_Purush",
@@ -71136,25 +71193,6 @@
     }
   },
   {
-    "name": "gaxlab_",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 1080,
-    "gain_24h": 310,
-    "gain_total": 310,
-    "last_activity": 1792438919000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "betrigan",
     "profile": "aloneyexe",
     "profileName": "aloneyexe",
@@ -71269,13 +71307,13 @@
     }
   },
   {
-    "name": "mattlibra",
-    "profile": "sofakingcoooool",
-    "profileName": "sofakingcoooool",
+    "name": "gaxlab_",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
     "points": 1080,
-    "gain_24h": 430,
-    "gain_total": 430,
-    "last_activity": 1792438450000,
+    "gain_24h": 310,
+    "gain_total": 310,
+    "last_activity": 1792438919000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -71440,6 +71478,25 @@
     }
   },
   {
+    "name": "mattlibra",
+    "profile": "THISseemedFUNNYat3AM",
+    "profileName": "THISseemedFUNNYat3AM",
+    "points": 1070,
+    "gain_24h": 430,
+    "gain_total": 430,
+    "last_activity": 1792440679000,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "bhubbie",
     "profile": "xxx_sad_life_xxx",
     "profileName": "xxx_sad_life_xxx",
@@ -71471,6 +71528,25 @@
     "breakdown": {
       "Watch": 3,
       "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "mattlibra",
+    "profile": "godzilloaa",
+    "profileName": "godzilloaa",
+    "points": 1060,
+    "gain_24h": 730,
+    "gain_total": 730,
+    "last_activity": 1792440708000,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -71603,25 +71679,6 @@
     "active_today": false,
     "breakdown": {
       "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "mattlibra",
-    "profile": "THISseemedFUNNYat3AM",
-    "profileName": "THISseemedFUNNYat3AM",
-    "points": 1060,
-    "gain_24h": 420,
-    "gain_total": 420,
-    "last_activity": 1792438480000,
-    "events_count": 4,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -71983,25 +72040,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "mattlibra",
-    "profile": "godzilloaa",
-    "profileName": "godzilloaa",
-    "points": 1000,
-    "gain_24h": 670,
-    "gain_total": 670,
-    "last_activity": 1792438444000,
-    "events_count": 4,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -72382,63 +72420,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 5,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "krypticvipex",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 980,
-    "gain_24h": 660,
-    "gain_total": 660,
-    "last_activity": 1792438373000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "moroccan789",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 980,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438915000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "kopykev",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 980,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438667000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -72896,6 +72877,63 @@
     "breakdown": {
       "Watch": 6,
       "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "krypticvipex",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 980,
+    "gain_24h": 660,
+    "gain_total": 660,
+    "last_activity": 1792438373000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "moroccan789",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 980,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438915000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "kopykev",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 980,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438667000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -73587,25 +73625,6 @@
     }
   },
   {
-    "name": "mattlibra",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 890,
-    "gain_24h": 490,
-    "gain_total": 490,
-    "last_activity": 1792439308000,
-    "events_count": 8,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 6,
-      "Claim": 2,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "itszedar",
     "profile": "done_pata",
     "profileName": "done_pata",
@@ -73675,6 +73694,25 @@
     "breakdown": {
       "Watch": 3,
       "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "mattlibra",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 890,
+    "gain_24h": 490,
+    "gain_total": 490,
+    "last_activity": 1792439308000,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 6,
+      "Claim": 2,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -74139,44 +74177,6 @@
   },
   {
     "name": "cvrsify",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 820,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438424000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "glitchie__",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 820,
-    "gain_24h": 360,
-    "gain_total": 360,
-    "last_activity": 1792438471000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "cvrsify",
     "profile": "alphazeta111",
     "profileName": "alphazeta111",
     "points": 820,
@@ -74443,6 +74443,44 @@
   },
   {
     "name": "cvrsify",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 820,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438424000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "glitchie__",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 820,
+    "gain_24h": 360,
+    "gain_total": 360,
+    "last_activity": 1792438471000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "cvrsify",
     "profile": "restless_rick",
     "profileName": "restless_rick",
     "points": 820,
@@ -74525,25 +74563,6 @@
     "gain_24h": 0,
     "gain_total": 0,
     "last_activity": 1792438274000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "themuffingirl",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 810,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438781000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -74715,6 +74734,25 @@
     "gain_24h": 0,
     "gain_total": 0,
     "last_activity": 1792438210000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "themuffingirl",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 810,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438781000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -74947,25 +74985,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "ssjaymusic",
-    "profile": "aloneyexe",
-    "profileName": "aloneyexe",
-    "points": 760,
-    "gain_24h": 680,
-    "gain_total": 680,
-    "last_activity": 1792438759000,
-    "events_count": 7,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 7,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -75487,25 +75506,6 @@
     }
   },
   {
-    "name": "jsaxter",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 740,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438431000,
-    "events_count": 6,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 6,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "themuffingirl",
     "profile": "alphazeta111",
     "profileName": "alphazeta111",
@@ -75593,6 +75593,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "mattlibra",
+    "profile": "done_pata",
+    "profileName": "done_pata",
+    "points": 740,
+    "gain_24h": 720,
+    "gain_total": 720,
+    "last_activity": 1792440674000,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -76019,6 +76038,25 @@
     }
   },
   {
+    "name": "jsaxter",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 740,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438431000,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 6,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "huffalispuffalis",
     "profile": "real_ice77",
     "profileName": "real_ice77",
@@ -76178,44 +76216,6 @@
     "gain_24h": 0,
     "gain_total": 0,
     "last_activity": 1792438368000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "ironmancarter",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 730,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438672000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "huffalispuffalis",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 730,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438532000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -76482,25 +76482,6 @@
     "gain_24h": 0,
     "gain_total": 0,
     "last_activity": 1792438576000,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "guacgamesxo",
-    "profile": "flank_man",
-    "profileName": "flank_man",
-    "points": 730,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438715000,
     "events_count": 2,
     "active_today": true,
     "breakdown": {
@@ -76836,6 +76817,25 @@
     }
   },
   {
+    "name": "mattlibra",
+    "profile": "mylyfe69",
+    "profileName": "mylyfe69",
+    "points": 730,
+    "gain_24h": 720,
+    "gain_total": 1070,
+    "last_activity": 1792440676000,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "huffalispuffalis",
     "profile": "mylyfe69",
     "profileName": "mylyfe69",
@@ -76843,6 +76843,44 @@
     "gain_24h": 0,
     "gain_total": 0,
     "last_activity": 1792438320000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "ironmancarter",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 730,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438672000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "huffalispuffalis",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 730,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438532000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -77228,6 +77266,25 @@
     "breakdown": {
       "Watch": 3,
       "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "mattlibra",
+    "profile": "Vodar_Jol",
+    "profileName": "Vodar_Jol",
+    "points": 730,
+    "gain_24h": 720,
+    "gain_total": 720,
+    "last_activity": 1792440676000,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -78356,44 +78413,6 @@
     }
   },
   {
-    "name": "nickkehh",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 640,
-    "gain_24h": 310,
-    "gain_total": 310,
-    "last_activity": 1792438691000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "cobeano_",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 640,
-    "gain_24h": 310,
-    "gain_total": 310,
-    "last_activity": 1792440195000,
-    "events_count": 5,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 5,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "sadgirlgaymer",
     "profile": "done_pata",
     "profileName": "done_pata",
@@ -78641,6 +78660,44 @@
     }
   },
   {
+    "name": "nickkehh",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 640,
+    "gain_24h": 310,
+    "gain_total": 310,
+    "last_activity": 1792438691000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "cobeano_",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 640,
+    "gain_24h": 310,
+    "gain_total": 310,
+    "last_activity": 1792440195000,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "adomhamez",
     "profile": "penguinfar8",
     "profileName": "penguinfar8",
@@ -78748,63 +78805,6 @@
     "breakdown": {
       "Watch": 8,
       "Claim": 2,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "leenlx",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 630,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438491000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "fab1o_22",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 630,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438770000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "real_juiceegod",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 630,
-    "gain_24h": 370,
-    "gain_total": 370,
-    "last_activity": 1792438714000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -79269,6 +79269,63 @@
   },
   {
     "name": "leenlx",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 630,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438491000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "fab1o_22",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 630,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438770000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "real_juiceegod",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 630,
+    "gain_24h": 370,
+    "gain_total": 370,
+    "last_activity": 1792438714000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "leenlx",
     "profile": "penguinfar8",
     "profileName": "penguinfar8",
     "points": 630,
@@ -79636,25 +79693,6 @@
     "gain_24h": 0,
     "gain_total": 0,
     "last_activity": 1792438931000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "pricolacc",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 570,
-    "gain_24h": 310,
-    "gain_total": 310,
-    "last_activity": 1792438871000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -80339,6 +80377,25 @@
     "gain_24h": 0,
     "gain_total": 0,
     "last_activity": 1792438823000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "pricolacc",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 570,
+    "gain_24h": 310,
+    "gain_total": 310,
+    "last_activity": 1792438871000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -81511,25 +81568,6 @@
   },
   {
     "name": "thegoldenboyshow_",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 460,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438822000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "thegoldenboyshow_",
     "profile": "alphazeta111",
     "profileName": "alphazeta111",
     "points": 460,
@@ -81540,6 +81578,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "thegoldenboyshow_",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 460,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438822000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -81795,32 +81852,13 @@
     }
   },
   {
-    "name": "zenny",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 410,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438366000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "emniag",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 410,
-    "gain_24h": 90,
-    "gain_total": 90,
-    "last_activity": 1792440553000,
+    "profile": "thomus_shebly",
+    "profileName": "thomus_shebly",
+    "points": 420,
+    "gain_24h": 100,
+    "gain_total": 100,
+    "last_activity": 1792440616000,
     "events_count": 7,
     "active_today": true,
     "breakdown": {
@@ -81966,6 +82004,44 @@
     }
   },
   {
+    "name": "zenny",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 410,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438366000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "emniag",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 410,
+    "gain_24h": 90,
+    "gain_total": 90,
+    "last_activity": 1792440553000,
+    "events_count": 7,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 6,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "gaxlab_",
     "profile": "RANehal",
     "profileName": "RANehal",
@@ -82030,44 +82106,6 @@
     "gain_24h": 0,
     "gain_total": 0,
     "last_activity": 1792438576000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "emniag",
-    "profile": "thomus_shebly",
-    "profileName": "thomus_shebly",
-    "points": 410,
-    "gain_24h": 90,
-    "gain_total": 90,
-    "last_activity": 1792440315000,
-    "events_count": 6,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 5,
-      "Claim": 1,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "ispinsytv",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 400,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438071000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -82353,6 +82391,25 @@
     "gain_24h": 0,
     "gain_total": 0,
     "last_activity": 1792438886000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "ispinsytv",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 400,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438071000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -83125,44 +83182,6 @@
     }
   },
   {
-    "name": "outlawz_psycho",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 380,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438761000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "bhubbie",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 380,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438439000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "sc4p3_fps",
     "profile": "aloneyexe",
     "profileName": "aloneyexe",
@@ -83246,25 +83265,6 @@
     "gain_24h": 0,
     "gain_total": 0,
     "last_activity": 1792438898000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "mattlibra",
-    "profile": "done_pata",
-    "profileName": "done_pata",
-    "points": 380,
-    "gain_24h": 360,
-    "gain_total": 360,
-    "last_activity": 1792438638000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -83695,6 +83695,44 @@
     }
   },
   {
+    "name": "outlawz_psycho",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 380,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438761000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "bhubbie",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 380,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438439000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "terraformer20",
     "profile": "real_ice77",
     "profileName": "real_ice77",
@@ -83745,6 +83783,25 @@
     "breakdown": {
       "Watch": 3,
       "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "joshltfc",
+    "profile": "rinn__sama",
+    "profileName": "rinn__sama",
+    "points": 380,
+    "gain_24h": 60,
+    "gain_total": 60,
+    "last_activity": 1792440617000,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -84531,25 +84588,6 @@
     }
   },
   {
-    "name": "cnrayy",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 330,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438229000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "nickkehh",
     "profile": "alphazeta111",
     "profileName": "alphazeta111",
@@ -84854,6 +84892,25 @@
     }
   },
   {
+    "name": "emniag",
+    "profile": "john_week__",
+    "profileName": "john_week__",
+    "points": 330,
+    "gain_24h": 150,
+    "gain_total": 150,
+    "last_activity": 1792440609000,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 7,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "nickkehh",
     "profile": "moemoe____",
     "profileName": "moemoe____",
@@ -84918,6 +84975,25 @@
     "gain_24h": 70,
     "gain_total": 70,
     "last_activity": 1792438715000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "cnrayy",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 330,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438229000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -86203,25 +86279,6 @@
     }
   },
   {
-    "name": "emniag",
-    "profile": "john_week__",
-    "profileName": "john_week__",
-    "points": 320,
-    "gain_24h": 140,
-    "gain_total": 140,
-    "last_activity": 1792440300000,
-    "events_count": 7,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 6,
-      "Claim": 1,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "themuffingirl",
     "profile": "MikasasHusb",
     "profileName": "MikasasHusb",
@@ -86324,25 +86381,6 @@
     "gain_24h": 0,
     "gain_total": 0,
     "last_activity": 1792438623000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "mattlibra",
-    "profile": "mylyfe69",
-    "profileName": "mylyfe69",
-    "points": 320,
-    "gain_24h": 310,
-    "gain_total": 310,
-    "last_activity": 1792438658000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -86640,25 +86678,6 @@
     }
   },
   {
-    "name": "joshltfc",
-    "profile": "rinn__sama",
-    "profileName": "rinn__sama",
-    "points": 320,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438458000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "evokeddd",
     "profile": "rinn__sama",
     "profileName": "rinn__sama",
@@ -86856,25 +86875,6 @@
     "gain_24h": 0,
     "gain_total": 0,
     "last_activity": 1792438121000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "mattlibra",
-    "profile": "Vodar_Jol",
-    "profileName": "Vodar_Jol",
-    "points": 320,
-    "gain_24h": 310,
-    "gain_total": 310,
-    "last_activity": 1792438649000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -88293,44 +88293,6 @@
     }
   },
   {
-    "name": "pimpsofa",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 260,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438434000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "slashthehvy1",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 260,
-    "gain_24h": 250,
-    "gain_total": 250,
-    "last_activity": 1792438355000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "sadgirlgaymer",
     "profile": "aloneyexe",
     "profileName": "aloneyexe",
@@ -89263,6 +89225,44 @@
   },
   {
     "name": "pimpsofa",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 260,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438434000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "slashthehvy1",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 260,
+    "gain_24h": 250,
+    "gain_total": 250,
+    "last_activity": 1792438355000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "pimpsofa",
     "profile": "real_ice77",
     "profileName": "real_ice77",
     "points": 260,
@@ -89699,25 +89699,6 @@
     }
   },
   {
-    "name": "b7nnzy",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 250,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438822000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "emniag",
     "profile": "flank_man",
     "profileName": "flank_man",
@@ -89767,6 +89748,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "b7nnzy",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 250,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438822000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -91561,139 +91561,6 @@
     }
   },
   {
-    "name": "smgemega",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 10,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438774000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "itkeallneekno_tv",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 10,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438375000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "erzadray1",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 10,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438750000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "shawthaking",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 10,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438929000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "respawn_verified",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 10,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438611000,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "v_illains",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 10,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438493000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "dirkdontlose",
-    "profile": "nano_my_banana",
-    "profileName": "nano_my_banana",
-    "points": 10,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "last_activity": 1792438820000,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "kiid2xx",
     "profile": "aloneyexe",
     "profileName": "aloneyexe",
@@ -92750,6 +92617,25 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "therealkhilo",
+    "profile": "egomanyk",
+    "profileName": "egomanyk",
+    "points": 10,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792440702000,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -94031,6 +93917,25 @@
     }
   },
   {
+    "name": "therealkhilo",
+    "profile": "insta_lock4",
+    "profileName": "insta_lock4",
+    "points": 10,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792440656000,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "jsaxter",
     "profile": "insta_lock4",
     "profileName": "insta_lock4",
@@ -95026,6 +94931,139 @@
     "gain_24h": 0,
     "gain_total": 0,
     "last_activity": 1792438717000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "smgemega",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 10,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438774000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "itkeallneekno_tv",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 10,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438375000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "erzadray1",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 10,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438750000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "shawthaking",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 10,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438929000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "respawn_verified",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 10,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438611000,
+    "events_count": 2,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "v_illains",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 10,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438493000,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "dirkdontlose",
+    "profile": "nano_my_banana",
+    "profileName": "nano_my_banana",
+    "points": 10,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "last_activity": 1792438820000,
     "events_count": 3,
     "active_today": true,
     "breakdown": {

@@ -1353,7 +1353,7 @@
     "name": "mavietoria",
     "points": 1390,
     "last_activity": 1792439555000,
-    "gain_24h": 810,
+    "gain_24h": 410,
     "gain_total": 820,
     "start_points": 570,
     "events_count": 7,
@@ -1533,7 +1533,7 @@
     "name": "chawndo",
     "points": 1080,
     "last_activity": 1792438777000,
-    "gain_24h": 10,
+    "gain_24h": 0,
     "gain_total": 90,
     "start_points": 990,
     "events_count": 4,
@@ -2070,6 +2070,24 @@
     }
   },
   {
+    "name": "joshltfc",
+    "points": 270,
+    "last_activity": 1792442927000,
+    "gain_24h": 260,
+    "gain_total": 260,
+    "start_points": 10,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 1,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "sadgirlgaymer",
     "points": 260,
     "last_activity": 1792438805000,
@@ -2309,24 +2327,6 @@
     "last_activity": 1792440737000,
     "gain_24h": 10,
     "gain_total": 310,
-    "start_points": 10,
-    "events_count": 4,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 4,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "joshltfc",
-    "points": 20,
-    "last_activity": 1792440434000,
-    "gain_24h": 10,
-    "gain_total": 10,
     "start_points": 10,
     "events_count": 4,
     "active_today": true,

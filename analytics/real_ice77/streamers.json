@@ -345,7 +345,7 @@
     "name": "hezeclips",
     "points": 58110,
     "last_activity": 1792438753000,
-    "gain_24h": 20,
+    "gain_24h": 0,
     "gain_total": 12350,
     "start_points": 45760,
     "events_count": 7,
@@ -2052,6 +2052,24 @@
     }
   },
   {
+    "name": "jllei",
+    "points": 1710,
+    "last_activity": 1792442816000,
+    "gain_24h": 720,
+    "gain_total": 720,
+    "start_points": 990,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "sc4p3_fps",
     "points": 1680,
     "last_activity": 1792438678000,
@@ -2242,24 +2260,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 12,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "jllei",
-    "points": 1250,
-    "last_activity": 1792438870000,
-    "gain_24h": 260,
-    "gain_total": 260,
-    "start_points": 990,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

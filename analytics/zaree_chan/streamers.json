@@ -723,7 +723,7 @@
     "name": "activelyboss",
     "points": 6480,
     "last_activity": 1792438612000,
-    "gain_24h": 310,
+    "gain_24h": 0,
     "gain_total": 2600,
     "start_points": 3880,
     "events_count": 4,
@@ -1281,7 +1281,7 @@
     "name": "itzmelloncs",
     "points": 1620,
     "last_activity": 1792438609000,
-    "gain_24h": 10,
+    "gain_24h": 0,
     "gain_total": 1610,
     "start_points": 10,
     "events_count": 4,
@@ -1451,6 +1451,24 @@
     "breakdown": {
       "Watch": 4,
       "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "doxlet",
+    "points": 1140,
+    "last_activity": 1792442715000,
+    "gain_24h": 410,
+    "gain_total": 820,
+    "start_points": 320,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1638,24 +1656,6 @@
     }
   },
   {
-    "name": "doxlet",
-    "points": 730,
-    "last_activity": 1792438042000,
-    "gain_24h": 0,
-    "gain_total": 410,
-    "start_points": 320,
-    "events_count": 4,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 1,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "blakkghostcs",
     "points": 730,
     "last_activity": 1792438199000,
@@ -1749,7 +1749,7 @@
     "name": "real_juiceegod",
     "points": 570,
     "last_activity": 1792438668000,
-    "gain_24h": 310,
+    "gain_24h": 0,
     "gain_total": 310,
     "start_points": 260,
     "events_count": 3,

@@ -1982,14 +1982,14 @@
   {
     "name": "kyriefnx",
     "points": 4450,
-    "last_activity": 1791037280000,
+    "last_activity": 1790626207000,
     "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 4450,
-    "events_count": 3,
+    "gain_total": 2960,
+    "start_points": 1490,
+    "events_count": 2,
     "active_today": false,
     "breakdown": {
-      "Watch": 3,
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2144,14 +2144,14 @@
   {
     "name": "baddieblume",
     "points": 3450,
-    "last_activity": 1792520939000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 3450,
-    "events_count": 1,
+    "last_activity": 1792522691000,
+    "gain_24h": 10,
+    "gain_total": 10,
+    "start_points": 3440,
+    "events_count": 2,
     "active_today": true,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2341,15 +2341,15 @@
   },
   {
     "name": "abyzou",
-    "points": 2740,
-    "last_activity": 1792520596000,
-    "gain_24h": 0,
-    "gain_total": 0,
+    "points": 2750,
+    "last_activity": 1792522029000,
+    "gain_24h": 10,
+    "gain_total": 10,
     "start_points": 2740,
-    "events_count": 1,
+    "events_count": 2,
     "active_today": true,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2430,9 +2430,9 @@
     }
   },
   {
-    "name": "zobstan",
+    "name": "zenny",
     "points": 2350,
-    "last_activity": 1792520300000,
+    "last_activity": 1792520302000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 2350,
@@ -2448,9 +2448,9 @@
     }
   },
   {
-    "name": "zenny",
+    "name": "zobstan",
     "points": 2350,
-    "last_activity": 1792520302000,
+    "last_activity": 1792520300000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 2350,
@@ -2736,6 +2736,24 @@
     }
   },
   {
+    "name": "therealkhilo",
+    "points": 1230,
+    "last_activity": 1792522338000,
+    "gain_24h": 410,
+    "gain_total": 760,
+    "start_points": 820,
+    "events_count": 4,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "shawthaking",
     "points": 1200,
     "last_activity": 1792520288000,
@@ -2756,7 +2774,7 @@
   {
     "name": "huffalispuffalis",
     "points": 1150,
-    "last_activity": 1792520881000,
+    "last_activity": 1792520700000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 1150,
@@ -2778,24 +2796,6 @@
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 1140,
-    "events_count": 1,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "therealkhilo",
-    "points": 1120,
-    "last_activity": 1792520733000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 1120,
     "events_count": 1,
     "active_today": true,
     "breakdown": {
@@ -2918,7 +2918,7 @@
   {
     "name": "respawn_verified",
     "points": 320,
-    "last_activity": 1792520962000,
+    "last_activity": 1792520786000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 320,

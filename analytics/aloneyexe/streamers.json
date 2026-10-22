@@ -145,16 +145,16 @@
   },
   {
     "name": "pbomba_",
-    "points": 90140,
-    "last_activity": 1792643942000,
-    "gain_24h": 360,
-    "gain_total": 360,
+    "points": 90600,
+    "last_activity": 1792646772000,
+    "gain_24h": 810,
+    "gain_total": 1220,
     "start_points": 89780,
-    "events_count": 6,
+    "events_count": 9,
     "active_today": true,
     "breakdown": {
-      "Watch": 6,
-      "Claim": 0,
+      "Watch": 8,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1173,7 +1173,7 @@
     "name": "defuseggxttv",
     "points": 2580,
     "last_activity": 1792645550000,
-    "gain_24h": 920,
+    "gain_24h": 910,
     "gain_total": 920,
     "start_points": 1660,
     "events_count": 8,
@@ -1181,6 +1181,24 @@
     "breakdown": {
       "Watch": 8,
       "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "ssjaymusic",
+    "points": 2570,
+    "last_activity": 1792647041000,
+    "gain_24h": 980,
+    "gain_total": 1900,
+    "start_points": 1120,
+    "events_count": 13,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 12,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1324,24 +1342,6 @@
     "active_today": false,
     "breakdown": {
       "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "ssjaymusic",
-    "points": 2060,
-    "last_activity": 1792645900000,
-    "gain_24h": 470,
-    "gain_total": 1390,
-    "start_points": 1120,
-    "events_count": 11,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 11,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1677,7 +1677,7 @@
     "name": "mrbunnyelite",
     "points": 1050,
     "last_activity": 1792643804000,
-    "gain_24h": 310,
+    "gain_24h": 0,
     "gain_total": 310,
     "start_points": 740,
     "events_count": 5,
@@ -1803,7 +1803,7 @@
     "name": "emniag",
     "points": 670,
     "last_activity": 1792645086000,
-    "gain_24h": 100,
+    "gain_24h": 90,
     "gain_total": 160,
     "start_points": 510,
     "events_count": 9,
@@ -1908,6 +1908,24 @@
     }
   },
   {
+    "name": "cobeano_",
+    "points": 380,
+    "last_activity": 1792646586000,
+    "gain_24h": 60,
+    "gain_total": 60,
+    "start_points": 320,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "mattlibra",
     "points": 380,
     "last_activity": 1792644278000,
@@ -1965,7 +1983,7 @@
     "name": "glitchie__",
     "points": 330,
     "last_activity": 1792644063000,
-    "gain_24h": 10,
+    "gain_24h": 0,
     "gain_total": 10,
     "start_points": 320,
     "events_count": 5,
@@ -2019,24 +2037,6 @@
     "name": "sammymedows",
     "points": 320,
     "last_activity": 1792644070000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 320,
-    "events_count": 4,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 4,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "cobeano_",
-    "points": 320,
-    "last_activity": 1792643995000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 320,
@@ -2196,6 +2196,24 @@
     }
   },
   {
+    "name": "whoiskillrob",
+    "points": 20,
+    "last_activity": 1792646798000,
+    "gain_24h": 10,
+    "gain_total": 310,
+    "start_points": 10,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "jsaxter",
     "points": 20,
     "last_activity": 1792644218000,
@@ -2296,24 +2314,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 5,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "whoiskillrob",
-    "points": 10,
-    "last_activity": 1792644386000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 10,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

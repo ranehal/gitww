@@ -38,14 +38,14 @@
   {
     "name": "olofmeister",
     "points": 168640,
-    "last_activity": 1792521114000,
+    "last_activity": 1792644593000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 168640,
-    "events_count": 1,
-    "active_today": false,
+    "events_count": 2,
+    "active_today": true,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -200,14 +200,14 @@
   {
     "name": "lymegreentv",
     "points": 76490,
-    "last_activity": 1792521106000,
+    "last_activity": 1792644576000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 76490,
-    "events_count": 1,
-    "active_today": false,
+    "events_count": 2,
+    "active_today": true,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -756,6 +756,24 @@
     }
   },
   {
+    "name": "spolli1_",
+    "points": 13720,
+    "last_activity": 1792645690000,
+    "gain_24h": 360,
+    "gain_total": 620,
+    "start_points": 13100,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "babushkaboytv",
     "points": 13600,
     "last_activity": 1792644340000,
@@ -766,24 +784,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "spolli1_",
-    "points": 13360,
-    "last_activity": 1792644190000,
-    "gain_24h": 0,
-    "gain_total": 260,
-    "start_points": 13100,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1064,14 +1064,14 @@
   {
     "name": "baconsbeta",
     "points": 8770,
-    "last_activity": 1792521157000,
+    "last_activity": 1792644618000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 8770,
-    "events_count": 1,
-    "active_today": false,
+    "events_count": 2,
+    "active_today": true,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1189,15 +1189,15 @@
   },
   {
     "name": "ichigrim",
-    "points": 6840,
-    "last_activity": 1792644307000,
-    "gain_24h": 0,
-    "gain_total": 0,
+    "points": 6850,
+    "last_activity": 1792646109000,
+    "gain_24h": 10,
+    "gain_total": 460,
     "start_points": 6840,
-    "events_count": 2,
+    "events_count": 4,
     "active_today": true,
     "breakdown": {
-      "Watch": 2,
+      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1352,14 +1352,14 @@
   {
     "name": "kookiekiku",
     "points": 5210,
-    "last_activity": 1792521150000,
+    "last_activity": 1792644610000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 5210,
-    "events_count": 1,
-    "active_today": false,
+    "events_count": 2,
+    "active_today": true,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1406,14 +1406,14 @@
   {
     "name": "rincewindtgw",
     "points": 4790,
-    "last_activity": 1792521115000,
+    "last_activity": 1792644586000,
     "gain_24h": 0,
     "gain_total": 160,
     "start_points": 4840,
-    "events_count": 4,
-    "active_today": false,
+    "events_count": 5,
+    "active_today": true,
     "breakdown": {
-      "Watch": 4,
+      "Watch": 5,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1423,15 +1423,15 @@
   },
   {
     "name": "defuseggxttv",
-    "points": 4520,
-    "last_activity": 1792643890000,
-    "gain_24h": 0,
-    "gain_total": 0,
+    "points": 4530,
+    "last_activity": 1792644925000,
+    "gain_24h": 10,
+    "gain_total": 460,
     "start_points": 4520,
-    "events_count": 4,
+    "events_count": 6,
     "active_today": true,
     "breakdown": {
-      "Watch": 4,
+      "Watch": 6,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1450,6 +1450,24 @@
     "active_today": false,
     "breakdown": {
       "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "ssjaymusic",
+    "points": 4240,
+    "last_activity": 1792645843000,
+    "gain_24h": 460,
+    "gain_total": 1440,
+    "start_points": 2800,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 6,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1496,32 +1514,14 @@
   {
     "name": "nbkguapo",
     "points": 3820,
-    "last_activity": 1792521145000,
+    "last_activity": 1792644594000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 3820,
-    "events_count": 1,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "ssjaymusic",
-    "points": 3780,
-    "last_activity": 1792644473000,
-    "gain_24h": 0,
-    "gain_total": 980,
-    "start_points": 2800,
-    "events_count": 4,
+    "events_count": 2,
     "active_today": true,
     "breakdown": {
-      "Watch": 4,
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1532,14 +1532,14 @@
   {
     "name": "jemplfg",
     "points": 3430,
-    "last_activity": 1792521116000,
+    "last_activity": 1792644580000,
     "gain_24h": 0,
     "gain_total": 560,
     "start_points": 3230,
-    "events_count": 6,
-    "active_today": false,
+    "events_count": 7,
+    "active_today": true,
     "breakdown": {
-      "Watch": 5,
+      "Watch": 6,
       "Claim": 0,
       "Streak": 0,
       "Raid": 1,
@@ -1549,15 +1549,15 @@
   },
   {
     "name": "slayer_izaya",
-    "points": 3380,
-    "last_activity": 1792643818000,
-    "gain_24h": 0,
-    "gain_total": 0,
+    "points": 3390,
+    "last_activity": 1792644977000,
+    "gain_24h": 10,
+    "gain_total": 10,
     "start_points": 3380,
-    "events_count": 4,
+    "events_count": 5,
     "active_today": true,
     "breakdown": {
-      "Watch": 4,
+      "Watch": 5,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1567,15 +1567,15 @@
   },
   {
     "name": "cato_cm",
-    "points": 3120,
-    "last_activity": 1792521156000,
+    "points": 3130,
+    "last_activity": 1792644610000,
     "gain_24h": 0,
-    "gain_total": 0,
+    "gain_total": 10,
     "start_points": 3120,
-    "events_count": 1,
-    "active_today": false,
+    "events_count": 2,
+    "active_today": true,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1594,6 +1594,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "burrqt",
+    "points": 2990,
+    "last_activity": 1792644612000,
+    "gain_24h": 0,
+    "gain_total": 460,
+    "start_points": 2530,
+    "events_count": 2,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1684,24 +1702,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "burrqt",
-    "points": 2530,
-    "last_activity": 1792521156000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 2530,
-    "events_count": 1,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 1,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1891,15 +1891,15 @@
   },
   {
     "name": "spysmily",
-    "points": 1740,
-    "last_activity": 1792644072000,
-    "gain_24h": 0,
-    "gain_total": 0,
+    "points": 1750,
+    "last_activity": 1792645874000,
+    "gain_24h": 10,
+    "gain_total": 10,
     "start_points": 1740,
-    "events_count": 3,
+    "events_count": 4,
     "active_today": true,
     "breakdown": {
-      "Watch": 3,
+      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2196,6 +2196,24 @@
     }
   },
   {
+    "name": "vulture5x",
+    "points": 1060,
+    "last_activity": 1792645596000,
+    "gain_24h": 360,
+    "gain_total": 670,
+    "start_points": 690,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "doxlet",
     "points": 1040,
     "last_activity": 1792644095000,
@@ -2215,15 +2233,15 @@
   },
   {
     "name": "emniag",
-    "points": 960,
-    "last_activity": 1792643961000,
-    "gain_24h": 0,
-    "gain_total": 380,
+    "points": 970,
+    "last_activity": 1792645432000,
+    "gain_24h": 10,
+    "gain_total": 390,
     "start_points": 580,
-    "events_count": 6,
+    "events_count": 7,
     "active_today": true,
     "breakdown": {
-      "Watch": 5,
+      "Watch": 6,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -2268,16 +2286,34 @@
     }
   },
   {
+    "name": "moroccan789",
+    "points": 770,
+    "last_activity": 1792644601000,
+    "gain_24h": 0,
+    "gain_total": 510,
+    "start_points": 260,
+    "events_count": 2,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "gaxlab_",
     "points": 760,
-    "last_activity": 1792521142000,
+    "last_activity": 1792644601000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 760,
-    "events_count": 1,
-    "active_today": false,
+    "events_count": 2,
+    "active_today": true,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2314,24 +2350,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "vulture5x",
-    "points": 700,
-    "last_activity": 1792644058000,
-    "gain_24h": 0,
-    "gain_total": 10,
-    "start_points": 690,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2592,24 +2610,6 @@
     }
   },
   {
-    "name": "moroccan789",
-    "points": 260,
-    "last_activity": 1792521138000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 260,
-    "events_count": 1,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "slashthehvy1",
     "points": 260,
     "last_activity": 1792644139000,
@@ -2700,6 +2700,24 @@
     }
   },
   {
+    "name": "whoiskillrob",
+    "points": 20,
+    "last_activity": 1792646176000,
+    "gain_24h": 10,
+    "gain_total": 310,
+    "start_points": 10,
+    "events_count": 4,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "sadgirlz_4life",
     "points": 20,
     "last_activity": 1792644222000,
@@ -2728,24 +2746,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "whoiskillrob",
-    "points": 10,
-    "last_activity": 1792644394000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 10,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2818,6 +2818,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "shawthaking",
+    "points": 10,
+    "last_activity": 1792644611000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 10,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

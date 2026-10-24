@@ -1368,24 +1368,6 @@
     }
   },
   {
-    "name": "vbake_",
-    "points": 19530,
-    "last_activity": 1792849959000,
-    "gain_24h": 0,
-    "gain_total": 18790,
-    "start_points": 740,
-    "events_count": 5,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 5,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "renafying",
     "points": 17920,
     "last_activity": 1791044449000,
@@ -1738,6 +1720,24 @@
     "active_today": false,
     "breakdown": {
       "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "vbake_",
+    "points": 10340,
+    "last_activity": 1792850847000,
+    "gain_24h": 20,
+    "gain_total": 5820,
+    "start_points": 4520,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 6,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2864,14 +2864,14 @@
   {
     "name": "respawn_verified",
     "points": 1600,
-    "last_activity": 1792850181000,
+    "last_activity": 1792850051000,
     "gain_24h": 0,
     "gain_total": 1280,
     "start_points": 320,
-    "events_count": 4,
+    "events_count": 5,
     "active_today": true,
     "breakdown": {
-      "Watch": 4,
+      "Watch": 5,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

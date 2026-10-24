@@ -739,15 +739,15 @@
   },
   {
     "name": "alexnoclip",
-    "points": 7520,
-    "last_activity": 1792851626000,
-    "gain_24h": 10,
-    "gain_total": 10,
+    "points": 7530,
+    "last_activity": 1792851932000,
+    "gain_24h": 20,
+    "gain_total": 20,
     "start_points": 7510,
-    "events_count": 5,
+    "events_count": 6,
     "active_today": true,
     "breakdown": {
-      "Watch": 5,
+      "Watch": 6,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1800,6 +1800,24 @@
     }
   },
   {
+    "name": "vbake_",
+    "points": 1590,
+    "last_activity": 1792851962000,
+    "gain_24h": 360,
+    "gain_total": 380,
+    "start_points": 1210,
+    "events_count": 7,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 6,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "flow1of1tv",
     "points": 1530,
     "last_activity": 1792850149000,
@@ -1936,24 +1954,6 @@
     "active_today": false,
     "breakdown": {
       "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "vbake_",
-    "points": 1230,
-    "last_activity": 1792849897000,
-    "gain_24h": 0,
-    "gain_total": 20,
-    "start_points": 1210,
-    "events_count": 4,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

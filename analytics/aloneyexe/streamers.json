@@ -865,16 +865,16 @@
   },
   {
     "name": "alexnoclip",
-    "points": 7520,
-    "last_activity": 1792851619000,
-    "gain_24h": 10,
-    "gain_total": 20,
+    "points": 7580,
+    "last_activity": 1792851920000,
+    "gain_24h": 70,
+    "gain_total": 80,
     "start_points": 7500,
-    "events_count": 6,
+    "events_count": 8,
     "active_today": true,
     "breakdown": {
-      "Watch": 6,
-      "Claim": 0,
+      "Watch": 7,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1854,6 +1854,24 @@
     }
   },
   {
+    "name": "vbake_",
+    "points": 400,
+    "last_activity": 1792852157000,
+    "gain_24h": 10,
+    "gain_total": 10,
+    "start_points": 390,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 6,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "sc4p3_fps",
     "points": 400,
     "last_activity": 1792851530000,
@@ -1875,24 +1893,6 @@
     "name": "dotmalibu",
     "points": 390,
     "last_activity": 1792849793000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 390,
-    "events_count": 5,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 5,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "vbake_",
-    "points": 390,
-    "last_activity": 1792849913000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 390,

@@ -414,24 +414,6 @@
     }
   },
   {
-    "name": "vbake_",
-    "points": 19530,
-    "last_activity": 1792849959000,
-    "gain_24h": 0,
-    "gain_total": 18790,
-    "start_points": 740,
-    "events_count": 5,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 5,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "sgtfresh",
     "points": 19530,
     "last_activity": 1792849959000,
@@ -1847,6 +1829,24 @@
     "breakdown": {
       "Watch": 5,
       "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "vbake_",
+    "points": 1120,
+    "last_activity": 1792851975000,
+    "gain_24h": 350,
+    "gain_total": 380,
+    "start_points": 740,
+    "events_count": 7,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 6,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,

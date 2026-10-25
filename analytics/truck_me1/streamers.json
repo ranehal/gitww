@@ -384,10 +384,10 @@
     "gain_24h": 60,
     "gain_total": 10030,
     "start_points": 38290,
-    "events_count": 12,
+    "events_count": 11,
     "active_today": true,
     "breakdown": {
-      "Watch": 10,
+      "Watch": 9,
       "Claim": 2,
       "Streak": 0,
       "Raid": 0,
@@ -2808,34 +2808,16 @@
     }
   },
   {
-    "name": "smgemega",
+    "name": "saturn_720",
     "points": 320,
-    "last_activity": 1792850324000,
+    "last_activity": 1792849831000,
     "gain_24h": 0,
     "gain_total": 310,
     "start_points": 10,
-    "events_count": 3,
+    "events_count": 4,
     "active_today": true,
     "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "itkeallneekno_tv",
-    "points": 320,
-    "last_activity": 1792850013000,
-    "gain_24h": 0,
-    "gain_total": 310,
-    "start_points": 10,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
+      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2862,16 +2844,16 @@
     }
   },
   {
-    "name": "saturn_720",
+    "name": "shawthaking",
     "points": 320,
-    "last_activity": 1792849831000,
+    "last_activity": 1792850460000,
     "gain_24h": 0,
     "gain_total": 310,
     "start_points": 10,
-    "events_count": 4,
+    "events_count": 3,
     "active_today": true,
     "breakdown": {
-      "Watch": 4,
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2880,9 +2862,27 @@
     }
   },
   {
-    "name": "shawthaking",
+    "name": "smgemega",
     "points": 320,
-    "last_activity": 1792850460000,
+    "last_activity": 1792850324000,
+    "gain_24h": 0,
+    "gain_total": 310,
+    "start_points": 10,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "itkeallneekno_tv",
+    "points": 320,
+    "last_activity": 1792850013000,
     "gain_24h": 0,
     "gain_total": 310,
     "start_points": 10,

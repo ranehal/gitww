@@ -474,10 +474,10 @@
     "gain_24h": 460,
     "gain_total": 1430,
     "start_points": 21970,
-    "events_count": 6,
+    "events_count": 5,
     "active_today": true,
     "breakdown": {
-      "Watch": 6,
+      "Watch": 5,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1332,24 +1332,6 @@
     }
   },
   {
-    "name": "dotmalibu",
-    "points": 4950,
-    "last_activity": 1792849726000,
-    "gain_24h": 0,
-    "gain_total": 1320,
-    "start_points": 3630,
-    "events_count": 4,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 4,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "abyzou",
     "points": 4950,
     "last_activity": 1792851513000,
@@ -1361,6 +1343,24 @@
     "breakdown": {
       "Watch": 7,
       "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "dotmalibu",
+    "points": 4950,
+    "last_activity": 1792849726000,
+    "gain_24h": 0,
+    "gain_total": 1320,
+    "start_points": 3630,
+    "events_count": 4,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 0,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1446,10 +1446,10 @@
     "gain_24h": 510,
     "gain_total": 1430,
     "start_points": 3000,
-    "events_count": 7,
+    "events_count": 5,
     "active_today": true,
     "breakdown": {
-      "Watch": 6,
+      "Watch": 4,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -1746,12 +1746,12 @@
     }
   },
   {
-    "name": "burrqt",
+    "name": "blamzzy",
     "points": 3510,
-    "last_activity": 1792850451000,
+    "last_activity": 1792849967000,
     "gain_24h": 0,
-    "gain_total": 960,
-    "start_points": 2550,
+    "gain_total": 0,
+    "start_points": 3510,
     "events_count": 4,
     "active_today": true,
     "breakdown": {
@@ -1764,12 +1764,12 @@
     }
   },
   {
-    "name": "blamzzy",
+    "name": "burrqt",
     "points": 3510,
-    "last_activity": 1792849967000,
+    "last_activity": 1792850451000,
     "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 3510,
+    "gain_total": 960,
+    "start_points": 2550,
     "events_count": 4,
     "active_today": true,
     "breakdown": {
@@ -2682,12 +2682,12 @@
     }
   },
   {
-    "name": "slashthehvy1",
+    "name": "ironmancarter",
     "points": 750,
-    "last_activity": 1792849970000,
+    "last_activity": 1792849938000,
     "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 750,
+    "gain_total": 10,
+    "start_points": 740,
     "events_count": 4,
     "active_today": true,
     "breakdown": {
@@ -2700,12 +2700,12 @@
     }
   },
   {
-    "name": "ironmancarter",
+    "name": "slashthehvy1",
     "points": 750,
-    "last_activity": 1792849938000,
+    "last_activity": 1792849970000,
     "gain_24h": 0,
-    "gain_total": 10,
-    "start_points": 740,
+    "gain_total": 0,
+    "start_points": 750,
     "events_count": 4,
     "active_today": true,
     "breakdown": {
@@ -2898,16 +2898,16 @@
     }
   },
   {
-    "name": "ssjaymusic",
+    "name": "kiid2xx",
     "points": 10,
-    "last_activity": 1792850311000,
+    "last_activity": 1792850364000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 10,
-    "events_count": 1,
+    "events_count": 4,
     "active_today": true,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2916,7 +2916,7 @@
     }
   },
   {
-    "name": "smgemega",
+    "name": "ssjaymusic",
     "points": 10,
     "last_activity": 1792850311000,
     "gain_24h": 0,
@@ -2952,16 +2952,16 @@
     }
   },
   {
-    "name": "kiid2xx",
+    "name": "smgemega",
     "points": 10,
-    "last_activity": 1792850364000,
+    "last_activity": 1792850311000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 10,
-    "events_count": 4,
+    "events_count": 1,
     "active_today": true,
     "breakdown": {
-      "Watch": 4,
+      "Watch": 1,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

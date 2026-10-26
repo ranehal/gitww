@@ -523,15 +523,15 @@
   },
   {
     "name": "fermboss0",
-    "points": 35180,
-    "last_activity": 1793014759000,
-    "gain_24h": 0,
-    "gain_total": 7540,
+    "points": 35190,
+    "last_activity": 1793016791000,
+    "gain_24h": 10,
+    "gain_total": 7850,
     "start_points": 27640,
-    "events_count": 4,
+    "events_count": 6,
     "active_today": true,
     "breakdown": {
-      "Watch": 4,
+      "Watch": 6,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2520,6 +2520,24 @@
     }
   },
   {
+    "name": "flipnekotv",
+    "points": 1610,
+    "last_activity": 1793017704000,
+    "gain_24h": 560,
+    "gain_total": 560,
+    "start_points": 1050,
+    "events_count": 12,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 10,
+      "Claim": 2,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "respawn_verified",
     "points": 1600,
     "last_activity": 1793014517000,
@@ -2549,24 +2567,6 @@
     "breakdown": {
       "Watch": 2,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "flipnekotv",
-    "points": 1520,
-    "last_activity": 1793015121000,
-    "gain_24h": 470,
-    "gain_total": 470,
-    "start_points": 1050,
-    "events_count": 7,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 6,
-      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,

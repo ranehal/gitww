@@ -775,15 +775,15 @@
   },
   {
     "name": "topshoter_no",
-    "points": 8040,
-    "last_activity": 1793014423000,
-    "gain_24h": 0,
-    "gain_total": 0,
+    "points": 8050,
+    "last_activity": 1793015974000,
+    "gain_24h": 10,
+    "gain_total": 10,
     "start_points": 8040,
-    "events_count": 2,
+    "events_count": 3,
     "active_today": true,
     "breakdown": {
-      "Watch": 2,
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2574,6 +2574,24 @@
     }
   },
   {
+    "name": "flipnekotv",
+    "points": 330,
+    "last_activity": 1793016033000,
+    "gain_24h": 320,
+    "gain_total": 320,
+    "start_points": 10,
+    "events_count": 4,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "outlawz_psycho",
     "points": 330,
     "last_activity": 1793014644000,
@@ -2656,24 +2674,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "flipnekotv",
-    "points": 320,
-    "last_activity": 1793014532000,
-    "gain_24h": 310,
-    "gain_total": 310,
-    "start_points": 10,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

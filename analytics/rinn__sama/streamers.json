@@ -559,15 +559,15 @@
   },
   {
     "name": "fermboss0",
-    "points": 12330,
-    "last_activity": 1793014758000,
-    "gain_24h": 0,
-    "gain_total": 0,
+    "points": 12340,
+    "last_activity": 1793016219000,
+    "gain_24h": 10,
+    "gain_total": 360,
     "start_points": 12330,
-    "events_count": 1,
+    "events_count": 3,
     "active_today": true,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -577,15 +577,15 @@
   },
   {
     "name": "emniag",
-    "points": 11580,
-    "last_activity": 1793015053000,
-    "gain_24h": 710,
-    "gain_total": 710,
+    "points": 11590,
+    "last_activity": 1793016353000,
+    "gain_24h": 720,
+    "gain_total": 720,
     "start_points": 10870,
-    "events_count": 3,
+    "events_count": 4,
     "active_today": true,
     "breakdown": {
-      "Watch": 3,
+      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1044,6 +1044,24 @@
     }
   },
   {
+    "name": "abyzou",
+    "points": 4720,
+    "last_activity": 1793016336000,
+    "gain_24h": 510,
+    "gain_total": 960,
+    "start_points": 4210,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "defuseggxttv",
     "points": 4540,
     "last_activity": 1793015567000,
@@ -1068,24 +1086,6 @@
     "gain_24h": 0,
     "gain_total": 3660,
     "start_points": 780,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "abyzou",
-    "points": 4210,
-    "last_activity": 1793014165000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 4210,
     "events_count": 2,
     "active_today": true,
     "breakdown": {

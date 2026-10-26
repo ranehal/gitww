@@ -276,10 +276,10 @@
     "gain_24h": 530,
     "gain_total": 25360,
     "start_points": 44260,
-    "events_count": 40,
+    "events_count": 39,
     "active_today": true,
     "breakdown": {
-      "Watch": 28,
+      "Watch": 27,
       "Claim": 12,
       "Streak": 0,
       "Raid": 0,
@@ -418,13 +418,13 @@
     "points": 49790,
     "last_activity": 1793017625000,
     "gain_24h": 600,
-    "gain_total": 21280,
+    "gain_total": 20780,
     "start_points": 29010,
-    "events_count": 11,
+    "events_count": 9,
     "active_today": true,
     "breakdown": {
-      "Watch": 9,
-      "Claim": 2,
+      "Watch": 8,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -720,24 +720,6 @@
     }
   },
   {
-    "name": "chawndo",
-    "points": 27170,
-    "last_activity": 1793014236000,
-    "gain_24h": 0,
-    "gain_total": 10010,
-    "start_points": 17160,
-    "events_count": 5,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 5,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "themuffingirl",
     "points": 27170,
     "last_activity": 1793014236000,
@@ -748,6 +730,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "chawndo",
+    "points": 27170,
+    "last_activity": 1793014236000,
+    "gain_24h": 0,
+    "gain_total": 10010,
+    "start_points": 17160,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2448,24 +2448,6 @@
     }
   },
   {
-    "name": "jetersold",
-    "points": 2300,
-    "last_activity": 1791037412000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 2300,
-    "events_count": 3,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "erzadray1",
     "points": 2300,
     "last_activity": 1793014281000,
@@ -2476,6 +2458,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "jetersold",
+    "points": 2300,
+    "last_activity": 1791037412000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 2300,
+    "events_count": 3,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2898,24 +2898,6 @@
     }
   },
   {
-    "name": "saturn_720",
-    "points": 320,
-    "last_activity": 1793014379000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 320,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "v_illains",
     "points": 320,
     "last_activity": 1793014615000,
@@ -2944,6 +2926,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "saturn_720",
+    "points": 320,
+    "last_activity": 1793014379000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 320,
+    "events_count": 2,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

@@ -361,15 +361,15 @@
   },
   {
     "name": "fermboss0",
-    "points": 51500,
-    "last_activity": 1793014764000,
-    "gain_24h": 0,
-    "gain_total": 10490,
+    "points": 51510,
+    "last_activity": 1793016604000,
+    "gain_24h": 10,
+    "gain_total": 10500,
     "start_points": 41010,
-    "events_count": 4,
+    "events_count": 5,
     "active_today": true,
     "breakdown": {
-      "Watch": 4,
+      "Watch": 5,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1710,6 +1710,24 @@
     }
   },
   {
+    "name": "abyzou",
+    "points": 6430,
+    "last_activity": 1793016424000,
+    "gain_24h": 510,
+    "gain_total": 960,
+    "start_points": 5920,
+    "events_count": 4,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "slayer_izaya",
     "points": 6380,
     "last_activity": 1793014507000,
@@ -1788,24 +1806,6 @@
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 6170,
-    "events_count": 1,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "abyzou",
-    "points": 5920,
-    "last_activity": 1793014666000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 5920,
     "events_count": 1,
     "active_today": true,
     "breakdown": {

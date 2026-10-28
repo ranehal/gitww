@@ -10,16 +10,6 @@
     "is_current": false
   },
   {
-    "id": "Vodar_Jol",
-    "name": "Vodar_Jol",
-    "streamers_count": 165,
-    "total_points": 3378012,
-    "gain_24h": 36682,
-    "active_today_count": 132,
-    "has_data": true,
-    "is_current": true
-  },
-  {
     "id": "aethermain7",
     "name": "aethermain7",
     "streamers_count": 87,
@@ -27,7 +17,7 @@
     "gain_24h": 0,
     "active_today_count": 0,
     "has_data": true,
-    "is_current": false
+    "is_current": true
   },
   {
     "id": "aloneyexe",
@@ -163,8 +153,8 @@
     "id": "jhonny_sims_",
     "name": "jhonny_sims_",
     "streamers_count": 165,
-    "total_points": 3188745,
-    "gain_24h": 42810,
+    "total_points": 3189205,
+    "gain_24h": 43270,
     "active_today_count": 132,
     "has_data": true,
     "is_current": false
@@ -203,8 +193,8 @@
     "id": "moemoe____",
     "name": "moemoe____",
     "streamers_count": 165,
-    "total_points": 4536998,
-    "gain_24h": 44912,
+    "total_points": 4537008,
+    "gain_24h": 44922,
     "active_today_count": 132,
     "has_data": true,
     "is_current": false
@@ -223,8 +213,8 @@
     "id": "nano_my_banana",
     "name": "nano_my_banana",
     "streamers_count": 165,
-    "total_points": 4652542,
-    "gain_24h": 56646,
+    "total_points": 4652552,
+    "gain_24h": 56656,
     "active_today_count": 132,
     "has_data": true,
     "is_current": false
@@ -336,6 +326,16 @@
     "total_points": 3506098,
     "gain_24h": 21050,
     "active_today_count": 94,
+    "has_data": true,
+    "is_current": false
+  },
+  {
+    "id": "Vodar_Jol",
+    "name": "Vodar_Jol",
+    "streamers_count": 165,
+    "total_points": 3378012,
+    "gain_24h": 36682,
+    "active_today_count": 132,
     "has_data": true,
     "is_current": false
   },

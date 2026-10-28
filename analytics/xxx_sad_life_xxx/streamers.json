@@ -2628,6 +2628,24 @@
     }
   },
   {
+    "name": "respawn_verified",
+    "points": 640,
+    "last_activity": 1793226171000,
+    "gain_24h": 310,
+    "gain_total": 320,
+    "start_points": 320,
+    "events_count": 7,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 7,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "fab1o_22",
     "points": 570,
     "last_activity": 1793220518000,
@@ -2688,24 +2706,6 @@
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 330,
-    "events_count": 5,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 5,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "respawn_verified",
-    "points": 330,
-    "last_activity": 1793220098000,
-    "gain_24h": 0,
-    "gain_total": 10,
-    "start_points": 320,
     "events_count": 5,
     "active_today": true,
     "breakdown": {

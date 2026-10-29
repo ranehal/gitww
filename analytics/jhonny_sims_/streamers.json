@@ -1063,15 +1063,15 @@
   },
   {
     "name": "sammymedows",
-    "points": 7950,
-    "last_activity": 1793309626000,
-    "gain_24h": 1160,
-    "gain_total": 2400,
+    "points": 7960,
+    "last_activity": 1793309925000,
+    "gain_24h": 1170,
+    "gain_total": 2410,
     "start_points": 5550,
-    "events_count": 29,
+    "events_count": 30,
     "active_today": true,
     "breakdown": {
-      "Watch": 24,
+      "Watch": 25,
       "Claim": 5,
       "Streak": 0,
       "Raid": 0,
@@ -2906,6 +2906,24 @@
     "start_points": 20,
     "events_count": 1,
     "active_today": false,
+    "breakdown": {
+      "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "benadyl",
+    "points": 10,
+    "last_activity": 1793309996000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 10,
+    "events_count": 1,
+    "active_today": true,
     "breakdown": {
       "Watch": 1,
       "Claim": 0,

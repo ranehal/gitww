@@ -4,17 +4,17 @@
     "name": "All Accounts (Combined)",
     "streamers_count": 170,
     "total_points": 7286479,
-    "gain_24h": 187222,
+    "gain_24h": 198072,
     "active_today_count": 137,
     "has_data": true,
     "is_current": false
   },
   {
-    "id": "Vodar_Jol",
-    "name": "Vodar_Jol",
+    "id": "nano_my_banana",
+    "name": "nano_my_banana",
     "streamers_count": 166,
-    "total_points": 3412726,
-    "gain_24h": 17950,
+    "total_points": 4553166,
+    "gain_24h": 48520,
     "active_today_count": 133,
     "has_data": true,
     "is_current": true
@@ -220,16 +220,6 @@
     "is_current": false
   },
   {
-    "id": "nano_my_banana",
-    "name": "nano_my_banana",
-    "streamers_count": 166,
-    "total_points": 4553166,
-    "gain_24h": 48520,
-    "active_today_count": 133,
-    "has_data": true,
-    "is_current": false
-  },
-  {
     "id": "penguinfar8",
     "name": "penguinfar8",
     "streamers_count": 169,
@@ -336,6 +326,16 @@
     "total_points": 3564350,
     "gain_24h": 71170,
     "active_today_count": 132,
+    "has_data": true,
+    "is_current": false
+  },
+  {
+    "id": "Vodar_Jol",
+    "name": "Vodar_Jol",
+    "streamers_count": 166,
+    "total_points": 3412726,
+    "gain_24h": 17950,
+    "active_today_count": 133,
     "has_data": true,
     "is_current": false
   },

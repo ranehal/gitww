@@ -990,24 +990,6 @@
     }
   },
   {
-    "name": "betrigan",
-    "points": 37430,
-    "last_activity": 1793302324000,
-    "gain_24h": 0,
-    "gain_total": 10250,
-    "start_points": 27180,
-    "events_count": 10,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 10,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "ssjaymusic",
     "points": 37430,
     "last_activity": 1793303136000,
@@ -1019,6 +1001,24 @@
     "breakdown": {
       "Watch": 16,
       "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "betrigan",
+    "points": 37430,
+    "last_activity": 1793302324000,
+    "gain_24h": 0,
+    "gain_total": 10250,
+    "start_points": 27180,
+    "events_count": 10,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 10,
+      "Claim": 0,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,

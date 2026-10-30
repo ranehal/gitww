@@ -433,15 +433,15 @@
   },
   {
     "name": "original_stump",
-    "points": 46360,
-    "last_activity": 1793385035000,
-    "gain_24h": 310,
-    "gain_total": 20510,
+    "points": 46820,
+    "last_activity": 1793386955000,
+    "gain_24h": 770,
+    "gain_total": 20970,
     "start_points": 25850,
-    "events_count": 17,
+    "events_count": 19,
     "active_today": true,
     "breakdown": {
-      "Watch": 14,
+      "Watch": 16,
       "Claim": 2,
       "Streak": 0,
       "Raid": 1,
@@ -1512,6 +1512,24 @@
     }
   },
   {
+    "name": "andres_3197",
+    "points": 9680,
+    "last_activity": 1793386877000,
+    "gain_24h": 410,
+    "gain_total": 5580,
+    "start_points": 4100,
+    "events_count": 14,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 14,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "mattlibra",
     "points": 9590,
     "last_activity": 1793385919000,
@@ -1523,24 +1541,6 @@
     "breakdown": {
       "Watch": 12,
       "Claim": 1,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "andres_3197",
-    "points": 9270,
-    "last_activity": 1793385013000,
-    "gain_24h": 0,
-    "gain_total": 5170,
-    "start_points": 4100,
-    "events_count": 12,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 12,
-      "Claim": 0,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1818,6 +1818,24 @@
     }
   },
   {
+    "name": "adomhamez",
+    "points": 7760,
+    "last_activity": 1793387202000,
+    "gain_24h": 10,
+    "gain_total": 1940,
+    "start_points": 6270,
+    "events_count": 13,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 12,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "flow1of1tv",
     "points": 7750,
     "last_activity": 1793384796000,
@@ -1829,24 +1847,6 @@
     "breakdown": {
       "Watch": 5,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "adomhamez",
-    "points": 7750,
-    "last_activity": 1793384796000,
-    "gain_24h": 0,
-    "gain_total": 1480,
-    "start_points": 6270,
-    "events_count": 11,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 10,
-      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1927,18 +1927,18 @@
   },
   {
     "name": "nickkehh",
-    "points": 6340,
-    "last_activity": 1793385302000,
-    "gain_24h": 0,
-    "gain_total": 2640,
+    "points": 6590,
+    "last_activity": 1793386983000,
+    "gain_24h": 250,
+    "gain_total": 2890,
     "start_points": 3700,
-    "events_count": 9,
+    "events_count": 10,
     "active_today": true,
     "breakdown": {
       "Watch": 8,
       "Claim": 1,
       "Streak": 0,
-      "Raid": 0,
+      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }

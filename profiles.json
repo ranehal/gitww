@@ -3,18 +3,18 @@
     "id": "all",
     "name": "All Accounts (Combined)",
     "streamers_count": 170,
-    "total_points": 7395904,
-    "gain_24h": 223188,
+    "total_points": 7395914,
+    "gain_24h": 222768,
     "active_today_count": 135,
     "has_data": true,
     "is_current": false
   },
   {
-    "id": "thomus_shebly",
-    "name": "thomus_shebly",
+    "id": "restless_rick",
+    "name": "restless_rick",
     "streamers_count": 166,
-    "total_points": 4253177,
-    "gain_24h": 24570,
+    "total_points": 4527704,
+    "gain_24h": 38760,
     "active_today_count": 133,
     "has_data": true,
     "is_current": true
@@ -143,8 +143,8 @@
     "id": "hoooleeesheeet_",
     "name": "hoooleeesheeet_",
     "streamers_count": 165,
-    "total_points": 4058074,
-    "gain_24h": 33570,
+    "total_points": 4058594,
+    "gain_24h": 34090,
     "active_today_count": 132,
     "has_data": true,
     "is_current": false
@@ -260,16 +260,6 @@
     "is_current": false
   },
   {
-    "id": "restless_rick",
-    "name": "restless_rick",
-    "streamers_count": 166,
-    "total_points": 4527704,
-    "gain_24h": 38760,
-    "active_today_count": 133,
-    "has_data": true,
-    "is_current": false
-  },
-  {
     "id": "rinn__sama",
     "name": "rinn__sama",
     "streamers_count": 165,
@@ -315,6 +305,16 @@
     "streamers_count": 166,
     "total_points": 4316254,
     "gain_24h": 80586,
+    "active_today_count": 133,
+    "has_data": true,
+    "is_current": false
+  },
+  {
+    "id": "thomus_shebly",
+    "name": "thomus_shebly",
+    "streamers_count": 166,
+    "total_points": 4253177,
+    "gain_24h": 24570,
     "active_today_count": 133,
     "has_data": true,
     "is_current": false

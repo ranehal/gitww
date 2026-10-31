@@ -540,24 +540,6 @@
     }
   },
   {
-    "name": "benadyl",
-    "points": 75500,
-    "last_activity": 1793466940000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 75500,
-    "events_count": 1,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "n0kedleee",
     "points": 75500,
     "last_activity": 1793466940000,
@@ -569,6 +551,24 @@
     "breakdown": {
       "Watch": 19,
       "Claim": 3,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "benadyl",
+    "points": 75500,
+    "last_activity": 1793466940000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 75500,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
+      "Claim": 0,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -2846,14 +2846,14 @@
   {
     "name": "respawn_verified",
     "points": 3030,
-    "last_activity": 1793467512000,
+    "last_activity": 1793467447000,
     "gain_24h": 0,
     "gain_total": 1430,
     "start_points": 1600,
-    "events_count": 12,
+    "events_count": 13,
     "active_today": true,
     "breakdown": {
-      "Watch": 11,
+      "Watch": 12,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -2918,14 +2918,14 @@
   {
     "name": "v_illains",
     "points": 1610,
-    "last_activity": 1793467402000,
+    "last_activity": 1793467548000,
     "gain_24h": 510,
     "gain_total": 930,
     "start_points": 680,
-    "events_count": 12,
+    "events_count": 9,
     "active_today": true,
     "breakdown": {
-      "Watch": 12,
+      "Watch": 9,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

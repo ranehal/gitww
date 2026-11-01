@@ -955,16 +955,16 @@
   },
   {
     "name": "betrigan",
-    "points": 38600,
-    "last_activity": 1793563290000,
-    "gain_24h": 460,
-    "gain_total": 11420,
+    "points": 38660,
+    "last_activity": 1793564645000,
+    "gain_24h": 520,
+    "gain_total": 11480,
     "start_points": 27180,
-    "events_count": 17,
+    "events_count": 19,
     "active_today": true,
     "breakdown": {
-      "Watch": 17,
-      "Claim": 0,
+      "Watch": 18,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1063,15 +1063,15 @@
   },
   {
     "name": "avieraptor",
-    "points": 35160,
-    "last_activity": 1793562991000,
-    "gain_24h": 1310,
-    "gain_total": 18160,
+    "points": 35180,
+    "last_activity": 1793564106000,
+    "gain_24h": 1330,
+    "gain_total": 18180,
     "start_points": 17000,
-    "events_count": 37,
+    "events_count": 39,
     "active_today": true,
     "breakdown": {
-      "Watch": 33,
+      "Watch": 35,
       "Claim": 4,
       "Streak": 0,
       "Raid": 0,
@@ -1152,6 +1152,24 @@
     }
   },
   {
+    "name": "itzmelloncs",
+    "points": 29950,
+    "last_activity": 1793564047000,
+    "gain_24h": 1240,
+    "gain_total": 18120,
+    "start_points": 11830,
+    "events_count": 24,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 21,
+      "Claim": 3,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "plaguejestersky",
     "points": 29930,
     "last_activity": 1793562917000,
@@ -1162,24 +1180,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 10,
-      "Claim": 2,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "itzmelloncs",
-    "points": 29880,
-    "last_activity": 1793562904000,
-    "gain_24h": 1170,
-    "gain_total": 18050,
-    "start_points": 11830,
-    "events_count": 21,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 19,
       "Claim": 2,
       "Streak": 0,
       "Raid": 0,
@@ -1206,17 +1206,17 @@
     }
   },
   {
-    "name": "andres_3197",
-    "points": 27298,
-    "last_activity": 1793563217000,
-    "gain_24h": 0,
-    "gain_total": 26368,
-    "start_points": 930,
-    "events_count": 8,
+    "name": "symc0e",
+    "points": 27400,
+    "last_activity": 1793564683000,
+    "gain_24h": 510,
+    "gain_total": 5740,
+    "start_points": 21660,
+    "events_count": 20,
     "active_today": true,
     "breakdown": {
-      "Watch": 8,
-      "Claim": 0,
+      "Watch": 19,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1224,12 +1224,12 @@
     }
   },
   {
-    "name": "symc0e",
-    "points": 27180,
-    "last_activity": 1793563044000,
+    "name": "andres_3197",
+    "points": 27298,
+    "last_activity": 1793563217000,
     "gain_24h": 0,
-    "gain_total": 7690,
-    "start_points": 19490,
+    "gain_total": 26368,
+    "start_points": 930,
     "events_count": 8,
     "active_today": true,
     "breakdown": {
@@ -2412,24 +2412,6 @@
     }
   },
   {
-    "name": "bhubbie",
-    "points": 7440,
-    "last_activity": 1793563178000,
-    "gain_24h": 5950,
-    "gain_total": 6210,
-    "start_points": 1230,
-    "events_count": 14,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 14,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "efohitemdown",
     "points": 7380,
     "last_activity": 1793563580000,
@@ -2728,6 +2710,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 15,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "bhubbie",
+    "points": 4100,
+    "last_activity": 1793565227000,
+    "gain_24h": 470,
+    "gain_total": 2430,
+    "start_points": 1670,
+    "events_count": 13,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 13,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

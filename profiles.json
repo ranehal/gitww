@@ -3,11 +3,21 @@
     "id": "all",
     "name": "All Accounts (Combined)",
     "streamers_count": 170,
-    "total_points": 8130611,
-    "gain_24h": 150106,
+    "total_points": 8130621,
+    "gain_24h": 150116,
     "active_today_count": 133,
     "has_data": true,
     "is_current": false
+  },
+  {
+    "id": "penguinfar8",
+    "name": "penguinfar8",
+    "streamers_count": 170,
+    "total_points": 2792470,
+    "gain_24h": 11270,
+    "active_today_count": 135,
+    "has_data": true,
+    "is_current": true
   },
   {
     "id": "aethermain7",
@@ -17,7 +27,7 @@
     "gain_24h": 0,
     "active_today_count": 0,
     "has_data": true,
-    "is_current": true
+    "is_current": false
   },
   {
     "id": "aloneyexe",
@@ -43,8 +53,8 @@
     "id": "Chodon_Purush",
     "name": "Chodon_Purush",
     "streamers_count": 165,
-    "total_points": 2602716,
-    "gain_24h": 21490,
+    "total_points": 2603026,
+    "gain_24h": 21800,
     "active_today_count": 129,
     "has_data": true,
     "is_current": false
@@ -113,8 +123,8 @@
     "id": "godzilloaa",
     "name": "godzilloaa",
     "streamers_count": 165,
-    "total_points": 1589954,
-    "gain_24h": 45142,
+    "total_points": 1589964,
+    "gain_24h": 45152,
     "active_today_count": 129,
     "has_data": true,
     "is_current": false
@@ -213,19 +223,9 @@
     "id": "nano_my_banana",
     "name": "nano_my_banana",
     "streamers_count": 166,
-    "total_points": 4854546,
-    "gain_24h": 77532,
+    "total_points": 4854556,
+    "gain_24h": 77542,
     "active_today_count": 131,
-    "has_data": true,
-    "is_current": false
-  },
-  {
-    "id": "penguinfar8",
-    "name": "penguinfar8",
-    "streamers_count": 170,
-    "total_points": 2792058,
-    "gain_24h": 10858,
-    "active_today_count": 135,
     "has_data": true,
     "is_current": false
   },

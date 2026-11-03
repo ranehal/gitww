@@ -58,8 +58,6 @@ var annotations = [];
 
 // Filters and Sort State
 var activeFilter = "all";
-var liveOnly = false;
-try { liveOnly = localStorage.getItem("liveOnly") === "1"; } catch (e) { }
 var activeTier = "all";
 var activeEventFilter = "all";
 var searchTerm = "";
@@ -686,10 +684,11 @@ function applyFilters() {
             return false;
         }
 
-        // 2. Live-only toggle (combines with every tab/tier filter)
-        if (liveOnly && !isStreamerOnlineRealtime(s.name)) return false;
-
-        // 3. Tab Filter
+        // 2. Tab Filter
+        if (activeFilter === "online") {
+            var isLiveStream = isStreamerOnlineRealtime(s.name);
+            if (!isLiveStream) return false;
+        }
         if (activeFilter === "near_target") {
             if (!s.is_approaching_target && (s.target_pct < 70 || s.target_pct >= 100)) return false;
         }
@@ -717,7 +716,9 @@ function applyFilters() {
     });
 
     // Slice for top X
-    if (activeFilter === "top10") filteredStreamers = filteredStreamers.slice(0, 10);
+    if (activeFilter === "top5") filteredStreamers = filteredStreamers.slice(0, 5);
+    else if (activeFilter === "top10") filteredStreamers = filteredStreamers.slice(0, 10);
+    else if (activeFilter === "top25") filteredStreamers = filteredStreamers.slice(0, 25);
 
     $("#match-counter").text(`${filteredStreamers.length} / ${streamersList.length}`);
     $("#streamers-count-badge").text(filteredStreamers.length);
@@ -1425,8 +1426,10 @@ function copy100FarmedStreamersToClipboard() {
 
     if (metNames.length === 0) {
         $("#btn-copy-100-streamers").html('<i class="fas fa-info-circle"></i> None (0)');
+        $("#btn-copy-100-mini").html('<i class="fas fa-info-circle"></i> 0');
         setTimeout(() => {
             $("#btn-copy-100-streamers").html('<i class="fas fa-copy"></i> Copy 100% Farmed');
+            $("#btn-copy-100-mini").html('<i class="fas fa-copy"></i> 100%');
         }, 1800);
         return;
     }
@@ -1437,8 +1440,10 @@ function copy100FarmedStreamersToClipboard() {
     var onSuccess = function () {
         var count = metNames.length;
         $("#btn-copy-100-streamers").html(`<i class="fas fa-check"></i> Copied (${count})!`);
+        $("#btn-copy-100-mini").html(`<i class="fas fa-check"></i> (${count})`);
         setTimeout(() => {
             $("#btn-copy-100-streamers").html('<i class="fas fa-copy"></i> Copy 100% Farmed');
+            $("#btn-copy-100-mini").html('<i class="fas fa-copy"></i> 100%');
         }, 2000);
     };
 
@@ -2435,22 +2440,32 @@ function setupEventListeners() {
         updateAnnotations();
     });
 
-    // Live-only toggle (button + header pill share one state)
-    function setLiveOnly(on) {
-        liveOnly = !!on;
-        try { localStorage.setItem("liveOnly", liveOnly ? "1" : "0"); } catch (e) { }
-        $("#btn-live-only").toggleClass("active", liveOnly).attr("aria-pressed", liveOnly ? "true" : "false");
-        $("#header-live-pill").toggleClass("active-filter", liveOnly);
+    // Header Live Pill Click (Toggle Online Filter)
+    $("#header-live-pill").click(function () {
+        if (activeFilter === "online") {
+            activeFilter = "all";
+            $(".filter-tab").removeClass("active");
+            $('.filter-tab[data-filter="all"]').addClass("active");
+            $("#header-live-pill").removeClass("active-filter");
+        } else {
+            activeFilter = "online";
+            $(".filter-tab").removeClass("active");
+            $('.filter-tab[data-filter="online"]').addClass("active");
+            $("#header-live-pill").addClass("active-filter");
+        }
         applyFilters();
-    }
-    setLiveOnly(liveOnly);
-    $("#btn-live-only, #header-live-pill").click(function () { setLiveOnly(!liveOnly); });
+    });
 
-    // Filter Tabs (exclusive; the Live-only toggle is not one of them)
-    $(".filter-tab[data-filter]").click(function () {
-        $(".filter-tab[data-filter]").removeClass("active");
+    // Filter Tabs
+    $(".filter-tab").click(function () {
+        $(".filter-tab").removeClass("active");
         $(this).addClass("active");
         activeFilter = $(this).data("filter");
+        if (activeFilter === "online") {
+            $("#header-live-pill").addClass("active-filter");
+        } else {
+            $("#header-live-pill").removeClass("active-filter");
+        }
         applyFilters();
     });
 
@@ -2556,6 +2571,10 @@ function setupEventListeners() {
         updateAnnotations();
     });
 
+    $("#btn-reset-zoom").click(function () {
+        chart.resetSeries();
+    });
+
     $("#btn-fullscreen-chart").click(function () {
         $("#chart-canvas-card").toggleClass("fullscreen");
         var isFs = $("#chart-canvas-card").hasClass("fullscreen");
@@ -2573,6 +2592,7 @@ function setupEventListeners() {
     $("#btn-export-json").click(exportJSON);
     $("#btn-copy-summary").click(copySummaryToClipboard);
     $("#btn-copy-100-streamers").click(copy100FarmedStreamersToClipboard);
+    $("#btn-copy-100-mini").click(copy100FarmedStreamersToClipboard);
 
     // Layout View Mode Toggles
     $("#view-mode-default").click(function () {

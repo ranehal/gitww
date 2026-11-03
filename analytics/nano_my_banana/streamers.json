@@ -828,6 +828,24 @@
     }
   },
   {
+    "name": "flow1of1tv",
+    "points": 26680,
+    "last_activity": 1793728665000,
+    "gain_24h": 470,
+    "gain_total": 26670,
+    "start_points": 10,
+    "events_count": 47,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 39,
+      "Claim": 8,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "ninjanelo",
     "points": 26590,
     "last_activity": 1793728101000,
@@ -859,24 +877,6 @@
       "Claim": 3,
       "Streak": 0,
       "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "flow1of1tv",
-    "points": 26220,
-    "last_activity": 1793727556000,
-    "gain_24h": 10,
-    "gain_total": 26210,
-    "start_points": 10,
-    "events_count": 45,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 37,
-      "Claim": 8,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }

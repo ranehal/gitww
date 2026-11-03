@@ -666,6 +666,24 @@
     }
   },
   {
+    "name": "original_stump",
+    "points": 8860,
+    "last_activity": 1793731946000,
+    "gain_24h": 250,
+    "gain_total": 8780,
+    "start_points": 80,
+    "events_count": 69,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 61,
+      "Claim": 4,
+      "Streak": 0,
+      "Raid": 4,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "skytookie",
     "points": 8790,
     "last_activity": 1793727989000,
@@ -679,24 +697,6 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "original_stump",
-    "points": 8610,
-    "last_activity": 1793727920000,
-    "gain_24h": 0,
-    "gain_total": 8530,
-    "start_points": 80,
-    "events_count": 68,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 61,
-      "Claim": 4,
-      "Streak": 0,
-      "Raid": 3,
       "Prediction": 0,
       "Other": 0
     }

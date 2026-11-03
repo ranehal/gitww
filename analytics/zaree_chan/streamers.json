@@ -91,15 +91,15 @@
   },
   {
     "name": "cojomocs",
-    "points": 140948,
-    "last_activity": 1793728432000,
-    "gain_24h": 0,
-    "gain_total": 2692,
+    "points": 140960,
+    "last_activity": 1793730586000,
+    "gain_24h": 12,
+    "gain_total": 2704,
     "start_points": 138256,
-    "events_count": 54,
+    "events_count": 55,
     "active_today": true,
     "breakdown": {
-      "Watch": 53,
+      "Watch": 54,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -2574,6 +2574,24 @@
     }
   },
   {
+    "name": "artemiskp",
+    "points": 80,
+    "last_activity": 1793730479000,
+    "gain_24h": 70,
+    "gain_total": 70,
+    "start_points": 10,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 7,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "sqweagy",
     "points": 40,
     "last_activity": 1793727711000,
@@ -2692,24 +2710,6 @@
     "active_today": false,
     "breakdown": {
       "Watch": 22,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "artemiskp",
-    "points": 20,
-    "last_activity": 1793730166000,
-    "gain_24h": 10,
-    "gain_total": 10,
-    "start_points": 10,
-    "events_count": 6,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 6,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

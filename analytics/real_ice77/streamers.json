@@ -40,13 +40,13 @@
     "points": 297184,
     "last_activity": 1793728149000,
     "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 297184,
-    "events_count": 1,
+    "gain_total": 25260,
+    "start_points": 271924,
+    "events_count": 35,
     "active_today": true,
     "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
+      "Watch": 27,
+      "Claim": 8,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -166,12 +166,12 @@
     "points": 100394,
     "last_activity": 1793727858000,
     "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 100394,
-    "events_count": 1,
+    "gain_total": 5150,
+    "start_points": 95244,
+    "events_count": 5,
     "active_today": true,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 5,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -270,24 +270,6 @@
     }
   },
   {
-    "name": "lymegreentv",
-    "points": 75220,
-    "last_activity": 1793728468000,
-    "gain_24h": 0,
-    "gain_total": 5030,
-    "start_points": 70190,
-    "events_count": 24,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 24,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "artemiskp",
     "points": 75220,
     "last_activity": 1793728468000,
@@ -298,6 +280,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "lymegreentv",
+    "points": 75220,
+    "last_activity": 1793728468000,
+    "gain_24h": 0,
+    "gain_total": 5030,
+    "start_points": 70190,
+    "events_count": 24,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 24,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -504,24 +504,6 @@
     }
   },
   {
-    "name": "estoniaman",
-    "points": 42040,
-    "last_activity": 1791985572000,
-    "gain_24h": 0,
-    "gain_total": 5270,
-    "start_points": 37530,
-    "events_count": 53,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 48,
-      "Claim": 3,
-      "Streak": 0,
-      "Raid": 2,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "fermboss0",
     "points": 42040,
     "last_activity": 1793728454000,
@@ -535,6 +517,24 @@
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "estoniaman",
+    "points": 42040,
+    "last_activity": 1791985572000,
+    "gain_24h": 0,
+    "gain_total": 5270,
+    "start_points": 37530,
+    "events_count": 53,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 48,
+      "Claim": 3,
+      "Streak": 0,
+      "Raid": 2,
       "Prediction": 0,
       "Other": 0
     }
@@ -688,12 +688,12 @@
     "points": 33200,
     "last_activity": 1793728157000,
     "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 33200,
-    "events_count": 1,
+    "gain_total": 18010,
+    "start_points": 15190,
+    "events_count": 5,
     "active_today": true,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 5,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1296,24 +1296,6 @@
     }
   },
   {
-    "name": "alexnoclip",
-    "points": 14650,
-    "last_activity": 1793728206000,
-    "gain_24h": 0,
-    "gain_total": 3880,
-    "start_points": 10770,
-    "events_count": 28,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 28,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "blamzzy",
     "points": 14650,
     "last_activity": 1793728061000,
@@ -1325,6 +1307,24 @@
     "breakdown": {
       "Watch": 76,
       "Claim": 3,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "alexnoclip",
+    "points": 14650,
+    "last_activity": 1793728206000,
+    "gain_24h": 0,
+    "gain_total": 3880,
+    "start_points": 10770,
+    "events_count": 28,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 28,
+      "Claim": 0,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,

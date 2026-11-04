@@ -1,55 +1,50 @@
 {
   "series": [
     {
-      "x": 1793727572000,
-      "y": 8470,
+      "x": 1790667359000,
+      "y": 88180,
+      "z": "Watch"
+    },
+    {
+      "x": 1790667623000,
+      "y": 88190,
+      "z": "Watch"
+    },
+    {
+      "x": 1790667912000,
+      "y": 88250,
+      "z": "Claim"
+    },
+    {
+      "x": 1790669644000,
+      "y": 88260,
+      "z": "Watch"
+    },
+    {
+      "x": 1790669946000,
+      "y": 88270,
+      "z": "Watch"
+    },
+    {
+      "x": 1790670246000,
+      "y": 88330,
+      "z": "Claim"
+    },
+    {
+      "x": 1791034630000,
+      "y": 90680,
+      "z": "Watch"
+    },
+    {
+      "x": 1791037285000,
+      "y": 90680,
+      "z": "Watch"
+    },
+    {
+      "x": 1791043797000,
+      "y": 90680,
       "z": "Watch"
     }
   ],
-  "annotations": [
-    {
-      "borderColor": "#45c1ff",
-      "label": {
-        "style": {
-          "color": "#000",
-          "background": "#45c1ff"
-        },
-        "text": "+450 - WATCH_STREAK"
-      },
-      "x": 1790637472000
-    },
-    {
-      "borderColor": "#45c1ff",
-      "label": {
-        "style": {
-          "color": "#000",
-          "background": "#45c1ff"
-        },
-        "text": "+450 - WATCH_STREAK"
-      },
-      "x": 1790637699000
-    },
-    {
-      "borderColor": "#45c1ff",
-      "label": {
-        "style": {
-          "color": "#000",
-          "background": "#45c1ff"
-        },
-        "text": "+350 - WATCH_STREAK"
-      },
-      "x": 1791253447000
-    },
-    {
-      "borderColor": "#45c1ff",
-      "label": {
-        "style": {
-          "color": "#000",
-          "background": "#45c1ff"
-        },
-        "text": "+450 - WATCH_STREAK"
-      },
-      "x": 1791944656000
-    }
-  ]
+  "annotations": []
 }

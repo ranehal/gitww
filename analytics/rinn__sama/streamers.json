@@ -469,16 +469,16 @@
   },
   {
     "name": "emniag",
-    "points": 18460,
-    "last_activity": 1793817566000,
-    "gain_24h": 20,
-    "gain_total": 20,
+    "points": 18520,
+    "last_activity": 1793820792000,
+    "gain_24h": 80,
+    "gain_total": 80,
     "start_points": 18440,
-    "events_count": 3,
+    "events_count": 5,
     "active_today": true,
     "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
+      "Watch": 4,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1243,15 +1243,15 @@
   },
   {
     "name": "flow1of1tv",
-    "points": 4150,
-    "last_activity": 1793816858000,
-    "gain_24h": 0,
-    "gain_total": 0,
+    "points": 4160,
+    "last_activity": 1793819352000,
+    "gain_24h": 10,
+    "gain_total": 10,
     "start_points": 4150,
-    "events_count": 1,
+    "events_count": 2,
     "active_today": true,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1530,16 +1530,34 @@
     }
   },
   {
-    "name": "thegoldenboyshow_",
-    "points": 3430,
-    "last_activity": 1793817055000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 3430,
-    "events_count": 1,
+    "name": "cato_cm",
+    "points": 3450,
+    "last_activity": 1793820681000,
+    "gain_24h": 60,
+    "gain_total": 60,
+    "start_points": 3390,
+    "events_count": 3,
     "active_today": true,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 2,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "thegoldenboyshow_",
+    "points": 3440,
+    "last_activity": 1793820246000,
+    "gain_24h": 10,
+    "gain_total": 10,
+    "start_points": 3430,
+    "events_count": 2,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1554,24 +1572,6 @@
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 3420,
-    "events_count": 1,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "cato_cm",
-    "points": 3390,
-    "last_activity": 1793817166000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 3390,
     "events_count": 1,
     "active_today": true,
     "breakdown": {
@@ -2034,17 +2034,17 @@
     }
   },
   {
-    "name": "jllei",
-    "points": 1658,
-    "last_activity": 1793817048000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 1658,
-    "events_count": 1,
+    "name": "artemiskp",
+    "points": 1690,
+    "last_activity": 1793820483000,
+    "gain_24h": 60,
+    "gain_total": 60,
+    "start_points": 1630,
+    "events_count": 3,
     "active_today": true,
     "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
+      "Watch": 2,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -2052,12 +2052,12 @@
     }
   },
   {
-    "name": "artemiskp",
-    "points": 1630,
-    "last_activity": 1793817120000,
+    "name": "jllei",
+    "points": 1658,
+    "last_activity": 1793817048000,
     "gain_24h": 0,
     "gain_total": 0,
-    "start_points": 1630,
+    "start_points": 1658,
     "events_count": 1,
     "active_today": true,
     "breakdown": {
@@ -2358,6 +2358,24 @@
     }
   },
   {
+    "name": "real_juiceegod",
+    "points": 920,
+    "last_activity": 1793820793000,
+    "gain_24h": 260,
+    "gain_total": 260,
+    "start_points": 660,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 1,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "bhubbie",
     "points": 820,
     "last_activity": 1793816500000,
@@ -2454,24 +2472,6 @@
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 700,
-    "events_count": 1,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "real_juiceegod",
-    "points": 660,
-    "last_activity": 1793816912000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 660,
     "events_count": 1,
     "active_today": true,
     "breakdown": {
@@ -2664,6 +2664,42 @@
     }
   },
   {
+    "name": "manutobi21",
+    "points": 330,
+    "last_activity": 1793820880000,
+    "gain_24h": 90,
+    "gain_total": 90,
+    "start_points": 240,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "ispinsytv",
+    "points": 320,
+    "last_activity": 1793819946000,
+    "gain_24h": 10,
+    "gain_total": 10,
+    "start_points": 310,
+    "events_count": 2,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "saturn_720",
     "points": 320,
     "last_activity": 1793816777000,
@@ -2700,24 +2736,6 @@
     }
   },
   {
-    "name": "ispinsytv",
-    "points": 310,
-    "last_activity": 1793816872000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 310,
-    "events_count": 1,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "smgemega",
     "points": 310,
     "last_activity": 1793816985000,
@@ -2728,24 +2746,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "manutobi21",
-    "points": 260,
-    "last_activity": 1793817576000,
-    "gain_24h": 20,
-    "gain_total": 20,
-    "start_points": 240,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

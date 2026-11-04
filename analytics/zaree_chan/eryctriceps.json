@@ -1,0 +1,43 @@
+{
+  "series": [
+    {
+      "x": 1791037652000,
+      "y": 395450,
+      "z": "Watch"
+    },
+    {
+      "x": 1791038019000,
+      "y": 395460,
+      "z": "Watch"
+    },
+    {
+      "x": 1793810046000,
+      "y": 398110,
+      "z": "Watch"
+    }
+  ],
+  "annotations": [
+    {
+      "borderColor": "#45c1ff",
+      "label": {
+        "style": {
+          "color": "#000",
+          "background": "#45c1ff"
+        },
+        "text": "+450 - WATCH_STREAK"
+      },
+      "x": 1790599980000
+    },
+    {
+      "borderColor": "#45c1ff",
+      "label": {
+        "style": {
+          "color": "#000",
+          "background": "#45c1ff"
+        },
+        "text": "+450 - WATCH_STREAK"
+      },
+      "x": 1790600041000
+    }
+  ]
+}

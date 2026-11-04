@@ -1,37 +1,10 @@
 {
   "series": [
     {
-      "x": 1793810489000,
-      "y": 3790,
-      "z": "Watch"
-    },
-    {
-      "x": 1793812238000,
-      "y": 4100,
-      "z": "Watch Streak"
-    },
-    {
-      "x": 1793812238000,
-      "y": 3800,
-      "z": "Watch"
-    },
-    {
-      "x": 1793812239000,
+      "x": 1793816858000,
       "y": 4150,
-      "z": "Claim"
+      "z": "Watch"
     }
   ],
-  "annotations": [
-    {
-      "borderColor": "#45c1ff",
-      "label": {
-        "style": {
-          "color": "#000",
-          "background": "#45c1ff"
-        },
-        "text": "+300 - WATCH_STREAK"
-      },
-      "x": 1793812238000
-    }
-  ]
+  "annotations": []
 }

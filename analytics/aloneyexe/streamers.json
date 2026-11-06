@@ -793,15 +793,15 @@
   },
   {
     "name": "wockhardtxx",
-    "points": 10210,
-    "last_activity": 1793948668000,
-    "gain_24h": 10,
-    "gain_total": 10,
+    "points": 10220,
+    "last_activity": 1793948977000,
+    "gain_24h": 20,
+    "gain_total": 20,
     "start_points": 10200,
-    "events_count": 3,
+    "events_count": 4,
     "active_today": true,
     "breakdown": {
-      "Watch": 3,
+      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1512,6 +1512,24 @@
     }
   },
   {
+    "name": "denie",
+    "points": 1760,
+    "last_activity": 1793948967000,
+    "gain_24h": 310,
+    "gain_total": 320,
+    "start_points": 1440,
+    "events_count": 4,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "kookiekiku",
     "points": 1660,
     "last_activity": 1793946690000,
@@ -1608,24 +1626,6 @@
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 1470,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "denie",
-    "points": 1450,
-    "last_activity": 1793946366000,
-    "gain_24h": 0,
-    "gain_total": 10,
-    "start_points": 1440,
     "events_count": 2,
     "active_today": true,
     "breakdown": {

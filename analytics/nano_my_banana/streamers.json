@@ -883,16 +883,16 @@
   },
   {
     "name": "wesleytw_",
-    "points": 23860,
-    "last_activity": 1793946468000,
-    "gain_24h": 0,
-    "gain_total": 11770,
+    "points": 23920,
+    "last_activity": 1793949319000,
+    "gain_24h": 60,
+    "gain_total": 11830,
     "start_points": 12090,
-    "events_count": 5,
+    "events_count": 7,
     "active_today": true,
     "breakdown": {
-      "Watch": 5,
-      "Claim": 0,
+      "Watch": 6,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1602,6 +1602,24 @@
     }
   },
   {
+    "name": "demon1",
+    "points": 11620,
+    "last_activity": 1793949041000,
+    "gain_24h": 510,
+    "gain_total": 5620,
+    "start_points": 6450,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 7,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "joshltfc",
     "points": 11510,
     "last_activity": 1793946023000,
@@ -1648,24 +1666,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "demon1",
-    "points": 11110,
-    "last_activity": 1793946313000,
-    "gain_24h": 0,
-    "gain_total": 4660,
-    "start_points": 6450,
-    "events_count": 5,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 5,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2430,16 +2430,16 @@
     }
   },
   {
-    "name": "respawn_verified",
-    "points": 4920,
-    "last_activity": 1793946317000,
-    "gain_24h": 0,
-    "gain_total": 460,
+    "name": "ironmancarter",
+    "points": 4930,
+    "last_activity": 1793949310000,
+    "gain_24h": 10,
+    "gain_total": 470,
     "start_points": 4460,
-    "events_count": 2,
+    "events_count": 3,
     "active_today": true,
     "breakdown": {
-      "Watch": 2,
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2448,9 +2448,9 @@
     }
   },
   {
-    "name": "ironmancarter",
+    "name": "respawn_verified",
     "points": 4920,
-    "last_activity": 1793946405000,
+    "last_activity": 1793946317000,
     "gain_24h": 0,
     "gain_total": 460,
     "start_points": 4460,

@@ -720,6 +720,24 @@
     }
   },
   {
+    "name": "demon1",
+    "points": 5350,
+    "last_activity": 1793947939000,
+    "gain_24h": 410,
+    "gain_total": 820,
+    "start_points": 4530,
+    "events_count": 4,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "ichigrim",
     "points": 5150,
     "last_activity": 1793946286000,
@@ -744,24 +762,6 @@
     "gain_24h": 0,
     "gain_total": 10,
     "start_points": 5100,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "demon1",
-    "points": 4940,
-    "last_activity": 1793945874000,
-    "gain_24h": 0,
-    "gain_total": 410,
-    "start_points": 4530,
     "events_count": 2,
     "active_today": true,
     "breakdown": {
@@ -1063,15 +1063,15 @@
   },
   {
     "name": "vbake_",
-    "points": 3060,
-    "last_activity": 1793946057000,
-    "gain_24h": 0,
-    "gain_total": 0,
+    "points": 3070,
+    "last_activity": 1793948199000,
+    "gain_24h": 10,
+    "gain_total": 10,
     "start_points": 3060,
-    "events_count": 2,
+    "events_count": 3,
     "active_today": true,
     "breakdown": {
-      "Watch": 2,
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1818,6 +1818,24 @@
     }
   },
   {
+    "name": "ironmancarter",
+    "points": 1070,
+    "last_activity": 1793948205000,
+    "gain_24h": 410,
+    "gain_total": 410,
+    "start_points": 660,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "real_juiceegod",
     "points": 1040,
     "last_activity": 1793946422000,
@@ -1986,24 +2004,6 @@
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 680,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "ironmancarter",
-    "points": 660,
-    "last_activity": 1793945948000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 660,
     "events_count": 2,
     "active_today": true,
     "breakdown": {

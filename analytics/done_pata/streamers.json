@@ -883,15 +883,15 @@
   },
   {
     "name": "onelegend1_",
-    "points": 14590,
-    "last_activity": 1793946348000,
-    "gain_24h": 0,
-    "gain_total": 510,
+    "points": 14600,
+    "last_activity": 1793948292000,
+    "gain_24h": 10,
+    "gain_total": 520,
     "start_points": 14080,
-    "events_count": 2,
+    "events_count": 3,
     "active_today": true,
     "breakdown": {
-      "Watch": 2,
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -937,16 +937,16 @@
   },
   {
     "name": "ssjaymusic",
-    "points": 13840,
-    "last_activity": 1793946572000,
-    "gain_24h": 0,
-    "gain_total": 0,
+    "points": 13900,
+    "last_activity": 1793948118000,
+    "gain_24h": 60,
+    "gain_total": 60,
     "start_points": 13840,
-    "events_count": 4,
+    "events_count": 6,
     "active_today": true,
     "breakdown": {
-      "Watch": 4,
-      "Claim": 0,
+      "Watch": 5,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -2214,6 +2214,24 @@
     }
   },
   {
+    "name": "ironmancarter",
+    "points": 3800,
+    "last_activity": 1793948019000,
+    "gain_24h": 460,
+    "gain_total": 460,
+    "start_points": 3340,
+    "events_count": 4,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "baconsbeta",
     "points": 3660,
     "last_activity": 1793946713000,
@@ -2274,24 +2292,6 @@
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 3360,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "ironmancarter",
-    "points": 3340,
-    "last_activity": 1793946240000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 3340,
     "events_count": 2,
     "active_today": true,
     "breakdown": {

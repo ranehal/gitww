@@ -631,18 +631,18 @@
   },
   {
     "name": "onelegend1_",
-    "points": 34550,
-    "last_activity": 1793949848000,
-    "gain_24h": 10,
-    "gain_total": 16650,
+    "points": 34800,
+    "last_activity": 1793950375000,
+    "gain_24h": 260,
+    "gain_total": 16900,
     "start_points": 17900,
-    "events_count": 6,
+    "events_count": 7,
     "active_today": true,
     "breakdown": {
       "Watch": 6,
       "Claim": 0,
       "Streak": 0,
-      "Raid": 0,
+      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }
@@ -1944,6 +1944,24 @@
     }
   },
   {
+    "name": "vbake_",
+    "points": 8710,
+    "last_activity": 1793950334000,
+    "gain_24h": 460,
+    "gain_total": 460,
+    "start_points": 8250,
+    "events_count": 4,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "sadgirlz_4life",
     "points": 8620,
     "last_activity": 1793946235000,
@@ -1968,24 +1986,6 @@
     "gain_24h": 0,
     "gain_total": 1060,
     "start_points": 7370,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "vbake_",
-    "points": 8250,
-    "last_activity": 1793946389000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 8250,
     "events_count": 2,
     "active_today": true,
     "breakdown": {

@@ -199,15 +199,15 @@
   },
   {
     "name": "lymegreentv",
-    "points": 70930,
-    "last_activity": 1793946653000,
-    "gain_24h": 0,
-    "gain_total": 0,
+    "points": 70940,
+    "last_activity": 1793950482000,
+    "gain_24h": 10,
+    "gain_total": 360,
     "start_points": 70930,
-    "events_count": 2,
+    "events_count": 4,
     "active_today": true,
     "breakdown": {
-      "Watch": 2,
+      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -900,6 +900,24 @@
     }
   },
   {
+    "name": "onelegend1_",
+    "points": 4600,
+    "last_activity": 1793950375000,
+    "gain_24h": 560,
+    "gain_total": 3120,
+    "start_points": 1480,
+    "events_count": 6,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 1,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "symc0e",
     "points": 4420,
     "last_activity": 1793946480000,
@@ -946,24 +964,6 @@
     "active_today": false,
     "breakdown": {
       "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "onelegend1_",
-    "points": 4350,
-    "last_activity": 1793948734000,
-    "gain_24h": 310,
-    "gain_total": 2870,
-    "start_points": 1480,
-    "events_count": 5,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 5,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2071,15 +2071,15 @@
   },
   {
     "name": "kurumichaos",
-    "points": 860,
-    "last_activity": 1793949918000,
-    "gain_24h": 70,
-    "gain_total": 540,
+    "points": 870,
+    "last_activity": 1793950267000,
+    "gain_24h": 80,
+    "gain_total": 550,
     "start_points": 320,
-    "events_count": 9,
+    "events_count": 10,
     "active_today": true,
     "breakdown": {
-      "Watch": 8,
+      "Watch": 9,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,

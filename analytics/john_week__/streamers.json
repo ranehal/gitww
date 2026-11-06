@@ -559,18 +559,18 @@
   },
   {
     "name": "onelegend1_",
-    "points": 38360,
-    "last_activity": 1793947527000,
-    "gain_24h": 600,
-    "gain_total": 20310,
+    "points": 38610,
+    "last_activity": 1793950375000,
+    "gain_24h": 850,
+    "gain_total": 20560,
     "start_points": 18050,
-    "events_count": 7,
+    "events_count": 8,
     "active_today": true,
     "breakdown": {
       "Watch": 7,
       "Claim": 0,
       "Streak": 0,
-      "Raid": 0,
+      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }
@@ -721,16 +721,16 @@
   },
   {
     "name": "ssjaymusic",
-    "points": 31280,
-    "last_activity": 1793950123000,
-    "gain_24h": 530,
-    "gain_total": 990,
+    "points": 31340,
+    "last_activity": 1793950450000,
+    "gain_24h": 590,
+    "gain_total": 1050,
     "start_points": 30290,
-    "events_count": 7,
+    "events_count": 9,
     "active_today": true,
     "breakdown": {
-      "Watch": 7,
-      "Claim": 0,
+      "Watch": 8,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -990,6 +990,24 @@
     }
   },
   {
+    "name": "kurumichaos",
+    "points": 20240,
+    "last_activity": 1793950390000,
+    "gain_24h": 460,
+    "gain_total": 9280,
+    "start_points": 10960,
+    "events_count": 14,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 12,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 1,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "888gut",
     "points": 20120,
     "last_activity": 1791043799000,
@@ -1039,24 +1057,6 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "kurumichaos",
-    "points": 19780,
-    "last_activity": 1793946583000,
-    "gain_24h": 0,
-    "gain_total": 8820,
-    "start_points": 10960,
-    "events_count": 12,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 10,
-      "Claim": 1,
-      "Streak": 0,
-      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }

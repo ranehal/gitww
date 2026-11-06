@@ -1530,6 +1530,24 @@
     }
   },
   {
+    "name": "demon1",
+    "points": 10970,
+    "last_activity": 1793948790000,
+    "gain_24h": 460,
+    "gain_total": 5570,
+    "start_points": 5650,
+    "events_count": 11,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 11,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "puddin086",
     "points": 10630,
     "last_activity": 1793945979000,
@@ -1561,24 +1579,6 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "demon1",
-    "points": 10510,
-    "last_activity": 1793946278000,
-    "gain_24h": 0,
-    "gain_total": 5110,
-    "start_points": 5650,
-    "events_count": 9,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 9,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }

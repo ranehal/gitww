@@ -397,16 +397,16 @@
   },
   {
     "name": "wockhardtxx",
-    "points": 30490,
-    "last_activity": 1793946355000,
-    "gain_24h": 0,
-    "gain_total": 24560,
+    "points": 30550,
+    "last_activity": 1793948736000,
+    "gain_24h": 60,
+    "gain_total": 24620,
     "start_points": 5930,
-    "events_count": 3,
+    "events_count": 5,
     "active_today": true,
     "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
+      "Watch": 4,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -2196,6 +2196,24 @@
     }
   },
   {
+    "name": "ironmancarter",
+    "points": 3760,
+    "last_activity": 1793948722000,
+    "gain_24h": 410,
+    "gain_total": 410,
+    "start_points": 3350,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "respawn_verified",
     "points": 3650,
     "last_activity": 1793946202000,
@@ -2214,17 +2232,17 @@
     }
   },
   {
-    "name": "ironmancarter",
-    "points": 3350,
-    "last_activity": 1793946305000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 3350,
-    "events_count": 2,
+    "name": "demon1",
+    "points": 3360,
+    "last_activity": 1793948444000,
+    "gain_24h": 360,
+    "gain_total": 2430,
+    "start_points": 1230,
+    "events_count": 6,
     "active_today": true,
     "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
+      "Watch": 5,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -2332,24 +2350,6 @@
     "active_today": false,
     "breakdown": {
       "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "demon1",
-    "points": 3000,
-    "last_activity": 1793946183000,
-    "gain_24h": 0,
-    "gain_total": 1770,
-    "start_points": 1230,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

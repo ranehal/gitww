@@ -96,10 +96,10 @@
     "gain_24h": 410,
     "gain_total": 35810,
     "start_points": 123818,
-    "events_count": 8,
+    "events_count": 7,
     "active_today": true,
     "breakdown": {
-      "Watch": 8,
+      "Watch": 7,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -274,12 +274,12 @@
     "points": 78190,
     "last_activity": 1793946324000,
     "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 78190,
-    "events_count": 1,
+    "gain_total": 12690,
+    "start_points": 65500,
+    "events_count": 5,
     "active_today": true,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 5,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -546,10 +546,10 @@
     "gain_24h": 70,
     "gain_total": 23730,
     "start_points": 14714,
-    "events_count": 8,
+    "events_count": 7,
     "active_today": true,
     "breakdown": {
-      "Watch": 7,
+      "Watch": 6,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -654,10 +654,10 @@
     "gain_24h": 70,
     "gain_total": 22610,
     "start_points": 10070,
-    "events_count": 8,
+    "events_count": 7,
     "active_today": true,
     "breakdown": {
-      "Watch": 7,
+      "Watch": 6,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -1854,24 +1854,6 @@
     }
   },
   {
-    "name": "cato_cm",
-    "points": 8290,
-    "last_activity": 1793946687000,
-    "gain_24h": 0,
-    "gain_total": 780,
-    "start_points": 7510,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 1,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "therealkhilo",
     "points": 8290,
     "last_activity": 1793946026000,
@@ -1882,6 +1864,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "cato_cm",
+    "points": 8290,
+    "last_activity": 1793946687000,
+    "gain_24h": 0,
+    "gain_total": 780,
+    "start_points": 7510,
+    "events_count": 3,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,

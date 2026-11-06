@@ -996,10 +996,10 @@
     "gain_24h": 460,
     "gain_total": 9280,
     "start_points": 10960,
-    "events_count": 14,
+    "events_count": 13,
     "active_today": true,
     "breakdown": {
-      "Watch": 12,
+      "Watch": 11,
       "Claim": 1,
       "Streak": 0,
       "Raid": 1,
@@ -1536,10 +1536,10 @@
     "gain_24h": 460,
     "gain_total": 4990,
     "start_points": 6120,
-    "events_count": 8,
+    "events_count": 7,
     "active_today": true,
     "breakdown": {
-      "Watch": 8,
+      "Watch": 7,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1620,24 +1620,6 @@
     }
   },
   {
-    "name": "cojomocs",
-    "points": 9980,
-    "last_activity": 1793946635000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 9980,
-    "events_count": 1,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "artemiskp",
     "points": 9980,
     "last_activity": 1793946635000,
@@ -1649,6 +1631,24 @@
     "breakdown": {
       "Watch": 3,
       "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "cojomocs",
+    "points": 9980,
+    "last_activity": 1793946635000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 9980,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
+      "Claim": 0,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1890,24 +1890,6 @@
     }
   },
   {
-    "name": "real_juiceegod",
-    "points": 8350,
-    "last_activity": 1793946408000,
-    "gain_24h": 0,
-    "gain_total": 1480,
-    "start_points": 6870,
-    "events_count": 5,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 1,
-      "Streak": 0,
-      "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "sc4p3_fps",
     "points": 8350,
     "last_activity": 1793946185000,
@@ -1921,6 +1903,24 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "real_juiceegod",
+    "points": 8350,
+    "last_activity": 1793946408000,
+    "gain_24h": 0,
+    "gain_total": 1480,
+    "start_points": 6870,
+    "events_count": 5,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 3,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }
@@ -2268,24 +2268,6 @@
     }
   },
   {
-    "name": "sloptv__",
-    "points": 5790,
-    "last_activity": 1793946572000,
-    "gain_24h": 0,
-    "gain_total": 1760,
-    "start_points": 4030,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "kiid2xx",
     "points": 5790,
     "last_activity": 1793946572000,
@@ -2296,6 +2278,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "sloptv__",
+    "points": 5790,
+    "last_activity": 1793946572000,
+    "gain_24h": 0,
+    "gain_total": 1760,
+    "start_points": 4030,
+    "events_count": 2,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

@@ -216,24 +216,6 @@
     }
   },
   {
-    "name": "rallencs2",
-    "points": 38250,
-    "last_activity": 1790626258000,
-    "gain_24h": 0,
-    "gain_total": 1060,
-    "start_points": 37190,
-    "events_count": 2,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "estoniaman",
     "points": 38250,
     "last_activity": 1790634048000,
@@ -247,6 +229,24 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 1,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "rallencs2",
+    "points": 38250,
+    "last_activity": 1790626258000,
+    "gain_24h": 0,
+    "gain_total": 1060,
+    "start_points": 37190,
+    "events_count": 2,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }
@@ -366,10 +366,10 @@
     "gain_24h": 70,
     "gain_total": 460,
     "start_points": 27920,
-    "events_count": 5,
+    "events_count": 4,
     "active_today": true,
     "breakdown": {
-      "Watch": 4,
+      "Watch": 3,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -726,10 +726,10 @@
     "gain_24h": 72,
     "gain_total": 1480,
     "start_points": 14166,
-    "events_count": 8,
+    "events_count": 7,
     "active_today": true,
     "breakdown": {
-      "Watch": 7,
+      "Watch": 6,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -2592,9 +2592,9 @@
     }
   },
   {
-    "name": "shawthaking",
+    "name": "dirkdontlose",
     "points": 2760,
-    "last_activity": 1793946704000,
+    "last_activity": 1793945811000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 2760,
@@ -2610,9 +2610,9 @@
     }
   },
   {
-    "name": "dirkdontlose",
+    "name": "shawthaking",
     "points": 2760,
-    "last_activity": 1793945811000,
+    "last_activity": 1793946704000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 2760,

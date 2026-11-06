@@ -852,10 +852,10 @@
     "gain_24h": 540,
     "gain_total": 17830,
     "start_points": 10960,
-    "events_count": 21,
+    "events_count": 20,
     "active_today": true,
     "breakdown": {
-      "Watch": 18,
+      "Watch": 17,
       "Claim": 2,
       "Streak": 0,
       "Raid": 1,
@@ -1588,12 +1588,12 @@
     "points": 11820,
     "last_activity": 1793946615000,
     "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 11820,
-    "events_count": 1,
+    "gain_total": 5540,
+    "start_points": 6280,
+    "events_count": 4,
     "active_today": true,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2106,24 +2106,6 @@
     }
   },
   {
-    "name": "huffalispuffalis",
-    "points": 7420,
-    "last_activity": 1793946527000,
-    "gain_24h": 0,
-    "gain_total": 980,
-    "start_points": 6440,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "terraformer20",
     "points": 7420,
     "last_activity": 1793946030000,
@@ -2134,6 +2116,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "huffalispuffalis",
+    "points": 7420,
+    "last_activity": 1793946527000,
+    "gain_24h": 0,
+    "gain_total": 980,
+    "start_points": 6440,
+    "events_count": 2,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2376,24 +2376,6 @@
     }
   },
   {
-    "name": "respawn_verified",
-    "points": 5380,
-    "last_activity": 1793946630000,
-    "gain_24h": 0,
-    "gain_total": 920,
-    "start_points": 4460,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "whoiskillrob",
     "points": 5380,
     "last_activity": 1793946028000,
@@ -2404,6 +2386,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "respawn_verified",
+    "points": 5380,
+    "last_activity": 1793946630000,
+    "gain_24h": 0,
+    "gain_total": 920,
+    "start_points": 4460,
+    "events_count": 2,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2934,12 +2934,12 @@
     }
   },
   {
-    "name": "manutobi21",
+    "name": "itkeallneekno_tv",
     "points": 320,
-    "last_activity": 1793946581000,
+    "last_activity": 1793946380000,
     "gain_24h": 0,
-    "gain_total": 310,
-    "start_points": 10,
+    "gain_total": 0,
+    "start_points": 320,
     "events_count": 2,
     "active_today": true,
     "breakdown": {
@@ -2952,12 +2952,12 @@
     }
   },
   {
-    "name": "itkeallneekno_tv",
+    "name": "manutobi21",
     "points": 320,
-    "last_activity": 1793946380000,
+    "last_activity": 1793946581000,
     "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 320,
+    "gain_total": 310,
+    "start_points": 10,
     "events_count": 2,
     "active_today": true,
     "breakdown": {

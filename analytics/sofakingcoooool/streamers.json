@@ -582,10 +582,10 @@
     "gain_24h": 60,
     "gain_total": 12180,
     "start_points": 23080,
-    "events_count": 7,
+    "events_count": 6,
     "active_today": true,
     "breakdown": {
-      "Watch": 6,
+      "Watch": 5,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -672,10 +672,10 @@
     "gain_24h": 2380,
     "gain_total": 19800,
     "start_points": 12030,
-    "events_count": 9,
+    "events_count": 8,
     "active_today": true,
     "breakdown": {
-      "Watch": 8,
+      "Watch": 7,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -2898,12 +2898,12 @@
     }
   },
   {
-    "name": "manutobi21",
+    "name": "9inegg",
     "points": 730,
-    "last_activity": 1793946550000,
+    "last_activity": 1793946246000,
     "gain_24h": 0,
-    "gain_total": 720,
-    "start_points": 10,
+    "gain_total": 0,
+    "start_points": 730,
     "events_count": 2,
     "active_today": true,
     "breakdown": {
@@ -2916,12 +2916,12 @@
     }
   },
   {
-    "name": "9inegg",
+    "name": "manutobi21",
     "points": 730,
-    "last_activity": 1793946246000,
+    "last_activity": 1793946550000,
     "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 730,
+    "gain_total": 720,
+    "start_points": 10,
     "events_count": 2,
     "active_today": true,
     "breakdown": {

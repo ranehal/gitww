@@ -562,12 +562,12 @@
     "points": 38810,
     "last_activity": 1793946392000,
     "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 38810,
-    "events_count": 1,
+    "gain_total": 13040,
+    "start_points": 25770,
+    "events_count": 4,
     "active_today": true,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -780,10 +780,10 @@
     "gain_24h": 60,
     "gain_total": 18600,
     "start_points": 14626,
-    "events_count": 7,
+    "events_count": 6,
     "active_today": true,
     "breakdown": {
-      "Watch": 6,
+      "Watch": 5,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -1480,12 +1480,12 @@
     "points": 12760,
     "last_activity": 1793946666000,
     "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 12760,
-    "events_count": 1,
+    "gain_total": 7920,
+    "start_points": 4840,
+    "events_count": 4,
     "active_today": true,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 4,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2340,24 +2340,6 @@
     }
   },
   {
-    "name": "krypticvipex",
-    "points": 5600,
-    "last_activity": 1793946247000,
-    "gain_24h": 0,
-    "gain_total": 360,
-    "start_points": 5240,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "kiid2xx",
     "points": 5600,
     "last_activity": 1793945736000,
@@ -2368,6 +2350,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "krypticvipex",
+    "points": 5600,
+    "last_activity": 1793946247000,
+    "gain_24h": 0,
+    "gain_total": 360,
+    "start_points": 5240,
+    "events_count": 2,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

@@ -1278,12 +1278,12 @@
     }
   },
   {
-    "name": "abyzou",
+    "name": "respawn_verified",
     "points": 17070,
     "last_activity": 1793946617000,
     "gain_24h": 0,
-    "gain_total": 5230,
-    "start_points": 11840,
+    "gain_total": 13800,
+    "start_points": 3270,
     "events_count": 2,
     "active_today": true,
     "breakdown": {
@@ -1296,12 +1296,12 @@
     }
   },
   {
-    "name": "respawn_verified",
+    "name": "abyzou",
     "points": 17070,
     "last_activity": 1793946617000,
     "gain_24h": 0,
-    "gain_total": 13800,
-    "start_points": 3270,
+    "gain_total": 5230,
+    "start_points": 11840,
     "events_count": 2,
     "active_today": true,
     "breakdown": {
@@ -2862,24 +2862,6 @@
     }
   },
   {
-    "name": "cnrayy",
-    "points": 820,
-    "last_activity": 1793946194000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 820,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "deardavi14",
     "points": 820,
     "last_activity": 1793946609000,
@@ -2890,6 +2872,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "cnrayy",
+    "points": 820,
+    "last_activity": 1793946194000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 820,
+    "events_count": 2,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2970,24 +2970,6 @@
     }
   },
   {
-    "name": "itszedar",
-    "points": 160,
-    "last_activity": 1793946463000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 160,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "shortysheriff",
     "points": 160,
     "last_activity": 1793946463000,
@@ -2998,6 +2980,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "itszedar",
+    "points": 160,
+    "last_activity": 1793946463000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 160,
+    "events_count": 2,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

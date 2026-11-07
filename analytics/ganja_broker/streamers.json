@@ -216,24 +216,6 @@
     }
   },
   {
-    "name": "topshoter_no",
-    "points": 88150,
-    "last_activity": 1793946034000,
-    "gain_24h": 0,
-    "gain_total": 1750,
-    "start_points": 86400,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "the_office_nerd",
     "points": 88150,
     "last_activity": 1793946034000,
@@ -244,6 +226,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 1,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "topshoter_no",
+    "points": 88150,
+    "last_activity": 1793946034000,
+    "gain_24h": 0,
+    "gain_total": 1750,
+    "start_points": 86400,
+    "events_count": 2,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2430,12 +2430,12 @@
     }
   },
   {
-    "name": "glitchie__",
+    "name": "itszedar",
     "points": 4100,
     "last_activity": 1793946243000,
     "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 4100,
+    "gain_total": 2500,
+    "start_points": 1600,
     "events_count": 2,
     "active_today": true,
     "breakdown": {
@@ -2448,12 +2448,12 @@
     }
   },
   {
-    "name": "itszedar",
+    "name": "glitchie__",
     "points": 4100,
     "last_activity": 1793946243000,
     "gain_24h": 0,
-    "gain_total": 2500,
-    "start_points": 1600,
+    "gain_total": 0,
+    "start_points": 4100,
     "events_count": 2,
     "active_today": true,
     "breakdown": {

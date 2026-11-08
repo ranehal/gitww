@@ -10,16 +10,6 @@
     "is_current": false
   },
   {
-    "id": "zaree_chan",
-    "name": "zaree_chan",
-    "streamers_count": 164,
-    "total_points": 2772528,
-    "gain_24h": 6492,
-    "active_today_count": 129,
-    "has_data": true,
-    "is_current": true
-  },
-  {
     "id": "aethermain7",
     "name": "aethermain7",
     "streamers_count": 87,
@@ -27,7 +17,7 @@
     "gain_24h": 0,
     "active_today_count": 0,
     "has_data": true,
-    "is_current": false
+    "is_current": true
   },
   {
     "id": "aloneyexe",
@@ -43,8 +33,8 @@
     "id": "alphazeta111",
     "name": "alphazeta111",
     "streamers_count": 167,
-    "total_points": 5132346,
-    "gain_24h": 53892,
+    "total_points": 5132406,
+    "gain_24h": 53952,
     "active_today_count": 133,
     "has_data": true,
     "is_current": false
@@ -63,8 +53,8 @@
     "id": "done_pata",
     "name": "done_pata",
     "streamers_count": 167,
-    "total_points": 3970915,
-    "gain_24h": 56144,
+    "total_points": 3970925,
+    "gain_24h": 56154,
     "active_today_count": 133,
     "has_data": true,
     "is_current": false
@@ -366,6 +356,16 @@
     "total_points": 2711410,
     "gain_24h": 40404,
     "active_today_count": 132,
+    "has_data": true,
+    "is_current": false
+  },
+  {
+    "id": "zaree_chan",
+    "name": "zaree_chan",
+    "streamers_count": 164,
+    "total_points": 2772528,
+    "gain_24h": 6492,
+    "active_today_count": 129,
     "has_data": true,
     "is_current": false
   }

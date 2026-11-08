@@ -378,24 +378,6 @@
     }
   },
   {
-    "name": "original_stump",
-    "points": 52340,
-    "last_activity": 1794028485000,
-    "gain_24h": 0,
-    "gain_total": 26230,
-    "start_points": 26110,
-    "events_count": 11,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 9,
-      "Claim": 1,
-      "Streak": 0,
-      "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "puddin086",
     "points": 52340,
     "last_activity": 1794028485000,
@@ -414,19 +396,19 @@
     }
   },
   {
-    "name": "outlawz_psycho",
-    "points": 47750,
-    "last_activity": 1794069248000,
+    "name": "original_stump",
+    "points": 52340,
+    "last_activity": 1794028485000,
     "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 47750,
-    "events_count": 1,
+    "gain_total": 26230,
+    "start_points": 26110,
+    "events_count": 11,
     "active_today": true,
     "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
+      "Watch": 9,
+      "Claim": 1,
       "Streak": 0,
-      "Raid": 0,
+      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }
@@ -443,6 +425,24 @@
     "breakdown": {
       "Watch": 10,
       "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "outlawz_psycho",
+    "points": 47750,
+    "last_activity": 1794069248000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 47750,
+    "events_count": 1,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 1,
+      "Claim": 0,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -774,12 +774,12 @@
     }
   },
   {
-    "name": "tdrizzzly",
+    "name": "dirkdontlose",
     "points": 28010,
     "last_activity": 1794028939000,
     "gain_24h": 0,
-    "gain_total": 20520,
-    "start_points": 7490,
+    "gain_total": 27910,
+    "start_points": 100,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -792,12 +792,12 @@
     }
   },
   {
-    "name": "dirkdontlose",
+    "name": "tdrizzzly",
     "points": 28010,
     "last_activity": 1794028939000,
     "gain_24h": 0,
-    "gain_total": 27910,
-    "start_points": 100,
+    "gain_total": 20520,
+    "start_points": 7490,
     "events_count": 3,
     "active_today": true,
     "breakdown": {
@@ -900,24 +900,6 @@
     }
   },
   {
-    "name": "itstrunksz",
-    "points": 24300,
-    "last_activity": 1794029008000,
-    "gain_24h": 0,
-    "gain_total": 17180,
-    "start_points": 7120,
-    "events_count": 2,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 2,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "plaguejestersky",
     "points": 24300,
     "last_activity": 1794029008000,
@@ -928,6 +910,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 3,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "itstrunksz",
+    "points": 24300,
+    "last_activity": 1794029008000,
+    "gain_24h": 0,
+    "gain_total": 17180,
+    "start_points": 7120,
+    "events_count": 2,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -957,7 +957,7 @@
     "name": "themuffingirl",
     "points": 24200,
     "last_activity": 1794069245000,
-    "gain_24h": 1390,
+    "gain_24h": 260,
     "gain_total": 4970,
     "start_points": 19230,
     "events_count": 7,
@@ -2538,24 +2538,6 @@
     }
   },
   {
-    "name": "evokeddd",
-    "points": 2950,
-    "last_activity": 1791037444000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 2950,
-    "events_count": 3,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "leenlx",
     "points": 2950,
     "last_activity": 1794028651000,
@@ -2566,6 +2548,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 5,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "evokeddd",
+    "points": 2950,
+    "last_activity": 1791037444000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 2950,
+    "events_count": 3,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 3,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

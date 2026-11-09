@@ -108,24 +108,6 @@
     }
   },
   {
-    "name": "symc0e",
-    "points": 167660,
-    "last_activity": 1794193477000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 167660,
-    "events_count": 1,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "erzadray1",
     "points": 167660,
     "last_activity": 1794193477000,
@@ -144,17 +126,35 @@
     }
   },
   {
-    "name": "pbomba_",
-    "points": 163770,
-    "last_activity": 1794193460000,
-    "gain_24h": 460,
-    "gain_total": 38190,
-    "start_points": 125580,
-    "events_count": 10,
+    "name": "symc0e",
+    "points": 167660,
+    "last_activity": 1794193477000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 167660,
+    "events_count": 1,
     "active_today": true,
     "breakdown": {
-      "Watch": 10,
+      "Watch": 1,
       "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "pbomba_",
+    "points": 163882,
+    "last_activity": 1794195712000,
+    "gain_24h": 510,
+    "gain_total": 2700,
+    "start_points": 161182,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 7,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,

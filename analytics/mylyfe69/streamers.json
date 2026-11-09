@@ -1009,15 +1009,33 @@
   },
   {
     "name": "flow1of1tv",
-    "points": 10330,
-    "last_activity": 1794193359000,
-    "gain_24h": 460,
-    "gain_total": 1910,
+    "points": 10340,
+    "last_activity": 1794195686000,
+    "gain_24h": 470,
+    "gain_total": 2370,
     "start_points": 8420,
-    "events_count": 6,
+    "events_count": 8,
     "active_today": true,
     "breakdown": {
-      "Watch": 6,
+      "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "denie",
+    "points": 10020,
+    "last_activity": 1794195730000,
+    "gain_24h": 412,
+    "gain_total": 9290,
+    "start_points": 730,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 8,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1104,24 +1122,6 @@
     "gain_24h": 460,
     "gain_total": 9550,
     "start_points": 100,
-    "events_count": 6,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 6,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "denie",
-    "points": 9608,
-    "last_activity": 1794193365000,
-    "gain_24h": 0,
-    "gain_total": 8878,
-    "start_points": 730,
     "events_count": 6,
     "active_today": true,
     "breakdown": {

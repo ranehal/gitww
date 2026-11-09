@@ -1441,15 +1441,15 @@
   },
   {
     "name": "sarconius",
-    "points": 3520,
-    "last_activity": 1794193398000,
-    "gain_24h": 0,
-    "gain_total": 730,
+    "points": 3530,
+    "last_activity": 1794195646000,
+    "gain_24h": 10,
+    "gain_total": 740,
     "start_points": 2790,
-    "events_count": 6,
+    "events_count": 7,
     "active_today": true,
     "breakdown": {
-      "Watch": 5,
+      "Watch": 6,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -1602,6 +1602,24 @@
     }
   },
   {
+    "name": "flow1of1tv",
+    "points": 3030,
+    "last_activity": 1794195594000,
+    "gain_24h": 380,
+    "gain_total": 1570,
+    "start_points": 1760,
+    "events_count": 10,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 8,
+      "Claim": 2,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "doxlet",
     "points": 3020,
     "last_activity": 1794192867000,
@@ -1739,24 +1757,6 @@
     "breakdown": {
       "Watch": 5,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "flow1of1tv",
-    "points": 2670,
-    "last_activity": 1794193361000,
-    "gain_24h": 20,
-    "gain_total": 910,
-    "start_points": 1760,
-    "events_count": 7,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 6,
-      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,

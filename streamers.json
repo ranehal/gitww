@@ -1350,24 +1350,6 @@
     }
   },
   {
-    "name": "pricolacc",
-    "points": 29816,
-    "last_activity": 1794357446000,
-    "gain_24h": 19816,
-    "gain_total": 21246,
-    "start_points": 8570,
-    "events_count": 8,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 8,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "artemiskp",
     "points": 29816,
     "last_activity": 1794357446000,
@@ -1378,6 +1360,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "pricolacc",
+    "points": 29816,
+    "last_activity": 1794357446000,
+    "gain_24h": 19816,
+    "gain_total": 21246,
+    "start_points": 8570,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 8,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2720,7 +2720,7 @@
   {
     "name": "ironmancarter",
     "points": 5980,
-    "last_activity": 1794358236000,
+    "last_activity": 1794358202000,
     "gain_24h": 0,
     "gain_total": 1440,
     "start_points": 4540,

@@ -831,7 +831,7 @@
     "name": "symc0e",
     "points": 30630,
     "last_activity": 1794439915000,
-    "gain_24h": 60,
+    "gain_24h": 0,
     "gain_total": 21690,
     "start_points": 8940,
     "events_count": 9,
@@ -1855,15 +1855,15 @@
   },
   {
     "name": "mrbunnyelite",
-    "points": 11440,
-    "last_activity": 1794440664000,
-    "gain_24h": 460,
-    "gain_total": 7350,
+    "points": 11450,
+    "last_activity": 1794444798000,
+    "gain_24h": 470,
+    "gain_total": 7360,
     "start_points": 4090,
-    "events_count": 14,
+    "events_count": 15,
     "active_today": true,
     "breakdown": {
-      "Watch": 14,
+      "Watch": 15,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2070,6 +2070,24 @@
     }
   },
   {
+    "name": "yteddiecolon",
+    "points": 9490,
+    "last_activity": 1794444912000,
+    "gain_24h": 510,
+    "gain_total": 3010,
+    "start_points": 6480,
+    "events_count": 44,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 43,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "burrqt",
     "points": 9460,
     "last_activity": 1794440831000,
@@ -2117,24 +2135,6 @@
     "breakdown": {
       "Watch": 3,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "yteddiecolon",
-    "points": 9030,
-    "last_activity": 1794440631000,
-    "gain_24h": 50,
-    "gain_total": 2550,
-    "start_points": 6480,
-    "events_count": 42,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 41,
-      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,

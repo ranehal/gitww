@@ -489,7 +489,7 @@
     "name": "flow1of1tv",
     "points": 45420,
     "last_activity": 1794441380000,
-    "gain_24h": 2700,
+    "gain_24h": 2570,
     "gain_total": 16300,
     "start_points": 29120,
     "events_count": 22,
@@ -1872,6 +1872,24 @@
     }
   },
   {
+    "name": "yteddiecolon",
+    "points": 9880,
+    "last_activity": 1794444909000,
+    "gain_24h": 460,
+    "gain_total": 3120,
+    "start_points": 6760,
+    "events_count": 45,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 44,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "sarconius",
     "points": 9860,
     "last_activity": 1794440512000,
@@ -1955,24 +1973,6 @@
     "breakdown": {
       "Watch": 6,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "yteddiecolon",
-    "points": 9420,
-    "last_activity": 1794440380000,
-    "gain_24h": 0,
-    "gain_total": 2660,
-    "start_points": 6760,
-    "events_count": 43,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 42,
-      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,

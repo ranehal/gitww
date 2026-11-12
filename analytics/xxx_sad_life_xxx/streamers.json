@@ -91,15 +91,15 @@
   },
   {
     "name": "cojomocs",
-    "points": 156490,
-    "last_activity": 1794523614000,
-    "gain_24h": 0,
-    "gain_total": 1234,
+    "points": 156502,
+    "last_activity": 1794525432000,
+    "gain_24h": 12,
+    "gain_total": 1696,
     "start_points": 155256,
-    "events_count": 11,
+    "events_count": 13,
     "active_today": true,
     "breakdown": {
-      "Watch": 10,
+      "Watch": 12,
       "Claim": 0,
       "Streak": 0,
       "Raid": 1,
@@ -1711,15 +1711,15 @@
   },
   {
     "name": "plaguejestersky",
-    "points": 6500,
-    "last_activity": 1794523602000,
-    "gain_24h": 0,
-    "gain_total": 320,
+    "points": 6510,
+    "last_activity": 1794525556000,
+    "gain_24h": 10,
+    "gain_total": 680,
     "start_points": 6180,
-    "events_count": 12,
+    "events_count": 14,
     "active_today": true,
     "breakdown": {
-      "Watch": 12,
+      "Watch": 14,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1759,6 +1759,24 @@
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "real_juiceegod",
+    "points": 6350,
+    "last_activity": 1794525287000,
+    "gain_24h": 460,
+    "gain_total": 5070,
+    "start_points": 1280,
+    "events_count": 18,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 16,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }
@@ -1885,24 +1903,6 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "real_juiceegod",
-    "points": 5890,
-    "last_activity": 1794523421000,
-    "gain_24h": 0,
-    "gain_total": 4610,
-    "start_points": 1280,
-    "events_count": 16,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 14,
-      "Claim": 1,
-      "Streak": 0,
-      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }

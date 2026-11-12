@@ -435,7 +435,7 @@
     "name": "flow1of1tv",
     "points": 44320,
     "last_activity": 1794441127000,
-    "gain_24h": 2860,
+    "gain_24h": 2790,
     "gain_total": 14880,
     "start_points": 29440,
     "events_count": 23,
@@ -1962,6 +1962,24 @@
     }
   },
   {
+    "name": "burrqt",
+    "points": 10440,
+    "last_activity": 1794445006000,
+    "gain_24h": 470,
+    "gain_total": 3130,
+    "start_points": 7310,
+    "events_count": 12,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 12,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "zobstan",
     "points": 10190,
     "last_activity": 1794441087000,
@@ -1990,24 +2008,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 14,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "burrqt",
-    "points": 9980,
-    "last_activity": 1794440816000,
-    "gain_24h": 10,
-    "gain_total": 2670,
-    "start_points": 7310,
-    "events_count": 10,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 10,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2199,7 +2199,7 @@
     "name": "jsaxter",
     "points": 8700,
     "last_activity": 1794441815000,
-    "gain_24h": 970,
+    "gain_24h": 510,
     "gain_total": 2950,
     "start_points": 5750,
     "events_count": 27,

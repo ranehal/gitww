@@ -1461,7 +1461,7 @@
     "name": "cobeano_",
     "points": 5818,
     "last_activity": 1794439826000,
-    "gain_24h": 120,
+    "gain_24h": 0,
     "gain_total": 1830,
     "start_points": 3988,
     "events_count": 17,
@@ -1674,6 +1674,24 @@
     }
   },
   {
+    "name": "burrqt",
+    "points": 4770,
+    "last_activity": 1794444973000,
+    "gain_24h": 320,
+    "gain_total": 350,
+    "start_points": 4420,
+    "events_count": 12,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 12,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "dotmalibu",
     "points": 4710,
     "last_activity": 1794440118000,
@@ -1720,24 +1738,6 @@
     "active_today": false,
     "breakdown": {
       "Watch": 5,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "burrqt",
-    "points": 4460,
-    "last_activity": 1794440908000,
-    "gain_24h": 10,
-    "gain_total": 40,
-    "start_points": 4420,
-    "events_count": 10,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 10,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

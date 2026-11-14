@@ -289,15 +289,15 @@
   },
   {
     "name": "emniag",
-    "points": 35010,
-    "last_activity": 1794666990000,
-    "gain_24h": 2190,
-    "gain_total": 16570,
+    "points": 35030,
+    "last_activity": 1794668586000,
+    "gain_24h": 2210,
+    "gain_total": 16590,
     "start_points": 18440,
-    "events_count": 71,
+    "events_count": 73,
     "active_today": true,
     "breakdown": {
-      "Watch": 55,
+      "Watch": 57,
       "Claim": 16,
       "Streak": 0,
       "Raid": 0,
@@ -1296,16 +1296,34 @@
     }
   },
   {
-    "name": "cato_cm",
-    "points": 5050,
-    "last_activity": 1794666707000,
-    "gain_24h": 0,
-    "gain_total": 1660,
-    "start_points": 3390,
-    "events_count": 16,
+    "name": "krayyzzee",
+    "points": 5070,
+    "last_activity": 1794668514000,
+    "gain_24h": 80,
+    "gain_total": 2410,
+    "start_points": 2660,
+    "events_count": 14,
     "active_today": true,
     "breakdown": {
-      "Watch": 15,
+      "Watch": 13,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "cato_cm",
+    "points": 5060,
+    "last_activity": 1794668113000,
+    "gain_24h": 10,
+    "gain_total": 1670,
+    "start_points": 3390,
+    "events_count": 17,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 16,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -1345,24 +1363,6 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "krayyzzee",
-    "points": 5010,
-    "last_activity": 1794667159000,
-    "gain_24h": 20,
-    "gain_total": 2350,
-    "start_points": 2660,
-    "events_count": 12,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 12,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }

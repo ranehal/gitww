@@ -4,55 +4,7 @@
       "x": 1791037699000,
       "y": 161990,
       "z": "Watch"
-    },
-    {
-      "x": 1794482585000,
-      "y": 165380,
-      "z": "Watch"
-    },
-    {
-      "x": 1794483822000,
-      "y": 165390,
-      "z": "Watch"
-    },
-    {
-      "x": 1794523656000,
-      "y": 165790,
-      "z": "Watch"
-    },
-    {
-      "x": 1794564899000,
-      "y": 165790,
-      "z": "Watch"
-    },
-    {
-      "x": 1794605983000,
-      "y": 165790,
-      "z": "Watch"
     }
   ],
-  "annotations": [
-    {
-      "borderColor": "#45c1ff",
-      "label": {
-        "style": {
-          "color": "#000",
-          "background": "#45c1ff"
-        },
-        "text": "+300 - WATCH_STREAK"
-      },
-      "x": 1794317561000
-    },
-    {
-      "borderColor": "#45c1ff",
-      "label": {
-        "style": {
-          "color": "#000",
-          "background": "#45c1ff"
-        },
-        "text": "+400 - WATCH_STREAK"
-      },
-      "x": 1794483822000
-    }
-  ]
+  "annotations": []
 }

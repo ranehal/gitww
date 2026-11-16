@@ -1441,15 +1441,15 @@
   },
   {
     "name": "plaguejestersky",
-    "points": 5480,
-    "last_activity": 1794792431000,
-    "gain_24h": 10,
-    "gain_total": 5470,
+    "points": 5490,
+    "last_activity": 1794792728000,
+    "gain_24h": 20,
+    "gain_total": 5480,
     "start_points": 10,
-    "events_count": 26,
+    "events_count": 27,
     "active_today": true,
     "breakdown": {
-      "Watch": 25,
+      "Watch": 26,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -2016,6 +2016,24 @@
     }
   },
   {
+    "name": "demon1",
+    "points": 3170,
+    "last_activity": 1794792640000,
+    "gain_24h": 460,
+    "gain_total": 5110,
+    "start_points": 5900,
+    "events_count": 80,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 77,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 2,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "nbkguapo",
     "points": 3140,
     "last_activity": 1794790232000,
@@ -2083,24 +2101,6 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "demon1",
-    "points": 2710,
-    "last_activity": 1794789625000,
-    "gain_24h": 0,
-    "gain_total": 4650,
-    "start_points": 5900,
-    "events_count": 79,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 76,
-      "Claim": 1,
-      "Streak": 0,
-      "Raid": 2,
       "Prediction": 0,
       "Other": 0
     }

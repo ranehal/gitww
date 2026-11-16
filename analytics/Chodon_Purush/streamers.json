@@ -1152,34 +1152,16 @@
     }
   },
   {
-    "name": "terraformer20",
-    "points": 5830,
-    "last_activity": 1794790007000,
-    "gain_24h": 5810,
-    "gain_total": 5820,
-    "start_points": 10,
-    "events_count": 42,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 42,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "demon1",
-    "points": 5760,
-    "last_activity": 1794789446000,
-    "gain_24h": 0,
-    "gain_total": 7240,
+    "points": 5770,
+    "last_activity": 1794792645000,
+    "gain_24h": 10,
+    "gain_total": 7250,
     "start_points": 5900,
-    "events_count": 86,
+    "events_count": 87,
     "active_today": true,
     "breakdown": {
-      "Watch": 83,
+      "Watch": 84,
       "Claim": 1,
       "Streak": 0,
       "Raid": 2,
@@ -2944,6 +2926,24 @@
     "active_today": true,
     "breakdown": {
       "Watch": 33,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "terraformer20",
+    "points": 30,
+    "last_activity": 1794792586000,
+    "gain_24h": 10,
+    "gain_total": 5820,
+    "start_points": 10,
+    "events_count": 43,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 43,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

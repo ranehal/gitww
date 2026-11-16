@@ -342,24 +342,6 @@
     }
   },
   {
-    "name": "demon1",
-    "points": 72410,
-    "last_activity": 1794790040000,
-    "gain_24h": 59080,
-    "gain_total": 76076,
-    "start_points": 5900,
-    "events_count": 79,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 76,
-      "Claim": 1,
-      "Streak": 0,
-      "Raid": 2,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "flxnked",
     "points": 72410,
     "last_activity": 1794790040000,
@@ -1027,15 +1009,15 @@
   },
   {
     "name": "gangsta1989",
-    "points": 27830,
-    "last_activity": 1794790137000,
-    "gain_24h": 460,
-    "gain_total": 33710,
+    "points": 27840,
+    "last_activity": 1794792727000,
+    "gain_24h": 470,
+    "gain_total": 33720,
     "start_points": 10500,
-    "events_count": 75,
+    "events_count": 76,
     "active_today": true,
     "breakdown": {
-      "Watch": 72,
+      "Watch": 73,
       "Claim": 3,
       "Streak": 0,
       "Raid": 0,
@@ -1633,6 +1615,24 @@
       "Claim": 2,
       "Streak": 0,
       "Raid": 1,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "demon1",
+    "points": 13790,
+    "last_activity": 1794792645000,
+    "gain_24h": 460,
+    "gain_total": 76076,
+    "start_points": 5900,
+    "events_count": 80,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 77,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 2,
       "Prediction": 0,
       "Other": 0
     }

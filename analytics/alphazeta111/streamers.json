@@ -1261,16 +1261,16 @@
   },
   {
     "name": "flow1of1tv",
-    "points": 17880,
-    "last_activity": 1794789490000,
-    "gain_24h": 0,
-    "gain_total": 37982,
+    "points": 18390,
+    "last_activity": 1794790706000,
+    "gain_24h": 510,
+    "gain_total": 38492,
     "start_points": 10,
-    "events_count": 51,
+    "events_count": 53,
     "active_today": true,
     "breakdown": {
-      "Watch": 50,
-      "Claim": 1,
+      "Watch": 51,
+      "Claim": 2,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1422,6 +1422,24 @@
     }
   },
   {
+    "name": "dotmalibu",
+    "points": 15760,
+    "last_activity": 1794790698000,
+    "gain_24h": 510,
+    "gain_total": 30760,
+    "start_points": 260,
+    "events_count": 55,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 52,
+      "Claim": 2,
+      "Streak": 0,
+      "Raid": 1,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "jptv2403",
     "points": 15710,
     "last_activity": 1791985430000,
@@ -1471,24 +1489,6 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "dotmalibu",
-    "points": 15250,
-    "last_activity": 1794789501000,
-    "gain_24h": 0,
-    "gain_total": 30250,
-    "start_points": 260,
-    "events_count": 54,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 52,
-      "Claim": 1,
-      "Streak": 0,
-      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }

@@ -69,7 +69,7 @@
 
             <div class="header-center">
                 <!-- Google Sheet Online Indicator Pill -->
-                <div class="header-live-pill clickable" id="header-live-pill" title="Click to filter channels broadcasting live now">
+                <div class="header-live-pill clickable" id="header-live-pill" title="Click to toggle Live only">
                     <span class="live-dot-pulse"></span>
                     <span class="live-text-main" id="header-live-text">STREAMERS ONLINE</span>
                     <span class="live-count-badge" id="header-live-badge">0</span>
@@ -190,13 +190,11 @@
                 <div class="tool-group filter-tab-group">
                     <span class="tool-label"><i class="fas fa-filter"></i> FILTERS:</span>
                     <button class="filter-tab active" data-filter="all">All</button>
-                    <button class="filter-tab tab-live-now" data-filter="online" title="Show only streamers broadcasting live right now"><span class="tab-live-beacon"></span> Online Now (<span id="tab-live-count">0</span>)</button>
+                    <button class="filter-tab tab-live-now live-only-toggle" id="btn-live-only" type="button" aria-pressed="false" title="Live only: hide channels that are not streaming right now (combines with every other filter)"><span class="tab-live-beacon"></span> Live only (<span id="tab-live-count">0</span>)</button>
                     <button class="filter-tab tab-target-approx" data-filter="near_target" title="Farmed points approximating Column C target (70% - 99%)"><i class="fas fa-bullseye"></i> Near Target (70%+)</button>
                     <button class="filter-tab tab-target-met" data-filter="target_met" title="Channels with 100%+ target points reached"><i class="fas fa-trophy"></i> Ready to Claim</button>
                     <button class="filter-tab" data-filter="active">Active 24h</button>
-                    <button class="filter-tab" data-filter="top5">Top 5</button>
                     <button class="filter-tab" data-filter="top10">Top 10</button>
-                    <button class="filter-tab" data-filter="top25">Top 25</button>
                     <button class="filter-tab" data-filter="gained">Gained Today</button>
                     <button class="filter-tab" data-filter="idle">Idle / Stale</button>
                 </div>
@@ -269,7 +267,6 @@
                     <button class="btn-ctrl active" id="btn-chart-type" title="Toggle Area / Line chart">Area</button>
                     <button class="btn-ctrl" id="btn-chart-curve" title="Toggle Smooth / Straight / Stepline">Stepline</button>
                     <button class="btn-ctrl active" id="btn-toggle-annotations" title="Toggle point gain badges on graph">Annotations</button>
-                    <button class="btn-ctrl" id="btn-reset-zoom" title="Reset chart zoom">Reset Zoom</button>
                     <button class="btn-ctrl" id="btn-fullscreen-chart" title="Fullscreen chart mode"><i class="fas fa-expand"></i> Fullscreen</button>
                 </div>
 
@@ -301,7 +298,6 @@
                     <div class="sidebar-headline">
                         <span><i class="fas fa-list-ol"></i> CHANNELS (<span id="streamers-count-badge">0</span>)<span class="sidebar-live-tag" id="sidebar-live-tag" style="display: none;"> • <span class="tab-live-beacon"></span> <span id="sidebar-live-count">0</span> Live</span></span>
                         <div class="sidebar-quick-sort">
-                            <button class="btn-ctrl btn-copy-100-mini" id="btn-copy-100-mini" title="Copy all 100% farmed streamers (&quot;a&quot;,&quot;b&quot;)" style="padding: 1px 6px; font-size: 10px; margin-right: 6px; color: #00f59b; border-color: rgba(0, 245, 155, 0.4);"><i class="fas fa-copy"></i> 100%</button>
                             <span class="sort-tag-active" id="sidebar-sort-tag">Points ↓</span>
                         </div>
                     </div>

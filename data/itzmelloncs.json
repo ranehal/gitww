@@ -1,23 +1,12 @@
 {
   "series": [
     {
-      "x": 1794790078000,
-      "y": 341640,
+      "x": 1794913396000,
+      "y": 68410,
       "z": "Watch"
     }
   ],
   "annotations": [
-    {
-      "borderColor": "#45c1ff",
-      "label": {
-        "style": {
-          "color": "#000",
-          "background": "#45c1ff"
-        },
-        "text": "+450 - WATCH_STREAK"
-      },
-      "x": 1790607151000
-    },
     {
       "borderColor": "#45c1ff",
       "label": {
@@ -58,9 +47,9 @@
           "color": "#000",
           "background": "#45c1ff"
         },
-        "text": "+450 - WATCH_STREAK"
+        "text": "+300 - WATCH_STREAK"
       },
-      "x": 1791131168000
+      "x": 1791131048000
     },
     {
       "borderColor": "#45c1ff",
@@ -71,7 +60,7 @@
         },
         "text": "+450 - WATCH_STREAK"
       },
-      "x": 1791739714000
+      "x": 1791739905000
     },
     {
       "borderColor": "#45c1ff",
@@ -82,7 +71,7 @@
         },
         "text": "+300 - WATCH_STREAK"
       },
-      "x": 1793553374000
+      "x": 1793553519000
     }
   ]
 }

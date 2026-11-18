@@ -450,24 +450,6 @@
     }
   },
   {
-    "name": "sgtfresh",
-    "points": 16890,
-    "last_activity": 1791038413000,
-    "gain_24h": 0,
-    "gain_total": 2680,
-    "start_points": 60810,
-    "events_count": 7,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 7,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "faded689",
     "points": 16890,
     "last_activity": 1791038418000,
@@ -478,6 +460,24 @@
     "active_today": false,
     "breakdown": {
       "Watch": 9,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "sgtfresh",
+    "points": 16890,
+    "last_activity": 1791038413000,
+    "gain_24h": 0,
+    "gain_total": 2680,
+    "start_points": 60810,
+    "events_count": 7,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 7,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1188,24 +1188,6 @@
     }
   },
   {
-    "name": "nbkguapo",
-    "points": 820,
-    "last_activity": 1791038474000,
-    "gain_24h": 0,
-    "gain_total": 4120,
-    "start_points": 8430,
-    "events_count": 15,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 11,
-      "Claim": 1,
-      "Streak": 0,
-      "Raid": 3,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "betrigan",
     "points": 820,
     "last_activity": 1791038451000,
@@ -1219,6 +1201,24 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "nbkguapo",
+    "points": 820,
+    "last_activity": 1791038474000,
+    "gain_24h": 0,
+    "gain_total": 4120,
+    "start_points": 8430,
+    "events_count": 15,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 11,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 3,
       "Prediction": 0,
       "Other": 0
     }
@@ -1350,24 +1350,6 @@
     }
   },
   {
-    "name": "do_worrk",
-    "points": 320,
-    "last_activity": 1791038473000,
-    "gain_24h": 0,
-    "gain_total": 2470,
-    "start_points": 11010,
-    "events_count": 7,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 7,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "evokeddd",
     "points": 320,
     "last_activity": 1791038460000,
@@ -1378,6 +1360,24 @@
     "active_today": false,
     "breakdown": {
       "Watch": 6,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "denie",
+    "points": 320,
+    "last_activity": 1791038456000,
+    "gain_24h": 0,
+    "gain_total": 0,
+    "start_points": 320,
+    "events_count": 1,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 1,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1404,16 +1404,16 @@
     }
   },
   {
-    "name": "denie",
+    "name": "do_worrk",
     "points": 320,
-    "last_activity": 1791038456000,
+    "last_activity": 1791038473000,
     "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 320,
-    "events_count": 1,
+    "gain_total": 2470,
+    "start_points": 11010,
+    "events_count": 7,
     "active_today": false,
     "breakdown": {
-      "Watch": 1,
+      "Watch": 7,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1512,24 +1512,6 @@
     }
   },
   {
-    "name": "kyriefnx",
-    "points": 10,
-    "last_activity": 1791038473000,
-    "gain_24h": 0,
-    "gain_total": 2960,
-    "start_points": 4450,
-    "events_count": 4,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 4,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "cblitzkrieg",
     "points": 10,
     "last_activity": 1791038419000,
@@ -1541,6 +1523,24 @@
     "breakdown": {
       "Watch": 57,
       "Claim": 18,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "kyriefnx",
+    "points": 10,
+    "last_activity": 1791038473000,
+    "gain_24h": 0,
+    "gain_total": 2960,
+    "start_points": 4450,
+    "events_count": 4,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 4,
+      "Claim": 0,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,

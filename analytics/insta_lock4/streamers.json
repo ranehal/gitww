@@ -109,15 +109,15 @@
   },
   {
     "name": "cojomocs",
-    "points": 147572,
-    "last_activity": 1795036750000,
-    "gain_24h": 360,
-    "gain_total": 9830,
+    "points": 147932,
+    "last_activity": 1795039364000,
+    "gain_24h": 720,
+    "gain_total": 10190,
     "start_points": 137742,
-    "events_count": 56,
+    "events_count": 57,
     "active_today": true,
     "breakdown": {
-      "Watch": 55,
+      "Watch": 56,
       "Claim": 0,
       "Streak": 0,
       "Raid": 1,
@@ -1422,24 +1422,6 @@
     }
   },
   {
-    "name": "jllei",
-    "points": 5166,
-    "last_activity": 1795036854000,
-    "gain_24h": 2888,
-    "gain_total": 4916,
-    "start_points": 250,
-    "events_count": 37,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 37,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "flapflap00",
     "points": 5130,
     "last_activity": 1791985623000,
@@ -2009,6 +1991,24 @@
     "breakdown": {
       "Watch": 53,
       "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "jllei",
+    "points": 3000,
+    "last_activity": 1795039476000,
+    "gain_24h": 722,
+    "gain_total": 4916,
+    "start_points": 250,
+    "events_count": 38,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 37,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,

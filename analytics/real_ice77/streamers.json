@@ -1495,15 +1495,15 @@
   },
   {
     "name": "sc4p3_fps",
-    "points": 15390,
-    "last_activity": 1795077926000,
-    "gain_24h": 0,
-    "gain_total": 16020,
+    "points": 15400,
+    "last_activity": 1795088990000,
+    "gain_24h": 10,
+    "gain_total": 16030,
     "start_points": 10,
-    "events_count": 50,
+    "events_count": 51,
     "active_today": true,
     "breakdown": {
-      "Watch": 50,
+      "Watch": 51,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1530,6 +1530,24 @@
     }
   },
   {
+    "name": "anonymousashlar",
+    "points": 15080,
+    "last_activity": 1795089131000,
+    "gain_24h": 530,
+    "gain_total": 19070,
+    "start_points": 10,
+    "events_count": 71,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 67,
+      "Claim": 4,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "vbake_",
     "points": 15060,
     "last_activity": 1795077497000,
@@ -1543,24 +1561,6 @@
       "Claim": 1,
       "Streak": 0,
       "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "anonymousashlar",
-    "points": 15010,
-    "last_activity": 1795078083000,
-    "gain_24h": 460,
-    "gain_total": 19000,
-    "start_points": 10,
-    "events_count": 69,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 66,
-      "Claim": 3,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }

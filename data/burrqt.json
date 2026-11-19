@@ -1,8 +1,8 @@
 {
   "series": [
     {
-      "x": 1795037063000,
-      "y": 203810,
+      "x": 1795078198000,
+      "y": 244920,
       "z": "Watch"
     }
   ],
@@ -14,9 +14,20 @@
           "color": "#000",
           "background": "#45c1ff"
         },
-        "text": "+450 - WATCH_STREAK"
+        "text": "+300 - WATCH_STREAK"
       },
-      "x": 1794445006000
+      "x": 1792318086000
+    },
+    {
+      "borderColor": "#45c1ff",
+      "label": {
+        "style": {
+          "color": "#000",
+          "background": "#45c1ff"
+        },
+        "text": "+350 - WATCH_STREAK"
+      },
+      "x": 1794444380000
     }
   ]
 }

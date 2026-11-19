@@ -396,6 +396,24 @@
     }
   },
   {
+    "name": "topshoter_no",
+    "points": 20630,
+    "last_activity": 1795084179000,
+    "gain_24h": 510,
+    "gain_total": 10890,
+    "start_points": 9740,
+    "events_count": 94,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 86,
+      "Claim": 6,
+      "Streak": 0,
+      "Raid": 2,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "888gut",
     "points": 20160,
     "last_activity": 1790746761000,
@@ -409,24 +427,6 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "topshoter_no",
-    "points": 20120,
-    "last_activity": 1795077910000,
-    "gain_24h": 0,
-    "gain_total": 10380,
-    "start_points": 9740,
-    "events_count": 92,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 85,
-      "Claim": 5,
-      "Streak": 0,
-      "Raid": 2,
       "Prediction": 0,
       "Other": 0
     }
@@ -525,7 +525,7 @@
     "name": "emniag",
     "points": 17400,
     "last_activity": 1795078524000,
-    "gain_24h": 490,
+    "gain_24h": 480,
     "gain_total": 17840,
     "start_points": 10,
     "events_count": 159,
@@ -937,15 +937,15 @@
   },
   {
     "name": "vulture5x",
-    "points": 7000,
-    "last_activity": 1795078636000,
-    "gain_24h": 360,
-    "gain_total": 7060,
+    "points": 7020,
+    "last_activity": 1795084388000,
+    "gain_24h": 380,
+    "gain_total": 7080,
     "start_points": 10,
-    "events_count": 78,
+    "events_count": 80,
     "active_today": true,
     "breakdown": {
-      "Watch": 70,
+      "Watch": 72,
       "Claim": 8,
       "Streak": 0,
       "Raid": 0,
@@ -2271,7 +2271,7 @@
     "name": "flipnekotv",
     "points": 1750,
     "last_activity": 1795078189000,
-    "gain_24h": 320,
+    "gain_24h": 0,
     "gain_total": 1740,
     "start_points": 10,
     "events_count": 71,
@@ -2433,7 +2433,7 @@
     "name": "ttvmayhemv",
     "points": 1140,
     "last_activity": 1795081819000,
-    "gain_24h": 810,
+    "gain_24h": 410,
     "gain_total": 1130,
     "start_points": 10,
     "events_count": 6,

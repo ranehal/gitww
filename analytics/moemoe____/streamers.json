@@ -39,7 +39,7 @@
     "name": "frizzercs",
     "points": 305870,
     "last_activity": 1795081548000,
-    "gain_24h": 1370,
+    "gain_24h": 410,
     "gain_total": 112860,
     "start_points": 274730,
     "events_count": 38,
@@ -175,6 +175,24 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "topshoter_no",
+    "points": 96620,
+    "last_activity": 1795083968000,
+    "gain_24h": 10,
+    "gain_total": 2301160,
+    "start_points": 44440,
+    "events_count": 397,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 315,
+      "Claim": 77,
+      "Streak": 0,
+      "Raid": 5,
       "Prediction": 0,
       "Other": 0
     }
@@ -1206,24 +1224,6 @@
     }
   },
   {
-    "name": "topshoter_no",
-    "points": 22230,
-    "last_activity": 1795077551000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 22230,
-    "events_count": 1,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 1,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "sadgirlz_4life",
     "points": 22230,
     "last_activity": 1795077551000,
@@ -1947,7 +1947,7 @@
     "name": "emniag",
     "points": 12710,
     "last_activity": 1795078046000,
-    "gain_24h": 460,
+    "gain_24h": 0,
     "gain_total": 12700,
     "start_points": 10,
     "events_count": 56,
@@ -2505,7 +2505,7 @@
     "name": "flipnekotv",
     "points": 5980,
     "last_activity": 1795078196000,
-    "gain_24h": 320,
+    "gain_24h": 0,
     "gain_total": 30180,
     "start_points": 100,
     "events_count": 110,

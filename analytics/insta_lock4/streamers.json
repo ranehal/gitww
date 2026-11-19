@@ -523,16 +523,16 @@
   },
   {
     "name": "sc4p3_fps",
-    "points": 19760,
-    "last_activity": 1795088926000,
-    "gain_24h": 460,
-    "gain_total": 35220,
+    "points": 19820,
+    "last_activity": 1795089367000,
+    "gain_24h": 520,
+    "gain_total": 35280,
     "start_points": 10,
-    "events_count": 60,
+    "events_count": 61,
     "active_today": true,
     "breakdown": {
       "Watch": 59,
-      "Claim": 1,
+      "Claim": 2,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -2520,6 +2520,24 @@
     }
   },
   {
+    "name": "benadyl",
+    "points": 1190,
+    "last_activity": 1795089317000,
+    "gain_24h": 860,
+    "gain_total": 1180,
+    "start_points": 10,
+    "events_count": 47,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 40,
+      "Claim": 7,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "zenny",
     "points": 1170,
     "last_activity": 1794750696000,
@@ -2549,24 +2567,6 @@
     "breakdown": {
       "Watch": 24,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "benadyl",
-    "points": 1130,
-    "last_activity": 1795089007000,
-    "gain_24h": 800,
-    "gain_total": 1120,
-    "start_points": 10,
-    "events_count": 45,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 39,
-      "Claim": 6,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,

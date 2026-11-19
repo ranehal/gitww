@@ -307,15 +307,15 @@
   },
   {
     "name": "emniag",
-    "points": 33050,
-    "last_activity": 1795087175000,
-    "gain_24h": 610,
-    "gain_total": 33320,
+    "points": 33060,
+    "last_activity": 1795087475000,
+    "gain_24h": 620,
+    "gain_total": 33330,
     "start_points": 180,
-    "events_count": 138,
+    "events_count": 139,
     "active_today": true,
     "breakdown": {
-      "Watch": 115,
+      "Watch": 116,
       "Claim": 23,
       "Streak": 0,
       "Raid": 0,
@@ -2646,6 +2646,24 @@
     }
   },
   {
+    "name": "benadyl",
+    "points": 1030,
+    "last_activity": 1795087466000,
+    "gain_24h": 700,
+    "gain_total": 1020,
+    "start_points": 10,
+    "events_count": 39,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 34,
+      "Claim": 5,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "cvrsify",
     "points": 990,
     "last_activity": 1795077879000,
@@ -2677,24 +2695,6 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "benadyl",
-    "points": 970,
-    "last_activity": 1795087166000,
-    "gain_24h": 640,
-    "gain_total": 960,
-    "start_points": 10,
-    "events_count": 38,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 34,
-      "Claim": 4,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }

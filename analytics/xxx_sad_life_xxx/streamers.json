@@ -1135,15 +1135,15 @@
   },
   {
     "name": "itstrunksz",
-    "points": 11380,
-    "last_activity": 1795078196000,
-    "gain_24h": 0,
-    "gain_total": 50470,
+    "points": 11390,
+    "last_activity": 1795081003000,
+    "gain_24h": 10,
+    "gain_total": 50480,
     "start_points": 13350,
-    "events_count": 134,
+    "events_count": 135,
     "active_today": true,
     "breakdown": {
-      "Watch": 123,
+      "Watch": 124,
       "Claim": 10,
       "Streak": 0,
       "Raid": 1,
@@ -2682,6 +2682,24 @@
     }
   },
   {
+    "name": "ttvmayhemv",
+    "points": 1600,
+    "last_activity": 1795080938000,
+    "gain_24h": 870,
+    "gain_total": 1590,
+    "start_points": 10,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 8,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "benadyl",
     "points": 1530,
     "last_activity": 1795078766000,
@@ -2728,24 +2746,6 @@
     "active_today": false,
     "breakdown": {
       "Watch": 28,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "ttvmayhemv",
-    "points": 1140,
-    "last_activity": 1795077958000,
-    "gain_24h": 410,
-    "gain_total": 1130,
-    "start_points": 10,
-    "events_count": 7,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 7,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

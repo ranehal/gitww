@@ -289,15 +289,15 @@
   },
   {
     "name": "topshoter_no",
-    "points": 56070,
-    "last_activity": 1795077909000,
-    "gain_24h": 0,
-    "gain_total": 81070,
+    "points": 56530,
+    "last_activity": 1795087602000,
+    "gain_24h": 460,
+    "gain_total": 81530,
     "start_points": 9580,
-    "events_count": 88,
+    "events_count": 89,
     "active_today": true,
     "breakdown": {
-      "Watch": 80,
+      "Watch": 81,
       "Claim": 5,
       "Streak": 0,
       "Raid": 3,
@@ -2736,6 +2736,24 @@
     }
   },
   {
+    "name": "ttvmayhemv",
+    "points": 1660,
+    "last_activity": 1795087614000,
+    "gain_24h": 0,
+    "gain_total": 7520,
+    "start_points": 20,
+    "events_count": 8,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 7,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "dirkdontlose",
     "points": 1610,
     "last_activity": 1794749091000,
@@ -2839,24 +2857,6 @@
       "Claim": 17,
       "Streak": 0,
       "Raid": 6,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "ttvmayhemv",
-    "points": 1150,
-    "last_activity": 1795077935000,
-    "gain_24h": 0,
-    "gain_total": 7010,
-    "start_points": 20,
-    "events_count": 6,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 6,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }

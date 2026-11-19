@@ -543,7 +543,7 @@
     "name": "sloptv__",
     "points": 21600,
     "last_activity": 1795077633000,
-    "gain_24h": 470,
+    "gain_24h": 0,
     "gain_total": 28230,
     "start_points": 900,
     "events_count": 78,
@@ -1296,6 +1296,24 @@
     }
   },
   {
+    "name": "emniag",
+    "points": 12700,
+    "last_activity": 1795083367000,
+    "gain_24h": 590,
+    "gain_total": 13140,
+    "start_points": 10,
+    "events_count": 84,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 75,
+      "Claim": 9,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "rincewindtgw",
     "points": 12650,
     "last_activity": 1795077430000,
@@ -1307,24 +1325,6 @@
     "breakdown": {
       "Watch": 60,
       "Claim": 1,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "emniag",
-    "points": 12630,
-    "last_activity": 1795078097000,
-    "gain_24h": 520,
-    "gain_total": 13070,
-    "start_points": 10,
-    "events_count": 81,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 73,
-      "Claim": 8,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -2163,7 +2163,7 @@
     "name": "frizzercs",
     "points": 5620,
     "last_activity": 1795081614000,
-    "gain_24h": 1360,
+    "gain_24h": 1300,
     "gain_total": 5610,
     "start_points": 10,
     "events_count": 16,

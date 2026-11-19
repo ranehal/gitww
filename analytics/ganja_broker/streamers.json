@@ -1821,7 +1821,7 @@
     "name": "emniag",
     "points": 12430,
     "last_activity": 1795080520000,
-    "gain_24h": 590,
+    "gain_24h": 80,
     "gain_total": 12420,
     "start_points": 10,
     "events_count": 88,
@@ -2377,15 +2377,15 @@
   },
   {
     "name": "ttvmayhemv",
-    "points": 7790,
-    "last_activity": 1795082800000,
-    "gain_24h": 2960,
-    "gain_total": 4110,
+    "points": 7810,
+    "last_activity": 1795083410000,
+    "gain_24h": 2980,
+    "gain_total": 4130,
     "start_points": 3680,
-    "events_count": 12,
+    "events_count": 14,
     "active_today": true,
     "breakdown": {
-      "Watch": 10,
+      "Watch": 12,
       "Claim": 2,
       "Streak": 0,
       "Raid": 0,
@@ -3042,6 +3042,24 @@
     }
   },
   {
+    "name": "alphonthedon",
+    "points": 1420,
+    "last_activity": 1795083405000,
+    "gain_24h": 840,
+    "gain_total": 840,
+    "start_points": 580,
+    "events_count": 11,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 9,
+      "Claim": 2,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "bedderslive",
     "points": 1360,
     "last_activity": 1794751301000,
@@ -3052,24 +3070,6 @@
     "active_today": false,
     "breakdown": {
       "Watch": 11,
-      "Claim": 1,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "alphonthedon",
-    "points": 1350,
-    "last_activity": 1795082558000,
-    "gain_24h": 770,
-    "gain_total": 770,
-    "start_points": 580,
-    "events_count": 8,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 7,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,

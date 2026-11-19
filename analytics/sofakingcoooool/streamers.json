@@ -91,18 +91,18 @@
   },
   {
     "name": "pbomba_",
-    "points": 160160,
-    "last_activity": 1795078064000,
-    "gain_24h": 460,
-    "gain_total": 138092,
+    "points": 160410,
+    "last_activity": 1795079121000,
+    "gain_24h": 710,
+    "gain_total": 138342,
     "start_points": 123042,
-    "events_count": 136,
+    "events_count": 137,
     "active_today": true,
     "breakdown": {
       "Watch": 122,
       "Claim": 13,
       "Streak": 0,
-      "Raid": 1,
+      "Raid": 2,
       "Prediction": 0,
       "Other": 0
     }
@@ -612,6 +612,24 @@
     }
   },
   {
+    "name": "kurumichaos",
+    "points": 39150,
+    "last_activity": 1795079471000,
+    "gain_24h": 1650,
+    "gain_total": 83742,
+    "start_points": 10500,
+    "events_count": 162,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 156,
+      "Claim": 4,
+      "Streak": 0,
+      "Raid": 2,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "skytookie",
     "points": 38970,
     "last_activity": 1794748701000,
@@ -625,24 +643,6 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 2,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "kurumichaos",
-    "points": 38900,
-    "last_activity": 1795078509000,
-    "gain_24h": 1400,
-    "gain_total": 83492,
-    "start_points": 10500,
-    "events_count": 161,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 156,
-      "Claim": 4,
-      "Streak": 0,
-      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }

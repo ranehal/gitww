@@ -397,16 +397,16 @@
   },
   {
     "name": "flxnked",
-    "points": 22410,
-    "last_activity": 1795365619000,
-    "gain_24h": 0,
-    "gain_total": 32250,
+    "points": 22780,
+    "last_activity": 1795367001000,
+    "gain_24h": 370,
+    "gain_total": 32620,
     "start_points": 67340,
-    "events_count": 153,
+    "events_count": 155,
     "active_today": true,
     "breakdown": {
-      "Watch": 124,
-      "Claim": 29,
+      "Watch": 125,
+      "Claim": 30,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -738,6 +738,24 @@
     }
   },
   {
+    "name": "baddieblume",
+    "points": 8950,
+    "last_activity": 1795367065000,
+    "gain_24h": 560,
+    "gain_total": 8690,
+    "start_points": 260,
+    "events_count": 46,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 44,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 1,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "skytookie",
     "points": 8720,
     "last_activity": 1794748698000,
@@ -751,24 +769,6 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 2,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "baddieblume",
-    "points": 8640,
-    "last_activity": 1795365652000,
-    "gain_24h": 250,
-    "gain_total": 8380,
-    "start_points": 260,
-    "events_count": 44,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 42,
-      "Claim": 1,
-      "Streak": 0,
-      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }

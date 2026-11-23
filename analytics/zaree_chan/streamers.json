@@ -1063,15 +1063,15 @@
   },
   {
     "name": "denie",
-    "points": 5040,
-    "last_activity": 1795407155000,
-    "gain_24h": 0,
-    "gain_total": 5004,
+    "points": 5050,
+    "last_activity": 1795410253000,
+    "gain_24h": 10,
+    "gain_total": 5014,
     "start_points": 320,
-    "events_count": 69,
+    "events_count": 70,
     "active_today": true,
     "breakdown": {
-      "Watch": 68,
+      "Watch": 69,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -2376,6 +2376,24 @@
     }
   },
   {
+    "name": "alphonthedon",
+    "points": 750,
+    "last_activity": 1795410165000,
+    "gain_24h": 670,
+    "gain_total": 740,
+    "start_points": 10,
+    "events_count": 9,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 9,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "jllei",
     "points": 728,
     "last_activity": 1795407283000,
@@ -2603,24 +2621,6 @@
     "breakdown": {
       "Watch": 62,
       "Claim": 2,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "alphonthedon",
-    "points": 390,
-    "last_activity": 1795407154000,
-    "gain_24h": 310,
-    "gain_total": 380,
-    "start_points": 10,
-    "events_count": 8,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 8,
-      "Claim": 0,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,

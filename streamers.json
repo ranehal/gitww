@@ -883,16 +883,16 @@
   },
   {
     "name": "sarconius",
-    "points": 57930,
-    "last_activity": 1795406732000,
-    "gain_24h": 710,
-    "gain_total": 127830,
+    "points": 57990,
+    "last_activity": 1795407944000,
+    "gain_24h": 770,
+    "gain_total": 127890,
     "start_points": 1390,
-    "events_count": 106,
+    "events_count": 107,
     "active_today": true,
     "breakdown": {
       "Watch": 91,
-      "Claim": 14,
+      "Claim": 15,
       "Streak": 0,
       "Raid": 1,
       "Prediction": 0,
@@ -1170,6 +1170,24 @@
     }
   },
   {
+    "name": "emniag",
+    "points": 43650,
+    "last_activity": 1795408061000,
+    "gain_24h": 530,
+    "gain_total": 43360,
+    "start_points": 340,
+    "events_count": 242,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 203,
+      "Claim": 39,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "mrbunnyelite",
     "points": 43410,
     "last_activity": 1795407113000,
@@ -1181,24 +1199,6 @@
     "breakdown": {
       "Watch": 218,
       "Claim": 20,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "emniag",
-    "points": 43190,
-    "last_activity": 1795406781000,
-    "gain_24h": 70,
-    "gain_total": 42900,
-    "start_points": 340,
-    "events_count": 240,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 201,
-      "Claim": 39,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1819,15 +1819,15 @@
   },
   {
     "name": "terraformer20",
-    "points": 28170,
-    "last_activity": 1795406733000,
-    "gain_24h": 0,
-    "gain_total": 63420,
+    "points": 28640,
+    "last_activity": 1795407974000,
+    "gain_24h": 470,
+    "gain_total": 63890,
     "start_points": 490,
-    "events_count": 62,
+    "events_count": 63,
     "active_today": true,
     "breakdown": {
-      "Watch": 61,
+      "Watch": 62,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -3008,9 +3008,9 @@
   {
     "name": "doctahdray",
     "points": 5120,
-    "last_activity": 1795407342000,
+    "last_activity": 1795407216000,
     "gain_24h": 510,
-    "gain_total": 7390,
+    "gain_total": 4220,
     "start_points": 900,
     "events_count": 9,
     "active_today": true,

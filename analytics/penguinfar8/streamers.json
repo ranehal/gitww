@@ -1405,15 +1405,15 @@
   },
   {
     "name": "flow1of1tv",
-    "points": 7000,
-    "last_activity": 1795407163000,
-    "gain_24h": 0,
-    "gain_total": 8240,
+    "points": 7010,
+    "last_activity": 1795409893000,
+    "gain_24h": 10,
+    "gain_total": 8250,
     "start_points": 20,
-    "events_count": 57,
+    "events_count": 58,
     "active_today": true,
     "breakdown": {
-      "Watch": 57,
+      "Watch": 58,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1548,6 +1548,24 @@
     }
   },
   {
+    "name": "demon1",
+    "points": 6300,
+    "last_activity": 1795408991000,
+    "gain_24h": 670,
+    "gain_total": 4880,
+    "start_points": 5900,
+    "events_count": 97,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 97,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "saigeybabey",
     "points": 6200,
     "last_activity": 1795407586000,
@@ -1577,24 +1595,6 @@
     "breakdown": {
       "Watch": 79,
       "Claim": 2,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "demon1",
-    "points": 5940,
-    "last_activity": 1795406886000,
-    "gain_24h": 310,
-    "gain_total": 4520,
-    "start_points": 5900,
-    "events_count": 95,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 95,
-      "Claim": 0,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1999,15 +1999,15 @@
   },
   {
     "name": "real_juiceegod",
-    "points": 3980,
-    "last_activity": 1795406965000,
-    "gain_24h": 0,
-    "gain_total": 3960,
+    "points": 3990,
+    "last_activity": 1795409256000,
+    "gain_24h": 10,
+    "gain_total": 3970,
     "start_points": 20,
-    "events_count": 41,
+    "events_count": 42,
     "active_today": true,
     "breakdown": {
-      "Watch": 41,
+      "Watch": 42,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2268,6 +2268,24 @@
     }
   },
   {
+    "name": "slayer_izaya",
+    "points": 2730,
+    "last_activity": 1795409572000,
+    "gain_24h": 320,
+    "gain_total": 2720,
+    "start_points": 10,
+    "events_count": 60,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 60,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "cblitzkrieg",
     "points": 2720,
     "last_activity": 1791985382000,
@@ -2332,24 +2350,6 @@
     "active_today": false,
     "breakdown": {
       "Watch": 28,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "slayer_izaya",
-    "points": 2420,
-    "last_activity": 1795406989000,
-    "gain_24h": 10,
-    "gain_total": 2410,
-    "start_points": 10,
-    "events_count": 59,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 59,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

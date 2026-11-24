@@ -451,15 +451,15 @@
   },
   {
     "name": "rallencs2",
-    "points": 31120,
-    "last_activity": 1795539498000,
-    "gain_24h": 590,
-    "gain_total": 30590,
+    "points": 31140,
+    "last_activity": 1795540098000,
+    "gain_24h": 610,
+    "gain_total": 30610,
     "start_points": 38250,
-    "events_count": 54,
+    "events_count": 56,
     "active_today": true,
     "breakdown": {
-      "Watch": 50,
+      "Watch": 52,
       "Claim": 4,
       "Streak": 0,
       "Raid": 0,
@@ -648,6 +648,24 @@
     }
   },
   {
+    "name": "joshltfc",
+    "points": 24990,
+    "last_activity": 1795540094000,
+    "gain_24h": 1000,
+    "gain_total": 35400,
+    "start_points": 410,
+    "events_count": 125,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 108,
+      "Claim": 15,
+      "Streak": 0,
+      "Raid": 2,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "vbake_",
     "points": 24950,
     "last_activity": 1795530742000,
@@ -661,24 +679,6 @@
       "Claim": 2,
       "Streak": 0,
       "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "joshltfc",
-    "points": 24920,
-    "last_activity": 1795539490000,
-    "gain_24h": 930,
-    "gain_total": 35330,
-    "start_points": 410,
-    "events_count": 123,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 107,
-      "Claim": 14,
-      "Streak": 0,
-      "Raid": 2,
       "Prediction": 0,
       "Other": 0
     }

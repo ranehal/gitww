@@ -595,15 +595,15 @@
   },
   {
     "name": "estoniaman",
-    "points": 41040,
-    "last_activity": 1795530685000,
-    "gain_24h": 0,
-    "gain_total": 707620,
+    "points": 41350,
+    "last_activity": 1795544248000,
+    "gain_24h": 310,
+    "gain_total": 707930,
     "start_points": 85450,
-    "events_count": 164,
+    "events_count": 165,
     "active_today": true,
     "breakdown": {
-      "Watch": 137,
+      "Watch": 138,
       "Claim": 26,
       "Streak": 0,
       "Raid": 1,
@@ -774,6 +774,24 @@
     }
   },
   {
+    "name": "flow1of1tv",
+    "points": 30880,
+    "last_activity": 1795544342000,
+    "gain_24h": 1320,
+    "gain_total": 34950,
+    "start_points": 10,
+    "events_count": 102,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 91,
+      "Claim": 11,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "itstrunksz",
     "points": 30860,
     "last_activity": 1795532465000,
@@ -787,24 +805,6 @@
       "Claim": 14,
       "Streak": 0,
       "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "flow1of1tv",
-    "points": 30820,
-    "last_activity": 1795544055000,
-    "gain_24h": 1260,
-    "gain_total": 34890,
-    "start_points": 10,
-    "events_count": 101,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 91,
-      "Claim": 10,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }

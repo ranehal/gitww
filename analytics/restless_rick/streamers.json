@@ -361,15 +361,15 @@
   },
   {
     "name": "original_stump",
-    "points": 66010,
-    "last_activity": 1795536466000,
-    "gain_24h": 620,
-    "gain_total": 286050,
+    "points": 66020,
+    "last_activity": 1795537866000,
+    "gain_24h": 630,
+    "gain_total": 286060,
     "start_points": 51750,
-    "events_count": 198,
+    "events_count": 199,
     "active_today": true,
     "breakdown": {
-      "Watch": 172,
+      "Watch": 173,
       "Claim": 22,
       "Streak": 0,
       "Raid": 4,
@@ -828,6 +828,24 @@
     }
   },
   {
+    "name": "flow1of1tv",
+    "points": 30320,
+    "last_activity": 1795538055000,
+    "gain_24h": 760,
+    "gain_total": 34390,
+    "start_points": 10,
+    "events_count": 79,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 75,
+      "Claim": 4,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "therealkhilo",
     "points": 30290,
     "last_activity": 1795535254000,
@@ -841,24 +859,6 @@
       "Claim": 6,
       "Streak": 0,
       "Raid": 3,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "flow1of1tv",
-    "points": 30260,
-    "last_activity": 1795537756000,
-    "gain_24h": 700,
-    "gain_total": 34330,
-    "start_points": 10,
-    "events_count": 77,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 74,
-      "Claim": 3,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }
@@ -3294,6 +3294,24 @@
     }
   },
   {
+    "name": "kellenhossy",
+    "points": 500,
+    "last_activity": 1795538139000,
+    "gain_24h": 250,
+    "gain_total": 250,
+    "start_points": 250,
+    "events_count": 14,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 13,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 1,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "synergy1017",
     "points": 380,
     "last_activity": 1795530610000,
@@ -3340,24 +3358,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 7,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "kellenhossy",
-    "points": 250,
-    "last_activity": 1795530352000,
-    "gain_24h": 0,
-    "gain_total": 0,
-    "start_points": 250,
-    "events_count": 13,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 13,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

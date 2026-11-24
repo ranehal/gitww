@@ -379,15 +379,15 @@
   },
   {
     "name": "original_stump",
-    "points": 36500,
-    "last_activity": 1795541487000,
-    "gain_24h": 1090,
-    "gain_total": 135870,
+    "points": 36520,
+    "last_activity": 1795542087000,
+    "gain_24h": 1110,
+    "gain_total": 135890,
     "start_points": 26310,
-    "events_count": 195,
+    "events_count": 197,
     "active_today": true,
     "breakdown": {
-      "Watch": 164,
+      "Watch": 166,
       "Claim": 25,
       "Streak": 0,
       "Raid": 6,
@@ -450,6 +450,24 @@
     }
   },
   {
+    "name": "therealkhilo",
+    "points": 31460,
+    "last_activity": 1795542281000,
+    "gain_24h": 1000,
+    "gain_total": 33040,
+    "start_points": 10,
+    "events_count": 75,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 62,
+      "Claim": 11,
+      "Streak": 0,
+      "Raid": 2,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "wockhardtxx",
     "points": 31390,
     "last_activity": 1794748875000,
@@ -463,24 +481,6 @@
       "Claim": 16,
       "Streak": 0,
       "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "therealkhilo",
-    "points": 31380,
-    "last_activity": 1795541377000,
-    "gain_24h": 920,
-    "gain_total": 32960,
-    "start_points": 10,
-    "events_count": 72,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 60,
-      "Claim": 10,
-      "Streak": 0,
-      "Raid": 2,
       "Prediction": 0,
       "Other": 0
     }

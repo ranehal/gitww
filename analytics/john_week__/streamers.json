@@ -91,15 +91,15 @@
   },
   {
     "name": "topshoter_no",
-    "points": 180200,
-    "last_activity": 1795534958000,
-    "gain_24h": 750,
-    "gain_total": 2748810,
+    "points": 180210,
+    "last_activity": 1795535923000,
+    "gain_24h": 760,
+    "gain_total": 2748820,
     "start_points": 96780,
-    "events_count": 511,
+    "events_count": 512,
     "active_today": true,
     "breakdown": {
-      "Watch": 421,
+      "Watch": 422,
       "Claim": 85,
       "Streak": 0,
       "Raid": 5,
@@ -463,24 +463,6 @@
       "Claim": 3,
       "Streak": 0,
       "Raid": 2,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "kellenhossy",
-    "points": 56050,
-    "last_activity": 1795530477000,
-    "gain_24h": 55230,
-    "gain_total": 55230,
-    "start_points": 820,
-    "events_count": 11,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 11,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }
@@ -3124,6 +3106,24 @@
     "active_today": false,
     "breakdown": {
       "Watch": 33,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "kellenhossy",
+    "points": 1180,
+    "last_activity": 1795536005000,
+    "gain_24h": 360,
+    "gain_total": 55230,
+    "start_points": 820,
+    "events_count": 12,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 12,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

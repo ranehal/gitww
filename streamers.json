@@ -757,15 +757,15 @@
   },
   {
     "name": "itstrunksz",
-    "points": 63710,
-    "last_activity": 1795542867000,
-    "gain_24h": 1902,
-    "gain_total": 87660,
+    "points": 63722,
+    "last_activity": 1795543170000,
+    "gain_24h": 1914,
+    "gain_total": 87672,
     "start_points": 13350,
-    "events_count": 196,
+    "events_count": 197,
     "active_today": true,
     "breakdown": {
-      "Watch": 169,
+      "Watch": 170,
       "Claim": 26,
       "Streak": 0,
       "Raid": 1,
@@ -1188,6 +1188,24 @@
     }
   },
   {
+    "name": "itzmelloncs",
+    "points": 46030,
+    "last_activity": 1795543157000,
+    "gain_24h": 1070,
+    "gain_total": 62640,
+    "start_points": 11830,
+    "events_count": 150,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 133,
+      "Claim": 17,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "kiid2xx",
     "points": 46000,
     "last_activity": 1794748286000,
@@ -1199,24 +1217,6 @@
     "breakdown": {
       "Watch": 2,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "itzmelloncs",
-    "points": 45970,
-    "last_activity": 1795543127000,
-    "gain_24h": 1010,
-    "gain_total": 34330,
-    "start_points": 11830,
-    "events_count": 139,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 128,
-      "Claim": 11,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1370,14 +1370,14 @@
   {
     "name": "crxdaniiel",
     "points": 40540,
-    "last_activity": 1790667360000,
+    "last_activity": 1793302112000,
     "gain_24h": 0,
-    "gain_total": 25780,
-    "start_points": 16110,
-    "events_count": 4,
+    "gain_total": 71500,
+    "start_points": 40540,
+    "events_count": 56,
     "active_today": false,
     "breakdown": {
-      "Watch": 4,
+      "Watch": 56,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -3336,10 +3336,10 @@
     "gain_24h": 610,
     "gain_total": 610,
     "start_points": 820,
-    "events_count": 13,
+    "events_count": 14,
     "active_today": true,
     "breakdown": {
-      "Watch": 12,
+      "Watch": 13,
       "Claim": 0,
       "Streak": 0,
       "Raid": 1,
@@ -3404,7 +3404,7 @@
   {
     "name": "synergy1017",
     "points": 630,
-    "last_activity": 1795530909000,
+    "last_activity": 1795530777000,
     "gain_24h": 0,
     "gain_total": 620,
     "start_points": 10,

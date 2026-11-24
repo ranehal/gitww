@@ -361,16 +361,16 @@
   },
   {
     "name": "original_stump",
-    "points": 65940,
-    "last_activity": 1795535449000,
-    "gain_24h": 550,
-    "gain_total": 285980,
+    "points": 66000,
+    "last_activity": 1795535745000,
+    "gain_24h": 610,
+    "gain_total": 286040,
     "start_points": 51750,
-    "events_count": 196,
+    "events_count": 197,
     "active_today": true,
     "breakdown": {
       "Watch": 171,
-      "Claim": 21,
+      "Claim": 22,
       "Streak": 0,
       "Raid": 4,
       "Prediction": 0,
@@ -846,6 +846,24 @@
     }
   },
   {
+    "name": "flow1of1tv",
+    "points": 30090,
+    "last_activity": 1795535555000,
+    "gain_24h": 530,
+    "gain_total": 34160,
+    "start_points": 10,
+    "events_count": 69,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 68,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "onelegend1_",
     "points": 29940,
     "last_activity": 1794748858000,
@@ -893,24 +911,6 @@
     "breakdown": {
       "Watch": 9,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "flow1of1tv",
-    "points": 29630,
-    "last_activity": 1795530230000,
-    "gain_24h": 70,
-    "gain_total": 33700,
-    "start_points": 10,
-    "events_count": 68,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 67,
-      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,

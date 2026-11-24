@@ -199,15 +199,15 @@
   },
   {
     "name": "flow1of1tv",
-    "points": 34850,
-    "last_activity": 1795530483000,
-    "gain_24h": 510,
-    "gain_total": 35790,
+    "points": 34860,
+    "last_activity": 1795535590000,
+    "gain_24h": 520,
+    "gain_total": 35800,
     "start_points": 10,
-    "events_count": 81,
+    "events_count": 82,
     "active_today": true,
     "breakdown": {
-      "Watch": 72,
+      "Watch": 73,
       "Claim": 9,
       "Streak": 0,
       "Raid": 0,
@@ -648,6 +648,24 @@
     }
   },
   {
+    "name": "cojomocs",
+    "points": 20890,
+    "last_activity": 1795535598000,
+    "gain_24h": 462,
+    "gain_total": 21090,
+    "start_points": 10,
+    "events_count": 79,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 74,
+      "Claim": 4,
+      "Streak": 0,
+      "Raid": 1,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "jemplfg",
     "points": 20770,
     "last_activity": 1795530214000,
@@ -659,24 +677,6 @@
     "breakdown": {
       "Watch": 75,
       "Claim": 1,
-      "Streak": 0,
-      "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "cojomocs",
-    "points": 20428,
-    "last_activity": 1795530439000,
-    "gain_24h": 0,
-    "gain_total": 20628,
-    "start_points": 10,
-    "events_count": 78,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 73,
-      "Claim": 4,
       "Streak": 0,
       "Raid": 1,
       "Prediction": 0,

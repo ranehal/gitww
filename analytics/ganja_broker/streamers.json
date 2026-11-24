@@ -55,15 +55,15 @@
   },
   {
     "name": "cojomocs",
-    "points": 219478,
-    "last_activity": 1795530290000,
-    "gain_24h": 0,
-    "gain_total": 108322,
+    "points": 219490,
+    "last_activity": 1795535594000,
+    "gain_24h": 12,
+    "gain_total": 108334,
     "start_points": 159322,
-    "events_count": 94,
+    "events_count": 95,
     "active_today": true,
     "breakdown": {
-      "Watch": 90,
+      "Watch": 91,
       "Claim": 2,
       "Streak": 0,
       "Raid": 2,
@@ -540,6 +540,24 @@
     }
   },
   {
+    "name": "flow1of1tv",
+    "points": 48070,
+    "last_activity": 1795535602000,
+    "gain_24h": 970,
+    "gain_total": 48060,
+    "start_points": 10,
+    "events_count": 86,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 74,
+      "Claim": 12,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "estoniaman",
     "points": 47700,
     "last_activity": 1795530293000,
@@ -553,24 +571,6 @@
       "Claim": 24,
       "Streak": 0,
       "Raid": 3,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "flow1of1tv",
-    "points": 47560,
-    "last_activity": 1795530363000,
-    "gain_24h": 460,
-    "gain_total": 47550,
-    "start_points": 10,
-    "events_count": 84,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 73,
-      "Claim": 11,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }
@@ -1746,6 +1746,24 @@
     }
   },
   {
+    "name": "krumzzz",
+    "points": 15070,
+    "last_activity": 1795535742000,
+    "gain_24h": 2700,
+    "gain_total": 14980,
+    "start_points": 90,
+    "events_count": 71,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 67,
+      "Claim": 4,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "cblitzkrieg",
     "points": 15070,
     "last_activity": 1791985375000,
@@ -1757,24 +1775,6 @@
     "breakdown": {
       "Watch": 106,
       "Claim": 26,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "krumzzz",
-    "points": 15060,
-    "last_activity": 1795535175000,
-    "gain_24h": 2690,
-    "gain_total": 14970,
-    "start_points": 90,
-    "events_count": 70,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 66,
-      "Claim": 4,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,

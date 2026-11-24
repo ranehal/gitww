@@ -649,16 +649,16 @@
   },
   {
     "name": "itzmelloncs",
-    "points": 42590,
-    "last_activity": 1795542303000,
-    "gain_24h": 940,
-    "gain_total": 60570,
+    "points": 42650,
+    "last_activity": 1795542615000,
+    "gain_24h": 1000,
+    "gain_total": 60630,
     "start_points": 11830,
-    "events_count": 125,
+    "events_count": 126,
     "active_today": true,
     "breakdown": {
       "Watch": 114,
-      "Claim": 11,
+      "Claim": 12,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1242,6 +1242,24 @@
     }
   },
   {
+    "name": "abyzou",
+    "points": 23010,
+    "last_activity": 1795542606000,
+    "gain_24h": 460,
+    "gain_total": 22750,
+    "start_points": 260,
+    "events_count": 63,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 60,
+      "Claim": 2,
+      "Streak": 0,
+      "Raid": 1,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "mikkioplayz",
     "points": 22630,
     "last_activity": 1794748331000,
@@ -1255,24 +1273,6 @@
       "Claim": 2,
       "Streak": 0,
       "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "abyzou",
-    "points": 22550,
-    "last_activity": 1795530781000,
-    "gain_24h": 0,
-    "gain_total": 22290,
-    "start_points": 260,
-    "events_count": 62,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 59,
-      "Claim": 2,
-      "Streak": 0,
-      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }

@@ -91,15 +91,15 @@
   },
   {
     "name": "cojomocs",
-    "points": 114146,
-    "last_activity": 1795542107000,
-    "gain_24h": 738,
-    "gain_total": 22908,
+    "points": 114158,
+    "last_activity": 1795542619000,
+    "gain_24h": 750,
+    "gain_total": 22920,
     "start_points": 91688,
-    "events_count": 106,
+    "events_count": 107,
     "active_today": true,
     "breakdown": {
-      "Watch": 98,
+      "Watch": 99,
       "Claim": 7,
       "Streak": 0,
       "Raid": 1,
@@ -523,15 +523,15 @@
   },
   {
     "name": "itzmelloncs",
-    "points": 45950,
-    "last_activity": 1795542256000,
-    "gain_24h": 990,
-    "gain_total": 62560,
+    "points": 45970,
+    "last_activity": 1795542855000,
+    "gain_24h": 1010,
+    "gain_total": 62580,
     "start_points": 11830,
-    "events_count": 147,
+    "events_count": 149,
     "active_today": true,
     "breakdown": {
-      "Watch": 131,
+      "Watch": 133,
       "Claim": 16,
       "Streak": 0,
       "Raid": 0,
@@ -1386,6 +1386,24 @@
     }
   },
   {
+    "name": "abyzou",
+    "points": 19110,
+    "last_activity": 1795542602000,
+    "gain_24h": 460,
+    "gain_total": 18850,
+    "start_points": 260,
+    "events_count": 56,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 54,
+      "Claim": 2,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "saigeybabey",
     "points": 19030,
     "last_activity": 1795531017000,
@@ -1417,24 +1435,6 @@
       "Claim": 1,
       "Streak": 0,
       "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "abyzou",
-    "points": 18650,
-    "last_activity": 1795530752000,
-    "gain_24h": 0,
-    "gain_total": 18390,
-    "start_points": 260,
-    "events_count": 55,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 53,
-      "Claim": 2,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }

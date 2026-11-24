@@ -325,16 +325,16 @@
   },
   {
     "name": "itstrunksz",
-    "points": 63626,
-    "last_activity": 1795542287000,
-    "gain_24h": 1818,
-    "gain_total": 87576,
+    "points": 63698,
+    "last_activity": 1795542567000,
+    "gain_24h": 1890,
+    "gain_total": 87648,
     "start_points": 13350,
-    "events_count": 193,
+    "events_count": 195,
     "active_today": true,
     "breakdown": {
-      "Watch": 167,
-      "Claim": 25,
+      "Watch": 168,
+      "Claim": 26,
       "Streak": 0,
       "Raid": 1,
       "Prediction": 0,
@@ -793,15 +793,15 @@
   },
   {
     "name": "itzmelloncs",
-    "points": 33120,
-    "last_activity": 1795542258000,
-    "gain_24h": 910,
-    "gain_total": 31960,
+    "points": 33130,
+    "last_activity": 1795542799000,
+    "gain_24h": 920,
+    "gain_total": 31970,
     "start_points": 11830,
-    "events_count": 111,
+    "events_count": 112,
     "active_today": true,
     "breakdown": {
-      "Watch": 104,
+      "Watch": 105,
       "Claim": 7,
       "Streak": 0,
       "Raid": 0,
@@ -1350,6 +1350,24 @@
     }
   },
   {
+    "name": "abyzou",
+    "points": 19300,
+    "last_activity": 1795542601000,
+    "gain_24h": 360,
+    "gain_total": 20620,
+    "start_points": 260,
+    "events_count": 53,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 49,
+      "Claim": 2,
+      "Streak": 0,
+      "Raid": 2,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "ssjaymusic",
     "points": 19210,
     "last_activity": 1794748637000,
@@ -1381,24 +1399,6 @@
       "Claim": 4,
       "Streak": 0,
       "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "abyzou",
-    "points": 18940,
-    "last_activity": 1795530830000,
-    "gain_24h": 0,
-    "gain_total": 20260,
-    "start_points": 260,
-    "events_count": 52,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 48,
-      "Claim": 2,
-      "Streak": 0,
-      "Raid": 2,
       "Prediction": 0,
       "Other": 0
     }

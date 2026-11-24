@@ -379,15 +379,15 @@
   },
   {
     "name": "original_stump",
-    "points": 36580,
-    "last_activity": 1795542399000,
-    "gain_24h": 1170,
-    "gain_total": 135950,
+    "points": 36590,
+    "last_activity": 1795542674000,
+    "gain_24h": 1180,
+    "gain_total": 135960,
     "start_points": 26310,
-    "events_count": 199,
+    "events_count": 200,
     "active_today": true,
     "breakdown": {
-      "Watch": 167,
+      "Watch": 168,
       "Claim": 26,
       "Streak": 0,
       "Raid": 6,
@@ -918,6 +918,24 @@
     }
   },
   {
+    "name": "abyzou",
+    "points": 17370,
+    "last_activity": 1795542612000,
+    "gain_24h": 460,
+    "gain_total": 17510,
+    "start_points": 260,
+    "events_count": 73,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 69,
+      "Claim": 2,
+      "Streak": 0,
+      "Raid": 2,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "denie",
     "points": 17130,
     "last_activity": 1795530646000,
@@ -931,24 +949,6 @@
       "Claim": 3,
       "Streak": 0,
       "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "abyzou",
-    "points": 16910,
-    "last_activity": 1795530462000,
-    "gain_24h": 0,
-    "gain_total": 17050,
-    "start_points": 260,
-    "events_count": 72,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 68,
-      "Claim": 2,
-      "Streak": 0,
-      "Raid": 2,
       "Prediction": 0,
       "Other": 0
     }

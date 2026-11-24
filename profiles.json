@@ -3,19 +3,19 @@
     "id": "all",
     "name": "All Accounts (Combined)",
     "streamers_count": 194,
-    "total_points": 9338063,
-    "gain_24h": 342962,
+    "total_points": 9338073,
+    "gain_24h": 342972,
     "active_today_count": 113,
     "has_data": true,
     "is_current": false
   },
   {
-    "id": "restless_rick",
-    "name": "restless_rick",
-    "streamers_count": 191,
-    "total_points": 5739306,
-    "gain_24h": 195486,
-    "active_today_count": 114,
+    "id": "nano_my_banana",
+    "name": "nano_my_banana",
+    "streamers_count": 190,
+    "total_points": 5993188,
+    "gain_24h": 27524,
+    "active_today_count": 113,
     "has_data": true,
     "is_current": true
   },
@@ -43,8 +43,8 @@
     "id": "alphazeta111",
     "name": "alphazeta111",
     "streamers_count": 191,
-    "total_points": 5968092,
-    "gain_24h": 31754,
+    "total_points": 5968104,
+    "gain_24h": 31766,
     "active_today_count": 114,
     "has_data": true,
     "is_current": false
@@ -93,8 +93,8 @@
     "id": "emotional_damage_pro_max",
     "name": "emotional_damage_pro_max",
     "streamers_count": 187,
-    "total_points": 3092270,
-    "gain_24h": 32360,
+    "total_points": 3092330,
+    "gain_24h": 32420,
     "active_today_count": 112,
     "has_data": true,
     "is_current": false
@@ -113,8 +113,8 @@
     "id": "ganja_broker",
     "name": "ganja_broker",
     "streamers_count": 191,
-    "total_points": 5828272,
-    "gain_24h": 75386,
+    "total_points": 5828282,
+    "gain_24h": 75396,
     "active_today_count": 114,
     "has_data": true,
     "is_current": false
@@ -220,16 +220,6 @@
     "is_current": false
   },
   {
-    "id": "nano_my_banana",
-    "name": "nano_my_banana",
-    "streamers_count": 190,
-    "total_points": 5993188,
-    "gain_24h": 27524,
-    "active_today_count": 113,
-    "has_data": true,
-    "is_current": false
-  },
-  {
     "id": "penguinfar8",
     "name": "penguinfar8",
     "streamers_count": 194,
@@ -253,8 +243,18 @@
     "id": "real_ice77",
     "name": "real_ice77",
     "streamers_count": 191,
-    "total_points": 5875160,
-    "gain_24h": 33310,
+    "total_points": 5875170,
+    "gain_24h": 33320,
+    "active_today_count": 114,
+    "has_data": true,
+    "is_current": false
+  },
+  {
+    "id": "restless_rick",
+    "name": "restless_rick",
+    "streamers_count": 191,
+    "total_points": 5739306,
+    "gain_24h": 195486,
     "active_today_count": 114,
     "has_data": true,
     "is_current": false

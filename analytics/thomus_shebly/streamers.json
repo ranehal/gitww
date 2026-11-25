@@ -342,6 +342,24 @@
     }
   },
   {
+    "name": "original_stump",
+    "points": 62940,
+    "last_activity": 1795616120000,
+    "gain_24h": 510,
+    "gain_total": 263580,
+    "start_points": 51750,
+    "events_count": 163,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 142,
+      "Claim": 17,
+      "Streak": 0,
+      "Raid": 4,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "duhsonva",
     "points": 62940,
     "last_activity": 1795613294000,
@@ -355,24 +373,6 @@
       "Claim": 4,
       "Streak": 0,
       "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "original_stump",
-    "points": 62430,
-    "last_activity": 1795612458000,
-    "gain_24h": 0,
-    "gain_total": 263070,
-    "start_points": 51750,
-    "events_count": 161,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 141,
-      "Claim": 16,
-      "Streak": 0,
-      "Raid": 4,
       "Prediction": 0,
       "Other": 0
     }
@@ -721,15 +721,15 @@
   },
   {
     "name": "activelyboss",
-    "points": 35780,
-    "last_activity": 1795612531000,
-    "gain_24h": 0,
-    "gain_total": 111180,
+    "points": 35790,
+    "last_activity": 1795616509000,
+    "gain_24h": 10,
+    "gain_total": 111190,
     "start_points": 11930,
-    "events_count": 74,
+    "events_count": 75,
     "active_today": true,
     "breakdown": {
-      "Watch": 73,
+      "Watch": 74,
       "Claim": 1,
       "Streak": 0,
       "Raid": 0,
@@ -883,16 +883,16 @@
   },
   {
     "name": "flow1of1tv",
-    "points": 28480,
-    "last_activity": 1795613095000,
-    "gain_24h": 10,
-    "gain_total": 28470,
+    "points": 28640,
+    "last_activity": 1795616878000,
+    "gain_24h": 170,
+    "gain_total": 28630,
     "start_points": 10,
-    "events_count": 26,
+    "events_count": 34,
     "active_today": true,
     "breakdown": {
-      "Watch": 26,
-      "Claim": 0,
+      "Watch": 32,
+      "Claim": 2,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1998,6 +1998,24 @@
     }
   },
   {
+    "name": "oskuld666",
+    "points": 10390,
+    "last_activity": 1795616300000,
+    "gain_24h": 160,
+    "gain_total": 160,
+    "start_points": 10230,
+    "events_count": 7,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 5,
+      "Claim": 2,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "burrqt",
     "points": 10370,
     "last_activity": 1795612789000,
@@ -2009,24 +2027,6 @@
     "breakdown": {
       "Watch": 25,
       "Claim": 2,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "oskuld666",
-    "points": 10250,
-    "last_activity": 1795614644000,
-    "gain_24h": 20,
-    "gain_total": 20,
-    "start_points": 10230,
-    "events_count": 3,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 3,
-      "Claim": 0,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,

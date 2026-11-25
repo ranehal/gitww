@@ -379,16 +379,16 @@
   },
   {
     "name": "flow1of1tv",
-    "points": 33860,
-    "last_activity": 1795616765000,
-    "gain_24h": 170,
-    "gain_total": 33850,
+    "points": 34020,
+    "last_activity": 1795618567000,
+    "gain_24h": 330,
+    "gain_total": 34010,
     "start_points": 10,
-    "events_count": 38,
+    "events_count": 46,
     "active_today": true,
     "breakdown": {
-      "Watch": 35,
-      "Claim": 3,
+      "Watch": 41,
+      "Claim": 5,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1332,6 +1332,24 @@
     }
   },
   {
+    "name": "oskuld666",
+    "points": 13620,
+    "last_activity": 1795618595000,
+    "gain_24h": 390,
+    "gain_total": 390,
+    "start_points": 13230,
+    "events_count": 17,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 12,
+      "Claim": 5,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "kurumichaos",
     "points": 13550,
     "last_activity": 1795612729000,
@@ -1345,24 +1363,6 @@
       "Claim": 2,
       "Streak": 0,
       "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "oskuld666",
-    "points": 13460,
-    "last_activity": 1795616814000,
-    "gain_24h": 230,
-    "gain_total": 230,
-    "start_points": 13230,
-    "events_count": 9,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 6,
-      "Claim": 3,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }

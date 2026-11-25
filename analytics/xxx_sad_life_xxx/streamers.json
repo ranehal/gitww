@@ -450,6 +450,24 @@
     }
   },
   {
+    "name": "activelyboss",
+    "points": 30030,
+    "last_activity": 1795622405000,
+    "gain_24h": 950,
+    "gain_total": 54530,
+    "start_points": 13520,
+    "events_count": 85,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 77,
+      "Claim": 8,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "king_munc",
     "points": 30020,
     "last_activity": 1791985323000,
@@ -463,24 +481,6 @@
       "Claim": 8,
       "Streak": 0,
       "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "activelyboss",
-    "points": 30020,
-    "last_activity": 1795622105000,
-    "gain_24h": 940,
-    "gain_total": 54520,
-    "start_points": 13520,
-    "events_count": 84,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 76,
-      "Claim": 8,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }

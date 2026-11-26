@@ -577,18 +577,18 @@
   },
   {
     "name": "faded689",
-    "points": 21690,
-    "last_activity": 1795653682000,
-    "gain_24h": 0,
-    "gain_total": 45020,
+    "points": 21940,
+    "last_activity": 1795654656000,
+    "gain_24h": 250,
+    "gain_total": 45270,
     "start_points": 25770,
-    "events_count": 66,
+    "events_count": 67,
     "active_today": true,
     "breakdown": {
       "Watch": 66,
       "Claim": 0,
       "Streak": 0,
-      "Raid": 0,
+      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }
@@ -990,6 +990,24 @@
     }
   },
   {
+    "name": "emniag",
+    "points": 7660,
+    "last_activity": 1795654463000,
+    "gain_24h": 460,
+    "gain_total": 7650,
+    "start_points": 10,
+    "events_count": 31,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 29,
+      "Claim": 2,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "gangsta1989",
     "points": 7640,
     "last_activity": 1795653988000,
@@ -1055,24 +1073,6 @@
     "breakdown": {
       "Watch": 53,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "emniag",
-    "points": 7200,
-    "last_activity": 1795653643000,
-    "gain_24h": 0,
-    "gain_total": 7190,
-    "start_points": 10,
-    "events_count": 30,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 28,
-      "Claim": 2,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1837,15 +1837,15 @@
   },
   {
     "name": "abyzou",
-    "points": 910,
-    "last_activity": 1795653643000,
-    "gain_24h": 0,
-    "gain_total": 900,
+    "points": 920,
+    "last_activity": 1795654723000,
+    "gain_24h": 10,
+    "gain_total": 910,
     "start_points": 10,
-    "events_count": 29,
+    "events_count": 30,
     "active_today": true,
     "breakdown": {
-      "Watch": 29,
+      "Watch": 30,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -2124,6 +2124,24 @@
     }
   },
   {
+    "name": "sammymedows",
+    "points": 20,
+    "last_activity": 1795655156000,
+    "gain_24h": 10,
+    "gain_total": 10,
+    "start_points": 10,
+    "events_count": 2,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 2,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "mimosa",
     "points": 10,
     "last_activity": 1795653595000,
@@ -2232,9 +2250,9 @@
     }
   },
   {
-    "name": "sammymedows",
+    "name": "jsaxter",
     "points": 10,
-    "last_activity": 1795653729000,
+    "last_activity": 1795654929000,
     "gain_24h": 0,
     "gain_total": 0,
     "start_points": 10,

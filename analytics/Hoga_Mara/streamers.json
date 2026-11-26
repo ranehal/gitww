@@ -450,24 +450,6 @@
     }
   },
   {
-    "name": "faded689",
-    "points": 16890,
-    "last_activity": 1791038418000,
-    "gain_24h": 0,
-    "gain_total": 5650,
-    "start_points": 25770,
-    "events_count": 9,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 9,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "sgtfresh",
     "points": 16890,
     "last_activity": 1791038413000,
@@ -478,6 +460,24 @@
     "active_today": false,
     "breakdown": {
       "Watch": 7,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "faded689",
+    "points": 16890,
+    "last_activity": 1791038418000,
+    "gain_24h": 0,
+    "gain_total": 5650,
+    "start_points": 25770,
+    "events_count": 9,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 9,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1350,42 +1350,6 @@
     }
   },
   {
-    "name": "kurumichaos",
-    "points": 320,
-    "last_activity": 1791038462000,
-    "gain_24h": 0,
-    "gain_total": 1370,
-    "start_points": 10500,
-    "events_count": 21,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 18,
-      "Claim": 2,
-      "Streak": 0,
-      "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "do_worrk",
-    "points": 320,
-    "last_activity": 1791038473000,
-    "gain_24h": 0,
-    "gain_total": 2470,
-    "start_points": 11010,
-    "events_count": 7,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 7,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "evokeddd",
     "points": 320,
     "last_activity": 1791038460000,
@@ -1422,19 +1386,37 @@
     }
   },
   {
-    "name": "sadgirlgaymer",
-    "points": 260,
-    "last_activity": 1791038461000,
+    "name": "do_worrk",
+    "points": 320,
+    "last_activity": 1791038473000,
     "gain_24h": 0,
-    "gain_total": 1940,
-    "start_points": 4980,
-    "events_count": 9,
+    "gain_total": 2470,
+    "start_points": 11010,
+    "events_count": 7,
     "active_today": false,
     "breakdown": {
-      "Watch": 9,
+      "Watch": 7,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "kurumichaos",
+    "points": 320,
+    "last_activity": 1791038462000,
+    "gain_24h": 0,
+    "gain_total": 1370,
+    "start_points": 10500,
+    "events_count": 21,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 18,
+      "Claim": 2,
+      "Streak": 0,
+      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }
@@ -1450,6 +1432,24 @@
     "active_today": false,
     "breakdown": {
       "Watch": 5,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "sadgirlgaymer",
+    "points": 260,
+    "last_activity": 1791038461000,
+    "gain_24h": 0,
+    "gain_total": 1940,
+    "start_points": 4980,
+    "events_count": 9,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 9,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
@@ -1512,24 +1512,6 @@
     }
   },
   {
-    "name": "itzmelloncs",
-    "points": 10,
-    "last_activity": 1791038467000,
-    "gain_24h": 0,
-    "gain_total": 1570,
-    "start_points": 11830,
-    "events_count": 11,
-    "active_today": false,
-    "breakdown": {
-      "Watch": 10,
-      "Claim": 1,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "kyriefnx",
     "points": 10,
     "last_activity": 1791038473000,
@@ -1559,6 +1541,24 @@
     "breakdown": {
       "Watch": 57,
       "Claim": 18,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "itzmelloncs",
+    "points": 10,
+    "last_activity": 1791038467000,
+    "gain_24h": 0,
+    "gain_total": 1570,
+    "start_points": 11830,
+    "events_count": 11,
+    "active_today": false,
+    "breakdown": {
+      "Watch": 10,
+      "Claim": 1,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,

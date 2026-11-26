@@ -957,7 +957,7 @@
     "name": "flow1of1tv",
     "points": 8100,
     "last_activity": 1795695203000,
-    "gain_24h": 760,
+    "gain_24h": 410,
     "gain_total": 9770,
     "start_points": 10,
     "events_count": 32,
@@ -1098,6 +1098,24 @@
     }
   },
   {
+    "name": "anonymousashlar",
+    "points": 6680,
+    "last_activity": 1795700107000,
+    "gain_24h": 480,
+    "gain_total": 6730,
+    "start_points": 10,
+    "events_count": 108,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 95,
+      "Claim": 12,
+      "Streak": 0,
+      "Raid": 1,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "joshltfc",
     "points": 6680,
     "last_activity": 1795695086000,
@@ -1111,24 +1129,6 @@
       "Claim": 2,
       "Streak": 0,
       "Raid": 2,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "anonymousashlar",
-    "points": 6670,
-    "last_activity": 1795699806000,
-    "gain_24h": 470,
-    "gain_total": 6720,
-    "start_points": 10,
-    "events_count": 107,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 94,
-      "Claim": 12,
-      "Streak": 0,
-      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }

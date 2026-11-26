@@ -325,16 +325,16 @@
   },
   {
     "name": "emniag",
-    "points": 35950,
-    "last_activity": 1795695943000,
-    "gain_24h": 710,
-    "gain_total": 87130,
+    "points": 36010,
+    "last_activity": 1795696216000,
+    "gain_24h": 770,
+    "gain_total": 87190,
     "start_points": 160,
-    "events_count": 105,
+    "events_count": 107,
     "active_today": true,
     "breakdown": {
-      "Watch": 88,
-      "Claim": 17,
+      "Watch": 89,
+      "Claim": 18,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -828,6 +828,24 @@
     }
   },
   {
+    "name": "anonymousashlar",
+    "points": 19620,
+    "last_activity": 1795696334000,
+    "gain_24h": 1230,
+    "gain_total": 20900,
+    "start_points": 10,
+    "events_count": 71,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 66,
+      "Claim": 4,
+      "Streak": 0,
+      "Raid": 1,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "fermboss0",
     "points": 19550,
     "last_activity": 1793604746000,
@@ -841,24 +859,6 @@
       "Claim": 4,
       "Streak": 0,
       "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "anonymousashlar",
-    "points": 19160,
-    "last_activity": 1795695100000,
-    "gain_24h": 770,
-    "gain_total": 20440,
-    "start_points": 10,
-    "events_count": 70,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 65,
-      "Claim": 4,
-      "Streak": 0,
-      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }

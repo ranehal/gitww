@@ -469,16 +469,16 @@
   },
   {
     "name": "emniag",
-    "points": 20790,
-    "last_activity": 1795698257000,
-    "gain_24h": 750,
-    "gain_total": 20780,
+    "points": 20890,
+    "last_activity": 1795699754000,
+    "gain_24h": 850,
+    "gain_total": 20880,
     "start_points": 10,
-    "events_count": 83,
+    "events_count": 88,
     "active_today": true,
     "breakdown": {
-      "Watch": 68,
-      "Claim": 15,
+      "Watch": 72,
+      "Claim": 16,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -918,6 +918,24 @@
     }
   },
   {
+    "name": "anonymousashlar",
+    "points": 7180,
+    "last_activity": 1795699547000,
+    "gain_24h": 240,
+    "gain_total": 8100,
+    "start_points": 10,
+    "events_count": 118,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 104,
+      "Claim": 14,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "beastnamedjon",
     "points": 7180,
     "last_activity": 1791985328000,
@@ -931,24 +949,6 @@
       "Claim": 13,
       "Streak": 0,
       "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "anonymousashlar",
-    "points": 7040,
-    "last_activity": 1795698375000,
-    "gain_24h": 100,
-    "gain_total": 7960,
-    "start_points": 10,
-    "events_count": 112,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 100,
-      "Claim": 12,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }

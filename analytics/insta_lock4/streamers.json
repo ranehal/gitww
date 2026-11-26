@@ -307,15 +307,15 @@
   },
   {
     "name": "emniag",
-    "points": 38460,
-    "last_activity": 1795698072000,
-    "gain_24h": 540,
-    "gain_total": 38280,
+    "points": 38470,
+    "last_activity": 1795698374000,
+    "gain_24h": 550,
+    "gain_total": 38290,
     "start_points": 180,
-    "events_count": 59,
+    "events_count": 60,
     "active_today": true,
     "breakdown": {
-      "Watch": 52,
+      "Watch": 53,
       "Claim": 7,
       "Streak": 0,
       "Raid": 0,
@@ -522,6 +522,24 @@
     }
   },
   {
+    "name": "sc4p3_fps",
+    "points": 21680,
+    "last_activity": 1795698403000,
+    "gain_24h": 430,
+    "gain_total": 22020,
+    "start_points": 10,
+    "events_count": 38,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 37,
+      "Claim": 1,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "faded689",
     "points": 21670,
     "last_activity": 1795694913000,
@@ -535,24 +553,6 @@
       "Claim": 1,
       "Streak": 0,
       "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "sc4p3_fps",
-    "points": 21620,
-    "last_activity": 1795698096000,
-    "gain_24h": 370,
-    "gain_total": 21960,
-    "start_points": 10,
-    "events_count": 36,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 36,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }

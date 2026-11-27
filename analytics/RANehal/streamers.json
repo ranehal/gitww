@@ -235,15 +235,15 @@
   },
   {
     "name": "goosebian",
-    "points": 59780,
-    "last_activity": 1795818344000,
-    "gain_24h": 0,
-    "gain_total": 68130,
+    "points": 59790,
+    "last_activity": 1795819387000,
+    "gain_24h": 10,
+    "gain_total": 68140,
     "start_points": 65040,
-    "events_count": 94,
+    "events_count": 95,
     "active_today": true,
     "breakdown": {
-      "Watch": 87,
+      "Watch": 88,
       "Claim": 6,
       "Streak": 0,
       "Raid": 1,
@@ -900,6 +900,24 @@
     }
   },
   {
+    "name": "emniag",
+    "points": 8640,
+    "last_activity": 1795819428000,
+    "gain_24h": 470,
+    "gain_total": 8630,
+    "start_points": 10,
+    "events_count": 35,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 33,
+      "Claim": 2,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "advrse_",
     "points": 8610,
     "last_activity": 1795818842000,
@@ -931,24 +949,6 @@
       "Claim": 1,
       "Streak": 0,
       "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "emniag",
-    "points": 8170,
-    "last_activity": 1795818385000,
-    "gain_24h": 0,
-    "gain_total": 8160,
-    "start_points": 10,
-    "events_count": 34,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 32,
-      "Claim": 2,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }

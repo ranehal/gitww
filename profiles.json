@@ -10,16 +10,6 @@
     "is_current": false
   },
   {
-    "id": "real_ice77",
-    "name": "real_ice77",
-    "streamers_count": 188,
-    "total_points": 5911570,
-    "gain_24h": 84310,
-    "active_today_count": 114,
-    "has_data": true,
-    "is_current": true
-  },
-  {
     "id": "aethermain7",
     "name": "aethermain7",
     "streamers_count": 87,
@@ -27,7 +17,7 @@
     "gain_24h": 0,
     "active_today_count": 0,
     "has_data": true,
-    "is_current": false
+    "is_current": true
   },
   {
     "id": "aloneyexe",
@@ -73,8 +63,8 @@
     "id": "dsa_hater",
     "name": "dsa_hater",
     "streamers_count": 188,
-    "total_points": 5818256,
-    "gain_24h": 46218,
+    "total_points": 5818266,
+    "gain_24h": 46228,
     "active_today_count": 114,
     "has_data": true,
     "is_current": false
@@ -123,8 +113,8 @@
     "id": "godzilloaa",
     "name": "godzilloaa",
     "streamers_count": 185,
-    "total_points": 2591514,
-    "gain_24h": 100798,
+    "total_points": 2591524,
+    "gain_24h": 100808,
     "active_today_count": 112,
     "has_data": true,
     "is_current": false
@@ -143,8 +133,8 @@
     "id": "hoooleeesheeet_",
     "name": "hoooleeesheeet_",
     "streamers_count": 188,
-    "total_points": 5375936,
-    "gain_24h": 55376,
+    "total_points": 5375946,
+    "gain_24h": 55386,
     "active_today_count": 114,
     "has_data": true,
     "is_current": false
@@ -246,6 +236,16 @@
     "total_points": 2585605,
     "gain_24h": 5800,
     "active_today_count": 77,
+    "has_data": true,
+    "is_current": false
+  },
+  {
+    "id": "real_ice77",
+    "name": "real_ice77",
+    "streamers_count": 188,
+    "total_points": 5911570,
+    "gain_24h": 84310,
+    "active_today_count": 114,
     "has_data": true,
     "is_current": false
   },

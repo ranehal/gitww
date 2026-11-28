@@ -1135,15 +1135,15 @@
   },
   {
     "name": "sarconius",
-    "points": 13730,
-    "last_activity": 1795862482000,
-    "gain_24h": 370,
-    "gain_total": 13720,
+    "points": 13740,
+    "last_activity": 1795862770000,
+    "gain_24h": 380,
+    "gain_total": 13730,
     "start_points": 10,
-    "events_count": 40,
+    "events_count": 41,
     "active_today": true,
     "breakdown": {
-      "Watch": 38,
+      "Watch": 39,
       "Claim": 1,
       "Streak": 0,
       "Raid": 1,
@@ -2016,6 +2016,24 @@
     }
   },
   {
+    "name": "saigeybabey",
+    "points": 6800,
+    "last_activity": 1795862746000,
+    "gain_24h": 610,
+    "gain_total": 7020,
+    "start_points": 12090,
+    "events_count": 68,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 66,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 2,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "leenlx",
     "points": 6760,
     "last_activity": 1795859633000,
@@ -2083,24 +2101,6 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "saigeybabey",
-    "points": 6440,
-    "last_activity": 1795860257000,
-    "gain_24h": 250,
-    "gain_total": 6660,
-    "start_points": 12090,
-    "events_count": 67,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 65,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 2,
       "Prediction": 0,
       "Other": 0
     }

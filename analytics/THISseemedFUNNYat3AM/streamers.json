@@ -1425,7 +1425,7 @@
     "name": "nickkehh",
     "points": 21620,
     "last_activity": 1795860231000,
-    "gain_24h": 250,
+    "gain_24h": 0,
     "gain_total": 21350,
     "start_points": 270,
     "events_count": 33,
@@ -1494,6 +1494,24 @@
     }
   },
   {
+    "name": "sarconius",
+    "points": 20280,
+    "last_activity": 1795867033000,
+    "gain_24h": 500,
+    "gain_total": 20020,
+    "start_points": 260,
+    "events_count": 48,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 43,
+      "Claim": 4,
+      "Streak": 0,
+      "Raid": 1,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "betrigan",
     "points": 20270,
     "last_activity": 1795859662000,
@@ -1507,24 +1525,6 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "sarconius",
-    "points": 20270,
-    "last_activity": 1795866733000,
-    "gain_24h": 490,
-    "gain_total": 20010,
-    "start_points": 260,
-    "events_count": 47,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 42,
-      "Claim": 4,
-      "Streak": 0,
-      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }

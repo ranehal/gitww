@@ -883,15 +883,15 @@
   },
   {
     "name": "sarconius",
-    "points": 32530,
-    "last_activity": 1795866584000,
-    "gain_24h": 2010,
-    "gain_total": 44580,
+    "points": 32540,
+    "last_activity": 1795866888000,
+    "gain_24h": 2020,
+    "gain_total": 44590,
     "start_points": 1150,
-    "events_count": 75,
+    "events_count": 76,
     "active_today": true,
     "breakdown": {
-      "Watch": 63,
+      "Watch": 64,
       "Claim": 12,
       "Streak": 0,
       "Raid": 0,
@@ -1602,6 +1602,24 @@
     }
   },
   {
+    "name": "ttvmayhemv",
+    "points": 16760,
+    "last_activity": 1795867029000,
+    "gain_24h": 610,
+    "gain_total": 5170,
+    "start_points": 11590,
+    "events_count": 16,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 12,
+      "Claim": 4,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "battlecorgiiii",
     "points": 16740,
     "last_activity": 1795866029000,
@@ -1615,24 +1633,6 @@
       "Claim": 4,
       "Streak": 0,
       "Raid": 3,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "ttvmayhemv",
-    "points": 16700,
-    "last_activity": 1795866720000,
-    "gain_24h": 550,
-    "gain_total": 5110,
-    "start_points": 11590,
-    "events_count": 15,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 12,
-      "Claim": 3,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }

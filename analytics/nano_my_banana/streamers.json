@@ -433,16 +433,16 @@
   },
   {
     "name": "sarconius",
-    "points": 63240,
-    "last_activity": 1795864539000,
-    "gain_24h": 40160,
-    "gain_total": 111830,
+    "points": 63300,
+    "last_activity": 1795864842000,
+    "gain_24h": 40220,
+    "gain_total": 111890,
     "start_points": 1390,
-    "events_count": 94,
+    "events_count": 96,
     "active_today": true,
     "breakdown": {
-      "Watch": 79,
-      "Claim": 14,
+      "Watch": 80,
+      "Claim": 15,
       "Streak": 0,
       "Raid": 1,
       "Prediction": 0,
@@ -1009,15 +1009,15 @@
   },
   {
     "name": "ttvmayhemv",
-    "points": 29450,
-    "last_activity": 1795864487000,
-    "gain_24h": 2820,
-    "gain_total": 8680,
+    "points": 29460,
+    "last_activity": 1795864785000,
+    "gain_24h": 2830,
+    "gain_total": 8690,
     "start_points": 20770,
-    "events_count": 21,
+    "events_count": 22,
     "active_today": true,
     "breakdown": {
-      "Watch": 15,
+      "Watch": 16,
       "Claim": 6,
       "Streak": 0,
       "Raid": 0,
@@ -1314,6 +1314,24 @@
     }
   },
   {
+    "name": "krumzzz",
+    "points": 23890,
+    "last_activity": 1795864845000,
+    "gain_24h": 1570,
+    "gain_total": 23730,
+    "start_points": 160,
+    "events_count": 41,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 37,
+      "Claim": 3,
+      "Streak": 0,
+      "Raid": 1,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "abyzou",
     "points": 23880,
     "last_activity": 1795859898000,
@@ -1327,24 +1345,6 @@
       "Claim": 1,
       "Streak": 0,
       "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "krumzzz",
-    "points": 23640,
-    "last_activity": 1795860979000,
-    "gain_24h": 1320,
-    "gain_total": 23480,
-    "start_points": 160,
-    "events_count": 40,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 37,
-      "Claim": 3,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }
@@ -2055,7 +2055,7 @@
     "name": "alphonthedon",
     "points": 13340,
     "last_activity": 1795862108000,
-    "gain_24h": 900,
+    "gain_24h": 850,
     "gain_total": 2540,
     "start_points": 10800,
     "events_count": 9,

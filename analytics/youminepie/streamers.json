@@ -451,15 +451,15 @@
   },
   {
     "name": "emniag",
-    "points": 23060,
-    "last_activity": 1795864566000,
-    "gain_24h": 1260,
-    "gain_total": 23050,
+    "points": 23070,
+    "last_activity": 1795864866000,
+    "gain_24h": 1270,
+    "gain_total": 23060,
     "start_points": 10,
-    "events_count": 106,
+    "events_count": 107,
     "active_today": true,
     "breakdown": {
-      "Watch": 84,
+      "Watch": 85,
       "Claim": 22,
       "Streak": 0,
       "Raid": 0,
@@ -847,16 +847,16 @@
   },
   {
     "name": "anonymousashlar",
-    "points": 8560,
-    "last_activity": 1795864391000,
-    "gain_24h": 900,
-    "gain_total": 9830,
+    "points": 8630,
+    "last_activity": 1795864994000,
+    "gain_24h": 960,
+    "gain_total": 9900,
     "start_points": 10,
-    "events_count": 138,
+    "events_count": 140,
     "active_today": true,
     "breakdown": {
-      "Watch": 121,
-      "Claim": 17,
+      "Watch": 122,
+      "Claim": 18,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1728,6 +1728,24 @@
     }
   },
   {
+    "name": "krumzzz",
+    "points": 3270,
+    "last_activity": 1795864845000,
+    "gain_24h": 260,
+    "gain_total": 2950,
+    "start_points": 320,
+    "events_count": 34,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 33,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 1,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "therealkhilo",
     "points": 3180,
     "last_activity": 1795859809000,
@@ -1867,24 +1885,6 @@
       "Claim": 1,
       "Streak": 0,
       "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "krumzzz",
-    "points": 3020,
-    "last_activity": 1795862050000,
-    "gain_24h": 10,
-    "gain_total": 2700,
-    "start_points": 320,
-    "events_count": 33,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 33,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }

@@ -325,16 +325,16 @@
   },
   {
     "name": "original_stump",
-    "points": 38630,
-    "last_activity": 1795864411000,
-    "gain_24h": 550,
-    "gain_total": 128450,
+    "points": 38700,
+    "last_activity": 1795865021000,
+    "gain_24h": 620,
+    "gain_total": 128520,
     "start_points": 51750,
-    "events_count": 178,
+    "events_count": 181,
     "active_today": true,
     "breakdown": {
-      "Watch": 153,
-      "Claim": 22,
+      "Watch": 155,
+      "Claim": 23,
       "Streak": 0,
       "Raid": 3,
       "Prediction": 0,
@@ -414,6 +414,24 @@
     }
   },
   {
+    "name": "krumzzz",
+    "points": 30470,
+    "last_activity": 1795864844000,
+    "gain_24h": 3350,
+    "gain_total": 31770,
+    "start_points": 1290,
+    "events_count": 55,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 47,
+      "Claim": 7,
+      "Streak": 0,
+      "Raid": 1,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "therealkhilo",
     "points": 30340,
     "last_activity": 1795859609000,
@@ -427,24 +445,6 @@
       "Claim": 5,
       "Streak": 0,
       "Raid": 2,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "krumzzz",
-    "points": 30220,
-    "last_activity": 1795861895000,
-    "gain_24h": 3100,
-    "gain_total": 31520,
-    "start_points": 1290,
-    "events_count": 54,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 47,
-      "Claim": 7,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }
@@ -937,15 +937,15 @@
   },
   {
     "name": "oskuld666",
-    "points": 18340,
-    "last_activity": 1795864214000,
-    "gain_24h": 620,
-    "gain_total": 4320,
+    "points": 18350,
+    "last_activity": 1795864804000,
+    "gain_24h": 630,
+    "gain_total": 4330,
     "start_points": 14020,
-    "events_count": 24,
+    "events_count": 25,
     "active_today": true,
     "breakdown": {
-      "Watch": 19,
+      "Watch": 20,
       "Claim": 5,
       "Streak": 0,
       "Raid": 0,
@@ -2739,7 +2739,7 @@
     "name": "bartybigboi",
     "points": 2210,
     "last_activity": 1795859758000,
-    "gain_24h": 710,
+    "gain_24h": 0,
     "gain_total": 1080,
     "start_points": 1130,
     "events_count": 6,

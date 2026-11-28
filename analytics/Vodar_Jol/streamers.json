@@ -487,16 +487,16 @@
   },
   {
     "name": "sc4p3_fps",
-    "points": 28290,
-    "last_activity": 1795870057000,
-    "gain_24h": 610,
-    "gain_total": 28040,
+    "points": 28350,
+    "last_activity": 1795870359000,
+    "gain_24h": 670,
+    "gain_total": 28100,
     "start_points": 390,
-    "events_count": 71,
+    "events_count": 72,
     "active_today": true,
     "breakdown": {
       "Watch": 59,
-      "Claim": 12,
+      "Claim": 13,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1350,6 +1350,24 @@
     }
   },
   {
+    "name": "avieraptor",
+    "points": 11060,
+    "last_activity": 1795870235000,
+    "gain_24h": 410,
+    "gain_total": 13540,
+    "start_points": 17390,
+    "events_count": 69,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 67,
+      "Claim": 2,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "pimpsofa",
     "points": 11010,
     "last_activity": 1795859741000,
@@ -1415,24 +1433,6 @@
     "breakdown": {
       "Watch": 55,
       "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "avieraptor",
-    "points": 10650,
-    "last_activity": 1795860000000,
-    "gain_24h": 0,
-    "gain_total": 13130,
-    "start_points": 17390,
-    "events_count": 68,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 66,
-      "Claim": 2,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,

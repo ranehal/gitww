@@ -3,11 +3,21 @@
     "id": "all",
     "name": "All Accounts (Combined)",
     "streamers_count": 194,
-    "total_points": 9487541,
-    "gain_24h": 280808,
+    "total_points": 9487551,
+    "gain_24h": 280818,
     "active_today_count": 113,
     "has_data": true,
     "is_current": false
+  },
+  {
+    "id": "thomus_shebly",
+    "name": "thomus_shebly",
+    "streamers_count": 188,
+    "total_points": 5510133,
+    "gain_24h": 77134,
+    "active_today_count": 114,
+    "has_data": true,
+    "is_current": true
   },
   {
     "id": "aethermain7",
@@ -17,7 +27,7 @@
     "gain_24h": 0,
     "active_today_count": 0,
     "has_data": true,
-    "is_current": true
+    "is_current": false
   },
   {
     "id": "aloneyexe",
@@ -153,8 +163,8 @@
     "id": "jhonny_sims_",
     "name": "jhonny_sims_",
     "streamers_count": 187,
-    "total_points": 4128831,
-    "gain_24h": 10570,
+    "total_points": 4128841,
+    "gain_24h": 10580,
     "active_today_count": 113,
     "has_data": true,
     "is_current": false
@@ -223,8 +233,8 @@
     "id": "penguinfar8",
     "name": "penguinfar8",
     "streamers_count": 192,
-    "total_points": 3219644,
-    "gain_24h": 16372,
+    "total_points": 3220054,
+    "gain_24h": 16782,
     "active_today_count": 114,
     "has_data": true,
     "is_current": false
@@ -263,8 +273,8 @@
     "id": "rinn__sama",
     "name": "rinn__sama",
     "streamers_count": 185,
-    "total_points": 3033036,
-    "gain_24h": 36412,
+    "total_points": 3033046,
+    "gain_24h": 36422,
     "active_today_count": 112,
     "has_data": true,
     "is_current": false
@@ -306,16 +316,6 @@
     "total_points": 6009712,
     "gain_24h": 105202,
     "active_today_count": 113,
-    "has_data": true,
-    "is_current": false
-  },
-  {
-    "id": "thomus_shebly",
-    "name": "thomus_shebly",
-    "streamers_count": 188,
-    "total_points": 5510133,
-    "gain_24h": 77134,
-    "active_today_count": 114,
     "has_data": true,
     "is_current": false
   },

@@ -289,15 +289,15 @@
   },
   {
     "name": "emniag",
-    "points": 33290,
-    "last_activity": 1795859655000,
-    "gain_24h": 1230,
-    "gain_total": 35430,
+    "points": 33300,
+    "last_activity": 1795860720000,
+    "gain_24h": 1240,
+    "gain_total": 35440,
     "start_points": 10,
-    "events_count": 81,
+    "events_count": 82,
     "active_today": true,
     "breakdown": {
-      "Watch": 67,
+      "Watch": 68,
       "Claim": 14,
       "Streak": 0,
       "Raid": 0,
@@ -990,6 +990,24 @@
     }
   },
   {
+    "name": "anonymousashlar",
+    "points": 9810,
+    "last_activity": 1795861087000,
+    "gain_24h": 820,
+    "gain_total": 10970,
+    "start_points": 10,
+    "events_count": 80,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 76,
+      "Claim": 4,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "ichigrim",
     "points": 9650,
     "last_activity": 1795859759000,
@@ -1093,24 +1111,6 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "anonymousashlar",
-    "points": 9350,
-    "last_activity": 1795859717000,
-    "gain_24h": 360,
-    "gain_total": 10510,
-    "start_points": 10,
-    "events_count": 78,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 75,
-      "Claim": 3,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }

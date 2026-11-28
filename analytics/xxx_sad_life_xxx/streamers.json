@@ -343,15 +343,15 @@
   },
   {
     "name": "emniag",
-    "points": 35580,
-    "last_activity": 1795866223000,
-    "gain_24h": 1470,
-    "gain_total": 57760,
+    "points": 35600,
+    "last_activity": 1795866832000,
+    "gain_24h": 1480,
+    "gain_total": 57780,
     "start_points": 10,
-    "events_count": 121,
+    "events_count": 123,
     "active_today": true,
     "breakdown": {
-      "Watch": 100,
+      "Watch": 102,
       "Claim": 21,
       "Streak": 0,
       "Raid": 0,
@@ -1026,6 +1026,24 @@
     }
   },
   {
+    "name": "anonymousashlar",
+    "points": 13660,
+    "last_activity": 1795866842000,
+    "gain_24h": 550,
+    "gain_total": 42360,
+    "start_points": 10,
+    "events_count": 78,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 74,
+      "Claim": 4,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "babushkaboytv",
     "points": 13640,
     "last_activity": 1793604536000,
@@ -1037,24 +1055,6 @@
     "breakdown": {
       "Watch": 71,
       "Claim": 9,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "anonymousashlar",
-    "points": 13590,
-    "last_activity": 1795866252000,
-    "gain_24h": 480,
-    "gain_total": 42290,
-    "start_points": 10,
-    "events_count": 76,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 73,
-      "Claim": 3,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -2361,7 +2361,7 @@
     "name": "bartybigboi",
     "points": 3670,
     "last_activity": 1795859622000,
-    "gain_24h": 1520,
+    "gain_24h": 1510,
     "gain_total": 1890,
     "start_points": 1780,
     "events_count": 9,

@@ -325,18 +325,18 @@
   },
   {
     "name": "original_stump",
-    "points": 73550,
-    "last_activity": 1795867179000,
-    "gain_24h": 780,
-    "gain_total": 780,
+    "points": 73860,
+    "last_activity": 1795867940000,
+    "gain_24h": 1090,
+    "gain_total": 1090,
     "start_points": 72770,
-    "events_count": 15,
+    "events_count": 18,
     "active_today": true,
     "breakdown": {
-      "Watch": 11,
-      "Claim": 4,
+      "Watch": 12,
+      "Claim": 5,
       "Streak": 0,
-      "Raid": 0,
+      "Raid": 1,
       "Prediction": 0,
       "Other": 0
     }
@@ -1008,6 +1008,24 @@
     }
   },
   {
+    "name": "emniag",
+    "points": 24150,
+    "last_activity": 1795867837000,
+    "gain_24h": 750,
+    "gain_total": 24140,
+    "start_points": 10,
+    "events_count": 81,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 68,
+      "Claim": 13,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "itzmelloncs",
     "points": 24120,
     "last_activity": 1795860054000,
@@ -1019,24 +1037,6 @@
     "breakdown": {
       "Watch": 73,
       "Claim": 3,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "emniag",
-    "points": 24080,
-    "last_activity": 1795867212000,
-    "gain_24h": 680,
-    "gain_total": 24070,
-    "start_points": 10,
-    "events_count": 79,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 67,
-      "Claim": 12,
       "Streak": 0,
       "Raid": 0,
       "Prediction": 0,
@@ -1944,6 +1944,42 @@
     }
   },
   {
+    "name": "adomhamez",
+    "points": 11270,
+    "last_activity": 1795867413000,
+    "gain_24h": 770,
+    "gain_total": 34040,
+    "start_points": 10,
+    "events_count": 31,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 31,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
+    "name": "sarconius",
+    "points": 11250,
+    "last_activity": 1795867396000,
+    "gain_24h": 670,
+    "gain_total": 10990,
+    "start_points": 260,
+    "events_count": 36,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 34,
+      "Claim": 0,
+      "Streak": 0,
+      "Raid": 2,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "do_worrk",
     "points": 11180,
     "last_activity": 1795860246000,
@@ -1980,24 +2016,6 @@
     }
   },
   {
-    "name": "sarconius",
-    "points": 11000,
-    "last_activity": 1795862648000,
-    "gain_24h": 420,
-    "gain_total": 10740,
-    "start_points": 260,
-    "events_count": 35,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 34,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 1,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
     "name": "cobeano_",
     "points": 10960,
     "last_activity": 1795859673000,
@@ -2026,24 +2044,6 @@
     "active_today": true,
     "breakdown": {
       "Watch": 33,
-      "Claim": 0,
-      "Streak": 0,
-      "Raid": 0,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "adomhamez",
-    "points": 10810,
-    "last_activity": 1795859928000,
-    "gain_24h": 310,
-    "gain_total": 33580,
-    "start_points": 10,
-    "events_count": 30,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 30,
       "Claim": 0,
       "Streak": 0,
       "Raid": 0,

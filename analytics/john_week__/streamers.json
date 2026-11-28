@@ -973,15 +973,15 @@
   },
   {
     "name": "ttvmayhemv",
-    "points": 28390,
-    "last_activity": 1795868474000,
-    "gain_24h": 930,
-    "gain_total": 8500,
+    "points": 28400,
+    "last_activity": 1795868774000,
+    "gain_24h": 940,
+    "gain_total": 8510,
     "start_points": 19890,
-    "events_count": 37,
+    "events_count": 38,
     "active_today": true,
     "breakdown": {
-      "Watch": 27,
+      "Watch": 28,
       "Claim": 10,
       "Streak": 0,
       "Raid": 0,
@@ -1566,6 +1566,24 @@
     }
   },
   {
+    "name": "sc4p3_fps",
+    "points": 17060,
+    "last_activity": 1795868745000,
+    "gain_24h": 510,
+    "gain_total": 17050,
+    "start_points": 10,
+    "events_count": 35,
+    "active_today": true,
+    "breakdown": {
+      "Watch": 33,
+      "Claim": 2,
+      "Streak": 0,
+      "Raid": 0,
+      "Prediction": 0,
+      "Other": 0
+    }
+  },
+  {
     "name": "huffalispuffalis",
     "points": 16940,
     "last_activity": 1795859565000,
@@ -1633,24 +1651,6 @@
       "Claim": 0,
       "Streak": 0,
       "Raid": 2,
-      "Prediction": 0,
-      "Other": 0
-    }
-  },
-  {
-    "name": "sc4p3_fps",
-    "points": 16550,
-    "last_activity": 1795859803000,
-    "gain_24h": 0,
-    "gain_total": 16540,
-    "start_points": 10,
-    "events_count": 34,
-    "active_today": true,
-    "breakdown": {
-      "Watch": 33,
-      "Claim": 1,
-      "Streak": 0,
-      "Raid": 0,
       "Prediction": 0,
       "Other": 0
     }
